@@ -93,17 +93,25 @@ At our nominal **25.1 mm** bearing spacing, the example moment gives `0.245 / 0.
 
 **Predict before reading on:** if the same moment were resisted by bearing stations twice as far apart, what would happen to that force pair? Its magnitude would halve. That makes spacing a useful design choice—but a wider spacing also needs a longer shaft, room for the supports, alignment, and access for assembly. We will preserve the reference spacing while learning the build, then investigate changes deliberately.
 
+### How the shaft is held while it turns
+
+Start with the round bearing in the first view below. Its **outer ring stays with the housing**, its **inner ring turns with the shaft**, and the balls roll between them. The second view cuts lengthwise through the shaft so you can see both bearings. Each matching shape above and below the shaft is part of **one ring**, not two separate pieces. The bearing internals are an explanatory drawing; the supplied Fusion reference bodies simplify them to solid envelopes.
+
+![Read one bearing first, then follow its rings through the assembled shaft. Blue parts stay with A; green parts turn with the shaft. The front inner ring sits between two 4 mm spacers and collars, while printed caps and shoulders retain the outer rings. Bearing internals and gaps are schematic; seals/shields, cage, housing exteriors, hub, fasteners and support posts are omitted.](images/joint-stack-diagram.png)
+
+Follow the **blue parts**: cap C and A's shoulder retain the front outer ring; D's shoulder and cap E retain the rear outer ring. D is connected to A by three metal support posts outside this view. Those posts are separate from the two small spacers on the shaft.
+
+Now follow the **green parts**: the collars clamp to the shaft, and the two 4 mm spacers meet the **front inner ring only**. They keep the collars clear of the bearing's seals or shields and outer ring. During assembly, bring the collars gently against the spacers as taught in Step 42; this is not a procedure for adding a specified bearing preload.
+
+The rear bearing supplies the second sideways support. **There is no long spacer clamping the two inner rings together.** Its 7.2 mm pocket leaves 0.2 mm of nominal axial allowance around the 7 mm bearing; actual printed fits and bearing clearance still need checking. This arrangement separates shaft support from axial location. [SKF's bearing-arrangement guidance](https://www.skf.com/binaries/pub12/Images/0901d196802809de-Rolling-bearings---17000_1-EN_tcm_12-121486.pdf) explains those two jobs.
+
+Later in the model, **q** means distance along the pivot axis: positive q goes into A and negative q goes into B. It is a ruler aligned with the shaft, not another physical part. We use it because the shaft is diagonal to the long body axis. A plane at `q = 10 mm` is 10 mm along that shaft direction from the joint's middle plane. Keep this position convention separate from the two rings' roles above.
+
 ### Why triangulate the surfaces
 
 A rectangular frame with freely pivoting corners can shear into a parallelogram without changing its side lengths. A diagonal restricts that movement by making triangles. That is the starting idea behind the repeated diagonal members here: material follows connected paths between the long corner rails instead of being spread over a closed wall.
 
 Our printed frame is **not an ideal pin-jointed truss**. Its members have width, its nodes are solid, and it carries bending and torsion as well as tension and compression. A diagonal is only useful if it reaches a meaningful connection and can be printed without losing too much material during support removal. We will lay out the member paths before cutting openings, keep material at their shared nodes, and measure the result rather than assume triangles guarantee strength.
-
-![Original schematic of the shaft stack. Blue contacts retain the bearing outer rings; green spacers and collars locate the shaft at the front inner ring. Radial proportions are schematic. The housing rails, deep spokes, hub and fasteners are omitted so you can trace the contacts.](images/joint-stack-diagram.png)
-
-The diagram uses **q** for distance along the pivot axis: positive q goes into A and negative q goes into B. It is a ruler aligned with the shaft, not another physical part. We use it because the shaft is diagonal to the long body axis. Later, a plane at `q = 10 mm` will mean 10 mm along that shaft direction from the joint's middle plane.
-
-The rear holder provides a second radial support. It does not force both bearing inner rings against a long printed spacer. That distinction allows us to locate the shaft at the front bearing while leaving allowance at the rear. [SKF's bearing-arrangement guidance](https://www.skf.com/binaries/pub12/Images/0901d196802809de-Rolling-bearings---17000_1-EN_tcm_12-121486.pdf) explains why shaft support and axial location are separate jobs.
 
 ## 3 Plan the printer orientation before the edge details
 

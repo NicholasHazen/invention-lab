@@ -29,8 +29,8 @@
   "hash_scope": "All public project files except this manifest itself.",
   "files": {
     "article.md": {
-      "bytes": 271322,
-      "sha256": "83d81c699ce2fd970137e90db288d6f6cd2dcafb996ded6d4f4fdb5c9f2f21c8"
+      "bytes": 272676,
+      "sha256": "af5c5aaf88dd90b5510c8716df350bcec69e9e7c1d0ee76964e28e3a9b439381"
     },
     "brace-trial-log.csv": {
       "bytes": 244,
@@ -333,8 +333,8 @@
       "sha256": "76ef7cf32df2420dac25014da8f1ed05947e31432f1e3e4a772cd8d8a22f913c"
     },
     "images/joint-stack-diagram.png": {
-      "bytes": 62787,
-      "sha256": "6e3e1157b02475b774ae82a810e894bbb9366d9922d0b67129a372ee2640949c"
+      "bytes": 192733,
+      "sha256": "de54bdbcc8624cd093a5ff725490ce08fb795ce653949ec1a09e186f1c37c6a9"
     },
     "images/print-orientation-montage.png": {
       "bytes": 514985,
@@ -361,8 +361,8 @@
       "sha256": "8c7da85819e21e2be995687fd2e08e49c26869f60339d14797b80225b98decb2"
     },
     "index.html": {
-      "bytes": 404915,
-      "sha256": "431d15599157b6bf976e2eb23d7db722f80ca6e276002e79a3856d8139e321fd"
+      "bytes": 406620,
+      "sha256": "a3da1e103570f19ab837eed8a4704d9ab14226f88397750eb4e62b02195647cf"
     },
     "load-baseline-log.csv": {
       "bytes": 309,
@@ -386,15 +386,15 @@
     },
     "native-CAD-01.zip": {
       "bytes": 7495733,
-      "sha256": "035c6164d43305812b2bb12d93fe75a67926b99f31c6436927bbb79461029032"
+      "sha256": "956f10d0c4d8df6a297ea164dbde781834bd0405b1d4799e24e7ae0cee38dd8f"
     },
     "native-CAD-02.zip": {
       "bytes": 8957593,
-      "sha256": "fe265bd040339c2ec80457ad25c77c8304b19b94ed4d5509ab7b93eea5a13716"
+      "sha256": "c48606411d611051e089770831ce4c48b3ba6dfa6bd51e306ef42736a2787eee"
     },
     "native-CAD-03.zip": {
       "bytes": 8650965,
-      "sha256": "be248dc68d5ae9e103316cffd9c79665e2485a0d41e7c254ace59ab78344b5a9"
+      "sha256": "294e9336895ac91e1c2724920515b5e555f5a12fa1b4b830d6c92d637b5b8453"
     },
     "parameter-edit-validation.json": {
       "bytes": 1004,
@@ -405,8 +405,8 @@
       "sha256": "84e22e8221afa7cae879759ebf619e18547e7c4778883b254c4b303f5b002f23"
     },
     "print-and-guide-01.zip": {
-      "bytes": 9657819,
-      "sha256": "4848b1c5b252664c77824cb5d94ab0f3fbd17381c74e325aac47094aeb48515d"
+      "bytes": 9651428,
+      "sha256": "992309becaefd675ec42fed9c4c5c49de74e0ed8e3b536806c75c48d82e6a30d"
     },
     "print-files/A-housing-print-orientation.stl": {
       "bytes": 438084,
