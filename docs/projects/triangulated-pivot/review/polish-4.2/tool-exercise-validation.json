@@ -1,0 +1,34 @@
+{
+  "scope": "Native Fusion API construction of the published tool-envelope exercise in a newly imported study document. No manual click-by-click UI replay claimed.",
+  "fusion_version": "2706.1.17",
+  "study_document": "Rev4.2 tool-clearance study - temporary",
+  "prior_document": "V4.1 Integrated Octagonal Truss Pivot",
+  "sketch_fully_constrained": true,
+  "center_xy_mm": [
+    6.717514421272201,
+    15.909902576697318
+  ],
+  "diameter_mm": 4,
+  "z_extent_mm": [
+    11.199999999999992,
+    100.0
+  ],
+  "selected_components": [
+    "A Housing",
+    "D Rear Bearing Holder",
+    "REF Metal Support Spacers",
+    "REF M3 Support Fasteners",
+    "STUDY Collar Driver Envelope"
+  ],
+  "include_coincident_faces": false,
+  "interference_count": 0,
+  "interferences": [],
+  "feature_health": "0",
+  "production_document_modified_by_this_script": false,
+  "temporary_study_closed_without_saving": true,
+  "restored_active_document": "V4.1 Integrated Octagonal Truss Pivot",
+  "images": [
+    "images/tool-envelope-profile.png",
+    "images/tool-envelope-study.png"
+  ]
+}

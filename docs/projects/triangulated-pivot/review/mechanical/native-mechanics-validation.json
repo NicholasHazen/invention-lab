@@ -1,0 +1,1310 @@
+{
+  "document": "V4 Integrated Octagonal Truss Pivot",
+  "physical_print_tested": false,
+  "physical_load_tested": false,
+  "bearing_spacing_mm": 25.10000000000001,
+  "body_width_mm": 150.0,
+  "body_length_mm": 260.0,
+  "tools": {
+    "scope": "Straight bare-driver cylinders, with handles outside the housing. Front collar and inner hub-to-F screws are tightened before final mating. Purchased drive sockets and elasticity are not modeled.",
+    "checks": [
+      {
+        "route": "A rear M3 driver 1",
+        "diameter_mm": 5.5,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          27.796367568443184,
+          27.796367568443184,
+          17.0
+        ],
+        "end_xyz_mm": [
+          162.63455967290588,
+          162.63455967290588,
+          17.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "A rear M3 driver 2",
+        "diameter_mm": 5.5,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          38.20669897527169,
+          17.386036161614676,
+          -8.499999999999996
+        ],
+        "end_xyz_mm": [
+          173.0448910797344,
+          152.22422826607743,
+          -8.499999999999996
+        ],
+        "interferences": []
+      },
+      {
+        "route": "A rear M3 driver 3",
+        "diameter_mm": 5.5,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          17.38603616161468,
+          38.206698975271685,
+          -8.500000000000007
+        ],
+        "end_xyz_mm": [
+          152.22422826607743,
+          173.0448910797344,
+          -8.500000000000007
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B outer M4 bare hex-key shaft 1",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -8.119412306273137,
+          -40.119412306273134,
+          22.62741699796952
+        ],
+        "end_xyz_mm": [
+          -146.6345596729059,
+          -178.63455967290594,
+          22.62741699796952
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B outer M4 bare hex-key shaft 2",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -8.119412306273137,
+          -40.119412306273134,
+          -22.62741699796952
+        ],
+        "end_xyz_mm": [
+          -146.6345596729059,
+          -178.63455967290594,
+          -22.62741699796952
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B outer M4 bare hex-key shaft 3",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -40.119412306273134,
+          -8.119412306273137,
+          -22.62741699796952
+        ],
+        "end_xyz_mm": [
+          -178.63455967290594,
+          -146.6345596729059,
+          -22.62741699796952
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B outer M4 bare hex-key shaft 4",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -40.119412306273134,
+          -8.119412306273137,
+          22.62741699796952
+        ],
+        "end_xyz_mm": [
+          -178.63455967290594,
+          -146.6345596729059,
+          22.62741699796952
+        ],
+        "interferences": []
+      },
+      {
+        "route": "A inner-collar tangential driver u=-6.5",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          6.717514421272201,
+          15.90990257669732,
+          11.2
+        ],
+        "end_xyz_mm": [
+          6.717514421272201,
+          15.90990257669732,
+          100.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "A inner-collar tangential driver u=6.5",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          15.90990257669732,
+          6.717514421272201,
+          11.2
+        ],
+        "end_xyz_mm": [
+          15.90990257669732,
+          6.717514421272201,
+          100.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B Sonic pinch driver 1",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -8.90208546640898,
+          -17.967972218679826,
+          8.68629
+        ],
+        "end_xyz_mm": [
+          -8.90208546640898,
+          -17.967972218679826,
+          100.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "B Sonic pinch driver -1",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": true,
+        "start_xyz_mm": [
+          -17.967972218679826,
+          -8.90208546640898,
+          -8.68629
+        ],
+        "end_xyz_mm": [
+          -17.967972218679826,
+          -8.90208546640898,
+          -100.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "Optional in-place inner hub M4 driver 1",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": false,
+        "start_xyz_mm": [
+          -24.119412306273134,
+          -24.119412306273134,
+          11.31370849898476
+        ],
+        "end_xyz_mm": [
+          -162.63455967290588,
+          -162.63455967290588,
+          11.31370849898476
+        ],
+        "interferences": []
+      },
+      {
+        "route": "Optional in-place inner hub M4 driver 2",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": false,
+        "start_xyz_mm": [
+          -16.119412306273134,
+          -32.119412306273134,
+          0.0
+        ],
+        "end_xyz_mm": [
+          -154.6345596729059,
+          -170.63455967290594,
+          0.0
+        ],
+        "interferences": []
+      },
+      {
+        "route": "Optional in-place inner hub M4 driver 3",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": false,
+        "start_xyz_mm": [
+          -24.119412306273134,
+          -24.119412306273134,
+          -11.31370849898476
+        ],
+        "end_xyz_mm": [
+          -162.63455967290588,
+          -162.63455967290588,
+          -11.31370849898476
+        ],
+        "interferences": [
+          {
+            "component": "B Moving Body",
+            "body": 0,
+            "volume_mm3": 34.563323974143316
+          }
+        ]
+      },
+      {
+        "route": "Optional in-place inner hub M4 driver 4",
+        "diameter_mm": 4,
+        "required_after_housing_assembly": false,
+        "start_xyz_mm": [
+          -32.119412306273134,
+          -16.119412306273134,
+          0.0
+        ],
+        "end_xyz_mm": [
+          -170.63455967290594,
+          -154.6345596729059,
+          0.0
+        ],
+        "interferences": [
+          {
+            "component": "B Moving Body",
+            "body": 0,
+            "volume_mm3": 67.5062935038173
+          }
+        ]
+      }
+    ],
+    "required_routes_clear": true
+  },
+  "pad_coverage": {
+    "scope": "Checks actual slot-centerline direction and samples the reinforcement outside the driver passage at three radial depths. It distinguishes a clear tool hole from a correctly placed reinforcing pad; it is not a stress analysis.",
+    "checks": [
+      {
+        "pad": 1,
+        "expected_capsule_centers_xyz_mm": [
+          [
+            -43.0,
+            -75,
+            -22.62741699796952
+          ],
+          [
+            -36.5,
+            -75,
+            -22.62741699796952
+          ]
+        ],
+        "centerline_geometry_matches": true,
+        "solid_probe_count": 96,
+        "failed_solid_probes": []
+      },
+      {
+        "pad": 2,
+        "expected_capsule_centers_xyz_mm": [
+          [
+            -43.0,
+            -75,
+            22.62741699796952
+          ],
+          [
+            -36.5,
+            -75,
+            22.62741699796952
+          ]
+        ],
+        "centerline_geometry_matches": true,
+        "solid_probe_count": 96,
+        "failed_solid_probes": []
+      },
+      {
+        "pad": 3,
+        "expected_capsule_centers_xyz_mm": [
+          [
+            -107.0,
+            -75,
+            22.62741699796952
+          ],
+          [
+            -100.5,
+            -75,
+            22.62741699796952
+          ]
+        ],
+        "centerline_geometry_matches": true,
+        "solid_probe_count": 96,
+        "failed_solid_probes": []
+      },
+      {
+        "pad": 4,
+        "expected_capsule_centers_xyz_mm": [
+          [
+            -107.0,
+            -75,
+            -22.62741699796952
+          ],
+          [
+            -100.5,
+            -75,
+            -22.62741699796952
+          ]
+        ],
+        "centerline_geometry_matches": true,
+        "solid_probe_count": 96,
+        "failed_solid_probes": []
+      }
+    ],
+    "coverage_checks_pass": true
+  },
+  "insertion": {
+    "scope": "Continuous conservative geometric bounds for constant-orientation, two-stage insertion. Stage1 fits projected solid envelopes wholly inside the bore and stays beyond the core. Stage2 uses swept annular envelopes. Hands, retention and actual purchased tolerances need a physical trial.",
+    "paths": [
+      {
+        "part": "D with its rear608",
+        "stage1": "Enter through +X end with part q-oriented, center Y=60/sqrt(2),Z=0; translate along -X until centered on q atq60.",
+        "stage2": "Translate along -q to nominal centerq27.7; install M3 support screws after D/E are seated.",
+        "stage1_reference_start_xyz_mm": [
+          230,
+          42.426406871192846,
+          0
+        ],
+        "stage1_reference_end_xyz_mm": [
+          42.426406871192846,
+          42.426406871192846,
+          0
+        ],
+        "stage1_projection_bounds": [
+          {
+            "facet_deg": 0,
+            "support_mm": 61.58900064134828,
+            "bore_margin_mm": 8.910999358651722
+          },
+          {
+            "facet_deg": 45,
+            "support_mm": 51.60255888325764,
+            "bore_margin_mm": 18.897441116742357
+          },
+          {
+            "facet_deg": 90,
+            "support_mm": 22.000000000000004,
+            "bore_margin_mm": 48.5
+          },
+          {
+            "facet_deg": 135,
+            "support_mm": -8.397441116742343,
+            "bore_margin_mm": 78.89744111674234
+          },
+          {
+            "facet_deg": 180,
+            "support_mm": -23.26381310103741,
+            "bore_margin_mm": 93.76381310103741
+          },
+          {
+            "facet_deg": 225,
+            "support_mm": -8.397441116742353,
+            "bore_margin_mm": 78.89744111674236
+          },
+          {
+            "facet_deg": 270,
+            "support_mm": 21.999999999999993,
+            "bore_margin_mm": 48.50000000000001
+          },
+          {
+            "facet_deg": 315,
+            "support_mm": 51.60255888325764,
+            "bore_margin_mm": 18.897441116742357
+          }
+        ],
+        "stage1_nearest_q_mm": 54.9,
+        "shaft_tail_q_mm": 36,
+        "stage1_shaft_clearance_mm": 18.9,
+        "stage2_conservative_envelope": {
+          "q_mm": [
+            22.6,
+            65.1
+          ],
+          "outer_radius_mm": 22,
+          "inner_radius_mm": 4
+        },
+        "stage2_interferences": []
+      },
+      {
+        "part": "E rear cap",
+        "stage1": "Enter through +X end with part q-oriented, center Y=60/sqrt(2),Z=0; translate along -X until centered on q atq60.",
+        "stage2": "Translate along -q to nominal centerq34.3; install M3 support screws after D/E are seated.",
+        "stage1_reference_start_xyz_mm": [
+          230,
+          42.426406871192846,
+          0
+        ],
+        "stage1_reference_end_xyz_mm": [
+          42.426406871192846,
+          42.426406871192846,
+          0
+        ],
+        "stage1_projection_bounds": [
+          {
+            "facet_deg": 0,
+            "support_mm": 59.04341622907671,
+            "bore_margin_mm": 11.456583770923288
+          },
+          {
+            "facet_deg": 45,
+            "support_mm": 49.802558883257646,
+            "bore_margin_mm": 20.697441116742354
+          },
+          {
+            "facet_deg": 90,
+            "support_mm": 22.000000000000004,
+            "bore_margin_mm": 48.5
+          },
+          {
+            "facet_deg": 135,
+            "support_mm": -10.197441116742343,
+            "bore_margin_mm": 80.69744111674234
+          },
+          {
+            "facet_deg": 180,
+            "support_mm": -25.809397513308976,
+            "bore_margin_mm": 96.30939751330898
+          },
+          {
+            "facet_deg": 225,
+            "support_mm": -10.197441116742354,
+            "bore_margin_mm": 80.69744111674235
+          },
+          {
+            "facet_deg": 270,
+            "support_mm": 21.999999999999993,
+            "bore_margin_mm": 48.50000000000001
+          },
+          {
+            "facet_deg": 315,
+            "support_mm": 49.802558883257646,
+            "bore_margin_mm": 20.697441116742354
+          }
+        ],
+        "stage1_nearest_q_mm": 58.5,
+        "shaft_tail_q_mm": 36,
+        "stage1_shaft_clearance_mm": 22.5,
+        "stage2_conservative_envelope": {
+          "q_mm": [
+            32.8,
+            61.5
+          ],
+          "outer_radius_mm": 22,
+          "inner_radius_mm": 9.75
+        },
+        "stage2_interferences": []
+      },
+      {
+        "part": "F with hub and sleeves",
+        "stage1": "Before mating A/B, enter through -X end atY=-50/sqrt(2),Z=0, retaining q orientation. Translate +X to referenceq=-50.",
+        "stage2": "Translate +q by25 mm to the final F pose. Hub-to-F screws are preassembled; hold the four outer M4 screws loosely in F. B front nuts are fitted before mating; their bore/shaft alignment is included in the final assembly interference check.",
+        "stage1_reference_start_xyz_mm": [
+          -230,
+          -35.35533905932737,
+          0
+        ],
+        "stage1_reference_end_xyz_mm": [
+          -35.35533905932737,
+          -35.35533905932737,
+          0
+        ],
+        "stage1_projection_bounds": [
+          {
+            "envelope": "F flange",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -7.071067811865472,
+                "bore_margin_mm": 77.57106781186548
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": 8.908965343808667,
+                "bore_margin_mm": 61.59103465619133
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 38.0,
+                "bore_margin_mm": 32.5
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 59.90896534380866,
+                "bore_margin_mm": 10.59103465619134
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 65.05382386916237,
+                "bore_margin_mm": 5.446176130837628
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 59.908965343808674,
+                "bore_margin_mm": 10.591034656191326
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 38.00000000000001,
+                "bore_margin_mm": 32.49999999999999
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": 8.908965343808681,
+                "bore_margin_mm": 61.59103465619132
+              }
+            ]
+          },
+          {
+            "envelope": "F pilot",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -14.849242404917497,
+                "bore_margin_mm": 85.3492424049175
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -1.3493649053890344,
+                "bore_margin_mm": 71.84936490538904
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 24.999999999999996,
+                "bore_margin_mm": 45.5
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 45.65063509461096,
+                "bore_margin_mm": 24.849364905389038
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 51.61879502661797,
+                "bore_margin_mm": 18.881204973382033
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 45.65063509461097,
+                "bore_margin_mm": 24.84936490538903
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 25.000000000000007,
+                "bore_margin_mm": 45.49999999999999
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -1.3493649053890238,
+                "bore_margin_mm": 71.84936490538902
+              }
+            ]
+          },
+          {
+            "envelope": "Hub envelope",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -15.556349186104041,
+                "bore_margin_mm": 86.05634918610404
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -5.1435935394489825,
+                "bore_margin_mm": 75.64359353944899
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 15.999999999999998,
+                "bore_margin_mm": 54.5
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 37.856406460551014,
+                "bore_margin_mm": 32.643593539448986
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 45.25483399593904,
+                "bore_margin_mm": 25.245166004060962
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 37.85640646055102,
+                "bore_margin_mm": 32.64359353944898
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 16.000000000000007,
+                "bore_margin_mm": 54.49999999999999
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -5.143593539448974,
+                "bore_margin_mm": 75.64359353944897
+              }
+            ]
+          },
+          {
+            "envelope": "M4 shank 1",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -32.26345596729059,
+                "bore_margin_mm": 102.76345596729058
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -6.081657691415886,
+                "bore_margin_mm": 76.58165769141588
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 24.627416997969515,
+                "bore_margin_mm": 45.87258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 56.54575930655363,
+                "bore_margin_mm": 13.954240693446373
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 56.3050865276332,
+                "bore_margin_mm": 14.1949134723668
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 24.545759306553645,
+                "bore_margin_mm": 45.95424069344635
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -20.627416997969508,
+                "bore_margin_mm": 91.1274169979695
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -38.08165769141588,
+                "bore_margin_mm": 108.58165769141587
+              }
+            ]
+          },
+          {
+            "envelope": "M4 head 1",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -52.41599923110719,
+                "bore_margin_mm": 122.9159992311072
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -19.782619585739226,
+                "bore_margin_mm": 90.28261958573923
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 26.127416997969515,
+                "bore_margin_mm": 44.37258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 59.844797412230285,
+                "bore_margin_mm": 10.655202587769715
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 60.19417382415921,
+                "bore_margin_mm": 10.305826175840792
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 27.844797412230307,
+                "bore_margin_mm": 42.65520258776969
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -19.127416997969508,
+                "bore_margin_mm": 89.6274169979695
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -51.78261958573922,
+                "bore_margin_mm": 122.28261958573921
+              }
+            ]
+          },
+          {
+            "envelope": "M4 washer 1",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -51.001785668734094,
+                "bore_margin_mm": 121.5017856687341
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -18.41659418195479,
+                "bore_margin_mm": 88.91659418195479
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 27.127416997969515,
+                "bore_margin_mm": 43.37258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 58.710822816014726,
+                "bore_margin_mm": 11.789177183985274
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 58.07285348059957,
+                "bore_margin_mm": 12.42714651940043
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 26.710822816014744,
+                "bore_margin_mm": 43.78917718398526
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -18.127416997969508,
+                "bore_margin_mm": 88.6274169979695
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -50.41659418195478,
+                "bore_margin_mm": 120.91659418195478
+              }
+            ]
+          },
+          {
+            "envelope": "M4 shank 2",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -32.26345596729059,
+                "bore_margin_mm": 102.76345596729058
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -38.08165769141588,
+                "bore_margin_mm": 108.58165769141587
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -20.627416997969522,
+                "bore_margin_mm": 91.12741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 24.54575930655363,
+                "bore_margin_mm": 45.954240693446366
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 56.3050865276332,
+                "bore_margin_mm": 14.1949134723668
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 56.545759306553634,
+                "bore_margin_mm": 13.954240693446366
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 24.62741699796953,
+                "bore_margin_mm": 45.87258300203047
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -6.08165769141587,
+                "bore_margin_mm": 76.58165769141587
+              }
+            ]
+          },
+          {
+            "envelope": "M4 head 2",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -52.41599923110719,
+                "bore_margin_mm": 122.9159992311072
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -51.78261958573922,
+                "bore_margin_mm": 122.28261958573921
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -19.127416997969522,
+                "bore_margin_mm": 89.62741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 27.84479741223029,
+                "bore_margin_mm": 42.65520258776971
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 60.19417382415921,
+                "bore_margin_mm": 10.305826175840792
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 59.8447974122303,
+                "bore_margin_mm": 10.6552025877697
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 26.12741699796953,
+                "bore_margin_mm": 44.37258300203047
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -19.782619585739205,
+                "bore_margin_mm": 90.28261958573921
+              }
+            ]
+          },
+          {
+            "envelope": "M4 washer 2",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -51.001785668734094,
+                "bore_margin_mm": 121.5017856687341
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -50.41659418195478,
+                "bore_margin_mm": 120.91659418195478
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -18.127416997969522,
+                "bore_margin_mm": 88.62741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 26.710822816014726,
+                "bore_margin_mm": 43.789177183985274
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 58.07285348059957,
+                "bore_margin_mm": 12.42714651940043
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 58.71082281601474,
+                "bore_margin_mm": 11.78917718398526
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 27.12741699796953,
+                "bore_margin_mm": 43.37258300203047
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -18.416594181954768,
+                "bore_margin_mm": 88.91659418195476
+              }
+            ]
+          },
+          {
+            "envelope": "M4 shank 3",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -0.2634559672905954,
+                "bore_margin_mm": 70.7634559672906
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -15.45424069344636,
+                "bore_margin_mm": 85.95424069344637
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -20.62741699796952,
+                "bore_margin_mm": 91.12741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 1.9183423085841143,
+                "bore_margin_mm": 68.58165769141588
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 24.305086527633204,
+                "bore_margin_mm": 46.19491347236679
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 33.918342308584116,
+                "bore_margin_mm": 36.581657691415884
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 24.627416997969526,
+                "bore_margin_mm": 45.872583002030474
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": 16.54575930655364,
+                "bore_margin_mm": 53.95424069344636
+              }
+            ]
+          },
+          {
+            "envelope": "M4 head 3",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -20.415999231107197,
+                "bore_margin_mm": 90.9159992311072
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -29.155202587769697,
+                "bore_margin_mm": 99.6552025877697
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -19.12741699796952,
+                "bore_margin_mm": 89.62741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 5.217380414260772,
+                "bore_margin_mm": 65.28261958573923
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 28.194173824159215,
+                "bore_margin_mm": 42.305826175840785
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 37.217380414260774,
+                "bore_margin_mm": 33.282619585739226
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 26.127416997969522,
+                "bore_margin_mm": 44.37258300203048
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": 2.8447974122303052,
+                "bore_margin_mm": 67.6552025877697
+              }
+            ]
+          },
+          {
+            "envelope": "M4 washer 3",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -19.0017856687341,
+                "bore_margin_mm": 89.5017856687341
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": -27.78917718398526,
+                "bore_margin_mm": 98.28917718398526
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": -18.12741699796952,
+                "bore_margin_mm": 88.62741699796952
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 4.08340581804521,
+                "bore_margin_mm": 66.41659418195479
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 26.072853480599573,
+                "bore_margin_mm": 44.427146519400424
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 36.083405818045215,
+                "bore_margin_mm": 34.416594181954785
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": 27.127416997969522,
+                "bore_margin_mm": 43.37258300203048
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": 4.210822816014742,
+                "bore_margin_mm": 66.28917718398526
+              }
+            ]
+          },
+          {
+            "envelope": "M4 shank 4",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -0.2634559672905954,
+                "bore_margin_mm": 70.7634559672906
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": 16.545759306553634,
+                "bore_margin_mm": 53.954240693446366
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 24.62741699796952,
+                "bore_margin_mm": 45.87258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 33.918342308584116,
+                "bore_margin_mm": 36.581657691415884
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 24.30508652763321,
+                "bore_margin_mm": 46.19491347236679
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 1.918342308584124,
+                "bore_margin_mm": 68.58165769141587
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -20.62741699796951,
+                "bore_margin_mm": 91.1274169979695
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -15.454240693446367,
+                "bore_margin_mm": 85.95424069344637
+              }
+            ]
+          },
+          {
+            "envelope": "M4 head 4",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -20.415999231107197,
+                "bore_margin_mm": 90.9159992311072
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": 2.844797412230291,
+                "bore_margin_mm": 67.65520258776971
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 26.12741699796952,
+                "bore_margin_mm": 44.37258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 37.21738041426077,
+                "bore_margin_mm": 33.28261958573923
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 28.194173824159222,
+                "bore_margin_mm": 42.30582617584078
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 5.2173804142607825,
+                "bore_margin_mm": 65.28261958573921
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -19.127416997969515,
+                "bore_margin_mm": 89.62741699796952
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -29.155202587769697,
+                "bore_margin_mm": 99.6552025877697
+              }
+            ]
+          },
+          {
+            "envelope": "M4 washer 4",
+            "bounds": [
+              {
+                "facet_deg": 0,
+                "support_mm": -19.0017856687341,
+                "bore_margin_mm": 89.5017856687341
+              },
+              {
+                "facet_deg": 45,
+                "support_mm": 4.210822816014732,
+                "bore_margin_mm": 66.28917718398527
+              },
+              {
+                "facet_deg": 90,
+                "support_mm": 27.12741699796952,
+                "bore_margin_mm": 43.37258300203048
+              },
+              {
+                "facet_deg": 135,
+                "support_mm": 36.08340581804521,
+                "bore_margin_mm": 34.41659418195479
+              },
+              {
+                "facet_deg": 180,
+                "support_mm": 26.07285348059958,
+                "bore_margin_mm": 44.427146519400424
+              },
+              {
+                "facet_deg": 225,
+                "support_mm": 4.08340581804522,
+                "bore_margin_mm": 66.41659418195478
+              },
+              {
+                "facet_deg": 270,
+                "support_mm": -18.127416997969515,
+                "bore_margin_mm": 88.62741699796952
+              },
+              {
+                "facet_deg": 315,
+                "support_mm": -27.789177183985267,
+                "bore_margin_mm": 98.28917718398526
+              }
+            ]
+          }
+        ],
+        "stage1_nearest_q_of_hub_mm": -38,
+        "stage1_foremost_outer_screw_tip_q_mm": -25,
+        "inward_local_driver_pad_allowance_mm": 2,
+        "bulkhead_rear_q_mm": -23,
+        "stage2_conservative_envelopes": [
+          {
+            "envelope": "F flange",
+            "interferences": []
+          },
+          {
+            "envelope": "F pilot",
+            "interferences": []
+          },
+          {
+            "envelope": "Metal hub body",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 shank 1",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 head 1",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 washer 1",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 shank 2",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 head 2",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 washer 2",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 shank 3",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 head 3",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 washer 3",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 shank 4",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 head 4",
+            "interferences": []
+          },
+          {
+            "envelope": "M4 washer 4",
+            "interferences": []
+          }
+        ]
+      }
+    ],
+    "projection_bounds_clear": true,
+    "axial_envelopes_clear": true
+  },
+  "motion": {
+    "scope": "Seven nominal rigid-body poses; not a proof of continuous sweep clearance or real compliance. Hardware models are envelopes, not working thread or bearing simulations.",
+    "poses": [
+      {
+        "angle_deg": 0,
+        "interferences": []
+      },
+      {
+        "angle_deg": 30,
+        "interferences": []
+      },
+      {
+        "angle_deg": 60,
+        "interferences": []
+      },
+      {
+        "angle_deg": 90,
+        "interferences": []
+      },
+      {
+        "angle_deg": 120,
+        "interferences": []
+      },
+      {
+        "angle_deg": 150,
+        "interferences": []
+      },
+      {
+        "angle_deg": 180,
+        "interferences": []
+      }
+    ],
+    "sampled_poses_clear": true
+  },
+  "fixtures": {
+    "status": "checked",
+    "scope": "Nominal seating and \u00d83 cord clearance. Flat contact faces are intentionally coincident. Pilot insertion along X stays inside the constant end-rim bore; verify physical fit without force.",
+    "checks": [
+      {
+        "part": "backer",
+        "housing": "A Housing",
+        "interferences": [],
+        "cord_interferences": []
+      },
+      {
+        "part": "backer",
+        "housing": "B Moving Body",
+        "interferences": [],
+        "cord_interferences": []
+      },
+      {
+        "part": "A flat shoe",
+        "side": -1,
+        "interferences": []
+      },
+      {
+        "part": "A flat shoe",
+        "side": 1,
+        "interferences": []
+      }
+    ],
+    "clear": true
+  }
+}

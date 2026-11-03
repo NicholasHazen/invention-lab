@@ -1,0 +1,41 @@
+{
+  "scope": "Native recompute at baseline and one nearby larger envelope. Not a guarantee for arbitrary edits or print fit of the larger variant.",
+  "states": [
+    {
+      "body_width_mm": 150,
+      "body_length_mm": 260,
+      "computed": true,
+      "unhealthy_features": [],
+      "bearing_spacing_mm": 25.10000000000001,
+      "seat_diameter_mm": 22.200000000000003,
+      "housing_body_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "body_width_mm": 155,
+      "body_length_mm": 270,
+      "computed": true,
+      "unhealthy_features": [],
+      "bearing_spacing_mm": 25.10000000000001,
+      "seat_diameter_mm": 22.200000000000003,
+      "housing_body_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "body_width_mm": 150,
+      "body_length_mm": 260,
+      "computed": true,
+      "unhealthy_features": [],
+      "bearing_spacing_mm": 25.10000000000001,
+      "seat_diameter_mm": 22.200000000000003,
+      "housing_body_counts": [
+        1,
+        1
+      ]
+    }
+  ]
+}

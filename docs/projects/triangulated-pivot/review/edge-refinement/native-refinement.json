@@ -1,0 +1,41 @@
+{
+  "version": "V4.1",
+  "features": [
+    {
+      "component": "A Housing",
+      "feature": "A Internal Spoke Opening Bed Relief",
+      "loops": 8,
+      "edges": 48,
+      "size_mm": 0.3,
+      "volume_removed_mm3": 69.54984969718498
+    },
+    {
+      "component": "B Moving Body",
+      "feature": "B Internal Spoke Opening Bed Relief",
+      "loops": 8,
+      "edges": 48,
+      "size_mm": 0.3,
+      "volume_removed_mm3": 64.16898274736013
+    },
+    {
+      "component": "B Moving Body",
+      "feature": "B Nut Pocket Entry Lead Ins",
+      "loops": 4,
+      "edges": 24,
+      "size_mm": 0.3
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "feature": "F Sleeve Bed Entry Lead Ins",
+      "edges": 4,
+      "size_mm": 0.3
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "feature": "F Shaft Clearance Bed Entry",
+      "edges": 1,
+      "size_mm": 0.3
+    }
+  ],
+  "physical_tested": false
+}

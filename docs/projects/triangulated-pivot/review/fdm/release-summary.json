@@ -1,0 +1,263 @@
+{
+  "status": "Digital evidence reconciled; physical fit, printing and load testing are unmeasured",
+  "physical_print_tested": false,
+  "load_tested": false,
+  "print_meshes_verified": 22,
+  "slices_verified": 22,
+  "all_current_source_and_artifact_hashes_match": true,
+  "all_closed_manifold": true,
+  "all_consistently_wound": true,
+  "every_connected_shell_positive_volume": true,
+  "all_min_z_zero_within_tolerance": true,
+  "each_file_is_one_connected_shell": true,
+  "all_fit_nominal_256mm_cube": true,
+  "all_fit_profile_height_250mm": true,
+  "all_sliced_instance_rotations_preserve_the_exported_orientation": true,
+  "all_deposition_centrelines_within_profile_bed_and_outside_exclusion": true,
+  "all_half_mm_clearance_screens_pass": true,
+  "all_support_disabled": false,
+  "support_extrusion_features_found": [
+    {
+      "part": "A-housing-print-orientation.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "A-housing-print-orientation.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "A-housing-print-orientation.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "B-moving-body-print-orientation.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "B-moving-body-print-orientation.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "B-moving-body-print-orientation.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-A0-rim-print-orientation.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-A0-rim-print-orientation.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-A0-rim-print-orientation.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-A90-brace-print-orientation.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-A90-brace-print-orientation.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-A90-brace-print-orientation.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.0-down.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.0-down.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.0-down.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.1-down.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.1-down.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.1-down.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.2-down.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.2-down.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.2-down.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.3-down.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.3-down.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-seat-22.3-down.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "feature": "Support"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "feature": "Support interface"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "feature": "Support transition"
+    },
+    {
+      "part": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "feature": "Support"
+    }
+  ],
+  "bambu_version": "02.08.02.61",
+  "quantity_aware_totals": {
+    "main": {
+      "printed_quantity": 6,
+      "estimated_filament_g": 648.3870894908905,
+      "estimated_total_seconds_separate_plates": 95800.99774169922,
+      "estimated_model_seconds": 93142.0
+    },
+    "main:frame": {
+      "printed_quantity": 2,
+      "estimated_filament_g": 614.8316955566406,
+      "estimated_total_seconds_separate_plates": 90450.0859375,
+      "estimated_model_seconds": 89564.0
+    },
+    "main:joint_core": {
+      "printed_quantity": 4,
+      "estimated_filament_g": 33.55539393424988,
+      "estimated_total_seconds_separate_plates": 5350.911804199219,
+      "estimated_model_seconds": 3578.0
+    },
+    "trial": {
+      "printed_quantity": 13,
+      "estimated_filament_g": 90.94180250167847,
+      "estimated_total_seconds_separate_plates": 19977.53369140625,
+      "estimated_model_seconds": 14219.0
+    },
+    "trial:brace_trial": {
+      "printed_quantity": 2,
+      "estimated_filament_g": 42.07445526123047,
+      "estimated_total_seconds_separate_plates": 9195.18798828125,
+      "estimated_model_seconds": 8309.0
+    },
+    "trial:fit_trial": {
+      "printed_quantity": 11,
+      "estimated_filament_g": 48.867347240448,
+      "estimated_total_seconds_separate_plates": 10782.345703125,
+      "estimated_model_seconds": 5910.0
+    },
+    "fixture": {
+      "printed_quantity": 5,
+      "estimated_filament_g": 103.5195529460907,
+      "estimated_total_seconds_separate_plates": 12142.328735351562,
+      "estimated_model_seconds": 9927.0
+    },
+    "fixture:load_fixture": {
+      "printed_quantity": 5,
+      "estimated_filament_g": 103.5195529460907,
+      "estimated_total_seconds_separate_plates": 12142.328735351562,
+      "estimated_model_seconds": 9927.0
+    }
+  },
+  "largest_rotation_volume_difference_mm3": 0.02686877196538262,
+  "observed_features": [
+    {
+      "topic": "Final digital inventory",
+      "finding": "22 distinct native-derived meshes and 22 actual slices reconcile to the final manifest: six main pieces, eleven alternative fit samples, two exact brace/rim trials, three fixture files with five required printed pieces.",
+      "scope": "No physical print, cleanup, fit or load result is claimed."
+    },
+    {
+      "topic": "Support selection and fit-sample matching",
+      "finding": "Automatic Tree Hybrid support is used for A/B, both brace trials, four downward bearing-mouth trials and three sleeve/nut trials. Final slices contain support/interface paths inside A bearing pocket and B four nut pockets. Clean matching fit samples before assessing hardware fit.",
+      "scope": "An earlier organic-tree diagnostic emitted an influence-area warning. Final Hybrid slices were selected after review. Diagnostic directories are superseded and some precede the final B pad correction."
+    },
+    {
+      "topic": "Support removal access",
+      "finding": "No sealed support cavity identified. A bearing mouth and B nut pockets open at the joint face; B hub cup/side slots remain open. Distal roofs can be reached through the 141 mm across-flats end and adjacent lattice.",
+      "scope": "Geometrically accessible for removal; physical cleanup trial required. Fused interface on precision contacts and branches looping around members remain practical risks."
+    },
+    {
+      "topic": "Exact local trials",
+      "finding": "A0 retains shallow distal braces, nodes and end-rim closure. A90 retains the complete shallow brace and nodes. Both preserve scale, q print-up direction, 45-degree yaw and nominal 0.2 mm layer phase relative to full A.",
+      "scope": "Support height, thermal mass and layer time differ. Local geometry/removal screens do not establish whole-housing adhesion or structural capacity."
+    },
+    {
+      "topic": "Bed packing and orientation",
+      "finding": "Actual 3MF matrices preserve exported orientation; automatic Arrange rotation is disabled independently of Auto Orient. All non-Custom model/support/brim centre lines pass installed X1C bed/exclusion checks and a separate 0.5 mm centreline-clearance screen. A/B minimum bed-edge centreline clearances are 6.73/8.728 mm.",
+      "scope": "Custom startup/purge/calibration paths, extrusion width and physical machine condition are excluded. Review the plate after changes."
+    },
+    {
+      "topic": "Estimate interpretation",
+      "finding": "Quantities multiply separate one-part plates. Filament includes support/brim. The model-printing-time field includes supports and is only printing-phase time. Six V4.1 main pieces total 648.387089 g and 95800.997742 s including preparation.",
+      "scope": "Slicer estimates, not measurements. Fit sizes are alternatives. No stiffness-normalized or support-normalized comparison to earlier revisions is implied."
+    },
+    {
+      "topic": "V4.1 edge refinement",
+      "finding": "Only A/B/F and three sleeve/nut trials changed: 0.3 mm equal-distance relief on eight free spoke-opening bed contours in each housing, B four nut mouths, F four sleeve bed mouths and its shaft-clearance bed mouth. C/D/E, all bolt bores, bearing trial rings and exact brace/rim trials remain unchanged. Actual slices retain0.15 mm elephant-foot compensation. Mesh cross-sections at0.1/0.3/0.5 mm remain closed single connected material regions in all six changed files.",
+      "scope": "The housing edges meet inclined walls, so equal-distance chamfer is not uniformly45 degrees to the bed. Actual first-three-layer outer walls were reviewed separately. Fit, adhesion and support detachment remain unmeasured. Estimated A/B mass changed chiefly through automatic support/path regeneration; removed CAD volume is only about0.17 g PLA across the two housings, so the estimate difference must not be described as bevel-material savings."
+    }
+  ],
+  "limits": [
+    "Totals multiply one-part separate-plate estimates by assembly quantities; they are not a combined-plate schedule.",
+    "Material and printing-phase estimates include any generated supports; no unsupported model-only mass breakdown is inferred.",
+    "Mesh closure and successful slicing do not establish absence of unsupported toolpaths.",
+    "Extrusion move length includes anchors and is not an unsupported span.",
+    "Fit, adhesion, bridge sag, stiffness, strength and fatigue require physical tests."
+  ],
+  "file_hashes": {
+    "mesh-validation.json": "273aa73371f0fe499b82ec04319738ef68b7bf0dc9766e4170185ecc4443a2d6",
+    "slice-audit.json": "f4879b7bbcb7908e2c367976bb30ca2e6badece4a38b3bdb9e7f59a0eaab07b3",
+    "print-estimates.csv": "afe2ed465b66f00f195c28aad0c4db962038e555a3c709aacef97e77e17c4d77"
+  },
+  "source_file_hashes": {
+    "mesh-validation.json": "3b75cdc5ab465dfc212e14803dfcd325f67866ecededaceb3ae31cee3a8960ba",
+    "slice-audit.json": "d3ac53e81e4aec8527731b0063f17ca3c9ea69ff3e6cc0edfb8efae1530fb992",
+    "print-estimates.csv": "afe2ed465b66f00f195c28aad0c4db962038e555a3c709aacef97e77e17c4d77"
+  },
+  "public_export": {
+    "note": "Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.",
+    "source_sha256": "642a9e6ea3e67d208ec0b8bfbcca6735a5fb26d0d5e6c72f396fd2ce3b8db07c"
+  }
+}

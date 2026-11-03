@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-11-03T17:06:16.723908+00:00",
+  "baseline_revision": "V4.1",
+  "geometry_changed": false,
+  "scope": "Byte comparison of all supplied native/neutral CAD, meshes, preserved engineering reports and dimensional/log templates. This verifies inheritance, not a new CAD run, slice, print or load test. Original reports retain their original paths and dates.",
+  "files": {
+    "print-files/A-housing-print-orientation.stl": {
+      "sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+      "matches_v4_1": true
+    },
+    "print-files/B-moving-body-print-orientation.stl": {
+      "sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+      "matches_v4_1": true
+    },
+    "print-files/C-front-cap-print-orientation.stl": {
+      "sha256": "b8977b48abf88e1f6697db2a18c3844654c1a214088dee376660cdb48536d79d",
+      "matches_v4_1": true
+    },
+    "print-files/D-rear-holder-print-orientation.stl": {
+      "sha256": "8d3554a258b43ef5d435c15c5c40a8b0fe0fcf49b1adab68d71e5d42ad6fa8c6",
+      "matches_v4_1": true
+    },
+    "print-files/E-rear-cap-print-orientation.stl": {
+      "sha256": "96713c6d50918c1d3e1953feb6a7e9c4bde07b6fb6a924f32d0e5318a003efef",
+      "matches_v4_1": true
+    },
+    "print-files/F-hub-adapter-print-orientation.stl": {
+      "sha256": "be9128ebf00fa09f4bc76ca780972312c3206c5548e450ebc4867b456e4ab2bd",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-A0-rim-print-orientation.stl": {
+      "sha256": "476b57d3cbdfe4ac5eab8b90ce1e2e45dfe6c8b2777f45bcb51cb5a090c3e035",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-A90-brace-print-orientation.stl": {
+      "sha256": "00c59808f9589c9d3ef359486be554df34fa08f8238b8dbd5be841a4cecd814a",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.0-down.stl": {
+      "sha256": "c1a655c8416ad6b8d2caf6f3329a6c902bb1c29b7dc96b6dc1f1d2d2388616c2",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.0-up.stl": {
+      "sha256": "2e81322eefed37fab0bfae42f42cad20718bddd04cc6f2119dc59ac970e5cfdc",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.1-down.stl": {
+      "sha256": "763d15e22699a6f146061a53cba4f8e71141d6930d4c8c6a9484699abaf52a44",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.1-up.stl": {
+      "sha256": "49218791f42b82df2ab0bcbf098fa52b3f5632771ad8e701058ba9ec11cf2e3e",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.2-down.stl": {
+      "sha256": "5a3e0d03e548effcabd2eb9b8af9c39510f084396cda1dda9d76e73851de13b2",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.2-up.stl": {
+      "sha256": "db7232d7eaf67602fe51bb5552656c5eae1ea592f058c5c0dcc809053745095e",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.3-down.stl": {
+      "sha256": "7486f842f9c0189b958203c999210648444f28de202179ee7562cd843d3af484",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-seat-22.3-up.stl": {
+      "sha256": "0c26e7a462045ee5b91eec92d7cde58b99442b3ec1b558c57b9e3e093a05c7ff",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-sleeve-8.0-nut-7.0.stl": {
+      "sha256": "0b77aae25786cc5d2a757d10e894df63a3369f4c415a17ee8562d7b80d4829fe",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-sleeve-8.1-nut-7.1.stl": {
+      "sha256": "159af3d2c03d9450e69cbfcade0e9afec063486ac7bfa38708b18822321eaccb",
+      "matches_v4_1": true
+    },
+    "print-files/PRINT-FIRST-sleeve-8.2-nut-7.2.stl": {
+      "sha256": "d4838b24e95ed14a60776a6a5bceca2be243793889ee9986db35023322521772",
+      "matches_v4_1": true
+    },
+    "print-files/clampshoe-print-orientation.stl": {
+      "sha256": "dce4da96399794ffcf7a41fe0e0ee7dfcb0150b436adacef5d4fe322622bc336",
+      "matches_v4_1": true
+    },
+    "print-files/endbacker-print-orientation.stl": {
+      "sha256": "8840e44c05ff1dc3c00e59a29af209debe9543d7683f0533f118964ac112a6c7",
+      "matches_v4_1": true
+    },
+    "print-files/setupblock-print-orientation.stl": {
+      "sha256": "db839256ef41f14ddcd7da669ffbeb282ccfa6226955c701a945f6ac3821d72e",
+      "matches_v4_1": true
+    },
+    "checkpoints/01-shared-layout-and-tubes.f3d": {
+      "sha256": "509aa0a4acd6f63c56c5491fb714fc074b051ea023eddacd385327f5c0861150",
+      "matches_v4_1": true
+    },
+    "checkpoints/02-first-triangulated-facet.f3d": {
+      "sha256": "40d247e02821da6c5ff11f86b881d454adc1cea7390cd805cc3a0803ffeda365",
+      "matches_v4_1": true
+    },
+    "checkpoints/04-A-triangulated-shell.f3d": {
+      "sha256": "ee73d02ceb8eba43174fede790aa0e0cc182c64285a7e4159f2c58098dc65ffe",
+      "matches_v4_1": true
+    },
+    "checkpoints/06-two-triangulated-shells.f3d": {
+      "sha256": "a0c45af25695fa3c8d8f352cc31bec7b3ea75b3979554a26d7692c4aff1810fb",
+      "matches_v4_1": true
+    },
+    "checkpoints/08-both-integrated-bulkheads.f3d": {
+      "sha256": "40e96106e74d6bed283116924094244b0ebbd0658bc3a9afcce9b70977342a02",
+      "matches_v4_1": true
+    },
+    "checkpoints/09-housings-edge-relief.f3d": {
+      "sha256": "8adf9162fae79e75d339265cc9a4e035e0e1f344f173a151f0b1d1a6a1d68696",
+      "matches_v4_1": true
+    },
+    "checkpoints/10-six-printed-parts.f3d": {
+      "sha256": "e73c4b01b218850927c0b856ba141df7950085b5ed85d92963f84706c17c9af0",
+      "matches_v4_1": true
+    },
+    "checkpoints/11-hardware-and-shaft.f3d": {
+      "sha256": "9eeca51150376a889dc1dbe90722b9a516741ab660ce7ad1661fdd6f103e26e2",
+      "matches_v4_1": true
+    },
+    "checkpoints/12-complete-integrated-swivel.f3d": {
+      "sha256": "7cc751538c9491adc3107f07ad33b01b66e1d4e1452deba61ba3c5e582918c82",
+      "matches_v4_1": true
+    },
+    "checkpoints/13-assembly-access-complete.f3d": {
+      "sha256": "47a5600a84396d6ffc9c2db1c02b8287b7ffed9dcf1ba4bfbfeebf51003574eb",
+      "matches_v4_1": true
+    },
+    "checkpoints/14-bearing-and-fastener-fit-trials.f3d": {
+      "sha256": "4a59a3fe7ae3eaeb0f7625f8a3c26ad2d84865791663d355dee09dc7924f90bf",
+      "matches_v4_1": true
+    },
+    "checkpoints/15-print-edge-refinements.f3d": {
+      "sha256": "2a50c9736ffb727e2121a17956cb298e4960ebdb35aa41bc72859cb8d3407964",
+      "matches_v4_1": true
+    },
+    "checkpoints/PRINT-FIRST-A0-rim.f3d": {
+      "sha256": "c1d700aaf383af6f3ab0b95dd68d7c15b46f470e333b4949500264db106f0e22",
+      "matches_v4_1": true
+    },
+    "checkpoints/PRINT-FIRST-A90-brace.f3d": {
+      "sha256": "6a06b4d888c1305a9d0a352f3aeb084bc7a8c46fd79ad97aa489ffc97c82b217",
+      "matches_v4_1": true
+    },
+    "checkpoints/load-test-fixtures.f3d": {
+      "sha256": "05277f6c20d1a7d69f9c1801940dae9f0243e0cca3258f0987c74d29d22f96f9",
+      "matches_v4_1": true
+    },
+    "checkpoints/integrated-octagonal-pivot.step": {
+      "sha256": "ad23f1950b35833eff4dd83cafc7ee0e99379d25296830a55b9c14970235e019",
+      "matches_v4_1": true
+    },
+    "model-validation.json": {
+      "sha256": "33d779e75446fd08aaab3f0305b3a8dc30c4c355ffdce97b69863fd514672380",
+      "matches_v4_1": true
+    },
+    "parameter-edit-validation.json": {
+      "sha256": "f92d89bee1191578de8e79809a130a8cbac73797302913e700daadd6ecb28540",
+      "matches_v4_1": true
+    },
+    "fit-coupon-validation.json": {
+      "sha256": "620e8a3c7317b23a50da09796574185394e3875dd781b72805406618594fad8e",
+      "matches_v4_1": true
+    },
+    "brace-trial-validation.json": {
+      "sha256": "7eeccd01c0c567e96e246d0a4e8cc87d37dad50d6cb668016eb8c8916e26baf2",
+      "matches_v4_1": true
+    },
+    "mesh-validation.json": {
+      "sha256": "273aa73371f0fe499b82ec04319738ef68b7bf0dc9766e4170185ecc4443a2d6",
+      "matches_v4_1": false,
+      "source_recorded_sha256": "3b75cdc5ab465dfc212e14803dfcd325f67866ecededaceb3ae31cee3a8960ba",
+      "public_copy_note": "Public provenance and derivative metadata only; original report hash retained."
+    },
+    "review/mechanical/native-mechanics-validation.json": {
+      "sha256": "b4f4b4e9b42601fcfa69a3589fee32e0fc68ea43b803373667636afd931cdfc0",
+      "matches_v4_1": true
+    },
+    "review/mechanical/design-review.md": {
+      "sha256": "17ea2f95f59477cb01e2d8c246909e781a11c908b9988e7a4c40ede9cf5a7041",
+      "matches_v4_1": true
+    },
+    "review/fdm/slice-audit.json": {
+      "sha256": "f4879b7bbcb7908e2c367976bb30ca2e6badece4a38b3bdb9e7f59a0eaab07b3",
+      "matches_v4_1": false,
+      "source_recorded_sha256": "d3ac53e81e4aec8527731b0063f17ca3c9ea69ff3e6cc0edfb8efae1530fb992",
+      "public_copy_note": "Public provenance and derivative metadata only; original report hash retained."
+    },
+    "review/fdm/release-summary.json": {
+      "sha256": "7340c09570ef68851f8db88acef6bc06dffc7a2498cc155ca88df0d259386eeb",
+      "matches_v4_1": false,
+      "source_recorded_sha256": "642a9e6ea3e67d208ec0b8bfbcca6735a5fb26d0d5e6c72f396fd2ce3b8db07c",
+      "public_copy_note": "Public provenance and derivative metadata only; original report hash retained."
+    },
+    "review/fdm/print-estimates.csv": {
+      "sha256": "afe2ed465b66f00f195c28aad0c4db962038e555a3c709aacef97e77e17c4d77",
+      "matches_v4_1": true
+    },
+    "review/fdm/figure-sources.json": {
+      "sha256": "7dc9624989b915e91553f8988164d9f72a977d0c161d04600730b83f01c1caa2",
+      "matches_v4_1": false,
+      "source_recorded_sha256": "61157f0a4147fddd1452101e791904af18ea835c4990f6002ceae06bdb5deabb",
+      "public_copy_note": "Public provenance and derivative metadata only; original report hash retained."
+    },
+    "review/fdm/print-manifest.json": {
+      "sha256": "c6061bc1812f992f491b98dbfe7e77e8934200bdf69383212a2339fe149a8229",
+      "matches_v4_1": true
+    },
+    "review/fdm/A-housing-print-orientation/effective-process.json": {
+      "sha256": "a5677d327c8c1966b24bac53141e4b453aad08adba91712e14bbbd20b587922f",
+      "matches_v4_1": true
+    },
+    "review/fdm/D-rear-holder-print-orientation/effective-process.json": {
+      "sha256": "b7bf039edc365ff01a4ebd2387526b6969c2e312acda05b18f636593186750e5",
+      "matches_v4_1": true
+    },
+    "review/fdm/machine.json": {
+      "sha256": "32f793cd1bc8f55151b1c018c7840f5a5a10a366d0783d86d594114aefe66cf0",
+      "matches_v4_1": true
+    },
+    "review/fdm/filament.json": {
+      "sha256": "c4fecf4dfdd9a0a2d80f75b97e7575f333f19b95dd8ec7b26d80864a11bd3498",
+      "matches_v4_1": true
+    },
+    "review/edge-refinement/native-refinement.json": {
+      "sha256": "c66adfb1cc7914eadb2385a3817e350483398470266591cb37e1140dbfbf8f7a",
+      "matches_v4_1": true
+    },
+    "review/edge-refinement/mechanical-validation.json": {
+      "sha256": "7c642f9eead37c36b26b5ab1b61463e70ceedb3c20d4083282f7a903d23e1cf5",
+      "matches_v4_1": true
+    },
+    "review/fdm/edge-first-layers.json": {
+      "sha256": "0b33975e6cd93575b5f30c2a90d807aca11944da9de76f5d8ca21566bc8ea545",
+      "matches_v4_1": true
+    },
+    "parameters.csv": {
+      "sha256": "84e22e8221afa7cae879759ebf619e18547e7c4778883b254c4b303f5b002f23",
+      "matches_v4_1": true
+    },
+    "facet-coordinates.csv": {
+      "sha256": "bd1dfa0df99bc7b4929c75b5349710bd0ffb327302ac9e4c0b5b14d89d5b2837",
+      "matches_v4_1": true
+    },
+    "spoke-coordinates.csv": {
+      "sha256": "5350c51ff4cfa52473bfd59d1729623a8082342080c5249231ce62f00c63254e",
+      "matches_v4_1": true
+    },
+    "fit-log.csv": {
+      "sha256": "4d9692ac561880547239ca846e7f9f1fa16e2fa0cf3e58c306da683282804530",
+      "matches_v4_1": true
+    },
+    "brace-trial-log.csv": {
+      "sha256": "00a26b9c2480dd1502da4357430cb98d3c23aa0cdd986b52451362ab0a0366ab",
+      "matches_v4_1": true
+    },
+    "load-test-log.csv": {
+      "sha256": "7ac8518c66946b77f57f56fabdcc4300ba979d2166aa221fbab3eced4fbe1ffb",
+      "matches_v4_1": false,
+      "source_recorded_sha256": "f96322aca5cbd9eb5ed20d9a9aa5a00ab26b6a202e1f4b070c0a2fbb62366659",
+      "public_copy_note": "Learning worksheet superseded by the Rev4.2 walkthrough polish; geometry unchanged."
+    }
+  },
+  "source_validation_passed": true,
+  "public_files_match_listed_sha256": true,
+  "public_export": {
+    "note": "Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.",
+    "source_sha256": "d52986b20e4e460a5818077c43a0e96f47b8ec361cd89f329a01e07fb705c6a0",
+    "hash_scope": "sha256 identifies the included public file. source_recorded_sha256, when present, is historical evidence, not the public file hash."
+  }
+}

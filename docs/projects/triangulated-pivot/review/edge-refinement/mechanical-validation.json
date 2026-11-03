@@ -1,0 +1,486 @@
+{
+  "document": "V4.1 Integrated Octagonal Truss Pivot",
+  "physical_tested": false,
+  "scope": "Five finishing features only. Removing material while preserving transforms cannot introduce a new rigid-body collision in a previously clear pose or tool path. This does not prove strength, stiffness, fit, support removal or printing performance.",
+  "volume_tolerance_mm3": 0.001,
+  "restored": true,
+  "restore_errors": [],
+  "features": [
+    {
+      "component": "A Housing",
+      "name": "A Internal Spoke Opening Bed Relief",
+      "active": true,
+      "healthy": true
+    },
+    {
+      "component": "B Moving Body",
+      "name": "B Internal Spoke Opening Bed Relief",
+      "active": true,
+      "healthy": true
+    },
+    {
+      "component": "B Moving Body",
+      "name": "B Nut Pocket Entry Lead Ins",
+      "active": true,
+      "healthy": true
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "name": "F Sleeve Bed Entry Lead Ins",
+      "active": true,
+      "healthy": true
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "name": "F Shaft Clearance Bed Entry",
+      "active": true,
+      "healthy": true
+    }
+  ],
+  "body_changes": [
+    {
+      "component": "A Housing",
+      "one_solid_body": true,
+      "baseline_mm3": 258916.713622892,
+      "refined_mm3": 258847.1637731954,
+      "added_volume_mm3": 1.7462298274040222e-10,
+      "removed_volume_mm3": 69.5498496966029,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "removed_body_volume_mm3": 69.54984969696265,
+      "allowed_q_mm": [
+        0.5,
+        0.8
+      ],
+      "removed_q_bounding_box_mm": [
+        0.5000000000000071,
+        0.8000000000000007
+      ],
+      "removed_volume_outside_bed_slab_mm3": 2.842170943040401e-14,
+      "all_removal_in_bed_slab": true,
+      "volume_balance_matches": true
+    },
+    {
+      "component": "B Moving Body",
+      "one_solid_body": true,
+      "baseline_mm3": 266992.1393704669,
+      "refined_mm3": 266923.3562043692,
+      "added_volume_mm3": 1.0477378964424133e-09,
+      "removed_volume_mm3": 68.7831660976517,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "removed_body_volume_mm3": 68.78316609903162,
+      "allowed_q_mm": [
+        -0.8,
+        -0.5
+      ],
+      "removed_q_bounding_box_mm": [
+        -0.8000000000000007,
+        -0.500000000000016
+      ],
+      "removed_volume_outside_bed_slab_mm3": 5.115907697472721e-13,
+      "all_removal_in_bed_slab": true,
+      "volume_balance_matches": true
+    },
+    {
+      "component": "C Front Bearing Cap",
+      "one_solid_body": true,
+      "baseline_mm3": 3582.4806250005176,
+      "refined_mm3": 3582.4806250005176,
+      "added_volume_mm3": 0,
+      "removed_volume_mm3": 0.0,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "unchanged": true
+    },
+    {
+      "component": "D Rear Bearing Holder",
+      "one_solid_body": true,
+      "baseline_mm3": 11552.967175337748,
+      "refined_mm3": 11552.967175337748,
+      "added_volume_mm3": 0,
+      "removed_volume_mm3": 0.0,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "unchanged": true
+    },
+    {
+      "component": "E Rear Bearing Cap",
+      "one_solid_body": true,
+      "baseline_mm3": 3582.4806250005386,
+      "refined_mm3": 3582.4806250005386,
+      "added_volume_mm3": 0,
+      "removed_volume_mm3": 0.0,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "unchanged": true
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "one_solid_body": true,
+      "baseline_mm3": 27350.251158411724,
+      "refined_mm3": 27344.27113680056,
+      "added_volume_mm3": 0,
+      "removed_volume_mm3": 5.980021611165284,
+      "subset": true,
+      "restored_shape_matches_initial_refined": true,
+      "removed_body_volume_mm3": 5.980021616107292,
+      "allowed_q_mm": [
+        -29.000000000000004,
+        -28.700000000000003
+      ],
+      "removed_q_bounding_box_mm": [
+        -29.000000000000004,
+        -28.700000000000006
+      ],
+      "removed_volume_outside_bed_slab_mm3": 0,
+      "all_removal_in_bed_slab": true,
+      "volume_balance_matches": true
+    }
+  ],
+  "protected_contacts": [
+    {
+      "q_mm": 7.6,
+      "baseline_faces": [
+        {
+          "area_mm2": 88.4279792169187,
+          "centroid_xyz_mm": [
+            5.374011537017762,
+            5.374011537017761,
+            6.104284690110286e-16
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 88.4279792169187,
+          "centroid_xyz_mm": [
+            5.374011537017762,
+            5.374011537017761,
+            6.104284690110286e-16
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "A outer-ring shoulder",
+      "component": "A Housing"
+    },
+    {
+      "q_mm": 10.600000000000001,
+      "baseline_faces": [
+        {
+          "area_mm2": 1337.5959041189265,
+          "centroid_xyz_mm": [
+            7.495331880577405,
+            7.495331880577404,
+            1.0498505528677309e-15
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 1337.5959041189265,
+          "centroid_xyz_mm": [
+            7.495331880577405,
+            7.495331880577404,
+            1.0498505528677309e-15
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "A metal-post backing plane",
+      "component": "A Housing"
+    },
+    {
+      "q_mm": 25.600000000000005,
+      "baseline_faces": [
+        {
+          "area_mm2": 88.4279792169187,
+          "centroid_xyz_mm": [
+            18.10193359837562,
+            18.101933598375616,
+            6.104284690110286e-16
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 88.4279792169187,
+          "centroid_xyz_mm": [
+            18.10193359837562,
+            18.101933598375616,
+            6.104284690110286e-16
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "D outer-ring shoulder",
+      "component": "D Rear Bearing Holder"
+    },
+    {
+      "q_mm": 32.800000000000004,
+      "baseline_faces": [
+        {
+          "area_mm2": 1155.0379550188238,
+          "centroid_xyz_mm": [
+            23.193102422918763,
+            23.193102422918756,
+            9.87292342555513e-16
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 1155.0379550188238,
+          "centroid_xyz_mm": [
+            23.193102422918763,
+            23.193102422918756,
+            9.87292342555513e-16
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "E bearing-contact face",
+      "component": "E Rear Bearing Cap"
+    },
+    {
+      "q_mm": -4.5,
+      "baseline_faces": [
+        {
+          "area_mm2": 30.37274489096652,
+          "centroid_xyz_mm": [
+            -19.181980515339458,
+            12.818019484660537,
+            -22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966523,
+          "centroid_xyz_mm": [
+            -19.181980515339458,
+            12.818019484660537,
+            22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966562,
+          "centroid_xyz_mm": [
+            12.818019484660539,
+            -19.18198051533947,
+            -22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966562,
+          "centroid_xyz_mm": [
+            12.818019484660539,
+            -19.18198051533947,
+            22.62741699796952
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 30.37274489096652,
+          "centroid_xyz_mm": [
+            -19.181980515339458,
+            12.818019484660537,
+            -22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966523,
+          "centroid_xyz_mm": [
+            -19.181980515339458,
+            12.818019484660537,
+            22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966562,
+          "centroid_xyz_mm": [
+            12.818019484660539,
+            -19.18198051533947,
+            -22.62741699796952
+          ]
+        },
+        {
+          "area_mm2": 30.372744890966562,
+          "centroid_xyz_mm": [
+            12.818019484660539,
+            -19.18198051533947,
+            22.62741699796952
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "B four nut floors",
+      "component": "B Moving Body"
+    },
+    {
+      "q_mm": -23.000000000000004,
+      "baseline_faces": [
+        {
+          "area_mm2": 639.9345695546074,
+          "centroid_xyz_mm": [
+            -16.263455967290593,
+            -16.263455967290593,
+            8.674504218438054e-16
+          ]
+        },
+        {
+          "area_mm2": 2514.876335125166,
+          "centroid_xyz_mm": [
+            -16.263455967290607,
+            -16.26345596729059,
+            1.7217028668817672e-15
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 639.9345695546074,
+          "centroid_xyz_mm": [
+            -16.263455967290593,
+            -16.263455967290593,
+            8.674504218438054e-16
+          ]
+        },
+        {
+          "area_mm2": 2514.876335125166,
+          "centroid_xyz_mm": [
+            -16.263455967290607,
+            -16.26345596729059,
+            1.7217028668817672e-15
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "F flat hub mounting face",
+      "component": "F Metal Hub Adapter"
+    },
+    {
+      "q_mm": -21.0,
+      "baseline_faces": [
+        {
+          "area_mm2": 993.2459333589488,
+          "centroid_xyz_mm": [
+            -14.849242404917504,
+            -14.8492424049175,
+            1.2297607658954636e-15
+          ]
+        }
+      ],
+      "refined_faces": [
+        {
+          "area_mm2": 993.2459333589488,
+          "centroid_xyz_mm": [
+            -14.849242404917504,
+            -14.8492424049175,
+            1.2297607658954636e-15
+          ]
+        }
+      ],
+      "unchanged": true,
+      "contact": "F pilot end",
+      "component": "F Metal Hub Adapter"
+    },
+    {
+      "contact": "A central cap-contact material and all three bolt entrances",
+      "component": "A Housing",
+      "baseline_mm3": 338.05357400808765,
+      "refined_mm3": 338.05357400808765,
+      "intersection_mm3": 338.05357400808765,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "contact": "B seated nut floors and engaged flat walls",
+      "component": "B Moving Body",
+      "guard_q_mm": [
+        -4.5,
+        -1.2999999999999998
+      ],
+      "baseline_mm3": 31059.02691955555,
+      "refined_mm3": 31059.026919554242,
+      "intersection_mm3": 31059.02691955555,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "contact": "F outer-bolt washer land 1",
+      "component": "F Metal Hub Adapter",
+      "baseline_mm3": 15.219524150134557,
+      "refined_mm3": 15.219524150134557,
+      "intersection_mm3": 15.219524150134557,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "contact": "F outer-bolt washer land 2",
+      "component": "F Metal Hub Adapter",
+      "baseline_mm3": 15.219524150134225,
+      "refined_mm3": 15.219524150134225,
+      "intersection_mm3": 15.219524150134225,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "contact": "F outer-bolt washer land 3",
+      "component": "F Metal Hub Adapter",
+      "baseline_mm3": 15.219524150134939,
+      "refined_mm3": 15.219524150134939,
+      "intersection_mm3": 15.219524150134939,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "contact": "F outer-bolt washer land 4",
+      "component": "F Metal Hub Adapter",
+      "baseline_mm3": 15.219524150134884,
+      "refined_mm3": 15.219524150134884,
+      "intersection_mm3": 15.219524150134884,
+      "symmetric_difference_mm3": 0,
+      "unchanged": true
+    }
+  ],
+  "F_mouth_localization": {
+    "disjoint_mouth_regions": [
+      {
+        "mouth": "shaft",
+        "radius_mm": 4.55,
+        "removed_mm3": 1.2299335238802889
+      },
+      {
+        "mouth": "sleeve 1",
+        "radius_mm": 4.4,
+        "removed_mm3": 1.1875220230567614
+      },
+      {
+        "mouth": "sleeve 2",
+        "radius_mm": 4.4,
+        "removed_mm3": 1.1875220230568861
+      },
+      {
+        "mouth": "sleeve 3",
+        "radius_mm": 4.4,
+        "removed_mm3": 1.1875220230567474
+      },
+      {
+        "mouth": "sleeve 4",
+        "radius_mm": 4.4,
+        "removed_mm3": 1.187522023056914
+      }
+    ],
+    "total_removed_mm3": 5.980021616107292,
+    "accounted_removed_mm3": 5.980021616107598,
+    "outside_selected_mouths_mm3": 0,
+    "all_removal_local_to_five_mouths": true
+  },
+  "occurrence_transforms_unchanged": true,
+  "parameter_expressions_unchanged": true,
+  "swivel_pose_unchanged": true,
+  "unhealthy_active_features": [],
+  "all_checks_pass": true,
+  "interpretation": "The subset result preserves previously checked rigid-body clearance at the same transforms. The F sleeve-mouth bevel intentionally removes a narrow annulus from its lower plastic face; the unchanged upper hub face, sleeve length and outer-bolt washer lands are separate checks. No claim is made that every square millimeter of the lower wide-washer contact is unchanged."
+}

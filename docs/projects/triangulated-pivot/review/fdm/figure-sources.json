@@ -1,0 +1,993 @@
+{
+  "method": "Final hashed Bambu artifacts and original G-code reconstructions",
+  "figures": [
+    {
+      "figure": "tutorial-v6/review/fdm/support-cleanup-toolpaths.png",
+      "figure_sha256": "056c4604a3e69fd5b9c5fdfc7fe00c17d144db3c9debdc2062abb80fcc3abfee",
+      "sources": [
+        {
+          "part": "A-housing-print-orientation",
+          "mesh": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+          "mesh_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+          "gcode": "tutorial-v6/review/fdm/A-housing-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "ac81ee4ae3224a1d32223d8d31b3aba8706f236d32a467e7e47c61b758fa458d",
+          "sliced_project": "tutorial-v6/review/fdm/A-housing-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "c233e566f780bedd3acf041bf72ce0e3d1a734f5bbb8b81312d26f256c8e1e6f",
+          "model_layer_z_mm": 6.8,
+          "prior_model_layer_z_mm": 6.6,
+          "support_layer_z_mm": 6.8,
+          "crop_center_xy_mm": [
+            109.48957040192752,
+            107.48957040192754
+          ],
+          "crop_size_mm": [
+            30,
+            30
+          ],
+          "drawn_groups": [
+            {
+              "z_mm": 6.6,
+              "color": "#c5ced8",
+              "segments_in_crop": 1972
+            },
+            {
+              "z_mm": 6.8,
+              "color": "#d58b24",
+              "segments_in_crop": 462
+            },
+            {
+              "z_mm": 6.8,
+              "color": "#a24b84",
+              "segments_in_crop": 573
+            },
+            {
+              "z_mm": 6.8,
+              "color": "#236f9b",
+              "segments_in_crop": 1905
+            }
+          ]
+        },
+        {
+          "part": "A-housing-print-orientation",
+          "mesh": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+          "mesh_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+          "gcode": "tutorial-v6/review/fdm/A-housing-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "ac81ee4ae3224a1d32223d8d31b3aba8706f236d32a467e7e47c61b758fa458d",
+          "sliced_project": "tutorial-v6/review/fdm/A-housing-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "c233e566f780bedd3acf041bf72ce0e3d1a734f5bbb8b81312d26f256c8e1e6f",
+          "model_layer_z_mm": 7.4,
+          "prior_model_layer_z_mm": 7.2,
+          "support_layer_z_mm": 7.0,
+          "crop_center_xy_mm": [
+            109.48957040192752,
+            107.48957040192754
+          ],
+          "crop_size_mm": [
+            30,
+            30
+          ],
+          "drawn_groups": [
+            {
+              "z_mm": 7.2,
+              "color": "#c5ced8",
+              "segments_in_crop": 1917
+            },
+            {
+              "z_mm": 7.0,
+              "color": "#d58b24",
+              "segments_in_crop": 465
+            },
+            {
+              "z_mm": 7.0,
+              "color": "#a24b84",
+              "segments_in_crop": 585
+            },
+            {
+              "z_mm": 7.4,
+              "color": "#236f9b",
+              "segments_in_crop": 2676
+            }
+          ]
+        },
+        {
+          "part": "B-moving-body-print-orientation",
+          "mesh": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+          "mesh_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+          "gcode": "tutorial-v6/review/fdm/B-moving-body-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "67d66c752e7d73aeb81058fcb5dd0be2093bff42e4560a59fc828b42311be6cc",
+          "sliced_project": "tutorial-v6/review/fdm/B-moving-body-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "a17ff068d68bd262e33d2ad1faddfaefaf473d0f47d9176ad06de9d4c32b8cc5",
+          "model_layer_z_mm": 4.2,
+          "prior_model_layer_z_mm": 4.0,
+          "support_layer_z_mm": 3.8,
+          "crop_center_xy_mm": [
+            178.51042959807245,
+            144.51042959807245
+          ],
+          "crop_size_mm": [
+            14,
+            14
+          ],
+          "drawn_groups": [
+            {
+              "z_mm": 4.0,
+              "color": "#c5ced8",
+              "segments_in_crop": 521
+            },
+            {
+              "z_mm": 3.8,
+              "color": "#d58b24",
+              "segments_in_crop": 0
+            },
+            {
+              "z_mm": 3.8,
+              "color": "#a24b84",
+              "segments_in_crop": 166
+            },
+            {
+              "z_mm": 4.2,
+              "color": "#236f9b",
+              "segments_in_crop": 917
+            }
+          ]
+        }
+      ],
+      "kind": "Original diagrams from actual Bambu extrusion paths and oriented STL meshes",
+      "interpretation": "Different explicitly labeled layers overlaid for inspection; not a UI screenshot or a physical-fit result."
+    },
+    {
+      "figure": "tutorial-v6/review/fdm/brace-roof-support-toolpaths.png",
+      "figure_sha256": "4c3f0e2512742396adc43315577338a6778c237f84b8495e34877eefb6d8e50f",
+      "sources": [
+        {
+          "part": "PRINT-FIRST-A0-rim-print-orientation",
+          "mesh": "tutorial-v6/print-files/PRINT-FIRST-A0-rim-print-orientation.stl",
+          "mesh_sha256": "476b57d3cbdfe4ac5eab8b90ce1e2e45dfe6c8b2777f45bcb51cb5a090c3e035",
+          "gcode": "tutorial-v6/review/fdm/PRINT-FIRST-A0-rim-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "d5b71e1b2fb1ac4e8699219f5795ef546f37ab70e7084f9d495226a119ad187e",
+          "sliced_project": "tutorial-v6/review/fdm/PRINT-FIRST-A0-rim-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "ba876af1f6fb317549e5d9b56728e7a002e7baf6cfdae0661e2bcfb21dec5083",
+          "model_layer_z_mm": 45.0,
+          "prior_model_layer_z_mm": 44.8,
+          "support_layer_z_mm": 44.6,
+          "crop_center_xy_mm": [
+            144.28675115556115,
+            135.21568334369567
+          ],
+          "crop_size_mm": [
+            58,
+            58
+          ],
+          "drawn_groups": [
+            {
+              "z_mm": 44.8,
+              "color": "#c5ced8",
+              "segments_in_crop": 452
+            },
+            {
+              "z_mm": 44.6,
+              "color": "#d58b24",
+              "segments_in_crop": 1993
+            },
+            {
+              "z_mm": 44.6,
+              "color": "#a24b84",
+              "segments_in_crop": 405
+            },
+            {
+              "z_mm": 45.0,
+              "color": "#236f9b",
+              "segments_in_crop": 485
+            }
+          ],
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/PRINT-FIRST-A0-rim-print-orientation.png",
+          "mesh_preview_sha256": "9829a0afa2513220e49160523333312b1c71c844e2fa484d392148048feb99a4",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "PRINT-FIRST-A90-brace-print-orientation",
+          "mesh": "tutorial-v6/print-files/PRINT-FIRST-A90-brace-print-orientation.stl",
+          "mesh_sha256": "00c59808f9589c9d3ef359486be554df34fa08f8238b8dbd5be841a4cecd814a",
+          "gcode": "tutorial-v6/review/fdm/PRINT-FIRST-A90-brace-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "a65e99121e9931a8451a67a1fa7869ab8ab4135effca68bcda135832529b1699",
+          "sliced_project": "tutorial-v6/review/fdm/PRINT-FIRST-A90-brace-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "40d17804041e6b4001f776206bb64b2f9f111dcde9232f4bf968ec289cd98241",
+          "model_layer_z_mm": 10.4,
+          "prior_model_layer_z_mm": 10.200000000000001,
+          "support_layer_z_mm": 10.0,
+          "crop_center_xy_mm": [
+            139.95096333191566,
+            133.1705890335018
+          ],
+          "crop_size_mm": [
+            22,
+            22
+          ],
+          "drawn_groups": [
+            {
+              "z_mm": 10.200000000000001,
+              "color": "#c5ced8",
+              "segments_in_crop": 59
+            },
+            {
+              "z_mm": 10.0,
+              "color": "#d58b24",
+              "segments_in_crop": 518
+            },
+            {
+              "z_mm": 10.0,
+              "color": "#a24b84",
+              "segments_in_crop": 166
+            },
+            {
+              "z_mm": 10.4,
+              "color": "#236f9b",
+              "segments_in_crop": 60
+            }
+          ],
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/PRINT-FIRST-A90-brace-print-orientation.png",
+          "mesh_preview_sha256": "6dc0826b4474200e5b039f38372befa6e4efcb7d97ff20c4dc8114a830691424",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        }
+      ],
+      "kind": "Original diagrams from actual Bambu extrusion paths and oriented STL meshes",
+      "interpretation": "Exact unscaled native trial crops. Passing the local trial does not certify the full housing or load capacity."
+    },
+    {
+      "figure": "tutorial-v6/review/fdm/support-bed-clearance.png",
+      "figure_sha256": "8b0b61fbadc8a6262998537d050aa03e07f7e07db9cf06aa9627e2ea1b52b342",
+      "sources": [
+        {
+          "part": "A-housing-print-orientation",
+          "mesh": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+          "mesh_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+          "gcode": "tutorial-v6/review/fdm/A-housing-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "ac81ee4ae3224a1d32223d8d31b3aba8706f236d32a467e7e47c61b758fa458d",
+          "sliced_project": "tutorial-v6/review/fdm/A-housing-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "c233e566f780bedd3acf041bf72ce0e3d1a734f5bbb8b81312d26f256c8e1e6f",
+          "first_layer_z_mm": 0.2,
+          "placement_translation_minus_nozzle_offset_mm": [
+            127.99788,
+            125.99788,
+            0.0
+          ],
+          "enclosure": {
+            "scope": "All non-Custom extrusion centre lines, including generated support/brim/skirt; startup, purge and calibration Custom paths excluded",
+            "line_width_not_included": true,
+            "additional_review_margin_mm": 0.5,
+            "bed_xy_bounds_mm": [
+              0.0,
+              0.0,
+              256.0,
+              256.0
+            ],
+            "excluded_xy_bounds_mm": [
+              0.0,
+              0.0,
+              18.0,
+              28.0
+            ],
+            "profile_printable_height_mm": 250.0,
+            "min_xyz_mm": [
+              8.73,
+              6.73,
+              0.2
+            ],
+            "max_xyz_mm": [
+              242.59,
+              240.59,
+              144.2
+            ],
+            "minimum_bed_edge_centreline_clearance_mm": 6.73,
+            "outside_profile_examples": [],
+            "exclusion_intersection_examples": [],
+            "within_review_margin_of_exclusion_examples": [],
+            "centreline_bounds_pass": true,
+            "half_mm_clearance_screen_pass": true,
+            "linearized_segments_checked": 4981767,
+            "features": {
+              "Support": {
+                "min_xyz_mm": [
+                  23.312,
+                  21.499,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  236.65,
+                  235.38853008169878,
+                  140.6
+                ],
+                "linearized_segments": 3200586
+              },
+              "Brim": {
+                "min_xyz_mm": [
+                  8.73,
+                  6.73,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  211.04,
+                  207.698,
+                  0.2
+                ],
+                "linearized_segments": 894
+              },
+              "Outer wall": {
+                "min_xyz_mm": [
+                  13.406,
+                  11.406,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  242.59,
+                  240.59,
+                  144.2
+                ],
+                "linearized_segments": 151339
+              },
+              "Inner wall": {
+                "min_xyz_mm": [
+                  13.807,
+                  11.807,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  242.189,
+                  240.189,
+                  143.8
+                ],
+                "linearized_segments": 404859
+              },
+              "Bottom surface": {
+                "min_xyz_mm": [
+                  15.511,
+                  13.511,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  204.317,
+                  202.371,
+                  0.2
+                ],
+                "linearized_segments": 3118
+              },
+              "Gap infill": {
+                "min_xyz_mm": [
+                  24.961,
+                  20.192,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  234.949,
+                  234.443,
+                  144.0
+                ],
+                "linearized_segments": 19717
+              },
+              "Internal solid infill": {
+                "min_xyz_mm": [
+                  14.98,
+                  12.819,
+                  0.4
+                ],
+                "max_xyz_mm": [
+                  236.887,
+                  236.14,
+                  142.6
+                ],
+                "linearized_segments": 41532
+              },
+              "Sparse infill": {
+                "min_xyz_mm": [
+                  16.33,
+                  14.631,
+                  1.0
+                ],
+                "max_xyz_mm": [
+                  240.138,
+                  238.89,
+                  141.8
+                ],
+                "linearized_segments": 984456
+              },
+              "Floating vertical shell": {
+                "min_xyz_mm": [
+                  15.578,
+                  13.579,
+                  1.2
+                ],
+                "max_xyz_mm": [
+                  240.714,
+                  238.706,
+                  142.2
+                ],
+                "linearized_segments": 124311
+              },
+              "Support transition": {
+                "min_xyz_mm": [
+                  61.53407379528168,
+                  65.57952499913227,
+                  6.4
+                ],
+                "max_xyz_mm": [
+                  227.41626271639973,
+                  227.30160079769294,
+                  134.2
+                ],
+                "linearized_segments": 18924
+              },
+              "Support interface": {
+                "min_xyz_mm": [
+                  61.171,
+                  65.7872299502497,
+                  6.8
+                ],
+                "max_xyz_mm": [
+                  229.63297034044277,
+                  227.5639003840304,
+                  103.0
+                ],
+                "linearized_segments": 25953
+              },
+              "Overhang wall": {
+                "min_xyz_mm": [
+                  61.784,
+                  66.64,
+                  7.4
+                ],
+                "max_xyz_mm": [
+                  227.512,
+                  223.296,
+                  100.2
+                ],
+                "linearized_segments": 854
+              },
+              "Bridge": {
+                "min_xyz_mm": [
+                  27.497,
+                  26.677,
+                  9.6
+                ],
+                "max_xyz_mm": [
+                  227.836,
+                  223.677,
+                  100.2
+                ],
+                "linearized_segments": 2595
+              },
+              "Top surface": {
+                "min_xyz_mm": [
+                  29.74,
+                  27.76,
+                  10.2
+                ],
+                "max_xyz_mm": [
+                  230.52,
+                  223.663,
+                  85.6
+                ],
+                "linearized_segments": 2629
+              }
+            }
+          }
+        },
+        {
+          "part": "B-moving-body-print-orientation",
+          "mesh": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+          "mesh_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+          "gcode": "tutorial-v6/review/fdm/B-moving-body-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "67d66c752e7d73aeb81058fcb5dd0be2093bff42e4560a59fc828b42311be6cc",
+          "sliced_project": "tutorial-v6/review/fdm/B-moving-body-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "a17ff068d68bd262e33d2ad1faddfaefaf473d0f47d9176ad06de9d4c32b8cc5",
+          "first_layer_z_mm": 0.2,
+          "placement_translation_minus_nozzle_offset_mm": [
+            128.00212,
+            126.00211999999999,
+            0.0
+          ],
+          "enclosure": {
+            "scope": "All non-Custom extrusion centre lines, including generated support/brim/skirt; startup, purge and calibration Custom paths excluded",
+            "line_width_not_included": true,
+            "additional_review_margin_mm": 0.5,
+            "bed_xy_bounds_mm": [
+              0.0,
+              0.0,
+              256.0,
+              256.0
+            ],
+            "excluded_xy_bounds_mm": [
+              0.0,
+              0.0,
+              18.0,
+              28.0
+            ],
+            "profile_printable_height_mm": 250.0,
+            "min_xyz_mm": [
+              13.41,
+              11.41,
+              0.2
+            ],
+            "max_xyz_mm": [
+              247.272,
+              245.272,
+              144.2
+            ],
+            "minimum_bed_edge_centreline_clearance_mm": 8.728000000000009,
+            "outside_profile_examples": [],
+            "exclusion_intersection_examples": [],
+            "within_review_margin_of_exclusion_examples": [],
+            "centreline_bounds_pass": true,
+            "half_mm_clearance_screen_pass": true,
+            "linearized_segments_checked": 6307660,
+            "features": {
+              "Support": {
+                "min_xyz_mm": [
+                  18.614259341033417,
+                  18.051,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  232.5,
+                  230.501,
+                  140.2
+                ],
+                "linearized_segments": 4032169
+              },
+              "Brim": {
+                "min_xyz_mm": [
+                  44.954,
+                  43.044,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  247.272,
+                  245.272,
+                  0.2
+                ],
+                "linearized_segments": 736
+              },
+              "Outer wall": {
+                "min_xyz_mm": [
+                  13.41,
+                  11.41,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  242.594,
+                  240.594,
+                  144.2
+                ],
+                "linearized_segments": 270350
+              },
+              "Inner wall": {
+                "min_xyz_mm": [
+                  13.811,
+                  11.811,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  242.193,
+                  240.193,
+                  143.8
+                ],
+                "linearized_segments": 668890
+              },
+              "Gap infill": {
+                "min_xyz_mm": [
+                  19.557,
+                  19.051,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  233.808,
+                  229.039,
+                  144.0
+                ],
+                "linearized_segments": 10213
+              },
+              "Bottom surface": {
+                "min_xyz_mm": [
+                  51.629,
+                  49.629,
+                  0.2
+                ],
+                "max_xyz_mm": [
+                  240.489,
+                  238.489,
+                  0.2
+                ],
+                "linearized_segments": 3154
+              },
+              "Internal solid infill": {
+                "min_xyz_mm": [
+                  17.86,
+                  17.207,
+                  0.4
+                ],
+                "max_xyz_mm": [
+                  241.02,
+                  239.181,
+                  142.6
+                ],
+                "linearized_segments": 48678
+              },
+              "Sparse infill": {
+                "min_xyz_mm": [
+                  15.06,
+                  13.921,
+                  1.0
+                ],
+                "max_xyz_mm": [
+                  240.08222663197833,
+                  237.377,
+                  142.0
+                ],
+                "linearized_segments": 1089283
+              },
+              "Floating vertical shell": {
+                "min_xyz_mm": [
+                  15.188,
+                  13.294,
+                  1.2
+                ],
+                "max_xyz_mm": [
+                  240.421,
+                  238.421,
+                  142.2
+                ],
+                "linearized_segments": 128020
+              },
+              "Support transition": {
+                "min_xyz_mm": [
+                  26.079676944736768,
+                  23.663,
+                  3.2
+                ],
+                "max_xyz_mm": [
+                  188.73,
+                  183.00414923365528,
+                  134.2
+                ],
+                "linearized_segments": 24429
+              },
+              "Support interface": {
+                "min_xyz_mm": [
+                  26.19813261884133,
+                  23.985,
+                  3.6
+                ],
+                "max_xyz_mm": [
+                  188.541,
+                  186.688,
+                  134.2
+                ],
+                "linearized_segments": 24073
+              },
+              "Overhang wall": {
+                "min_xyz_mm": [
+                  28.488,
+                  26.488,
+                  4.2
+                ],
+                "max_xyz_mm": [
+                  187.36,
+                  185.36,
+                  100.2
+                ],
+                "linearized_segments": 1934
+              },
+              "Bridge": {
+                "min_xyz_mm": [
+                  28.164,
+                  26.27,
+                  4.2
+                ],
+                "max_xyz_mm": [
+                  228.459,
+                  226.416,
+                  100.2
+                ],
+                "linearized_segments": 3390
+              },
+              "Top surface": {
+                "min_xyz_mm": [
+                  25.48,
+                  23.48,
+                  7.6
+                ],
+                "max_xyz_mm": [
+                  226.26,
+                  224.24,
+                  85.6
+                ],
+                "linearized_segments": 2341
+              }
+            }
+          }
+        }
+      ],
+      "kind": "Original diagrams from actual Bambu extrusion paths and oriented STL meshes",
+      "interpretation": "Actual first layer over the projected final mesh, with full-G-code centreline envelope audit. No machine execution or physical print claimed."
+    },
+    {
+      "figure": "tutorial-v6/review/fdm/print-orientation-montage.png",
+      "figure_sha256": "068ccc69d5b11d92a78143405dae644bf57fe44735d63ed87969f39c11602fd9",
+      "sources": [
+        {
+          "part": "A-housing-print-orientation",
+          "mesh": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+          "mesh_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+          "gcode": "tutorial-v6/review/fdm/A-housing-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "ac81ee4ae3224a1d32223d8d31b3aba8706f236d32a467e7e47c61b758fa458d",
+          "sliced_project": "tutorial-v6/review/fdm/A-housing-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "c233e566f780bedd3acf041bf72ce0e3d1a734f5bbb8b81312d26f256c8e1e6f",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/A-housing-print-orientation.png",
+          "mesh_preview_sha256": "be4e6ae8763e3950ea4a692cb8d66d43dc2bbce10e5784bde0a64581eb21f83c",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "B-moving-body-print-orientation",
+          "mesh": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+          "mesh_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+          "gcode": "tutorial-v6/review/fdm/B-moving-body-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "67d66c752e7d73aeb81058fcb5dd0be2093bff42e4560a59fc828b42311be6cc",
+          "sliced_project": "tutorial-v6/review/fdm/B-moving-body-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "a17ff068d68bd262e33d2ad1faddfaefaf473d0f47d9176ad06de9d4c32b8cc5",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/B-moving-body-print-orientation.png",
+          "mesh_preview_sha256": "dd18adda36a8394861d08204a9aa2a02cb18045efd129e9dabab60bb63bd762d",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "C-front-cap-print-orientation",
+          "mesh": "tutorial-v6/print-files/C-front-cap-print-orientation.stl",
+          "mesh_sha256": "b8977b48abf88e1f6697db2a18c3844654c1a214088dee376660cdb48536d79d",
+          "gcode": "tutorial-v6/review/fdm/C-front-cap-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "e43f873648cf27d6e4a00b7b0ab3ec598d3f3e46e3c4044e7ade49b5d6da08e1",
+          "sliced_project": "tutorial-v6/review/fdm/C-front-cap-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "f6087997e989b593e4bef710469e354c2f93f8ef0562491c05f8642a60a34ea4",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/C-front-cap-print-orientation.png",
+          "mesh_preview_sha256": "e16a2ed202cbdcb7b5ee5760bf7d9a38400c040718516532342f832d85cbc7dc",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "D-rear-holder-print-orientation",
+          "mesh": "tutorial-v6/print-files/D-rear-holder-print-orientation.stl",
+          "mesh_sha256": "8d3554a258b43ef5d435c15c5c40a8b0fe0fcf49b1adab68d71e5d42ad6fa8c6",
+          "gcode": "tutorial-v6/review/fdm/D-rear-holder-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "dcf6b9a7b6c9b572480c64b39ccddb8fcb8cbd27e9f44087ac0e11c5b7065797",
+          "sliced_project": "tutorial-v6/review/fdm/D-rear-holder-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "73fab1cdae0509bc349c84b7eb42145c59ee58a8bc7ef4f3dde455657106fd62",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/D-rear-holder-print-orientation.png",
+          "mesh_preview_sha256": "ff5706558003b4daf07a7565d75a69b06847a407998aed1a1a67516535ba8d44",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "E-rear-cap-print-orientation",
+          "mesh": "tutorial-v6/print-files/E-rear-cap-print-orientation.stl",
+          "mesh_sha256": "96713c6d50918c1d3e1953feb6a7e9c4bde07b6fb6a924f32d0e5318a003efef",
+          "gcode": "tutorial-v6/review/fdm/E-rear-cap-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "b8270b497ae9a58602e9fa86b49ce850ba154efa3cff78fe33d1396d22fec882",
+          "sliced_project": "tutorial-v6/review/fdm/E-rear-cap-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "ee3836d6c331b9a3dbd438a24c891b8860350c3da7c78856100a01b2ae1e4af2",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/E-rear-cap-print-orientation.png",
+          "mesh_preview_sha256": "e16a2ed202cbdcb7b5ee5760bf7d9a38400c040718516532342f832d85cbc7dc",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "F-hub-adapter-print-orientation",
+          "mesh": "tutorial-v6/print-files/F-hub-adapter-print-orientation.stl",
+          "mesh_sha256": "be9128ebf00fa09f4bc76ca780972312c3206c5548e450ebc4867b456e4ab2bd",
+          "gcode": "tutorial-v6/review/fdm/F-hub-adapter-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "05d0909605ebaad15aa3cb8dc36c606f5ff02e930b564d30df6fbbd3b61a60fc",
+          "sliced_project": "tutorial-v6/review/fdm/F-hub-adapter-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "405537d4728ecc3181263619c8d822ec481c3818e4dc0ce52cb3c7c39a024fae",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/F-hub-adapter-print-orientation.png",
+          "mesh_preview_sha256": "ce5bd43194bf76d15ad9ed5cedc547892f557eff32c0d4ded17bfe344fa36a75",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "PRINT-FIRST-A0-rim-print-orientation",
+          "mesh": "tutorial-v6/print-files/PRINT-FIRST-A0-rim-print-orientation.stl",
+          "mesh_sha256": "476b57d3cbdfe4ac5eab8b90ce1e2e45dfe6c8b2777f45bcb51cb5a090c3e035",
+          "gcode": "tutorial-v6/review/fdm/PRINT-FIRST-A0-rim-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "d5b71e1b2fb1ac4e8699219f5795ef546f37ab70e7084f9d495226a119ad187e",
+          "sliced_project": "tutorial-v6/review/fdm/PRINT-FIRST-A0-rim-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "ba876af1f6fb317549e5d9b56728e7a002e7baf6cfdae0661e2bcfb21dec5083",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/PRINT-FIRST-A0-rim-print-orientation.png",
+          "mesh_preview_sha256": "9829a0afa2513220e49160523333312b1c71c844e2fa484d392148048feb99a4",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "PRINT-FIRST-A90-brace-print-orientation",
+          "mesh": "tutorial-v6/print-files/PRINT-FIRST-A90-brace-print-orientation.stl",
+          "mesh_sha256": "00c59808f9589c9d3ef359486be554df34fa08f8238b8dbd5be841a4cecd814a",
+          "gcode": "tutorial-v6/review/fdm/PRINT-FIRST-A90-brace-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "a65e99121e9931a8451a67a1fa7869ab8ab4135effca68bcda135832529b1699",
+          "sliced_project": "tutorial-v6/review/fdm/PRINT-FIRST-A90-brace-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "40d17804041e6b4001f776206bb64b2f9f111dcde9232f4bf968ec289cd98241",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/PRINT-FIRST-A90-brace-print-orientation.png",
+          "mesh_preview_sha256": "6dc0826b4474200e5b039f38372befa6e4efcb7d97ff20c4dc8114a830691424",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "endbacker-print-orientation",
+          "mesh": "tutorial-v6/print-files/endbacker-print-orientation.stl",
+          "mesh_sha256": "8840e44c05ff1dc3c00e59a29af209debe9543d7683f0533f118964ac112a6c7",
+          "gcode": "tutorial-v6/review/fdm/endbacker-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "992ade29db429ec13e6ab0160902b00c609f78e26328e28e43a995d6132246ea",
+          "sliced_project": "tutorial-v6/review/fdm/endbacker-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "978b5061076f79d82fd562a0092cab4514837f752424f46d89ebdd5c5716b7af",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/endbacker-print-orientation.png",
+          "mesh_preview_sha256": "3fc0cb5654466c45426fbd558a78822e42a375f96faf1bfb0e40ff973c8dca43",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "clampshoe-print-orientation",
+          "mesh": "tutorial-v6/print-files/clampshoe-print-orientation.stl",
+          "mesh_sha256": "dce4da96399794ffcf7a41fe0e0ee7dfcb0150b436adacef5d4fe322622bc336",
+          "gcode": "tutorial-v6/review/fdm/clampshoe-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "84f29d4cbf01e88ad534722738b10c3dc0070e02f854e937ddb385ad69b43d11",
+          "sliced_project": "tutorial-v6/review/fdm/clampshoe-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "8945e8faf38ae2c5cc694b2c2f5129addc05917a6b2b5255a892f65c96abc9d2",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/clampshoe-print-orientation.png",
+          "mesh_preview_sha256": "cb0f0ea8707c621ca66e3bce7670bda5360a568ff89784a52a32e30a9c36b173",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "setupblock-print-orientation",
+          "mesh": "tutorial-v6/print-files/setupblock-print-orientation.stl",
+          "mesh_sha256": "db839256ef41f14ddcd7da669ffbeb282ccfa6226955c701a945f6ac3821d72e",
+          "gcode": "tutorial-v6/review/fdm/setupblock-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "e0e5d7bd73c94c2fe18c2ef7647b76eff4da48195ffc69caa1d71ef73a2b3e3f",
+          "sliced_project": "tutorial-v6/review/fdm/setupblock-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "ea09dc059e164b3386cae2e3d6621c9c4ca3bb3eef937d4a3a208c5c31b6e73a",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/setupblock-print-orientation.png",
+          "mesh_preview_sha256": "c71a7655e5ceb514ef34d8baa2c87fc8ef4158d08b9200640e8b49c370c48da2",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        },
+        {
+          "part": "PRINT-FIRST-seat-22.2-down",
+          "mesh": "tutorial-v6/print-files/PRINT-FIRST-seat-22.2-down.stl",
+          "mesh_sha256": "5a3e0d03e548effcabd2eb9b8af9c39510f084396cda1dda9d76e73851de13b2",
+          "gcode": "tutorial-v6/review/fdm/PRINT-FIRST-seat-22.2-down/toolpaths.gcode",
+          "gcode_sha256": "9036f66deeb190b78401b40205fdfa10b45062475654435c9ee5a2f8b3f975c7",
+          "sliced_project": "tutorial-v6/review/fdm/PRINT-FIRST-seat-22.2-down/sliced-review.3mf",
+          "sliced_project_sha256": "108fa2a5a568528216722fd8f02e50454b76b524babe47442b21e06f1d73b971",
+          "mesh_preview": "tutorial-v6/review/fdm/mesh-previews/PRINT-FIRST-seat-22.2-down.png",
+          "mesh_preview_sha256": "8957671123f0c49cffe9c736101c231ccaeede44f850540481102e9697782921",
+          "view": "Orthographic; actual bed-oriented STL; print Z upward; supports omitted"
+        }
+      ],
+      "kind": "Original diagrams from actual Bambu extrusion paths and oriented STL meshes",
+      "interpretation": "Orthographic renderings of the final print-oriented meshes, not screenshots. Quantities refer to the complete two-half assembly/test setup; fit sizes are alternatives."
+    },
+    {
+      "figure": "tutorial-v6/review/fdm/bed-edge-first-layers.png",
+      "figure_sha256": "014afca93d8e8d239673b83df136e19cbc346319feb5af71998d683ba9acc035",
+      "sources": [
+        {
+          "part": "A-housing-print-orientation",
+          "mesh": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+          "mesh_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+          "gcode": "tutorial-v6/review/fdm/A-housing-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "ac81ee4ae3224a1d32223d8d31b3aba8706f236d32a467e7e47c61b758fa458d",
+          "sliced_project": "tutorial-v6/review/fdm/A-housing-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "c233e566f780bedd3acf041bf72ce0e3d1a734f5bbb8b81312d26f256c8e1e6f",
+          "model_layers_z_mm": [
+            0.2,
+            0.4,
+            0.6
+          ],
+          "feature": "Outer wall",
+          "crop_center_xy_mm": [
+            162.5225,
+            55.305
+          ],
+          "crop_size_mm": [
+            6,
+            6
+          ],
+          "segments_in_crop": {
+            "0.6": 2,
+            "0.4": 2,
+            "0.2": 2
+          },
+          "elephant_foot_compensation_mm": 0.15
+        },
+        {
+          "part": "B-moving-body-print-orientation",
+          "mesh": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+          "mesh_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+          "gcode": "tutorial-v6/review/fdm/B-moving-body-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "67d66c752e7d73aeb81058fcb5dd0be2093bff42e4560a59fc828b42311be6cc",
+          "sliced_project": "tutorial-v6/review/fdm/B-moving-body-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "a17ff068d68bd262e33d2ad1faddfaefaf473d0f47d9176ad06de9d4c32b8cc5",
+          "model_layers_z_mm": [
+            0.2,
+            0.4,
+            0.6
+          ],
+          "feature": "Outer wall",
+          "crop_center_xy_mm": [
+            198.695,
+            91.47749999999999
+          ],
+          "crop_size_mm": [
+            6,
+            6
+          ],
+          "segments_in_crop": {
+            "0.6": 2,
+            "0.4": 2,
+            "0.2": 2
+          },
+          "elephant_foot_compensation_mm": 0.15
+        },
+        {
+          "part": "B-moving-body-print-orientation",
+          "mesh": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+          "mesh_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+          "gcode": "tutorial-v6/review/fdm/B-moving-body-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "67d66c752e7d73aeb81058fcb5dd0be2093bff42e4560a59fc828b42311be6cc",
+          "sliced_project": "tutorial-v6/review/fdm/B-moving-body-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "a17ff068d68bd262e33d2ad1faddfaefaf473d0f47d9176ad06de9d4c32b8cc5",
+          "model_layers_z_mm": [
+            0.2,
+            0.4,
+            0.6
+          ],
+          "feature": "Outer wall",
+          "crop_center_xy_mm": [
+            178.51042959807245,
+            144.51042959807245
+          ],
+          "crop_size_mm": [
+            13,
+            13
+          ],
+          "segments_in_crop": {
+            "0.6": 89,
+            "0.4": 63,
+            "0.2": 84
+          },
+          "elephant_foot_compensation_mm": 0.15
+        },
+        {
+          "part": "F-hub-adapter-print-orientation",
+          "mesh": "tutorial-v6/print-files/F-hub-adapter-print-orientation.stl",
+          "mesh_sha256": "be9128ebf00fa09f4bc76ca780972312c3206c5548e450ebc4867b456e4ab2bd",
+          "gcode": "tutorial-v6/review/fdm/F-hub-adapter-print-orientation/toolpaths.gcode",
+          "gcode_sha256": "05d0909605ebaad15aa3cb8dc36c606f5ff02e930b564d30df6fbbd3b61a60fc",
+          "sliced_project": "tutorial-v6/review/fdm/F-hub-adapter-print-orientation/sliced-review.3mf",
+          "sliced_project_sha256": "405537d4728ecc3181263619c8d822ec481c3818e4dc0ce52cb3c7c39a024fae",
+          "model_layers_z_mm": [
+            0.2,
+            0.4,
+            0.6
+          ],
+          "feature": "Outer wall",
+          "crop_center_xy_mm": [
+            139.31369849898476,
+            126.0
+          ],
+          "crop_size_mm": [
+            13,
+            13
+          ],
+          "segments_in_crop": {
+            "0.6": 178,
+            "0.4": 178,
+            "0.2": 205
+          },
+          "elephant_foot_compensation_mm": 0.15
+        }
+      ],
+      "kind": "Original diagrams from actual Bambu extrusion paths and oriented STL meshes",
+      "interpretation": "Outer-wall-only reconstruction of the first three final sliced layers. Mesh mid-layer sections separately verify closed single-region contours; no physical adhesion/fit result claimed."
+    }
+  ],
+  "public_export": {
+    "note": "Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.",
+    "source_sha256": "61157f0a4147fddd1452101e791904af18ea835c4990f6002ceae06bdb5deabb"
+  }
+}

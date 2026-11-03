@@ -1,0 +1,638 @@
+{
+  "status": "final 22-part native geometry; V4.1 finishing pass; selected Hybrid process",
+  "revision": "public V4.1 integrated 150 AF / 260 overall; targeted bed and fit-mouth relief",
+  "units": "millimeters",
+  "parts": [
+    {
+      "source": "print-files/A-housing-CAD-orientation.stl",
+      "output": "A-housing-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "frame",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 45,
+      "bed_face": "diagonal A mating face",
+      "expected_shells": 1,
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "print-files/B-moving-body-CAD-orientation.stl",
+      "output": "B-moving-body-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "frame",
+      "up": [
+        -1,
+        -1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 45,
+      "bed_face": "diagonal B mating face",
+      "expected_shells": 1,
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "print-files/C-front-cap-CAD-orientation.stl",
+      "output": "C-front-cap-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "front cap outer face",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "print-files/D-rear-holder-CAD-orientation.stl",
+      "output": "D-rear-holder-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "rear holder shoulder side",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "print-files/E-rear-cap-CAD-orientation.stl",
+      "output": "E-rear-cap-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "rear cap outer face",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "print-files/F-hub-adapter-CAD-orientation.stl",
+      "output": "F-hub-adapter-print-orientation.stl",
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "flat hub adapter back",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.0-down.stl",
+      "output": "PRINT-FIRST-seat-22.0-down.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.0-up.stl",
+      "output": "PRINT-FIRST-seat-22.0-up.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.1-down.stl",
+      "output": "PRINT-FIRST-seat-22.1-down.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.1-up.stl",
+      "output": "PRINT-FIRST-seat-22.1-up.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.2-down.stl",
+      "output": "PRINT-FIRST-seat-22.2-down.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.2-up.stl",
+      "output": "PRINT-FIRST-seat-22.2-up.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.3-down.stl",
+      "output": "PRINT-FIRST-seat-22.3-down.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.3-up.stl",
+      "output": "PRINT-FIRST-seat-22.3-up.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "output": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "output": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "output": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "native XY coupon base; already print-oriented",
+      "expected_shells": 1,
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/endbacker-print-orientation.stl",
+      "output": "endbacker-print-orientation.stl",
+      "quantity": 2,
+      "role": "fixture",
+      "group": "load_fixture",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "flat annular lip face down; pilot upward",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/setupblock-print-orientation.stl",
+      "output": "setupblock-print-orientation.stl",
+      "quantity": 1,
+      "role": "fixture",
+      "group": "load_fixture",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "broad triangular face down",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "review/fdm/native-ready-inputs/clampshoe-print-orientation.stl",
+      "output": "clampshoe-print-orientation.stl",
+      "quantity": 2,
+      "role": "fixture",
+      "group": "load_fixture",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "bed_yaw_degrees": 0,
+      "bed_face": "flat rectangular back down",
+      "expected_shells": 1,
+      "process_overrides": {}
+    },
+    {
+      "source": "print-files/PRINT-FIRST-A0-rim-CAD-orientation.stl",
+      "output": "PRINT-FIRST-A0-rim-print-orientation.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "brace_trial",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 45,
+      "bed_face": "exact native crop bottom at q=90.1 mm",
+      "expected_shells": 1,
+      "description": "Unscaled crop retaining local nodes; support height and cooling differ from the housing.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    },
+    {
+      "source": "print-files/PRINT-FIRST-A90-brace-CAD-orientation.stl",
+      "output": "PRINT-FIRST-A90-brace-print-orientation.stl",
+      "quantity": 1,
+      "role": "trial",
+      "group": "brace_trial",
+      "up": [
+        1,
+        1,
+        0
+      ],
+      "right": [
+        1,
+        -1,
+        0
+      ],
+      "bed_yaw_degrees": 45,
+      "bed_face": "exact native crop bottom at q=50.1 mm",
+      "expected_shells": 1,
+      "description": "Unscaled crop retaining local nodes; support height and cooling differ from the housing.",
+      "process_overrides": {
+        "enable_support": "1",
+        "support_type": "tree(auto)",
+        "support_threshold_angle": "45",
+        "support_on_build_plate_only": "1",
+        "support_top_z_distance": "0.2",
+        "support_bottom_z_distance": "0.2",
+        "support_interface_top_layers": "2",
+        "support_object_xy_distance": "0.35",
+        "brim_type": "outer_only",
+        "brim_width": "5",
+        "brim_object_gap": "0.1",
+        "support_style": "tree_hybrid"
+      }
+    }
+  ],
+  "pending": [
+    "Physical prints, support-removal checks, hardware fits and load tests remain unperformed."
+  ],
+  "edge_refinement": {
+    "equal_distance_mm": 0.3,
+    "changed_main_parts": [
+      "A",
+      "B",
+      "F"
+    ],
+    "changed_trials": "Three sleeve/nut trials",
+    "unchanged": "C/D/E, bearing fit trials, exact brace/rim trials and fixtures"
+  }
+}

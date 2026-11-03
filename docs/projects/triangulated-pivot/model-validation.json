@@ -1,0 +1,63 @@
+{
+  "document": "V4.1 Integrated Octagonal Truss Pivot",
+  "parts": [
+    {
+      "component": "A Housing",
+      "file": "A-housing-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 258847.1637731954,
+      "surface_area_mm2": 121022.69013079006
+    },
+    {
+      "component": "B Moving Body",
+      "file": "B-moving-body-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 266923.3562043692,
+      "surface_area_mm2": 122408.14945628626
+    },
+    {
+      "component": "C Front Bearing Cap",
+      "file": "C-front-cap-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 3582.4806250005176,
+      "surface_area_mm2": 3059.818064338553
+    },
+    {
+      "component": "D Rear Bearing Holder",
+      "file": "D-rear-holder-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 11552.967175337748,
+      "surface_area_mm2": 4765.025832502092
+    },
+    {
+      "component": "E Rear Bearing Cap",
+      "file": "E-rear-cap-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 3582.4806250005386,
+      "surface_area_mm2": 3059.8180643385526
+    },
+    {
+      "component": "F Metal Hub Adapter",
+      "file": "F-hub-adapter-CAD-orientation.stl",
+      "body_count": 1,
+      "volume_mm3": 27344.27113680056,
+      "surface_area_mm2": 11382.518880132566
+    }
+  ],
+  "unhealthy_features": [],
+  "unconstrained_sketches": [],
+  "suppressed_trial_features": [
+    "PRINT-FIRST-A0-rim Retain Full Bay",
+    "PRINT-FIRST-A0-rim Level Bed Intersect",
+    "PRINT-FIRST-A90-brace Retain Full Bay",
+    "PRINT-FIRST-A90-brace Level Bed Intersect",
+    "PRINT-FIRST-A90-brace Remove Incidental Cutoff"
+  ],
+  "timeline_count": 530,
+  "physical_tested": false,
+  "modified_print_components": [
+    "A Housing",
+    "B Moving Body",
+    "F Metal Hub Adapter"
+  ]
+}

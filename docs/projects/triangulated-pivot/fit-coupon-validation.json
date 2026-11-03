@@ -1,0 +1,102 @@
+{
+  "physical_fit_tested": false,
+  "parts": [
+    {
+      "file": "PRINT-FIRST-seat-22.0-down.stl",
+      "seat_mm": 22,
+      "mouth": "down",
+      "height_mm": 10.1,
+      "seat_depth_mm": 7.1
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.1-down.stl",
+      "seat_mm": 22.1,
+      "mouth": "down",
+      "height_mm": 10.1,
+      "seat_depth_mm": 7.1
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.2-down.stl",
+      "seat_mm": 22.2,
+      "mouth": "down",
+      "height_mm": 10.1,
+      "seat_depth_mm": 7.1
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.3-down.stl",
+      "seat_mm": 22.3,
+      "mouth": "down",
+      "height_mm": 10.1,
+      "seat_depth_mm": 7.1
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.0-up.stl",
+      "seat_mm": 22,
+      "mouth": "up",
+      "height_mm": 10.2,
+      "seat_depth_mm": 7.2
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.1-up.stl",
+      "seat_mm": 22.1,
+      "mouth": "up",
+      "height_mm": 10.2,
+      "seat_depth_mm": 7.2
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.2-up.stl",
+      "seat_mm": 22.2,
+      "mouth": "up",
+      "height_mm": 10.2,
+      "seat_depth_mm": 7.2
+    },
+    {
+      "file": "PRINT-FIRST-seat-22.3-up.stl",
+      "seat_mm": 22.3,
+      "mouth": "up",
+      "height_mm": 10.2,
+      "seat_depth_mm": 7.2
+    },
+    {
+      "file": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "sleeve_diameter_mm": 8.0,
+      "nut_af_mm": 7.0,
+      "height_mm": 6,
+      "nut_depth_mm": 4
+    },
+    {
+      "file": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "sleeve_diameter_mm": 8.1,
+      "nut_af_mm": 7.1,
+      "height_mm": 6,
+      "nut_depth_mm": 4
+    },
+    {
+      "file": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "sleeve_diameter_mm": 8.2,
+      "nut_af_mm": 7.2,
+      "height_mm": 6,
+      "nut_depth_mm": 4
+    }
+  ],
+  "unhealthy_features": [],
+  "unconstrained_sketches": [],
+  "version": "V4.1",
+  "entry_refinements": [
+    {
+      "file": "PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "entry_chamfer_mm": 0.3,
+      "body_count": 1
+    },
+    {
+      "file": "PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "entry_chamfer_mm": 0.3,
+      "body_count": 1
+    },
+    {
+      "file": "PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "entry_chamfer_mm": 0.3,
+      "body_count": 1
+    }
+  ]
+}

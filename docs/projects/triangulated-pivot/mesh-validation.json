@@ -1,0 +1,2213 @@
+{
+  "units": "millimeters",
+  "method": "Proper rigid rotation and bed translation; no geometry repair",
+  "manifest": "tutorial-v6/review/fdm/print-manifest.json",
+  "manifest_sha256": "c6061bc1812f992f491b98dbfe7e77e8934200bdf69383212a2339fe149a8229",
+  "physical_print_tested": false,
+  "files": {
+    "A-housing-print-orientation.stl": {
+      "triangles": 8760,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -114.83448028564453,
+        -114.83448028564453,
+        0.0
+      ],
+      "bounds_max_mm": [
+        114.83448028564453,
+        114.83448028564453,
+        144.24476623535156
+      ],
+      "size_mm": [
+        229.669,
+        229.669,
+        144.2448
+      ],
+      "solid_volume_mm3": 258861.394,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        258861.39351789356
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/A-housing-CAD-orientation.stl",
+      "source_sha256": "2708cef05d29353d609f0d15b07a11555eecf0bc0d33aa65df0025f3dce3ccd2",
+      "output": "tutorial-v6/print-files/A-housing-print-orientation.stl",
+      "output_sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003",
+      "source_geometry": {
+        "triangles": 8760,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -74.08076477050781,
+          -75.0,
+          -75.0
+        ],
+        "bounds_max_mm": [
+          130.0,
+          75.0,
+          75.0
+        ],
+        "size_mm": [
+          204.0808,
+          150.0,
+          150.0
+        ],
+        "solid_volume_mm3": 258861.367,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          258861.3666491216
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 258861.3666491216,
+      "output_volume_mm3": 258861.39351789356,
+      "volume_difference_mm3": 0.02686877196538262,
+      "volume_check_tolerance_mm3": 0.5177227332982431,
+      "rotation_matrix": [
+        [
+          0.5,
+          -0.5,
+          0.7071067811865474
+        ],
+        [
+          0.4999999999999999,
+          -0.4999999999999999,
+          -0.7071067811865475
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -18.508309598072472,
+        -18.508309598072458,
+        -0.49999514455528526
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "diagonal A mating face",
+      "bed_yaw_degrees": 45,
+      "quantity": 1,
+      "role": "main",
+      "group": "frame",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "B-moving-body-print-orientation.stl": {
+      "triangles": 11014,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -114.83448028564453,
+        -114.83448028564453,
+        0.0
+      ],
+      "bounds_max_mm": [
+        114.83448028564453,
+        114.83448028564453,
+        144.24476623535156
+      ],
+      "size_mm": [
+        229.669,
+        229.669,
+        144.2448
+      ],
+      "solid_volume_mm3": 266936.592,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        266936.5916853845
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/B-moving-body-CAD-orientation.stl",
+      "source_sha256": "59d6b6288a43b0ebd134449ea6bf5b48ec6e4a6c11a0e02358c9ba54b61f1629",
+      "output": "tutorial-v6/print-files/B-moving-body-print-orientation.stl",
+      "output_sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629",
+      "source_geometry": {
+        "triangles": 11014,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -130.0,
+          -75.0,
+          -75.0
+        ],
+        "bounds_max_mm": [
+          74.08076477050781,
+          75.0,
+          75.0
+        ],
+        "size_mm": [
+          204.0808,
+          150.0,
+          150.0
+        ],
+        "solid_volume_mm3": 266936.567,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          266936.5665235749
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 266936.5665235749,
+      "output_volume_mm3": 266936.5916853845,
+      "volume_difference_mm3": 0.025161809637211263,
+      "volume_check_tolerance_mm3": 0.5338731330471497,
+      "rotation_matrix": [
+        [
+          0.5,
+          -0.5,
+          -0.7071067811865474
+        ],
+        [
+          0.4999999999999999,
+          -0.4999999999999999,
+          0.7071067811865475
+        ],
+        [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        18.508309598072472,
+        18.508309598072458,
+        -0.49999514455528526
+      ],
+      "up_direction": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "diagonal B mating face",
+      "bed_yaw_degrees": 45,
+      "quantity": 1,
+      "role": "main",
+      "group": "frame",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "C-front-cap-print-orientation.stl": {
+      "triangles": 2218,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -22.0,
+        -22.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        22.0,
+        22.0,
+        3.0000011920928955
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        3.0
+      ],
+      "solid_volume_mm3": 3582.194,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3582.1936152076537
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/C-front-cap-CAD-orientation.stl",
+      "source_sha256": "486f1e3286502a609612a24a1e9cc0b3bbf1eac4e050d99321dc5f7b1792c3d1",
+      "output": "tutorial-v6/print-files/C-front-cap-print-orientation.stl",
+      "output_sha256": "b8977b48abf88e1f6697db2a18c3844654c1a214088dee376660cdb48536d79d",
+      "source_geometry": {
+        "triangles": 2218,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -17.111984252929688,
+          -17.111984252929688,
+          -22.0
+        ],
+        "bounds_max_mm": [
+          15.909902572631836,
+          15.909902572631836,
+          22.0
+        ],
+        "size_mm": [
+          33.0219,
+          33.0219,
+          44.0
+        ],
+        "solid_volume_mm3": 3582.194,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3582.19368287044
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3582.19368287044,
+      "output_volume_mm3": 3582.1936152076537,
+      "volume_difference_mm3": 6.766278647774016e-05,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.9999999999999998
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        2.5000006737107476
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "front cap outer face",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "D-rear-holder-print-orientation.stl": {
+      "triangles": 3480,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -21.999134063720703,
+        -21.998266220092773,
+        0.0
+      ],
+      "bounds_max_mm": [
+        21.999134063720703,
+        21.998266220092773,
+        10.20000171661377
+      ],
+      "size_mm": [
+        43.9983,
+        43.9965,
+        10.2
+      ],
+      "solid_volume_mm3": 11552.011,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        11552.011487005871
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/D-rear-holder-CAD-orientation.stl",
+      "source_sha256": "0dab8090154143faeb74a6660955cd38dc561bcf0d05fc7d0213e20bb1263312",
+      "output": "tutorial-v6/print-files/D-rear-holder-print-orientation.stl",
+      "output_sha256": "8d3554a258b43ef5d435c15c5c40a8b0fe0fcf49b1adab68d71e5d42ad6fa8c6",
+      "source_geometry": {
+        "triangles": 3480,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          0.6363961100578308,
+          0.6363961100578308,
+          -22.0
+        ],
+        "bounds_max_mm": [
+          38.74884033203125,
+          38.74884033203125,
+          21.99653434753418
+        ],
+        "size_mm": [
+          38.1124,
+          38.1124,
+          43.9965
+        ],
+        "solid_volume_mm3": 11552.012,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          11552.01184309141
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 11552.01184309141,
+      "output_volume_mm3": 11552.011487005871,
+      "volume_difference_mm3": 0.0003560855384421302,
+      "volume_check_tolerance_mm3": 0.02310402368618282,
+      "rotation_matrix": [
+        [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.9999999999999998
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0017328262329101562,
+        -22.599999292901423
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "rear holder shoulder side",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "E-rear-cap-print-orientation.stl": {
+      "triangles": 2218,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -22.0,
+        -22.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        22.0,
+        22.0,
+        3.00000262260437
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        3.0
+      ],
+      "solid_volume_mm3": 3582.194,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3582.1937240238567
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/E-rear-cap-CAD-orientation.stl",
+      "source_sha256": "09a19c7081dff54602452368f8aa820814f695c00aa81edc528c28b193b4de5c",
+      "output": "tutorial-v6/print-files/E-rear-cap-print-orientation.stl",
+      "output_sha256": "96713c6d50918c1d3e1953feb6a7e9c4bde07b6fb6a924f32d0e5318a003efef",
+      "source_geometry": {
+        "triangles": 2218,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          7.8488850593566895,
+          7.8488850593566895,
+          -22.0
+        ],
+        "bounds_max_mm": [
+          40.87077331542969,
+          40.87077331542969,
+          22.0
+        ],
+        "size_mm": [
+          33.0219,
+          33.0219,
+          44.0
+        ],
+        "solid_volume_mm3": 3582.194,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3582.193735985956
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3582.193735985956,
+      "output_volume_mm3": 3582.1937240238567,
+      "volume_difference_mm3": 1.1962099506490631e-05,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.9999999999999998
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -32.799998561997455
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "rear cap outer face",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "F-hub-adapter-print-orientation.stl": {
+      "triangles": 5078,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -38.0,
+        -38.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        38.0,
+        38.0,
+        8.000001907348633
+      ],
+      "size_mm": [
+        76.0,
+        76.0,
+        8.0
+      ],
+      "solid_volume_mm3": 27342.68,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        27342.680116058884
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/F-hub-adapter-CAD-orientation.stl",
+      "source_sha256": "b959bd87895d01411430395f32750c41bc6c745dffd7758d789ae8b4e9a1b244",
+      "output": "tutorial-v6/print-files/F-hub-adapter-print-orientation.stl",
+      "output_sha256": "be9128ebf00fa09f4bc76ca780972312c3206c5548e450ebc4867b456e4ab2bd",
+      "source_geometry": {
+        "triangles": 5078,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -47.16402053833008,
+          -47.16402053833008,
+          -38.0
+        ],
+        "bounds_max_mm": [
+          10.60660171508789,
+          10.60660171508789,
+          38.0
+        ],
+        "size_mm": [
+          57.7706,
+          57.7706,
+          76.0
+        ],
+        "solid_volume_mm3": 27342.68,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          27342.679727882412
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 27342.679727882412,
+      "output_volume_mm3": 27342.680116058884,
+      "volume_difference_mm3": 0.00038817647146061063,
+      "volume_check_tolerance_mm3": 0.054685359455764825,
+      "rotation_matrix": [
+        [
+          0.7071067811865475,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.9999999999999998
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        29.00000133707405
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "flat hub adapter back",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "main",
+      "group": "joint_core",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.0-down.stl": {
+      "triangles": 2656,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -14.998918533325195,
+        -14.999459266662598,
+        0.0
+      ],
+      "bounds_max_mm": [
+        14.998918533325195,
+        14.999459266662598,
+        10.100000381469727
+      ],
+      "size_mm": [
+        29.9978,
+        29.9989,
+        10.1
+      ],
+      "solid_volume_mm3": 3534.18,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3534.1804901169758
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.0-down.stl",
+      "source_sha256": "1027e3cc14f3376ec82f70c0ffeea4e7d685ace7651abecb4b47e36ec1153d5b",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.0-down.stl",
+      "output_sha256": "c1a655c8416ad6b8d2caf6f3329a6c902bb1c29b7dc96b6dc1f1d2d2388616c2",
+      "source_geometry": {
+        "triangles": 2656,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -14.999459266662598,
+          0.0
+        ],
+        "bounds_max_mm": [
+          14.99783706665039,
+          14.999459266662598,
+          10.100000381469727
+        ],
+        "size_mm": [
+          29.9978,
+          29.9989,
+          10.1
+        ],
+        "solid_volume_mm3": 3534.18,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3534.180490116976
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3534.180490116976,
+      "output_volume_mm3": 3534.1804901169758,
+      "volume_difference_mm3": 4.547473508864641e-13,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        0.0010814666748046875,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.0-up.stl": {
+      "triangles": 2652,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -15.0,
+        -15.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        15.0,
+        15.0,
+        10.199999809265137
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        10.2
+      ],
+      "solid_volume_mm3": 3566.835,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3566.834505646673
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.0-up.stl",
+      "source_sha256": "59fe88c2cb6a51494e77dafd33ab3cad1ddbe56944f0a31c93ee3559d39d0184",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.0-up.stl",
+      "output_sha256": "2e81322eefed37fab0bfae42f42cad20718bddd04cc6f2119dc59ac970e5cfdc",
+      "source_geometry": {
+        "triangles": 2652,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -15.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          15.0,
+          15.0,
+          10.199999809265137
+        ],
+        "size_mm": [
+          30.0,
+          30.0,
+          10.2
+        ],
+        "solid_volume_mm3": 3566.835,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3566.834505646673
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3566.834505646673,
+      "output_volume_mm3": 3566.834505646673,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.1-down.stl": {
+      "triangles": 2656,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -14.998918533325195,
+        -14.999459266662598,
+        0.0
+      ],
+      "bounds_max_mm": [
+        14.998918533325195,
+        14.999459266662598,
+        10.100000381469727
+      ],
+      "size_mm": [
+        29.9978,
+        29.9989,
+        10.1
+      ],
+      "solid_volume_mm3": 3509.57,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3509.570178516608
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.1-down.stl",
+      "source_sha256": "3ee0798d68e7352464105c0a5fde6e6a8bfd0b17a903521c02a444377c86669f",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.1-down.stl",
+      "output_sha256": "763d15e22699a6f146061a53cba4f8e71141d6930d4c8c6a9484699abaf52a44",
+      "source_geometry": {
+        "triangles": 2656,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -14.999459266662598,
+          0.0
+        ],
+        "bounds_max_mm": [
+          14.99783706665039,
+          14.999459266662598,
+          10.100000381469727
+        ],
+        "size_mm": [
+          29.9978,
+          29.9989,
+          10.1
+        ],
+        "solid_volume_mm3": 3509.57,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3509.570178516608
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3509.570178516608,
+      "output_volume_mm3": 3509.570178516608,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        0.0010814666748046875,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.1-up.stl": {
+      "triangles": 2652,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -15.0,
+        -15.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        15.0,
+        15.0,
+        10.199999809265137
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        10.2
+      ],
+      "solid_volume_mm3": 3541.878,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3541.8779251318697
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.1-up.stl",
+      "source_sha256": "6a4a24d6b619ceb245e14b0485b460f71c49e5a6ca57adb5e1a49bcc4d98da67",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.1-up.stl",
+      "output_sha256": "49218791f42b82df2ab0bcbf098fa52b3f5632771ad8e701058ba9ec11cf2e3e",
+      "source_geometry": {
+        "triangles": 2652,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -15.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          15.0,
+          15.0,
+          10.199999809265137
+        ],
+        "size_mm": [
+          30.0,
+          30.0,
+          10.2
+        ],
+        "solid_volume_mm3": 3541.878,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3541.8779251318697
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3541.8779251318697,
+      "output_volume_mm3": 3541.8779251318697,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.2-down.stl": {
+      "triangles": 2662,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -14.998918533325195,
+        -14.999459266662598,
+        0.0
+      ],
+      "bounds_max_mm": [
+        14.998918533325195,
+        14.999459266662598,
+        10.100000381469727
+      ],
+      "size_mm": [
+        29.9978,
+        29.9989,
+        10.1
+      ],
+      "solid_volume_mm3": 3484.839,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3484.839368248489
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.2-down.stl",
+      "source_sha256": "b6a5eadec9b715bafff098a3d85961d671cc47a7ac2e4a9c37ee911e98edb8e6",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.2-down.stl",
+      "output_sha256": "5a3e0d03e548effcabd2eb9b8af9c39510f084396cda1dda9d76e73851de13b2",
+      "source_geometry": {
+        "triangles": 2662,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -14.999459266662598,
+          0.0
+        ],
+        "bounds_max_mm": [
+          14.99783706665039,
+          14.999459266662598,
+          10.100000381469727
+        ],
+        "size_mm": [
+          29.9978,
+          29.9989,
+          10.1
+        ],
+        "solid_volume_mm3": 3484.839,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3484.8393682484884
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3484.8393682484884,
+      "output_volume_mm3": 3484.839368248489,
+      "volume_difference_mm3": 4.547473508864641e-13,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        0.0010814666748046875,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.2-up.stl": {
+      "triangles": 2658,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -15.0,
+        -15.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        15.0,
+        15.0,
+        10.199999809265137
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        10.2
+      ],
+      "solid_volume_mm3": 3516.799,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3516.799147659519
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.2-up.stl",
+      "source_sha256": "18a6a1b032b2e7787141d64c7277ee62899fa05a9b967e355c173522b27361be",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.2-up.stl",
+      "output_sha256": "db7232d7eaf67602fe51bb5552656c5eae1ea592f058c5c0dcc809053745095e",
+      "source_geometry": {
+        "triangles": 2658,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -15.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          15.0,
+          15.0,
+          10.199999809265137
+        ],
+        "size_mm": [
+          30.0,
+          30.0,
+          10.2
+        ],
+        "solid_volume_mm3": 3516.799,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3516.799147659519
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3516.799147659519,
+      "output_volume_mm3": 3516.799147659519,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.3-down.stl": {
+      "triangles": 2662,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -14.998918533325195,
+        -14.999459266662598,
+        0.0
+      ],
+      "bounds_max_mm": [
+        14.998918533325195,
+        14.999459266662598,
+        10.100000381469727
+      ],
+      "size_mm": [
+        29.9978,
+        29.9989,
+        10.1
+      ],
+      "solid_volume_mm3": 3460.006,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3460.0059741055215
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.3-down.stl",
+      "source_sha256": "eefabc4e5c743f8c8027fd359f3a714bb091b73f5543092f14500cb4360cffc6",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.3-down.stl",
+      "output_sha256": "7486f842f9c0189b958203c999210648444f28de202179ee7562cd843d3af484",
+      "source_geometry": {
+        "triangles": 2662,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -14.999459266662598,
+          0.0
+        ],
+        "bounds_max_mm": [
+          14.99783706665039,
+          14.999459266662598,
+          10.100000381469727
+        ],
+        "size_mm": [
+          29.9978,
+          29.9989,
+          10.1
+        ],
+        "solid_volume_mm3": 3460.006,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3460.0059741055215
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3460.0059741055215,
+      "output_volume_mm3": 3460.0059741055215,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        0.0010814666748046875,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-seat-22.3-up.stl": {
+      "triangles": 2658,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -15.0,
+        -15.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        15.0,
+        15.0,
+        10.199999809265137
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        10.2
+      ],
+      "solid_volume_mm3": 3491.616,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        3491.616342601022
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-seat-22.3-up.stl",
+      "source_sha256": "14e0cbd9daa11a66e736e2a05a12ba24285ce531b985e8406b34923901fd1792",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-seat-22.3-up.stl",
+      "output_sha256": "0c26e7a462045ee5b91eec92d7cde58b99442b3ec1b558c57b9e3e093a05c7ff",
+      "source_geometry": {
+        "triangles": 2658,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -15.0,
+          -15.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          15.0,
+          15.0,
+          10.199999809265137
+        ],
+        "size_mm": [
+          30.0,
+          30.0,
+          10.2
+        ],
+        "solid_volume_mm3": 3491.616,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          3491.616342601022
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 3491.616342601022,
+      "output_volume_mm3": 3491.616342601022,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-sleeve-8.0-nut-7.0.stl": {
+      "triangles": 892,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -20.0,
+        -11.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        20.0,
+        11.0,
+        6.0
+      ],
+      "size_mm": [
+        40.0,
+        22.0,
+        6.0
+      ],
+      "solid_volume_mm3": 4777.61,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        4777.609687513093
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "source_sha256": "c0d32f65a2dae774aa08ddd74d1426a0bdd3fc79b6d916ba2b0b6e4cb2be6e30",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-sleeve-8.0-nut-7.0.stl",
+      "output_sha256": "0b77aae25786cc5d2a757d10e894df63a3369f4c415a17ee8562d7b80d4829fe",
+      "source_geometry": {
+        "triangles": 892,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -20.0,
+          -11.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          20.0,
+          11.0,
+          6.0
+        ],
+        "size_mm": [
+          40.0,
+          22.0,
+          6.0
+        ],
+        "solid_volume_mm3": 4777.61,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          4777.609687513093
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 4777.609687513093,
+      "output_volume_mm3": 4777.609687513093,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-sleeve-8.1-nut-7.1.stl": {
+      "triangles": 898,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -20.0,
+        -11.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        20.0,
+        11.0,
+        6.0
+      ],
+      "size_mm": [
+        40.0,
+        22.0,
+        6.0
+      ],
+      "solid_volume_mm3": 4765.109,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        4765.109401196634
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "source_sha256": "6a23c0699a28c016042766301d1d2799e28da6f3b866d9a930b7fd5e424f262c",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-sleeve-8.1-nut-7.1.stl",
+      "output_sha256": "159af3d2c03d9450e69cbfcade0e9afec063486ac7bfa38708b18822321eaccb",
+      "source_geometry": {
+        "triangles": 898,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -20.0,
+          -11.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          20.0,
+          11.0,
+          6.0
+        ],
+        "size_mm": [
+          40.0,
+          22.0,
+          6.0
+        ],
+        "solid_volume_mm3": 4765.109,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          4765.109401196634
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 4765.109401196634,
+      "output_volume_mm3": 4765.109401196634,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-sleeve-8.2-nut-7.2.stl": {
+      "triangles": 900,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -20.0,
+        -11.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        20.0,
+        11.0,
+        6.0
+      ],
+      "size_mm": [
+        40.0,
+        22.0,
+        6.0
+      ],
+      "solid_volume_mm3": 4752.45,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        4752.450378914384
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "source_sha256": "9a107e5057645b87ed85559f0daa735534a35de9e834b7708024ce5f22e376ad",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-sleeve-8.2-nut-7.2.stl",
+      "output_sha256": "d4838b24e95ed14a60776a6a5bceca2be243793889ee9986db35023322521772",
+      "source_geometry": {
+        "triangles": 900,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -20.0,
+          -11.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          20.0,
+          11.0,
+          6.0
+        ],
+        "size_mm": [
+          40.0,
+          22.0,
+          6.0
+        ],
+        "solid_volume_mm3": 4752.45,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          4752.450378914384
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 4752.450378914384,
+      "output_volume_mm3": 4752.450378914384,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "native XY coupon base; already print-oriented",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "trial",
+      "group": "fit_trial",
+      "description": "Print selected fit sizes; quantity 1 here is per trial variant, not required for every assembly.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "endbacker-print-orientation.stl": {
+      "triangles": 1472,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -74.0,
+        -74.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        74.0,
+        74.0,
+        14.0
+      ],
+      "size_mm": [
+        148.0,
+        148.0,
+        14.0
+      ],
+      "solid_volume_mm3": 78995.22,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        78995.22014242267
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/endbacker-print-orientation.stl",
+      "source_sha256": "95f986c373c7f3b3eb9df2113b505a07651d2298e93f954ad6dc39a052d509ad",
+      "output": "tutorial-v6/print-files/endbacker-print-orientation.stl",
+      "output_sha256": "8840e44c05ff1dc3c00e59a29af209debe9543d7683f0533f118964ac112a6c7",
+      "source_geometry": {
+        "triangles": 1472,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -74.0,
+          -74.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          74.0,
+          74.0,
+          14.0
+        ],
+        "size_mm": [
+          148.0,
+          148.0,
+          14.0
+        ],
+        "solid_volume_mm3": 78995.22,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          78995.22014242267
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 78995.22014242267,
+      "output_volume_mm3": 78995.22014242267,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.15799044028484532,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "flat annular lip face down; pilot upward",
+      "bed_yaw_degrees": 0,
+      "quantity": 2,
+      "role": "fixture",
+      "group": "load_fixture",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "setupblock-print-orientation.stl": {
+      "triangles": 14,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -22.5,
+        -22.5,
+        0.0
+      ],
+      "bounds_max_mm": [
+        22.5,
+        22.5,
+        12.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        12.0
+      ],
+      "solid_volume_mm3": 12143.139,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        12143.138690352162
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/setupblock-print-orientation.stl",
+      "source_sha256": "9032e1762709aec6891337eace8a6a045667cb01c27ea46cdff4230d90ce0680",
+      "output": "tutorial-v6/print-files/setupblock-print-orientation.stl",
+      "output_sha256": "db839256ef41f14ddcd7da669ffbeb282ccfa6226955c701a945f6ac3821d72e",
+      "source_geometry": {
+        "triangles": 14,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          45.0,
+          45.0,
+          12.0
+        ],
+        "size_mm": [
+          45.0,
+          45.0,
+          12.0
+        ],
+        "solid_volume_mm3": 12143.139,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          12143.13868520122
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 12143.13868520122,
+      "output_volume_mm3": 12143.138690352162,
+      "volume_difference_mm3": 5.1509414333850145e-06,
+      "volume_check_tolerance_mm3": 0.02428627737040244,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -22.5,
+        -22.5,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "broad triangular face down",
+      "bed_yaw_degrees": 0,
+      "quantity": 1,
+      "role": "fixture",
+      "group": "load_fixture",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "clampshoe-print-orientation.stl": {
+      "triangles": 508,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -4.0,
+        -20.0,
+        0.0
+      ],
+      "bounds_max_mm": [
+        4.0,
+        20.0,
+        6.0
+      ],
+      "size_mm": [
+        8.0,
+        40.0,
+        6.0
+      ],
+      "solid_volume_mm3": 1906.376,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        1906.3761502708319
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/review/fdm/native-ready-inputs/clampshoe-print-orientation.stl",
+      "source_sha256": "f1f6844c4fa63e3a2676c0db60eb5f9ce42a2a28c9f87cf1d38b5d05697cd426",
+      "output": "tutorial-v6/print-files/clampshoe-print-orientation.stl",
+      "output_sha256": "dce4da96399794ffcf7a41fe0e0ee7dfcb0150b436adacef5d4fe322622bc336",
+      "source_geometry": {
+        "triangles": 508,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          -4.0,
+          -20.0,
+          0.0
+        ],
+        "bounds_max_mm": [
+          4.0,
+          20.0,
+          6.0
+        ],
+        "size_mm": [
+          8.0,
+          40.0,
+          6.0
+        ],
+        "solid_volume_mm3": 1906.376,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          1906.3761502708319
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 1906.3761502708319,
+      "output_volume_mm3": 1906.3761502708319,
+      "volume_difference_mm3": 0.0,
+      "volume_check_tolerance_mm3": 0.01,
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "up_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bed_face": "flat rectangular back down",
+      "bed_yaw_degrees": 0,
+      "quantity": 2,
+      "role": "fixture",
+      "group": "load_fixture",
+      "description": "",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-A0-rim-print-orientation.stl": {
+      "triangles": 648,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -44.49996566772461,
+        -44.49996566772461,
+        0.0
+      ],
+      "bounds_max_mm": [
+        44.49996566772461,
+        44.49996566772461,
+        54.64475631713867
+      ],
+      "size_mm": [
+        88.9999,
+        88.9999,
+        54.6448
+      ],
+      "solid_volume_mm3": 14762.875,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        14762.87539789427
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/PRINT-FIRST-A0-rim-CAD-orientation.stl",
+      "source_sha256": "a9976dbe2a2e156395a5a585ddcd5995097dc75dc6851d1bd808c497316effb6",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-A0-rim-print-orientation.stl",
+      "output_sha256": "476b57d3cbdfe4ac5eab8b90ce1e2e45dfe6c8b2777f45bcb51cb5a090c3e035",
+      "source_geometry": {
+        "triangles": 648,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          55.0,
+          66.5,
+          -35.0
+        ],
+        "bounds_max_mm": [
+          130.0,
+          75.0,
+          35.0
+        ],
+        "size_mm": [
+          75.0,
+          8.5,
+          70.0
+        ],
+        "solid_volume_mm3": 14762.875,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          14762.875489959728
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 14762.875489959728,
+      "output_volume_mm3": 14762.87539789427,
+      "volume_difference_mm3": 9.206545837514568e-05,
+      "volume_check_tolerance_mm3": 0.029525750979919455,
+      "rotation_matrix": [
+        [
+          0.5,
+          -0.5,
+          0.7071067811865474
+        ],
+        [
+          0.4999999999999999,
+          -0.4999999999999999,
+          -0.7071067811865475
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -11.998772750371575,
+        -11.998772750371568,
+        -90.09999792695388
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "exact native crop bottom at q=90.1 mm",
+      "bed_yaw_degrees": 45,
+      "quantity": 1,
+      "role": "trial",
+      "group": "brace_trial",
+      "description": "Unscaled crop retaining local nodes; support height and cooling differ from the housing.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    },
+    "PRINT-FIRST-A90-brace-print-orientation.stl": {
+      "triangles": 920,
+      "closed_manifold": true,
+      "consistent_winding": true,
+      "bounds_min_mm": [
+        -39.630027770996094,
+        -39.9850959777832,
+        0.0
+      ],
+      "bounds_max_mm": [
+        39.630027770996094,
+        39.9850959777832,
+        66.57262420654297
+      ],
+      "size_mm": [
+        79.2601,
+        79.9702,
+        66.5726
+      ],
+      "solid_volume_mm3": 11619.983,
+      "connected_shells": 1,
+      "shell_volumes_mm3": [
+        11619.982741068841
+      ],
+      "every_shell_positive_volume": true,
+      "degenerate_triangles": 0,
+      "reversed_stored_normals": 0,
+      "source": "tutorial-v6/print-files/PRINT-FIRST-A90-brace-CAD-orientation.stl",
+      "source_sha256": "2403cdda4187fdd5bbd74cc89a3cdbc0955d90f68529367a73740c1c2f3e7f36",
+      "output": "tutorial-v6/print-files/PRINT-FIRST-A90-brace-print-orientation.stl",
+      "output_sha256": "00c59808f9589c9d3ef359486be554df34fa08f8238b8dbd5be841a4cecd814a",
+      "source_geometry": {
+        "triangles": 920,
+        "closed_manifold": true,
+        "consistent_winding": true,
+        "bounds_min_mm": [
+          48.0,
+          -35.0,
+          66.5
+        ],
+        "bounds_max_mm": [
+          130.0,
+          35.0,
+          75.0
+        ],
+        "size_mm": [
+          82.0,
+          70.0,
+          8.5
+        ],
+        "solid_volume_mm3": 11619.983,
+        "connected_shells": 1,
+        "shell_volumes_mm3": [
+          11619.983346596744
+        ],
+        "every_shell_positive_volume": true,
+        "degenerate_triangles": 0,
+        "reversed_stored_normals": 0
+      },
+      "source_volume_mm3": 11619.983346596744,
+      "output_volume_mm3": 11619.982741068841,
+      "volume_difference_mm3": 0.000605527902735048,
+      "volume_check_tolerance_mm3": 0.023239966693193486,
+      "rotation_matrix": [
+        [
+          0.5,
+          -0.5,
+          0.7071067811865474
+        ],
+        [
+          0.4999999999999999,
+          -0.4999999999999999,
+          -0.7071067811865475
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ]
+      ],
+      "rotation_determinant": 1.0,
+      "translation_mm": [
+        -93.71276499940566,
+        4.507697364823159,
+        -50.09999793717515
+      ],
+      "up_direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0
+      ],
+      "bed_face": "exact native crop bottom at q=50.1 mm",
+      "bed_yaw_degrees": 45,
+      "quantity": 1,
+      "role": "trial",
+      "group": "brace_trial",
+      "description": "Unscaled crop retaining local nodes; support height and cooling differ from the housing.",
+      "fits_nominal_256mm_cube": true,
+      "fits_installed_profile_height_250mm": true
+    }
+  },
+  "public_export": {
+    "note": "Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.",
+    "source_sha256": "3b75cdc5ab465dfc212e14803dfcd325f67866ecededaceb3ae31cee3a8960ba"
+  }
+}

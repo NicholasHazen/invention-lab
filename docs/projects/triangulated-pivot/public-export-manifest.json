@@ -1,0 +1,572 @@
+{
+  "publication": "Invention Lab / Triangulated Pivot",
+  "revision": "V4.2 teaching / V4.1 geometry",
+  "public_derivative": true,
+  "provenance_note": "Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.",
+  "physical_print_tested": false,
+  "load_tested": false,
+  "geometry_bytes_unchanged": true,
+  "model_counts": {
+    ".f3d": 15,
+    ".step": 1,
+    ".stl": 22
+  },
+  "modified_public_files": [
+    "mesh-validation.json",
+    "review/fdm/figure-sources.json",
+    "review/fdm/slice-audit.json",
+    "review/fdm/release-summary.json",
+    "review/ready-to-learn/geometry-continuity.json",
+    "review/revision-4.2/geometry-continuity.json",
+    "index.html",
+    "print-and-guide-01.zip"
+  ],
+  "rebuilt_archives": {
+    "print-and-guide-01.zip": [
+      "mesh-validation.json"
+    ]
+  },
+  "hash_scope": "All public project files except this manifest itself.",
+  "files": {
+    "article.md": {
+      "bytes": 271322,
+      "sha256": "83d81c699ce2fd970137e90db288d6f6cd2dcafb996ded6d4f4fdb5c9f2f21c8"
+    },
+    "brace-trial-log.csv": {
+      "bytes": 244,
+      "sha256": "00a26b9c2480dd1502da4357430cb98d3c23aa0cdd986b52451362ab0a0366ab"
+    },
+    "brace-trial-validation.json": {
+      "bytes": 1092,
+      "sha256": "7eeccd01c0c567e96e246d0a4e8cc87d37dad50d6cb668016eb8c8916e26baf2"
+    },
+    "checkpoints/01-shared-layout-and-tubes.f3d": {
+      "bytes": 144517,
+      "sha256": "509aa0a4acd6f63c56c5491fb714fc074b051ea023eddacd385327f5c0861150"
+    },
+    "checkpoints/02-first-triangulated-facet.f3d": {
+      "bytes": 212874,
+      "sha256": "40d247e02821da6c5ff11f86b881d454adc1cea7390cd805cc3a0803ffeda365"
+    },
+    "checkpoints/04-A-triangulated-shell.f3d": {
+      "bytes": 687908,
+      "sha256": "ee73d02ceb8eba43174fede790aa0e0cc182c64285a7e4159f2c58098dc65ffe"
+    },
+    "checkpoints/06-two-triangulated-shells.f3d": {
+      "bytes": 1104183,
+      "sha256": "a0c45af25695fa3c8d8f352cc31bec7b3ea75b3979554a26d7692c4aff1810fb"
+    },
+    "checkpoints/08-both-integrated-bulkheads.f3d": {
+      "bytes": 1621231,
+      "sha256": "40e96106e74d6bed283116924094244b0ebbd0658bc3a9afcce9b70977342a02"
+    },
+    "checkpoints/09-housings-edge-relief.f3d": {
+      "bytes": 1824195,
+      "sha256": "8adf9162fae79e75d339265cc9a4e035e0e1f344f173a151f0b1d1a6a1d68696"
+    },
+    "checkpoints/10-six-printed-parts.f3d": {
+      "bytes": 1959842,
+      "sha256": "e73c4b01b218850927c0b856ba141df7950085b5ed85d92963f84706c17c9af0"
+    },
+    "checkpoints/11-hardware-and-shaft.f3d": {
+      "bytes": 2802360,
+      "sha256": "9eeca51150376a889dc1dbe90722b9a516741ab660ce7ad1661fdd6f103e26e2"
+    },
+    "checkpoints/12-complete-integrated-swivel.f3d": {
+      "bytes": 2920101,
+      "sha256": "7cc751538c9491adc3107f07ad33b01b66e1d4e1452deba61ba3c5e582918c82"
+    },
+    "checkpoints/13-assembly-access-complete.f3d": {
+      "bytes": 2904307,
+      "sha256": "47a5600a84396d6ffc9c2db1c02b8287b7ffed9dcf1ba4bfbfeebf51003574eb"
+    },
+    "checkpoints/14-bearing-and-fastener-fit-trials.f3d": {
+      "bytes": 428631,
+      "sha256": "4a59a3fe7ae3eaeb0f7625f8a3c26ad2d84865791663d355dee09dc7924f90bf"
+    },
+    "checkpoints/15-print-edge-refinements.f3d": {
+      "bytes": 3077488,
+      "sha256": "2a50c9736ffb727e2121a17956cb298e4960ebdb35aa41bc72859cb8d3407964"
+    },
+    "checkpoints/PRINT-FIRST-A0-rim.f3d": {
+      "bytes": 2670455,
+      "sha256": "c1d700aaf383af6f3ab0b95dd68d7c15b46f470e333b4949500264db106f0e22"
+    },
+    "checkpoints/PRINT-FIRST-A90-brace.f3d": {
+      "bytes": 2693295,
+      "sha256": "6a06b4d888c1305a9d0a352f3aeb084bc7a8c46fd79ad97aa489ffc97c82b217"
+    },
+    "checkpoints/integrated-octagonal-pivot.step": {
+      "bytes": 1579739,
+      "sha256": "ad23f1950b35833eff4dd83cafc7ee0e99379d25296830a55b9c14970235e019"
+    },
+    "checkpoints/load-test-fixtures.f3d": {
+      "bytes": 282848,
+      "sha256": "05277f6c20d1a7d69f9c1801940dae9f0243e0cca3258f0987c74d29d22f96f9"
+    },
+    "facet-coordinates.csv": {
+      "bytes": 169001,
+      "sha256": "bd1dfa0df99bc7b4929c75b5349710bd0ffb327302ac9e4c0b5b14d89d5b2837"
+    },
+    "fit-coupon-validation.json": {
+      "bytes": 2271,
+      "sha256": "620e8a3c7317b23a50da09796574185394e3875dd781b72805406618594fad8e"
+    },
+    "fit-log.csv": {
+      "bytes": 567,
+      "sha256": "4d9692ac561880547239ca846e7f9f1fa16e2fa0cf3e58c306da683282804530"
+    },
+    "images/01-constrained-octagon.png": {
+      "bytes": 20289,
+      "sha256": "a67290c6b3320a0c61d2443db3e182fceadc95b98d67e2b08513ee506041673d"
+    },
+    "images/02-master-blank.png": {
+      "bytes": 33328,
+      "sha256": "fe36a9a06acfa9e4068cab392f23a618cb22be43f2d2b87aee5373dcab9f88da"
+    },
+    "images/03-joint-plane.png": {
+      "bytes": 20293,
+      "sha256": "fd30970fc9be1a3bee16a4382a8326f8bd4421afed581650bec8a5a960d12de9"
+    },
+    "images/04-split-components.png": {
+      "bytes": 11580,
+      "sha256": "3967341807f50c0dec9dbbf5cc7b3d663bb60870b38a26a7303b82ce7007b13a"
+    },
+    "images/05-open-tubes.png": {
+      "bytes": 77866,
+      "sha256": "146ec7d143c126c067bb8043930c2c828d7d19e9db0a5fcfde733f63e6d14a5d"
+    },
+    "images/06b-triangle-offset-clean.png": {
+      "bytes": 47044,
+      "sha256": "983c0661f344f7d922bc4b210a77fc6f9b48bbccc397ecff66f7b8eb45e071ad"
+    },
+    "images/07-triangulated-shells.png": {
+      "bytes": 244190,
+      "sha256": "94e86903fb9e7049de72d79bb3c406711a25372d29b6869cf8a1c773a538e8ae"
+    },
+    "images/08-A-spoked-bulkhead.png": {
+      "bytes": 252101,
+      "sha256": "87365860d7c47154a0ace78865d749cdd64a6ea1146ee56d0574a181d8d280c5"
+    },
+    "images/08-B-spoked-bulkhead.png": {
+      "bytes": 214924,
+      "sha256": "cd6491023635ae271eb9ad4022f76101f677f0d02982b6ede2376bc769d3e4cc"
+    },
+    "images/08-rear-bearing-holder.png": {
+      "bytes": 62635,
+      "sha256": "b6a620f836d3527279db76b6a14ca6703bdcfd14a7b12e7936c5909ef2d62ccb"
+    },
+    "images/09-front-cap.png": {
+      "bytes": 37802,
+      "sha256": "bfe2475990f3b4a9835a5f3afe97584a31defddcd9b5b9aa7fbb854e0d771b95"
+    },
+    "images/10-rear-cap.png": {
+      "bytes": 37802,
+      "sha256": "bfe2475990f3b4a9835a5f3afe97584a31defddcd9b5b9aa7fbb854e0d771b95"
+    },
+    "images/11-finished-housings.png": {
+      "bytes": 272104,
+      "sha256": "3fbe42dbf210ad6c026ecf84ea004d9580fe98d9960de308de3b2776b32f99a6"
+    },
+    "images/12-hub-adapter.png": {
+      "bytes": 96561,
+      "sha256": "d5eeffd1614e0f9b56fdaacfd580235ec0fa4b4d9939cdbfe662b6101e35cc04"
+    },
+    "images/16-straight-assembly.png": {
+      "bytes": 275233,
+      "sha256": "c531e10e6eec7502c36703a272bf0c48b55f77df09063cfe21e1f2dbbec16662"
+    },
+    "images/17-elbow-assembly.png": {
+      "bytes": 266428,
+      "sha256": "06575f0f20d0935eab2bafbe44f1632877c080d98bf12894ae5be13a82d30523"
+    },
+    "images/18-bearing-section.png": {
+      "bytes": 238207,
+      "sha256": "513816c127a4ccdd8dcddaf00eda70dd3fdbc26b33052b0fe599ba96d016bebb"
+    },
+    "images/20-A-front-spoked-face.png": {
+      "bytes": 208465,
+      "sha256": "3315f8c13ccde79418dc7d25cbdeceabce83f8ca7438e70706fea887a8ad4700"
+    },
+    "images/20c-B-front-spoked-face.png": {
+      "bytes": 238972,
+      "sha256": "7a453d83320eb5f8f9b7bc1eea27d5dd4d3c7e8fd4852f6aa4231b7815b6df99"
+    },
+    "images/20d-B-driver-pads.png": {
+      "bytes": 196479,
+      "sha256": "954cc96e51484535eea016f6c6250b8c0b63a714d52f2f974e35b9c7c9d77c31"
+    },
+    "images/21-bearing-stack-closeup.png": {
+      "bytes": 212377,
+      "sha256": "e6805ade57c08242c20173523e69fbcb0b181e721385ddbe3afdd4160e96c301"
+    },
+    "images/22-bearing-core-isolated.png": {
+      "bytes": 138629,
+      "sha256": "d67d70a771c9abd00d04f58d950f078d29d7c580431978e78f8b15b3a6d6f90d"
+    },
+    "images/23-end-rim-closeup.png": {
+      "bytes": 160021,
+      "sha256": "f74173f1d9b79dcd5b3b1ea0d2b5cbdfc7bf244a8633c7f850987e2258ebbb97"
+    },
+    "images/24-A-spoke-bed-after.png": {
+      "bytes": 143086,
+      "sha256": "a097b8b8fbb4ac905fdca34cd3998a552ad74ade92d5cd4609902740ab33c12d"
+    },
+    "images/24-A-spoke-bed-before.png": {
+      "bytes": 133233,
+      "sha256": "a06c02908c15ad73459ca7672dd07003f9c4bcb2e163b6f7b98af958850a9204"
+    },
+    "images/25-B-nut-entry-after.png": {
+      "bytes": 116617,
+      "sha256": "1ae131bea23159407195602652c00ca2426e960504e45efefab71472ed7f5a49"
+    },
+    "images/25-B-nut-entry-before.png": {
+      "bytes": 100381,
+      "sha256": "4883348d36a35884768798220b8ab15688455c0685b48fd92695206bed3d1b85"
+    },
+    "images/26-F-sleeve-entry-after.png": {
+      "bytes": 94675,
+      "sha256": "9fa0a28a1ea51e9278c4bfae35239b21a69a6960af9d6769ca75ae39c5430d19"
+    },
+    "images/26-F-sleeve-entry-before.png": {
+      "bytes": 64860,
+      "sha256": "90e57c1f6af34b6af1c00eb5ce70cb6caedc20432792b33d0341ccde6e76dba6"
+    },
+    "images/A-facet-000.png": {
+      "bytes": 92879,
+      "sha256": "8442d9f81627c634e5445cc3648c0c62d7aa2eb11fc88afd7b8d57d24da26bd9"
+    },
+    "images/A-facet-045.png": {
+      "bytes": 114460,
+      "sha256": "065daaced2c20bdbd7acc6cfa4f0c95518ef7ba96a7d8bc23c9f34aeffc1e3d8"
+    },
+    "images/A-facet-090.png": {
+      "bytes": 129919,
+      "sha256": "9fd766fe19eb090f088e60d4d00afbe3cda266a0a17d39003c07eb2d5b12eae0"
+    },
+    "images/A-facet-135.png": {
+      "bytes": 139100,
+      "sha256": "d2fbfc710173fcc558a1213e9e4ea5f95ff76fd727d6ef175b91276a0774e56f"
+    },
+    "images/PRINT-FIRST-A0-rim.png": {
+      "bytes": 62042,
+      "sha256": "3598eb4aacce6e153de8a1375d46b242f0fc8aaeb081040bbd8a04eeb592de4b"
+    },
+    "images/PRINT-FIRST-A90-brace.png": {
+      "bytes": 55132,
+      "sha256": "4ef0e4f75a0381bb7c2a569548d779695cf86ae38e11962b6a9f2b5d5e1d48a1"
+    },
+    "images/assembly-01-front-bearing.png": {
+      "bytes": 163245,
+      "sha256": "4c43d3ddc12d9ccf0138735eab2c366d6eba3c3c1ddd85700b47b5731a953a93"
+    },
+    "images/assembly-02-shaft-retention.png": {
+      "bytes": 248852,
+      "sha256": "1f73801a7e3800fa6bd2cbe5b7c981a1ea53023f93b031f7e061996a9348528d"
+    },
+    "images/assembly-03-rear-holder-and-caps.png": {
+      "bytes": 221243,
+      "sha256": "3a4f30b99e9db20ba128d7b439878c03de7adb62298413f6b769eba441940f80"
+    },
+    "images/assembly-04-hub-and-preloaded-bolts.png": {
+      "bytes": 211701,
+      "sha256": "2c91145cdd5b8fab046ee16f1371685142c746e425aa26e7ff36636128a64a30"
+    },
+    "images/assembly-05-front-nut-pockets.png": {
+      "bytes": 255269,
+      "sha256": "7854d3c4e9417dca523337064ebd11267bd3d9e6aae3d36622ddd8166b56116f"
+    },
+    "images/assembly-06-hub-in-B.png": {
+      "bytes": 285398,
+      "sha256": "f5635ab58a149b9b2980140f3db2f1e2450de2eb6f0d067189fe3e2511e51ad6"
+    },
+    "images/assembly-07-mated-housings.png": {
+      "bytes": 274672,
+      "sha256": "fc2929827522dc89974a8194279d76f5430ee7beb93c808c519543bb07da3fbf"
+    },
+    "images/bed-edge-first-layers.png": {
+      "bytes": 116911,
+      "sha256": "014afca93d8e8d239673b83df136e19cbc346319feb5af71998d683ba9acc035"
+    },
+    "images/brace-roof-support-toolpaths.png": {
+      "bytes": 246939,
+      "sha256": "4c3f0e2512742396adc43315577338a6778c237f84b8495e34877eefb6d8e50f"
+    },
+    "images/edge-selection.png": {
+      "bytes": 71883,
+      "sha256": "4787cb483f091a18d08d17e45c754d243ff7a1e8eff3012f32ffc9fa66b20cd4"
+    },
+    "images/fit-coupon-array.png": {
+      "bytes": 127519,
+      "sha256": "ab5bfb462a202fe18b110e361410f0b7b88ab06b14d4be5ccfbb4c2e65bf883b"
+    },
+    "images/fit-trial-inventory.png": {
+      "bytes": 175574,
+      "sha256": "266f5261f4f8e71d4a010ba5805b2c7e37f0128d8b260fbf7368762c2b6c42f1"
+    },
+    "images/fixture-clamp-shoe.png": {
+      "bytes": 52210,
+      "sha256": "dfb2e86fe90c62c758f4b5f1bff30759b2eafdf58a0713c92f1f3c35f29033d8"
+    },
+    "images/fixture-end-backer.png": {
+      "bytes": 95670,
+      "sha256": "9a0790a0de722cd774dc339b38ada00e11ac5395c3a4d352f41611061922aef0"
+    },
+    "images/fixture-setup-block.png": {
+      "bytes": 23299,
+      "sha256": "f16bfadd4f2b39e58c24c8e46b63f3f856d9116a79096882f6c8283d26283b83"
+    },
+    "images/frame-load-cases.png": {
+      "bytes": 130977,
+      "sha256": "f45de8ed33eb5123ea2fa7a99a90d89766fbd98dc8d9f52086a8be436c410d99"
+    },
+    "images/frame-test-fixture-detail.png": {
+      "bytes": 133753,
+      "sha256": "f1ae2d39af740f3c699334bf877b1ba80c25552f849c7ba62a6add82bdf88c76"
+    },
+    "images/hardware-reading.png": {
+      "bytes": 108463,
+      "sha256": "cef0b4edd99c86c94b22a14c93cbdeb00a17f2b66e8662028152a13fc7d43c74"
+    },
+    "images/joint-axes.png": {
+      "bytes": 92946,
+      "sha256": "76ef7cf32df2420dac25014da8f1ed05947e31432f1e3e4a772cd8d8a22f913c"
+    },
+    "images/joint-stack-diagram.png": {
+      "bytes": 62787,
+      "sha256": "6e3e1157b02475b774ae82a810e894bbb9366d9922d0b67129a372ee2640949c"
+    },
+    "images/print-orientation-montage.png": {
+      "bytes": 514985,
+      "sha256": "068ccc69d5b11d92a78143405dae644bf57fe44735d63ed87969f39c11602fd9"
+    },
+    "images/support-bed-clearance.png": {
+      "bytes": 241091,
+      "sha256": "8b0b61fbadc8a6262998537d050aa03e07f7e07db9cf06aa9627e2ea1b52b342"
+    },
+    "images/support-cleanup-toolpaths.png": {
+      "bytes": 237954,
+      "sha256": "056c4604a3e69fd5b9c5fdfc7fe00c17d144db3c9debdc2062abb80fcc3abfee"
+    },
+    "images/tool-envelope-profile.png": {
+      "bytes": 27292,
+      "sha256": "13ece3cbd267a6cccb3f518c2adb97fa5aae12f419265274db8c2b6b02183989"
+    },
+    "images/tool-envelope-study.png": {
+      "bytes": 410852,
+      "sha256": "ec968bc097a4d18febd2b333fb1676cccdda67828317d39c65ffa2c88836f9a2"
+    },
+    "images/triangle-offset-explainer.png": {
+      "bytes": 103625,
+      "sha256": "8c7da85819e21e2be995687fd2e08e49c26869f60339d14797b80225b98decb2"
+    },
+    "index.html": {
+      "bytes": 404915,
+      "sha256": "431d15599157b6bf976e2eb23d7db722f80ca6e276002e79a3856d8139e321fd"
+    },
+    "load-baseline-log.csv": {
+      "bytes": 309,
+      "sha256": "cec366db8a74793a26668b5626cdda93037fc860102f1b45d36fbc362085c723"
+    },
+    "load-summary-log.csv": {
+      "bytes": 156,
+      "sha256": "1f5625296c5e42a407dc0e5bfaedfa35f537f3890dd04e9360d6ff281a2ee39d"
+    },
+    "load-test-log.csv": {
+      "bytes": 858,
+      "sha256": "7ac8518c66946b77f57f56fabdcc4300ba979d2166aa221fbab3eced4fbe1ffb"
+    },
+    "mesh-validation.json": {
+      "bytes": 58492,
+      "sha256": "273aa73371f0fe499b82ec04319738ef68b7bf0dc9766e4170185ecc4443a2d6"
+    },
+    "model-validation.json": {
+      "bytes": 1817,
+      "sha256": "33d779e75446fd08aaab3f0305b3a8dc30c4c355ffdce97b69863fd514672380"
+    },
+    "native-CAD-01.zip": {
+      "bytes": 7495733,
+      "sha256": "035c6164d43305812b2bb12d93fe75a67926b99f31c6436927bbb79461029032"
+    },
+    "native-CAD-02.zip": {
+      "bytes": 8957593,
+      "sha256": "fe265bd040339c2ec80457ad25c77c8304b19b94ed4d5509ab7b93eea5a13716"
+    },
+    "native-CAD-03.zip": {
+      "bytes": 8650965,
+      "sha256": "be248dc68d5ae9e103316cffd9c79665e2485a0d41e7c254ace59ab78344b5a9"
+    },
+    "parameter-edit-validation.json": {
+      "bytes": 1004,
+      "sha256": "f92d89bee1191578de8e79809a130a8cbac73797302913e700daadd6ecb28540"
+    },
+    "parameters.csv": {
+      "bytes": 4581,
+      "sha256": "84e22e8221afa7cae879759ebf619e18547e7c4778883b254c4b303f5b002f23"
+    },
+    "print-and-guide-01.zip": {
+      "bytes": 9657819,
+      "sha256": "4848b1c5b252664c77824cb5d94ab0f3fbd17381c74e325aac47094aeb48515d"
+    },
+    "print-files/A-housing-print-orientation.stl": {
+      "bytes": 438084,
+      "sha256": "ef765f2d9c9bef0e46f4c19dca7abae07f74811c7afb50daf27b332b4af2b003"
+    },
+    "print-files/B-moving-body-print-orientation.stl": {
+      "bytes": 550784,
+      "sha256": "118b020d350cb21c3c5bcc378243184b67340d71db2de3a1cfa7448e3e003629"
+    },
+    "print-files/C-front-cap-print-orientation.stl": {
+      "bytes": 110984,
+      "sha256": "b8977b48abf88e1f6697db2a18c3844654c1a214088dee376660cdb48536d79d"
+    },
+    "print-files/D-rear-holder-print-orientation.stl": {
+      "bytes": 174084,
+      "sha256": "8d3554a258b43ef5d435c15c5c40a8b0fe0fcf49b1adab68d71e5d42ad6fa8c6"
+    },
+    "print-files/E-rear-cap-print-orientation.stl": {
+      "bytes": 110984,
+      "sha256": "96713c6d50918c1d3e1953feb6a7e9c4bde07b6fb6a924f32d0e5318a003efef"
+    },
+    "print-files/F-hub-adapter-print-orientation.stl": {
+      "bytes": 253984,
+      "sha256": "be9128ebf00fa09f4bc76ca780972312c3206c5548e450ebc4867b456e4ab2bd"
+    },
+    "print-files/PRINT-FIRST-A0-rim-print-orientation.stl": {
+      "bytes": 32484,
+      "sha256": "476b57d3cbdfe4ac5eab8b90ce1e2e45dfe6c8b2777f45bcb51cb5a090c3e035"
+    },
+    "print-files/PRINT-FIRST-A90-brace-print-orientation.stl": {
+      "bytes": 46084,
+      "sha256": "00c59808f9589c9d3ef359486be554df34fa08f8238b8dbd5be841a4cecd814a"
+    },
+    "print-files/PRINT-FIRST-seat-22.0-down.stl": {
+      "bytes": 132884,
+      "sha256": "c1a655c8416ad6b8d2caf6f3329a6c902bb1c29b7dc96b6dc1f1d2d2388616c2"
+    },
+    "print-files/PRINT-FIRST-seat-22.0-up.stl": {
+      "bytes": 132684,
+      "sha256": "2e81322eefed37fab0bfae42f42cad20718bddd04cc6f2119dc59ac970e5cfdc"
+    },
+    "print-files/PRINT-FIRST-seat-22.1-down.stl": {
+      "bytes": 132884,
+      "sha256": "763d15e22699a6f146061a53cba4f8e71141d6930d4c8c6a9484699abaf52a44"
+    },
+    "print-files/PRINT-FIRST-seat-22.1-up.stl": {
+      "bytes": 132684,
+      "sha256": "49218791f42b82df2ab0bcbf098fa52b3f5632771ad8e701058ba9ec11cf2e3e"
+    },
+    "print-files/PRINT-FIRST-seat-22.2-down.stl": {
+      "bytes": 133184,
+      "sha256": "5a3e0d03e548effcabd2eb9b8af9c39510f084396cda1dda9d76e73851de13b2"
+    },
+    "print-files/PRINT-FIRST-seat-22.2-up.stl": {
+      "bytes": 132984,
+      "sha256": "db7232d7eaf67602fe51bb5552656c5eae1ea592f058c5c0dcc809053745095e"
+    },
+    "print-files/PRINT-FIRST-seat-22.3-down.stl": {
+      "bytes": 133184,
+      "sha256": "7486f842f9c0189b958203c999210648444f28de202179ee7562cd843d3af484"
+    },
+    "print-files/PRINT-FIRST-seat-22.3-up.stl": {
+      "bytes": 132984,
+      "sha256": "0c26e7a462045ee5b91eec92d7cde58b99442b3ec1b558c57b9e3e093a05c7ff"
+    },
+    "print-files/PRINT-FIRST-sleeve-8.0-nut-7.0.stl": {
+      "bytes": 44684,
+      "sha256": "0b77aae25786cc5d2a757d10e894df63a3369f4c415a17ee8562d7b80d4829fe"
+    },
+    "print-files/PRINT-FIRST-sleeve-8.1-nut-7.1.stl": {
+      "bytes": 44984,
+      "sha256": "159af3d2c03d9450e69cbfcade0e9afec063486ac7bfa38708b18822321eaccb"
+    },
+    "print-files/PRINT-FIRST-sleeve-8.2-nut-7.2.stl": {
+      "bytes": 45084,
+      "sha256": "d4838b24e95ed14a60776a6a5bceca2be243793889ee9986db35023322521772"
+    },
+    "print-files/clampshoe-print-orientation.stl": {
+      "bytes": 25484,
+      "sha256": "dce4da96399794ffcf7a41fe0e0ee7dfcb0150b436adacef5d4fe322622bc336"
+    },
+    "print-files/endbacker-print-orientation.stl": {
+      "bytes": 73684,
+      "sha256": "8840e44c05ff1dc3c00e59a29af209debe9543d7683f0533f118964ac112a6c7"
+    },
+    "print-files/setupblock-print-orientation.stl": {
+      "bytes": 784,
+      "sha256": "db839256ef41f14ddcd7da669ffbeb282ccfa6226955c701a945f6ac3821d72e"
+    },
+    "review/edge-refinement/mechanical-validation.json": {
+      "bytes": 13439,
+      "sha256": "7c642f9eead37c36b26b5ab1b61463e70ceedb3c20d4083282f7a903d23e1cf5"
+    },
+    "review/edge-refinement/native-refinement.json": {
+      "bytes": 926,
+      "sha256": "c66adfb1cc7914eadb2385a3817e350483398470266591cb37e1140dbfbf8f7a"
+    },
+    "review/fdm/A-housing-print-orientation/effective-process.json": {
+      "bytes": 7844,
+      "sha256": "a5677d327c8c1966b24bac53141e4b453aad08adba91712e14bbbd20b587922f"
+    },
+    "review/fdm/D-rear-holder-print-orientation/effective-process.json": {
+      "bytes": 7811,
+      "sha256": "b7bf039edc365ff01a4ebd2387526b6969c2e312acda05b18f636593186750e5"
+    },
+    "review/fdm/edge-first-layers.json": {
+      "bytes": 47248,
+      "sha256": "0b33975e6cd93575b5f30c2a90d807aca11944da9de76f5d8ca21566bc8ea545"
+    },
+    "review/fdm/figure-sources.json": {
+      "bytes": 40357,
+      "sha256": "7dc9624989b915e91553f8988164d9f72a977d0c161d04600730b83f01c1caa2"
+    },
+    "review/fdm/filament.json": {
+      "bytes": 7701,
+      "sha256": "c4fecf4dfdd9a0a2d80f75b97e7575f333f19b95dd8ec7b26d80864a11bd3498"
+    },
+    "review/fdm/machine.json": {
+      "bytes": 35554,
+      "sha256": "32f793cd1bc8f55151b1c018c7840f5a5a10a366d0783d86d594114aefe66cf0"
+    },
+    "review/fdm/print-estimates.csv": {
+      "bytes": 4792,
+      "sha256": "afe2ed465b66f00f195c28aad0c4db962038e555a3c709aacef97e77e17c4d77"
+    },
+    "review/fdm/print-manifest.json": {
+      "bytes": 17717,
+      "sha256": "c6061bc1812f992f491b98dbfe7e77e8934200bdf69383212a2339fe149a8229"
+    },
+    "review/fdm/release-summary.json": {
+      "bytes": 11391,
+      "sha256": "7340c09570ef68851f8db88acef6bc06dffc7a2498cc155ca88df0d259386eeb"
+    },
+    "review/fdm/slice-audit.json": {
+      "bytes": 273408,
+      "sha256": "f4879b7bbcb7908e2c367976bb30ca2e6badece4a38b3bdb9e7f59a0eaab07b3"
+    },
+    "review/mechanical/design-review.md": {
+      "bytes": 12195,
+      "sha256": "17ea2f95f59477cb01e2d8c246909e781a11c908b9988e7a4c40ede9cf5a7041"
+    },
+    "review/mechanical/native-mechanics-validation.json": {
+      "bytes": 38966,
+      "sha256": "b4f4b4e9b42601fcfa69a3589fee32e0fc68ea43b803373667636afd931cdfc0"
+    },
+    "review/polish-4.2/tool-exercise-validation.json": {
+      "bytes": 1072,
+      "sha256": "4505d5073b1492ca986b38f5a4a798e5a6703cbdf737f3a10f4dce6d24bd9f23"
+    },
+    "review/ready-to-learn/geometry-continuity.json": {
+      "bytes": 12163,
+      "sha256": "e1729a0b3ef226e0efab3e265228dc0eeb8b9891ad5d3540b2f778c2b6810772"
+    },
+    "review/revision-4.2/geometry-continuity.json": {
+      "bytes": 12475,
+      "sha256": "119da7b2efe3f98cfe40e934b68725a998ea4df6b77e203faf186ad80e7c2955"
+    },
+    "spoke-coordinates.csv": {
+      "bytes": 12793,
+      "sha256": "5350c51ff4cfa52473bfd59d1729623a8082342080c5249231ce62f00c63254e"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+test_id,case_id,cycle_id,planned_added_mass_g,actual_added_mass_g,target_hold_s,actual_hold_s,early_hold_elapsed_s,early_hold_reading_mm,reading_after_hold_mm,target_recovery_s,actual_recovery_s,unloaded_return_after_recovery_mm,observed_joint_pose_deg,added_force_N,added_moment_Nm,drift_during_hold_mm,witness_marks_shifted,rotation_or_binding_change,cracks_or_gap_change,notes,decision
+,C1,C1-50-1,50,,30,,,,,60,,,,,,,,,,,
+,C1,C1-50-2,50,,30,,,,,60,,,,,,,,,,,
+,C1,C1-50-3,50,,30,,,,,60,,,,,,,,,,,
+,C1,C1-100-1,100,,30,,,,,60,,,,,,,,,,,
+,C1,C1-200-1,200,,30,,,,,60,,,,,,,,,,,
+,C1,C1-250-1,250,,30,,,,,60,,,,,,,,,,,
+,C2,C2-50-1,50,,30,,,,,60,,,,,,,,,,,
+,C2,C2-50-2,50,,30,,,,,60,,,,,,,,,,,
+,C2,C2-50-3,50,,30,,,,,60,,,,,,,,,,,
+,C2,C2-100-1,100,,30,,,,,60,,,,,,,,,,,
+,C2,C2-200-1,200,,30,,,,,60,,,,,,,,,,,
+,C2,C2-250-1,250,,30,,,,,60,,,,,,,,,,,

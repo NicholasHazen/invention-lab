@@ -1,0 +1,3 @@
+test_id,case_id,force_case,joint_pose_deg,hanger_and_cord_mass_g,measured_arm_mm,unloaded_reading_1_mm,unloaded_reading_2_mm,unloaded_reading_3_mm,smallest_readable_change_mm,filament_and_profile,hardware_adjustments,fixture_contacts,room_conditions
+,C1,q horizontal,0,,,,,,,,,,
+,C2,q vertical,0,,,,,,,,,,

@@ -1,0 +1,45 @@
+{
+  "scope": "Exact unscaled crops from the final A housing. Full span, local nodes and adjacent facet returns retained. Cropped support height and cooling differ from the full housing.",
+  "parts": [
+    {
+      "file": "PRINT-FIRST-A0-rim-CAD-orientation.stl",
+      "source_component": "A Housing",
+      "crop_min_xyz_mm": [
+        55,
+        66.5,
+        -35
+      ],
+      "crop_max_xyz_mm": [
+        130,
+        75,
+        35
+      ],
+      "flat_bed_min_q_mm": 90.1,
+      "body_count": 1,
+      "volume_mm3": 14762.516429216485,
+      "incidental_cutoff_volumes_mm3": [],
+      "physical_tested": false
+    },
+    {
+      "file": "PRINT-FIRST-A90-brace-CAD-orientation.stl",
+      "source_component": "A Housing",
+      "crop_min_xyz_mm": [
+        48,
+        -35,
+        66.5
+      ],
+      "crop_max_xyz_mm": [
+        130,
+        35,
+        75
+      ],
+      "flat_bed_min_q_mm": 50.1,
+      "body_count": 1,
+      "volume_mm3": 11619.517231902837,
+      "incidental_cutoff_volumes_mm3": [
+        0.011830247760860222
+      ],
+      "physical_tested": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+name,expression,unit,value_mm_or_deg,comment
+bodyWidth,150 mm,mm,150.0,Regular octagon across flats; corner diameter is larger.
+bodyLength,260 mm,mm,260.0,Overall straight length of the shared master blank.
+splitAngle,45 deg,deg,45.0,Keep this lesson angle at45 degrees.
+faceGap,1 mm,mm,1.0,Gap between the two printed joint faces.
+wall,4.5 mm,mm,4.5,Integrated shell and side brace radial thickness.
+faceHalfWidth,bodyWidth * ( sqrt(2) - 1 ) / 2,mm,31.066017177982136,Half-width of each outer planar facet.
+memberWidth,8 mm,mm,8.0,Nominal brace and corner chord width in a facet.
+nodeHalfWidth,faceHalfWidth - memberWidth / 2,mm,27.06601717798214,Chord centerlines measured from facet center.
+jointNodeQ,7 mm,mm,7.000000000000001,First truss skeleton row from the center joint plane.
+endRim,10 mm,mm,10.0,Uncut axial rim at each distant end.
+endNodeX,bodyLength / 2 - endRim + memberWidth / 2,mm,124.0,Last skeleton row before aperture inset.
+apertureRadius,1.5 mm,mm,1.5000000000000002,Rounded internal corners at triangular openings.
+spokeWidth,10 mm,mm,10.0,Width of each deep bearing bulkhead spoke.
+spokeDepth,18 mm,mm,18.0,Bulkhead depth normal to the diagonal joint face.
+carrierOD,52 mm,mm,52.0,Outside of integrated A front bearing carrier.
+rearCarrierClearance,46 mm,mm,46.00000000000001,Internal carrier relief above front bearing shoulder.
+tubeCornerChamfer,0.5 mm,mm,0.5,Exposed outside octagon corner bevel.
+tubeRimChamfer,0.3 mm,mm,0.3,End rim and print-contact edge relief.
+cordStation,bodyLength / 2 - endRim / 2,mm,125.0,Load-test cord port center measured along body X.
+bearingOD,22 mm,mm,22.0,608 measured outside diameter.
+bearingID,8 mm,mm,8.0,608 bore.
+bearingWidth,7 mm,mm,7.000000000000001,608 width.
+seatAllowance,0.2 mm,mm,0.20000000000000004,Trial DIAMETRAL clearance; choose with printed coupon.
+seatDiameter,bearingOD + seatAllowance,mm,22.200000000000003,Measured fit controls this.
+coreOD,44 mm,mm,44.0,Bearing holder outer diameter.
+raceRelief,19.5 mm,mm,19.5,Outer-ring shoulder opening; verify seals.
+frontSeatDepth,7.1 mm,mm,7.1,0.1 mm outer-ring axial allowance.
+rearSeatDepth,7.2 mm,mm,7.200000000000001,0.2 mm outer-ring axial float.
+shoulder,3 mm,mm,3.0000000000000004,Backing behind each bearing seat.
+supportSpacer,12 mm,mm,12.000000000000002,Purchased metal M3 spacer length.
+supportCircle,34 mm,mm,34.0,Three M3 support bolts.
+supportSpacerOD,6 mm,mm,6.000000000000001,Purchased spacer outside diameter.
+capThickness,3 mm,mm,3.0000000000000004,Both printed outer-ring retaining caps.
+m3Clearance,3.3 mm,mm,3.3000000000000003,M3 through holes.
+m4Clearance,4.3 mm,mm,4.3,M4 through holes.
+qFront,faceGap / 2,mm,0.5,Front bearing starts at A mating face.
+qFrontBack,qFront + frontSeatDepth + shoulder,mm,10.600000000000001,End of integrated A holder.
+qRearBase,qFrontBack + supportSpacer,mm,22.6,Start of removable rear holder.
+qRearBearing,qRearBase + shoulder,mm,25.600000000000005,Rear bearing inner end.
+qRearEnd,qRearBearing + rearSeatDepth,mm,32.800000000000004,Rear holder outer end.
+bearingSpacing,qRearBearing - qFront,mm,25.10000000000001,"Derived support-center spacing, not a bearing rating."
+mountOD,76 mm,mm,76.0,B mount and F flange outside diameter.
+mountCircle,64 mm,mm,64.0,Four M4 attachment holes.
+mountOpening,50.3 mm,mm,50.300000000000004,B through opening.
+hubFace,-23 mm,mm,-23.000000000000004,Metal hub flat mounting face.
+adapterThickness,6 mm,mm,6.000000000000001,F flange and metal compression sleeve length.
+pilotDiameter,50 mm,mm,50.0,F shallow centering pilot.
+pilotInside,34 mm,mm,34.0,Clearance around metal hub.
+pilotHeight,2 mm,mm,2.0,Short pilot only.
+hubHoleSpacing,16 mm,mm,16.0,Metal Sonic hub square hole spacing.
+sleeveOD,8 mm,mm,8.0,M4 metal compression sleeves.
+sleeveAllowance,0.2 mm,mm,0.20000000000000004,Trial DIAMETRAL sleeve clearance.
+shaftClearance,8.5 mm,mm,8.5,F clearance hole; not a bearing.
+nutAF,7.2 mm,mm,7.200000000000001,M4 nominal 7 AF nut trial pocket.
+nutDepth,4 mm,mm,4.0,Open front M4 nut pocket.
+rootRadius,1 mm,mm,1.0,Hub-to-wall blend.
+entryChamfer,0.4 mm,mm,0.4000000000000001,Assembly lead-in.
+bedRelief,0.3 mm,mm,0.3,Bed-contact edge allowance.
+driverPort,5 mm,mm,5.0,Clearance for bare3 mm hex-key shafts; bulky bit holders do not fit.
+accessPadWidth,12 mm,mm,12.000000000000002,Reinforced access-port capsule width.
+accessPadExtra,2 mm,mm,2.0,Local inward reinforcement beyond nominal side wall.
+printEntryRelief,0.3 mm,mm,0.3,"Small nut, sleeve and free shaft-hole bed-mouth lead-in; not a bore size."
