@@ -1,0 +1,221 @@
+[
+  {
+    "id": "foundation-openstax-physics",
+    "title": "College Physics 2e",
+    "creator": "OpenStax, Rice University",
+    "url": "https://openstax.org/books/college-physics-2e/pages/preface",
+    "format": "book",
+    "topics": [
+      "physics",
+      "mechanics",
+      "electricity",
+      "heat"
+    ],
+    "level": "Beginner to intermediate",
+    "prerequisites": "Algebra and some trigonometry; no calculus.",
+    "access": "Free web and PDF; paid print editions.",
+    "why": "A broad reference when a project exposes a gap in forces, energy, waves or electricity.",
+    "first_task": "Work a units and force problem, then annotate the assumptions in your own bracket load sketch.",
+    "limitations": "A substantial textbook; select relevant sections rather than delaying all projects until you finish it.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://openstax.org/books/college-physics-2e/pages/preface",
+    "evidence_note": "Official preface confirms algebra-based scope, no calculus prerequisite, practice problems and free web/PDF access.",
+    "access_group": "mixed"
+  },
+  {
+    "id": "foundation-openstax-precalculus",
+    "title": "Precalculus 2e",
+    "creator": "OpenStax, Rice University",
+    "url": "https://openstax.org/books/precalculus-2e/pages/preface",
+    "format": "book",
+    "topics": [
+      "mathematics",
+      "trigonometry"
+    ],
+    "level": "Beginner to intermediate",
+    "prerequisites": "Comfort with fractions, signed numbers, and elementary algebra, including linear equations and powers; review these first if rusty.",
+    "access": "Free web and PDF; paid print editions.",
+    "why": "A structured bridge for functions, angles and trigonometry used in CAD and robotics.",
+    "first_task": "Use the angles and unit-circle section to calculate the endpoint of a 60 mm arm at two angles.",
+    "limitations": "Longer than a quick refresher; use your failed calculation to choose a section.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://openstax.org/books/precalculus-2e/pages/preface",
+    "evidence_note": "Official preface confirms functions and trigonometry coverage, worked examples and access formats.",
+    "access_group": "mixed"
+  },
+  {
+    "id": "foundation-vector-video",
+    "title": "Vectors, what even are they? / Essence of linear algebra",
+    "creator": "Grant Sanderson, 3Blue1Brown",
+    "url": "https://www.3blue1brown.com/lessons/vectors/",
+    "format": "video",
+    "topics": [
+      "mathematics",
+      "vectors",
+      "robotics"
+    ],
+    "level": "Beginner",
+    "prerequisites": "Coordinate plots and basic algebra.",
+    "access": "Free official lesson with video and text adaptation.",
+    "why": "Useful visual intuition for relating arrows to ordered components before coordinate transforms.",
+    "first_task": "Pause at a vector addition example and draw the result before continuing.",
+    "limitations": "Visual understanding needs worked exercises; this lesson does not teach robot mechanics or control.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://www.3blue1brown.com/lessons/vectors/",
+    "evidence_note": "Official lesson confirms author, vector interpretations, coordinates and operations; linked series continues linear algebra.",
+    "access_group": "free"
+  },
+  {
+    "id": "foundation-mit-calculus",
+    "title": "Single Variable Calculus, 18.01SC (Fall 2010)",
+    "creator": "MIT OpenCourseWare, David Jerison and course team",
+    "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+    "format": "course",
+    "topics": [
+      "mathematics",
+      "calculus",
+      "physics"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Algebra, functions and trigonometry.",
+    "access": "Free archived course materials, videos and solutions; no enrolled instruction or certificate included.",
+    "why": "A complete independent-study route when rates, accumulation and optimization become recurring project needs.",
+    "first_task": "Complete the first differentiation worked examples and solve a problem before viewing its solution.",
+    "limitations": "Archived course; old Java applets may not run in modern browsers. Core readings, videos and exercises remain the intended route.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+    "evidence_note": "Official page lists lectures, recitations, worked examples, problem sets, exams and solutions, and explicitly describes independent-study design.",
+    "access_group": "free"
+  },
+  {
+    "id": "foundation-nist-uncertainty",
+    "title": "Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results, TN 1297",
+    "creator": "Barry N. Taylor and Chris E. Kuyatt, NIST",
+    "url": "https://www.nist.gov/pml/nist-technical-note-1297",
+    "format": "documentation",
+    "topics": [
+      "measurement",
+      "uncertainty"
+    ],
+    "level": "Intermediate to advanced",
+    "prerequisites": "Means, standard deviation, units and a clearly defined measurement.",
+    "access": "Free official web text and PDF.",
+    "why": "A precise next step after simple repeatability experiments, especially for separating uncertainty contributions.",
+    "first_task": "List Type A and Type B evaluation inputs for one measurement without relabeling them random and systematic.",
+    "limitations": "Formal metrology guidance, not a beginner caliper tutorial; a defensible budget requires a suitable measurement model.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://www.nist.gov/pml/nist-technical-note-1297",
+    "evidence_note": "Official index confirms 1994 edition, authors and sections on Type A/B, combination, expanded uncertainty and reporting.",
+    "access_group": "free"
+  },
+  {
+    "id": "foundation-nist-experiments",
+    "title": "NIST/SEMATECH e-Handbook: Choosing an experimental design",
+    "creator": "NIST/SEMATECH",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm",
+    "format": "documentation",
+    "topics": [
+      "experimentation",
+      "statistics",
+      "measurement"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Basic statistics and a measurable response.",
+    "access": "Free official web handbook.",
+    "why": "Helps move beyond ad hoc comparisons when several process factors and interactions matter.",
+    "first_task": "Define two factors and two levels for a harmless placement experiment, then identify what could confound the comparison.",
+    "limitations": "Requires study of assumptions; a factorial table alone does not validate a process or establish safety.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm",
+    "evidence_note": "Official section lists objectives, variables, randomized and block designs, full/fractional factorial designs and confounding.",
+    "access_group": "free"
+  },
+  {
+    "id": "design-stanford-bootleg",
+    "title": "Design Thinking Bootleg (2018)",
+    "creator": "Stanford d.school",
+    "url": "https://dschool.stanford.edu/tools/design-thinking-bootleg",
+    "format": "project",
+    "topics": [
+      "product design",
+      "prototyping",
+      "project planning"
+    ],
+    "level": "Beginner",
+    "prerequisites": "A real task to observe and a willingness to revise assumptions.",
+    "access": "Free downloadable method cards; separate from university enrollment.",
+    "why": "A practical source of observation and prototyping methods when you are unsure what question to ask next.",
+    "first_task": "Choose one observation method and turn a witnessed difficulty into a testable need.",
+    "limitations": "Methods support inquiry; they do not supply engineering calculations or prove a product will succeed.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://dschool.stanford.edu/tools/design-thinking-bootleg",
+    "evidence_note": "Official page confirms downloadable cards, five modes, 2018 credits and the method-based format.",
+    "access_group": "free"
+  },
+  {
+    "id": "design-everyday-things",
+    "title": "The Design of Everyday Things, Revised and Expanded Edition",
+    "creator": "Don Norman; Basic Books",
+    "url": "https://www.hachettebookgroup.com/titles/don-norman/the-design-of-everyday-things/9780465050659/",
+    "format": "book",
+    "topics": [
+      "product design",
+      "usability"
+    ],
+    "level": "Beginner",
+    "prerequisites": "No engineering prerequisite; observe ordinary products while reading.",
+    "access": "Paid print, ebook and audio formats; library availability varies.",
+    "why": "Builds a vocabulary for visible controls, feedback and understandable interaction.",
+    "first_task": "Analyze one confusing adjustment or fastening action, then sketch a change and test it without coaching.",
+    "limitations": "Human-centered design foundation; it does not replace mechanical, electrical or manufacturing validation.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://www.hachettebookgroup.com/titles/don-norman/the-design-of-everyday-things/9780465050659/",
+    "evidence_note": "Publisher confirms revised edition, author, formats and human-centered design scope. No current stock or price claim.",
+    "access_group": "paid"
+  },
+  {
+    "id": "design-mit-product",
+    "title": "Product Design and Development, 15.783J (Spring 2006)",
+    "creator": "MIT OpenCourseWare; Kressy, Eppinger, Roemer and Seering",
+    "url": "https://ocw.mit.edu/courses/15-783j-product-design-and-development-spring-2006/",
+    "format": "course",
+    "topics": [
+      "product design",
+      "manufacturing",
+      "project planning"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "A small project; willingness to combine user needs, concepts and manufacturing constraints.",
+    "access": "Free archived notes and assignments; assigned commercial books/cases may require separate access.",
+    "why": "A deeper framework for coordinating design decisions across a complete project.",
+    "first_task": "Use the customer-needs and concept work to compare three genuinely different bracket concepts.",
+    "limitations": "Graduate course archive, not a complete video course or current live class; feedback and team experience must be arranged separately.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://ocw.mit.edu/courses/15-783j-product-design-and-development-spring-2006/",
+    "evidence_note": "Official course and syllabus confirm graduate 2006 offering, notes, assignments, examples and integration of design/manufacturing/marketing.",
+    "access_group": "mixed"
+  },
+  {
+    "id": "practice-fab-academy",
+    "title": "Fab Academy program and public project archives",
+    "creator": "Fab Academy",
+    "url": "https://fabacademy.org/about/",
+    "format": "course",
+    "topics": [
+      "digital fabrication",
+      "electronics",
+      "project planning",
+      "makerspaces"
+    ],
+    "level": "Intermediate; beginner route requires substantial time",
+    "prerequisites": "Access to suitable supervised fabrication resources for enrolled hands-on work.",
+    "access": "Public archives and linked class videos; enrolled program and lab participation have tuition and local access requirements.",
+    "why": "Useful as an integrated project-learning model and a source of documented iteration examples.",
+    "first_task": "Read one complete student project record and identify its interface tests, failed attempts and revision evidence.",
+    "limitations": "Reading public material is not enrollment, assessment or permission to operate a machine; schedules and local fees vary.",
+    "verified_on": "2026-11-04",
+    "evidence_url": "https://fabacademy.org/about/",
+    "evidence_note": "Official page confirms multidisciplinary hands-on program, local nodes, documentation, archive/video links and tuition navigation.",
+    "access_group": "mixed"
+  }
+]

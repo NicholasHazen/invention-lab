@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-labelledby="title desc">
+  <title id="title">The three-node voltage divider</title>
+  <desc id="desc">A 3 volt source connects between SUPPLY and GND. R1, 10 kilohms, connects SUPPLY to MID. R2, 10 kilohms, connects MID to GND. A high-resistance voltmeter with its positive lead on MID and negative lead on GND reads approximately 1.5 volts.</desc>
+  <rect width="980" height="500" rx="20" fill="#f7f6f0"/>
+  <g font-family="Arial, sans-serif" fill="#173947">
+    <text x="36" y="47" font-size="27" font-weight="700">Name the nodes before wiring the board</text>
+    <g fill="none" stroke="#173947" stroke-width="4" stroke-linejoin="round">
+      <path d="M150 192 V100 H385 V145 M385 205 V290 M385 350 V410 H150 V282"/>
+      <rect x="361" y="145" width="48" height="60" fill="#fff"/>
+      <rect x="361" y="290" width="48" height="60" fill="#fff"/>
+      <circle cx="150" cy="237" r="45" fill="#fff"/>
+      <path d="M385 410 V431 M360 431 H410 M368 441 H402 M377 451 H393"/>
+      <path d="M385 245 H545 V200 H710 V215" stroke="#b54b3e"/>
+      <path d="M710 305 V410 H385" stroke="#64727a"/>
+      <circle cx="710" cy="260" r="45" fill="#fff"/>
+    </g>
+    <g fill="#173947"><circle cx="385" cy="100" r="6"/><circle cx="385" cy="245" r="6"/><circle cx="385" cy="410" r="6"/></g>
+    <g font-size="23">
+      <text x="141" y="228">+</text><text x="142" y="259">−</text>
+      <text x="88" y="235" text-anchor="end" font-size="18">3.0 V</text><text x="88" y="260" text-anchor="end" font-size="18">source</text>
+      <text x="425" y="108" font-weight="700">SUPPLY · 3.0 V</text>
+      <text x="425" y="181">R1 · 10 kΩ</text>
+      <text x="425" y="280" font-weight="700">MID · 1.5 V</text>
+      <text x="425" y="328">R2 · 10 kΩ</text>
+      <text x="425" y="446" font-weight="700">GND · 0 V reference</text>
+      <text x="701" y="268" font-weight="700">V</text>
+      <text x="727" y="205" fill="#b54b3e">+</text><text x="728" y="325" fill="#64727a">−</text>
+      <text x="780" y="248" font-weight="700">≈ 1.5 V</text>
+      <text x="780" y="279" font-size="19">voltmeter</text>
+      <text x="625" y="115" font-size="18">Voltage compares two nodes.</text>
+    </g>
+  </g>
+</svg>

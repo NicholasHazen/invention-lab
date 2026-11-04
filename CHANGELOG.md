@@ -1,5 +1,14 @@
 # Publication updates
 
+## Maker handbook 1.0 — foundations and independent projects
+
+- Added 20 substantive chapters connecting theory, worked examples, reproducible labs, diagnostics and independent challenges.
+- Added four prerequisite-aware learning paths and a researched library of courses, books, videos and official references, with access and limitations recorded.
+- Added original diagrams, runnable desktop labs, project worksheets and interactive tools for moment, tolerance ranges and RC response.
+- Added a multipage handbook, print edition and offline bundle; expanded the shared project hub while preserving the pivot tutorial, 3D viewer and model downloads.
+- Desktop checks establish the behavior of the supplied models and examples. Proposed physical experiments and the existing pivot remain without new physical validation.
+
+
 ## Triangulated pivot 4.2.3 — interactive assembly viewer
 
 - Added a 3D viewer in Step 1 with orbit, zoom, part visibility, isolation and a core-only view.

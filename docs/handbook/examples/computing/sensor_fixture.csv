@@ -1,0 +1,9 @@
+time_s,raw_count,status
+0.00,100,ok
+0.10,300,ok
+0.20,500,ok
+0.20,700,ok
+0.30,2048,ok
+0.40,900,timeout
+0.50,900,ok
+nan,600,ok

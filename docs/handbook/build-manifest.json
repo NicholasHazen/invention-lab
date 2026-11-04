@@ -1,0 +1,409 @@
+{
+  "revision": "1.0",
+  "checked_on": "2026-11-04",
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "start",
+      "source": "01-start.md",
+      "headings": [
+        "begin-with-the-job-then-define-the-boundary",
+        "requirements-describe-observations",
+        "three-representations-of-the-same-idea",
+        "choose-the-next-experiment-by-information-gained",
+        "a-notebook-that-supports-decisions",
+        "bench-lab-make-a-reversible-positioning-fixture",
+        "use-a-makerspace-as-a-learning-system",
+        "leave-with-one-decision-not-a-shopping-spree"
+      ],
+      "references": [
+        "design-stanford-bootleg"
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "math-physics",
+      "source": "02-math-physics.md",
+      "headings": [
+        "units-are-part-of-the-calculation",
+        "one-model-with-its-assumptions-visible",
+        "solve-for-the-quantity-you-need",
+        "directions-become-components",
+        "change-accumulation-and-conservation",
+        "scale-changes-more-than-appearance",
+        "paper-lab-predict-a-position-before-measuring-it",
+        "check-your-understanding"
+      ],
+      "references": [
+        "foundation-openstax-physics",
+        "foundation-openstax-precalculus",
+        "foundation-mit-calculus",
+        "foundation-vector-video"
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "measurement",
+      "source": "03-measurement.md",
+      "headings": [
+        "define-the-question-before-choosing-the-instrument",
+        "repetition-exposes-variation-not-every-error",
+        "a-useful-uncertainty-budget-starts-with-causes",
+        "design-a-comparison-that-can-answer-its-question",
+        "one-variable-at-a-time-has-limits",
+        "debug-by-separating-possible-causes",
+        "bench-lab-separate-placement-from-reading",
+        "check-your-understanding"
+      ],
+      "references": [
+        "foundation-nist-uncertainty",
+        "foundation-nist-experiments"
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "product-design",
+      "source": "04-product-design.md",
+      "headings": [
+        "observe-a-task-before-asking-for-a-feature",
+        "requirements-describe-outcomes-and-constraints",
+        "generate-concepts-that-differ-in-principle",
+        "a-weighted-comparison-is-a-conversation-with-your-assumptions",
+        "prototype-the-question-not-the-entire-product",
+        "make-action-and-feedback-legible",
+        "consider-the-whole-life-of-a-part",
+        "lab-test-an-installation-without-coaching",
+        "check-your-understanding"
+      ],
+      "references": [
+        "design-stanford-bootleg",
+        "design-mit-product",
+        "design-everyday-things"
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "cad",
+      "source": "05-cad.md",
+      "headings": [
+        "begin-with-interfaces-then-choose-the-shape",
+        "constraints-remove-unintended-freedom",
+        "build-a-short-readable-feature-history",
+        "nominal-geometry-tolerance-and-resolution",
+        "lab-make-one-model-survive-three-changes",
+        "deliver-a-model-someone-can-use",
+        "check-your-reasoning",
+        "your-next-independent-part"
+      ],
+      "references": [
+        "fab-fusion-sketch-constraints",
+        "fab-fusion-design-intent"
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "materials",
+      "source": "06-materials.md",
+      "headings": [
+        "translate-the-job-into-property-questions",
+        "the-process-is-part-of-the-material",
+        "compare-realistic-manufacturing-routes",
+        "worked-example-geometry-changes-the-material-comparison",
+        "read-a-datasheet-as-an-experiment-report",
+        "lab-separate-shape-effects-from-time-effects",
+        "check-your-reasoning",
+        "choose-a-route-for-your-own-mount"
+      ],
+      "references": [
+        "fab-mit-manufacturing-2008",
+        "fab-mit-material-behavior",
+        "fab-prusa-filament-guide",
+        "making-things-move",
+        "fab-ashby-material-selection"
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "3d-printing",
+      "source": "07-3d-printing.md",
+      "headings": [
+        "think-in-deposited-roads",
+        "choose-orientation-by-several-consequences",
+        "chamfers-and-fillets-have-specific-jobs",
+        "worked-example-a-clearance-ladder",
+        "lab-make-the-coupon-and-read-the-slice",
+        "inspect-the-physical-result-without-erasing-the-evidence",
+        "apply-the-lesson-to-larger-structures",
+        "check-your-reasoning-and-extend-the-experiment"
+      ],
+      "references": [
+        "fab-bambu-studio",
+        "fab-prusa-layers-perimeters",
+        "fab-prusa-print-design"
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "cam-shop",
+      "source": "08-cam-shop.md",
+      "headings": [
+        "a-manufacturing-plan-has-several-coordinate-systems",
+        "tool-access-changes-the-design",
+        "workholding-is-a-force-problem",
+        "worked-example-feed-speed-and-units",
+        "from-setup-to-toolpath-to-machine-code",
+        "lab-plan-a-plate-without-running-a-machine",
+        "choose-the-simplest-adequate-process",
+        "check-your-reasoning-and-propose-a-real-setup"
+      ],
+      "references": [
+        "fab-mit-manufacturing-2008",
+        "fab-autodesk-haas-cam",
+        "fab-sandvik-milling-formulas"
+      ]
+    },
+    {
+      "number": 9,
+      "slug": "mechanics",
+      "source": "09-mechanics.md",
+      "headings": [
+        "draw-the-object-you-are-analyzing",
+        "two-bearings-resist-a-moment-through-a-force-pair",
+        "stress-and-stiffness-answer-different-questions",
+        "why-triangles-help-and-where-they-stop-helping",
+        "repeated-loads-and-safety-factors",
+        "lab-triangulate-a-frame-and-observe-the-whole-system",
+        "check-your-reasoning-and-plan-a-load-test"
+      ],
+      "references": [
+        "fab-mit-mechanics-materials",
+        "fab-drdan-statics-video",
+        "fab-engineering-statics"
+      ]
+    },
+    {
+      "number": 10,
+      "slug": "mechanisms",
+      "source": "10-mechanisms.md",
+      "headings": [
+        "begin-at-the-output",
+        "a-transmission-trades-distance-and-speed-for-force",
+        "three-errors-that-feel-similar",
+        "what-the-motor-can-actually-deliver",
+        "the-driver-belongs-in-the-specification",
+        "lab-measure-the-lever-before-selecting-its-actuator",
+        "check-your-model"
+      ],
+      "references": [
+        "adafruit-stepper-motors",
+        "pololu-motor-supply-selection",
+        "making-things-move"
+      ]
+    },
+    {
+      "number": 11,
+      "slug": "circuits",
+      "source": "11-circuits.md",
+      "headings": [
+        "voltage-belongs-between-two-points",
+        "one-component-law-and-two-accounting-laws",
+        "power-explains-why-some-mistakes-become-hot",
+        "why-the-divider-cannot-power-the-logger",
+        "put-the-meter-in-the-right-circuit",
+        "lab-one-circuit-two-useful-failures",
+        "prediction-checks-and-a-first-independent-circuit"
+      ],
+      "references": [
+        "mit-6002-circuits",
+        "circuitjs-simulator",
+        "practical-electronics-inventors"
+      ]
+    },
+    {
+      "number": 12,
+      "slug": "signals-power",
+      "source": "12-signals-power.md",
+      "headings": [
+        "follow-the-quantity-through-the-chain",
+        "more-digits-do-not-guarantee-more-knowledge",
+        "a-capacitor-gives-the-circuit-a-memory",
+        "sampling-can-create-a-convincing-false-signal",
+        "the-power-system-is-part-of-the-measurement",
+        "lab-make-a-wrong-signal-look-plausible",
+        "transfer-the-model-to-a-real-measurement"
+      ],
+      "references": [
+        "adi-decoupling-mt101",
+        "ti-adc-precision-labs"
+      ]
+    },
+    {
+      "number": 13,
+      "slug": "embedded",
+      "source": "13-embedded.md",
+      "headings": [
+        "what-a-microcontroller-contains",
+        "one-press-can-contain-many-electrical-transitions",
+        "a-loop-should-keep-several-promises",
+        "states-make-recovery-a-design-decision",
+        "interrupts-and-watchdogs-solve-specific-problems",
+        "interfaces-have-both-electrical-and-message-rules",
+        "lab-prove-the-behavior-before-attaching-a-button",
+        "build-the-next-behavior-yourself"
+      ],
+      "references": [
+        "making-embedded-systems",
+        "micropython-rp2-reference",
+        "raspberry-pi-pico-documentation"
+      ]
+    },
+    {
+      "number": 14,
+      "slug": "pcb-chips",
+      "source": "14-pcb-chips.md",
+      "headings": [
+        "four-descriptions-of-one-component",
+        "a-pcb-still-has-a-complete-circuit",
+        "checks-answer-different-questions",
+        "lab-move-the-known-divider-onto-a-board",
+        "a-fabrication-package-needs-its-own-review",
+        "what-is-happening-inside-the-black-package",
+        "logic-gates-turn-electrical-behavior-into-rules",
+        "choose-a-next-layer-deliberately"
+      ],
+      "references": [
+        "nexperia-mosfet-datasheets",
+        "kicad-getting-started",
+        "nand-to-tetris",
+        "tiny-tapeout-learning"
+      ]
+    },
+    {
+      "number": 15,
+      "slug": "software-data",
+      "source": "15-software-data.md",
+      "headings": [
+        "a-program-is-a-sequence-of-changes-to-state",
+        "python-on-the-laptop-c-near-the-pins",
+        "work-one-calibration-all-the-way-through",
+        "run-the-logger-without-building-hardware",
+        "debug-by-narrowing-the-explanation",
+        "preserve-decisions-with-small-commits",
+        "check-your-reasoning-then-extend-the-instrument"
+      ],
+      "references": [
+        "automate-boring-stuff",
+        "cs50-python",
+        "pro-git",
+        "missing-semester",
+        "python-official-tutorial"
+      ]
+    },
+    {
+      "number": 16,
+      "slug": "controls",
+      "source": "16-controls.md",
+      "headings": [
+        "draw-the-loop-before-choosing-gains",
+        "a-simple-plant-makes-the-arithmetic-visible",
+        "integral-action-remembers-persistent-error",
+        "run-four-experiments-with-the-same-plant",
+        "why-more-gain-can-make-the-response-worse",
+        "a-sensible-bridge-from-simulation-to-a-rig",
+        "predict-explain-extend"
+      ],
+      "references": [
+        "mathworks-pid-videos"
+      ]
+    },
+    {
+      "number": 17,
+      "slug": "robotics",
+      "source": "17-robotics.md",
+      "headings": [
+        "give-every-position-a-frame-and-a-time",
+        "kinematics-describes-motion-geometry",
+        "inverse-kinematics-has-choices-and-boundaries",
+        "run-the-model-then-check-it-with-paper",
+        "sensors-and-actuators-report-different-kinds-of-truth",
+        "integration-is-a-sequence-of-contracts",
+        "add-ros-2-when-multiple-components-need-coordination",
+        "check-the-interpretation"
+      ],
+      "references": [
+        "modern-robotics-videos",
+        "ros2-jazzy-tutorials"
+      ]
+    },
+    {
+      "number": 18,
+      "slug": "ai-vision",
+      "source": "18-ai-vision.md",
+      "headings": [
+        "start-with-an-observable-decision",
+        "separate-learning-from-the-final-examination",
+        "accuracy-can-hide-the-failure-you-care-about",
+        "run-an-experiment-that-fails-for-an-understandable-reason",
+        "from-pixel-decisions-to-geometric-measurements",
+        "a-useful-model-must-also-fit-the-device",
+        "use-language-models-as-reviewable-assistants",
+        "check-the-claim-before-extending-it"
+      ],
+      "references": [
+        "isl-python",
+        "cs50-ai",
+        "fastai-practical-deep-learning"
+      ]
+    },
+    {
+      "number": 19,
+      "slug": "connected",
+      "source": "19-connected.md",
+      "headings": [
+        "serial-describes-an-arrangement-not-one-universal-connector",
+        "work-out-whether-the-bytes-can-fit",
+        "separate-the-transport-from-the-meaning",
+        "http-and-mqtt-organize-communication-differently",
+        "replay-failure-cases-without-a-network",
+        "security-is-part-of-the-device-s-behavior",
+        "keep-the-experiment-useful-when-disconnected",
+        "check-then-design-the-next-connection"
+      ],
+      "references": [
+        "mosquitto-docs",
+        "nxp-i2c-specification",
+        "mqtt5-specification"
+      ]
+    },
+    {
+      "number": 20,
+      "slug": "independent-projects",
+      "source": "20-independent-projects.md",
+      "headings": [
+        "choose-a-project-with-an-observable-finish",
+        "define-interfaces-before-detailed-implementation",
+        "capstone-a-a-measured-sensor-bracket",
+        "capstone-b-a-low-voltage-sensor-logger",
+        "capstone-c-a-tabletop-positioning-system",
+        "budget-time-for-evidence-and-rework",
+        "hand-over-a-reproducible-project",
+        "final-lab-a-short-design-review"
+      ],
+      "references": [
+        "practice-fab-academy"
+      ]
+    }
+  ],
+  "research_files": [
+    "computing.json",
+    "electronics.json",
+    "fabrication.json",
+    "foundations.json"
+  ],
+  "resource_count": 56,
+  "generated_pages": 24,
+  "notes": [
+    "tools/ and downloads/ are maintained separately and are preserved.",
+    "No physical manufacturing validation is implied by this site build."
+  ]
+}

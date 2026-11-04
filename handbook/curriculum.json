@@ -1,0 +1,329 @@
+{
+  "title": "The Invention Lab Handbook",
+  "subtitle": "Foundations you can reason with. Projects you can start.",
+  "revision": "1.0",
+  "checked_on": "2026-11-04",
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "start",
+      "source": "01-start.md",
+      "title": "Work like an inventor",
+      "band": "Foundations",
+      "summary": "Turn an idea into a question, a prototype and a defensible next decision.",
+      "prerequisites": []
+    },
+    {
+      "number": 2,
+      "slug": "math-physics",
+      "source": "02-math-physics.md",
+      "title": "Math and physics at the workbench",
+      "band": "Foundations",
+      "summary": "Use units, proportions, vectors, energy and simple models to predict behavior.",
+      "prerequisites": [
+        1
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "measurement",
+      "source": "03-measurement.md",
+      "title": "Measure, experiment and debug",
+      "band": "Foundations",
+      "summary": "Separate repeatability, bias and real change; design a test that answers one question.",
+      "prerequisites": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "product-design",
+      "source": "04-product-design.md",
+      "title": "Design for people and purpose",
+      "band": "Foundations",
+      "summary": "Translate observations into requirements, compare concepts and test useful prototypes.",
+      "prerequisites": [
+        1,
+        3
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "cad",
+      "source": "05-cad.md",
+      "title": "CAD that survives the next change",
+      "band": "Make things",
+      "summary": "Build design intent with constraints, datums, components and dimensioned interfaces.",
+      "prerequisites": [
+        2,
+        4
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "materials",
+      "source": "06-materials.md",
+      "title": "Materials and manufacturing choices",
+      "band": "Make things",
+      "summary": "Match stiffness, environment, process and repair needs to a material and manufacturing route.",
+      "prerequisites": [
+        2,
+        3
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "3d-printing",
+      "source": "07-3d-printing.md",
+      "title": "3D printing as a manufacturing process",
+      "band": "Make things",
+      "summary": "Reason from toolpaths, orientation and fit experiments to a usable printed part.",
+      "prerequisites": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "cam-shop",
+      "source": "08-cam-shop.md",
+      "title": "CAM and the shared machine shop",
+      "band": "Make things",
+      "summary": "Understand stock, workholding, coordinate systems and toolpaths before machine operation.",
+      "prerequisites": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "number": 9,
+      "slug": "mechanics",
+      "source": "09-mechanics.md",
+      "title": "Forces, structures and failure",
+      "band": "Make things",
+      "summary": "Trace loads, distinguish strength from stiffness and challenge a simple structural model.",
+      "prerequisites": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "number": 10,
+      "slug": "mechanisms",
+      "source": "10-mechanisms.md",
+      "title": "Mechanisms, motors and motion",
+      "band": "Make things",
+      "summary": "Choose the motion first, then reason about speed, torque, transmission and support.",
+      "prerequisites": [
+        2,
+        9
+      ]
+    },
+    {
+      "number": 11,
+      "slug": "circuits",
+      "source": "11-circuits.md",
+      "title": "Circuits you can explain",
+      "band": "Electronics",
+      "summary": "Build a mental model of voltage, current, resistance, power and circuit measurements.",
+      "prerequisites": [
+        2,
+        3
+      ]
+    },
+    {
+      "number": 12,
+      "slug": "signals-power",
+      "source": "12-signals-power.md",
+      "title": "Sensors, signals and power",
+      "band": "Electronics",
+      "summary": "Connect real sensors to real supplies while accounting for loading, sampling and noise.",
+      "prerequisites": [
+        11
+      ]
+    },
+    {
+      "number": 13,
+      "slug": "embedded",
+      "source": "13-embedded.md",
+      "title": "Microcontrollers and embedded behavior",
+      "band": "Electronics",
+      "summary": "Make small devices respond predictably with timing, state machines and explicit failure states.",
+      "prerequisites": [
+        11,
+        12,
+        15
+      ]
+    },
+    {
+      "number": 14,
+      "slug": "pcb-chips",
+      "source": "14-pcb-chips.md",
+      "title": "From circuits to PCBs and chips",
+      "band": "Electronics",
+      "summary": "Connect semiconductor and digital-logic concepts to schematic, layout and fabrication decisions.",
+      "prerequisites": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "number": 15,
+      "slug": "software-data",
+      "source": "15-software-data.md",
+      "title": "Software, data and reproducible work",
+      "band": "Intelligent systems",
+      "summary": "Use code, logs, version control and tests to make engineering experiments repeatable.",
+      "prerequisites": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "number": 16,
+      "slug": "controls",
+      "source": "16-controls.md",
+      "title": "Feedback and control",
+      "band": "Intelligent systems",
+      "summary": "Understand what a controller observes, changes and cannot fix; test it in simulation first.",
+      "prerequisites": [
+        2,
+        10,
+        12,
+        15
+      ]
+    },
+    {
+      "number": 17,
+      "slug": "robotics",
+      "source": "17-robotics.md",
+      "title": "Robotics as a system",
+      "band": "Intelligent systems",
+      "summary": "Bring coordinates, mechanics, sensing, actuation and software into one testable machine.",
+      "prerequisites": [
+        10,
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "number": 18,
+      "slug": "ai-vision",
+      "source": "18-ai-vision.md",
+      "title": "AI and computer vision for makers",
+      "band": "Intelligent systems",
+      "summary": "Compare a learned model with a simpler baseline, evaluate failures and bound its authority.",
+      "prerequisites": [
+        3,
+        15
+      ]
+    },
+    {
+      "number": 19,
+      "slug": "connected",
+      "source": "19-connected.md",
+      "title": "Connected devices that remain understandable",
+      "band": "Intelligent systems",
+      "summary": "Choose interfaces, define messages and keep a useful local system when networks fail.",
+      "prerequisites": [
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "number": 20,
+      "slug": "independent-projects",
+      "source": "20-independent-projects.md",
+      "title": "From guided build to independent project",
+      "band": "Practice",
+      "summary": "Plan an integrated build, manage interfaces and evidence, then hand it to someone else.",
+      "prerequisites": [
+        1,
+        3,
+        4
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "id": "foundation",
+      "title": "Build your foundation",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        15,
+        20
+      ],
+      "result": "A project brief, a measurement notebook and a small reproducible experiment."
+    },
+    {
+      "id": "mechanical",
+      "title": "Design and fabricate a useful object",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        8,
+        20
+      ],
+      "result": "A measured bracket or mechanism, with a drawing, fit evidence and revision record."
+    },
+    {
+      "id": "electronics",
+      "title": "Make a sensing device",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        15,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20
+      ],
+      "result": "A low-voltage sensor/logger with a schematic, state machine and readable data."
+    },
+    {
+      "id": "robotics",
+      "title": "Build a small intelligent system",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        15,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "result": "A simulated positioning or sensing system, with a plan for an optional bounded bench prototype."
+    }
+  ]
+}

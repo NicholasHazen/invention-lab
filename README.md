@@ -1,8 +1,16 @@
 # Invention Lab
 
-Build guides for mechanical prototypes, 3D printing, and experiments.
+A maker handbook and build guides for understanding, fabricating, measuring, and improving useful systems.
 
 **[Visit Invention Lab](https://nicholashazen.github.io/invention-lab/)**
+
+## Handbook
+
+**[The Invention Lab Handbook](https://nicholashazen.github.io/invention-lab/handbook/)** includes 20 chapters on math/physics, measurement, product design, CAD/CAM, materials, 3D printing, mechanics, electronics, embedded systems, PCBs/microelectronics, software, controls, robotics, AI and connected devices. Worked examples lead into low-energy bench or desktop labs, diagnostics, prediction checks and independent projects.
+
+Use the [learning paths](https://nicholashazen.github.io/invention-lab/handbook/paths/) to choose a sequence and the [annotated library](https://nicholashazen.github.io/invention-lab/handbook/library/) to find primary-source courses, books and videos. Recommendations record prerequisites, access, starting tasks, limitations and the date checked. The handbook includes original figures, interactive workbench tools, downloadable code and worksheets, a print edition and an offline archive.
+
+Authoring sources live in `handbook/`; `scripts/build_handbook.mjs` generates the static pages. See `handbook/README.md` for reproduction and validation. Physical labs are proposed experiments unless explicitly identified as observed; desktop model results are not physical validation.
 
 ## Projects
 

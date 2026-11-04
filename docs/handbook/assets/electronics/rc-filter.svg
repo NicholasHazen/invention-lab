@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="450" viewBox="0 0 1100 450" role="img" aria-labelledby="title desc">
+  <title id="title">RC low-pass filter and predicted step response</title>
+  <desc id="desc">A 10 kilohm resistor connects input to output; a 1 microfarad capacitor connects output to ground. For a 3.3 volt input step, the ideal output rises to 2.086 volts after 10 milliseconds and 3.278 volts after 50 milliseconds. The output approaches its final voltage gradually.</desc>
+  <rect width="1100" height="450" rx="20" fill="#f7f6f0"/>
+  <g font-family="Arial, sans-serif" fill="#173947">
+    <text x="32" y="44" font-size="27" font-weight="700">A filter smooths the signal—and takes time to settle</text>
+    <g fill="none" stroke="#173947" stroke-width="4" stroke-linejoin="round">
+      <path d="M65 185 H215 M285 185 H505 M410 185 V260 M410 279 V330"/>
+      <rect x="215" y="161" width="70" height="48" fill="#fff"/>
+      <path d="M372 260 H448 M372 279 H448 M386 330 H434 M393 340 H427 M402 350 H418"/>
+    </g>
+    <circle cx="410" cy="185" r="6" fill="#173947"/>
+    <g font-size="22">
+      <text x="62" y="150">IN</text><text x="437" y="150">OUT</text>
+      <text x="175" y="132">R = 10 kΩ</text>
+      <text x="193" y="277">C = 1 µF</text>
+      <text x="50" y="235" font-size="18">Step: 0 → 3.3 V</text>
+      <text x="60" y="394">Time constant RC = 10 ms</text>
+    </g>
+    <g fill="none" stroke="#7e9199" stroke-width="2">
+      <path d="M650 112 V330 H1045"/>
+      <path d="M650 130 H1045" stroke-dasharray="6 5"/>
+      <path d="M720 330 V204 M1000 330 V131" stroke-dasharray="5 5"/>
+      <path d="M650 330 L657 311 L664 294 L671 278 L678 264 L685 251 L692 240 L699 229 L706 220 L713 211 L720 204 L727 197 L734 190 L741 184 L748 179 L755 174 L762 170 L776 163 L790 157 L804 152 L818 148 L832 145 L846 142 L860 140 L881 137 L902 135 L930 134 L965 132 L1000 131" stroke="#087e8b" stroke-width="4"/>
+    </g>
+    <g font-size="18">
+      <text x="584" y="137">3.3 V</text><text x="620" y="336">0</text>
+      <text x="642" y="359">0</text><text x="691" y="359">10 ms</text><text x="972" y="359">50 ms</text>
+      <text x="651" y="93" font-weight="700">Ideal output after the input step</text>
+      <text x="754" y="225" fill="#087e8b">2.086 V · 63.2%</text>
+      <text x="849" y="166" fill="#087e8b">3.278 V · 99.3%</text>
+      <text x="731" y="395">Smoothing trades speed for rejection.</text>
+    </g>
+    <circle cx="720" cy="204" r="6" fill="#087e8b"/><circle cx="1000" cy="131" r="6" fill="#087e8b"/>
+  </g>
+</svg>

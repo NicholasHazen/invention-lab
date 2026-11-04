@@ -1,0 +1,13 @@
+{
+  "name": "invention-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static project guides and the Invention Lab Handbook",
+  "scripts": {
+    "build:handbook": "node scripts/build_handbook.mjs",
+    "validate:handbook": "python3 scripts/validate_handbook.py"
+  },
+  "devDependencies": {
+    "marked": "17.0.5"
+  }
+}

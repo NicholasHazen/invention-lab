@@ -1,0 +1,3 @@
+experiment_id,revision,date,question,condition,trial,quantity,unit,value,reference_method,instrument,environment,observation,decision
+example-01,A,,Does a stop improve placement?,without_stop,1,position,mm,,,,,,
+example-01,A,,Does a stop improve placement?,with_stop,1,position,mm,,,,,,
