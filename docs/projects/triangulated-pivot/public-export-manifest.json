@@ -33,8 +33,8 @@
   "hash_scope": "All public project files except this manifest itself.",
   "files": {
     "article.md": {
-      "bytes": 275785,
-      "sha256": "9c5e4c4e8c6d615a1b5d544fc1ea8a71444c040706caf7837c99de4b25dc4ba2"
+      "bytes": 276578,
+      "sha256": "268e1cc41f1a4c366c4527d3154c0801f29ac0fd0d1fbb379de250015a473327"
     },
     "brace-trial-log.csv": {
       "bytes": 244,
@@ -409,8 +409,8 @@
       "sha256": "8c7da85819e21e2be995687fd2e08e49c26869f60339d14797b80225b98decb2"
     },
     "index.html": {
-      "bytes": 421328,
-      "sha256": "b9a453eb510cf3b977b7098944573c4148dbd92d1b08136661f11ef7bb92dc75"
+      "bytes": 426869,
+      "sha256": "f99bce8fb1a8f64e08d95075e2910ef7437301a22394852e1ec682e10109fa84"
     },
     "load-baseline-log.csv": {
       "bytes": 309,
@@ -434,15 +434,15 @@
     },
     "native-CAD-01.zip": {
       "bytes": 7495733,
-      "sha256": "898e5484b27bd31d9a50c6063bf42c1533f1d38e79b88dda5322497316b0dbb1"
+      "sha256": "c28481028969558f6977922506ddbba0c4335e66d8b1caea5bec1654d34b204a"
     },
     "native-CAD-02.zip": {
       "bytes": 8957593,
-      "sha256": "2742b31e60b65ca086a5f00a45f431bb6a857e3d217a4c631124950f7cd40e04"
+      "sha256": "c120d1adb32899c3ae7edab928986ce7349f9ea98d5dbe70abae2213565cf9de"
     },
     "native-CAD-03.zip": {
       "bytes": 8650965,
-      "sha256": "76f1b1a9781e63775ed059e8cb42dec251f9c0a8eb57e5a03202c9963ff22be1"
+      "sha256": "bb8b8aaeb188625e0464b4a10b04957d4d24e6852f148dab5185bdddc743b796"
     },
     "parameter-edit-validation.json": {
       "bytes": 1004,
@@ -453,12 +453,12 @@
       "sha256": "84e22e8221afa7cae879759ebf619e18547e7c4778883b254c4b303f5b002f23"
     },
     "print-and-guide-01.zip": {
-      "bytes": 9639180,
-      "sha256": "00e6434b3138015f3e96bb6d8977e121756ff9c433d7065e27d0a932ae2f33e5"
+      "bytes": 9639631,
+      "sha256": "8b36783b082dbb135af16483c736f55c0d9afe412b9d1633a0c88c5c84a3ceab"
     },
     "print-and-guide-02.zip": {
-      "bytes": 1365014,
-      "sha256": "1459b399956d0cb626e44b556a5f099f6a918a69c0e239e4420b6fa62c0b850e"
+      "bytes": 5745453,
+      "sha256": "6f9b034d06cdd8229f26bf651a5cf5b339d180edec30947856ef8624fbcec5c0"
     },
     "print-files/A-housing-print-orientation.stl": {
       "bytes": 438084,
@@ -619,6 +619,30 @@
     "spoke-coordinates.csv": {
       "bytes": 12793,
       "sha256": "5350c51ff4cfa52473bfd59d1729623a8082342080c5249231ce62f00c63254e"
+    },
+    "viewer/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    "viewer/assembly-data.js": {
+      "bytes": 21250364,
+      "sha256": "13242d80747292bae1bd025552527721fd2ae944955e84f339404398fb76071d"
+    },
+    "viewer/index.html": {
+      "bytes": 10399,
+      "sha256": "c33f7ddced0c98c2fbde4e840f2490541382ca4b095e0394935cafb5bfcf5668"
+    },
+    "viewer/model-provenance.json": {
+      "bytes": 14899,
+      "sha256": "441544e6aaaf77b5b8121cfa6de5ac812a0dab1723a2af9f5db10ccca122ec92"
+    },
+    "viewer/viewer-info.json": {
+      "bytes": 845,
+      "sha256": "b6cb6067c646117a6a1933acee0f4b10ee34f17395d83ca3ce5090d67a800f89"
+    },
+    "viewer/viewer.js": {
+      "bytes": 571179,
+      "sha256": "6a7a1bdf4e552c457a53aec3605b2d2a58d08128705fd7a6373a685367dcb58a"
     }
   }
 }

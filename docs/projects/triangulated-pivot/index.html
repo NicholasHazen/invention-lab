@@ -113,6 +113,18 @@ article .gallery-title { margin: 0 0 .6rem; font-size: .95rem; font-weight: 700;
 article .gallery-view-label { margin: 1rem 0 .35rem; font-size: .86rem; font-weight: 700; }
 .figure-gallery.is-enhanced .gallery-view-label { display: none; }
 .figure-gallery.is-enhanced .gallery-panel[hidden] { display: none; }
+.assembly-explorer { margin: 2rem 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); overflow: hidden; }
+.assembly-explorer-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .6rem; padding: 1rem 1.1rem; background: var(--tint); }
+article .assembly-explorer-title { margin: 0; color: var(--accent); font-weight: 750; }
+.assembly-explorer button { min-height: 44px; padding: .55rem .85rem; border: 1px solid var(--accent); border-radius: 6px; background: var(--accent); color: white; font: inherit; font-size: .85rem; cursor: pointer; }
+.assembly-explorer button[hidden], .assembly-explorer [hidden] { display: none; }
+.assembly-explorer-poster { padding: .75rem 1rem; text-align: center; }
+.assembly-explorer-poster img { display: block; width: 100%; height: 260px; object-fit: contain; }
+article .assembly-explorer-poster p { margin: .6rem 0; color: var(--muted); font-size: .88rem; }
+.assembly-explorer-frame { display: block; width: 100%; height: 640px; border: 0; background: var(--paper); }
+article .assembly-explorer-status, article .assembly-explorer-link, .assembly-explorer noscript p { margin: .75rem 1.1rem; font-size: .82rem; line-height: 1.55; }
+.assembly-explorer-status:empty { display: none; }
+.assembly-explorer-link { color: var(--muted); }
 .figure-image[role="button"] { cursor: zoom-in; }
 .figure-image:focus-visible, button:focus-visible { outline: 3px solid #dc962e; outline-offset: 4px; }
 .viewer { width: min(96vw, 1600px); max-width: 96vw; max-height: 95vh; padding: 0; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); }
@@ -161,6 +173,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   .table-scroll:has(th:nth-child(3)) table { min-width: 600px; }
   .table-scroll:has(th:nth-child(3))::before { content: "Scroll sideways to see all columns."; display: block; position: sticky; left: 0; width: 100%; padding: .5rem .85rem; color: var(--muted); background: #f3f6f5; font-size: .74rem; }
   .page-footer-inner { flex-direction: column; gap: .35rem; }
+  .assembly-explorer-frame { height: 680px; }
+  .assembly-explorer-poster img { height: 200px; }
 }
 /* Long chapter jumps are immediate, including with JavaScript disabled. */
 @media print {
@@ -168,6 +182,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   :root { font-size: 10.5pt; line-height: 1.55; }
   body { background: white; color: #111; }
   .masthead, .sidebar, .mobile-toc, .skip-link, .page-footer, .viewer, .image-help, .step-navigation { display: none; }
+  .assembly-explorer { break-inside: avoid; }
+  .assembly-explorer button, .assembly-explorer-slot, .assembly-explorer-status, .assembly-explorer noscript { display: none !important; }
+  .assembly-explorer-poster[hidden] { display: block !important; }
+  .assembly-explorer-poster img { height: 55mm; }
   .hero { padding: 0 0 1.3rem; }
   h1 { font-size: 29pt; max-width: none; }
   .hero-lede { font-size: 11pt; margin-top: 1rem; }
@@ -208,7 +226,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
     <p class="eyebrow">An illustrated build-along</p>
     <h1 id="article-title">V4.2 Learn Fusion by Building a Triangulated Pivot</h1>
     <div class="hero-lede"><p>Build a joint you can turn in your hands, look inside, and gradually make your own. Starting with a few small fit samples, you will model two triangulated octagonal housings in Fusion, print and assemble them around a metal shaft, and measure how the assembly behaves. Along the way, you will learn how to explain a design choice—and how to change it without losing track of what the change affects.</p></div>
-    <p class="public-downloads"><a href="https://github.com/NicholasHazen/invention-lab/releases/download/triangulated-pivot-v4.2.2/triangulated-pivot-v4.2.2.zip">Download the complete guide and model kit</a> · <a href="#downloads-and-evidence">Browse individual downloads</a></p>
+    <p class="public-downloads"><a href="https://github.com/NicholasHazen/invention-lab/releases/download/triangulated-pivot-v4.2.3/triangulated-pivot-v4.2.3.zip">Download the complete guide and model kit</a> · <a href="#downloads-and-evidence">Browse individual downloads</a></p>
     <p class="image-help" hidden>Select any image to enlarge it. Use Actual size for small labels; press Escape to return.</p>
     <div class="hero-rule" aria-hidden="true"></div>
   </div>
@@ -447,6 +465,17 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 <p>The reference design is <strong>150 mm across opposite flats and 260 mm end to end in its straight pose</strong>. “Across flats” means from one flat outside face of the octagon to the opposite flat face, rather than from corner to corner. The open sides give you room to inspect the mechanism and reach its screws. Each housing integrates its corner rails, diagonal braces, end ring and central support into one printed body.</p>
 <figure><div class="figure-image"><img src="images/16-straight-assembly.png" alt="The native V4.1 geometry used in this lesson is shown straight. Blue is A, the fixed housing; orange is B, the moving housing. Look through the openings to find the metal-shaft core." data-asset="16-straight-assembly.png" width="1400" height="950" loading="lazy" decoding="async"></div><figcaption><span class="figure-number">Figure 1.</span>The native V4.1 geometry used in this lesson is shown straight. Blue is A, the fixed housing; orange is B, the moving housing. Look through the openings to find the metal-shaft core.</figcaption></figure>
 <figure><div class="figure-image"><img src="images/17-elbow-assembly.png" alt="After a 180° turn around the diagonal shaft axis, the moving housing forms a 90° elbow. This is a CAD pose, not a photograph of an assembled print." data-asset="17-elbow-assembly.png" width="1400" height="950" loading="lazy" decoding="async"></div><figcaption><span class="figure-number">Figure 2.</span>After a 180° turn around the diagonal shaft axis, the moving housing forms a 90° elbow. This is a CAD pose, not a photograph of an assembled print.</figcaption></figure>
+<h4 id="explore-the-assembled-parts-in-3d">Explore the assembled parts in 3D</h4>
+<section class="assembly-explorer" id="assembly-explorer" data-viewer="viewer/index.html" aria-labelledby="assembly-explorer-title">
+<div class="assembly-explorer-heading"><p class="assembly-explorer-title" id="assembly-explorer-title">Explore the assembly in 3D</p><button type="button" data-load-assembly aria-expanded="false" aria-controls="assembly-explorer-slot" hidden>Load 3D viewer</button></div>
+<div class="assembly-explorer-poster"><img src="images/16-straight-assembly.png" alt="" loading="lazy" decoding="async"><p>Rotate, zoom, and hide individual parts to see how the joint fits together.</p></div>
+<div class="assembly-explorer-slot" id="assembly-explorer-slot" hidden></div>
+<p class="assembly-explorer-status" role="status" aria-live="polite"></p>
+<p class="assembly-explorer-link"><a href="viewer/index.html" target="_blank" rel="noopener">Open the interactive 3D assembly in a separate tab</a></p>
+<noscript><p>The interactive viewer needs JavaScript. All guide illustrations remain available below.</p></noscript>
+</section>
+<p>Drag to rotate your view, scroll or pinch to zoom, and use the part list to hide individual pieces. Start with <strong>Show core</strong> to remove both long housings, then hide A’s front cap or D’s rear cap to inspect the bearing pockets. Select a part in the model or list and use <strong>Isolate</strong> to examine it alone; <strong>Show all</strong> restores the assembly.</p>
+<p>This viewer keeps the parts in their assembled positions. It uses a viewing mesh exported from the same V4.1 Fusion checkpoint as the guide. Purchased hardware retains the CAD model’s simplified shapes: bearings are solid-ring envelopes, and screw threads and sockets are omitted. Use the downloadable CAD and print files for modeling and fabrication.</p>
 <p>The larger envelope gives the bearing supports and tools room to work. It does not make every dimension larger: the bearing, shaft, collar and hub dimensions come from purchased hardware and stay independent of the housing width.</p>
 <div class="table-scroll" role="region" aria-label="Scrollable reference table" tabindex="0"><table>
 <thead>
@@ -3534,6 +3563,47 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
     sizeButton.textContent = actual ? 'Fit to window' : 'Actual size';
   });
   dialog.addEventListener('close', () => { viewport.replaceChildren(); opener?.focus({ preventScroll: true }); });
+})();
+
+(() => {
+  for (const explorer of document.querySelectorAll('.assembly-explorer')) {
+    const button = explorer.querySelector('[data-load-assembly]');
+    const poster = explorer.querySelector('.assembly-explorer-poster');
+    const slot = explorer.querySelector('.assembly-explorer-slot');
+    const status = explorer.querySelector('.assembly-explorer-status');
+    let frame = null;
+    button.hidden = false;
+    button.addEventListener('click', () => {
+      if (frame) {
+        frame.remove(); frame = null;
+        slot.hidden = true; poster.hidden = false;
+        button.textContent = 'Load 3D viewer';
+        button.setAttribute('aria-expanded', 'false');
+        status.textContent = '3D viewer closed.';
+        return;
+      }
+      frame = document.createElement('iframe');
+      frame.className = 'assembly-explorer-frame';
+      frame.title = 'Interactive 3D pivot assembly: rotate and hide individual parts';
+      frame.src = explorer.dataset.viewer;
+      frame.setAttribute('allow', 'fullscreen');
+      frame.addEventListener('error', () => {
+        status.textContent = 'The viewer could not load. Try opening it in a separate tab below.';
+      });
+      poster.hidden = true; slot.hidden = false;
+      slot.replaceChildren(frame);
+      button.textContent = 'Close 3D viewer';
+      button.setAttribute('aria-expanded', 'true');
+      status.textContent = 'Loading the interactive assembly…';
+    });
+    addEventListener('message', event => {
+      if (!frame || event.source !== frame.contentWindow) return;
+      if (event.data?.type === 'pivot-viewer-ready')
+        status.textContent = '3D assembly ready. Rotate the model or use the part controls to look inside.';
+      else if (event.data?.type === 'pivot-viewer-error')
+        status.textContent = 'The 3D view is unavailable in this browser. The illustrated guide and model downloads remain available.';
+    });
+  }
 })();
 
 (() => {

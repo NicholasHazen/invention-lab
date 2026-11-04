@@ -1,5 +1,14 @@
 # Publication updates
 
+## Triangulated pivot 4.2.3 — interactive assembly viewer
+
+- Added a 3D viewer in Step 1 with orbit, zoom, part visibility, isolation and a core-only view.
+- The viewer contains 53 selectable physical parts, exported from all 64 solid bodies in the final Fusion checkpoint. Separate screw-head and shank reference bodies are selected together as one screw.
+- Viewer meshes preserve assembly positions and the 260 × 150 × 150 mm straight envelope. Purchased hardware keeps the CAD model’s simplified clearance shapes.
+- The viewer loads on request and includes its rendering library and geometry locally for offline use. Static figures and the printable lesson remain available.
+- Fusion, print and STEP downloads retain V4.1 geometry.
+
+
 ## Triangulated pivot 4.2.2 — clearer views and galleries
 
 - Reviewed all 63 existing figure occurrences for teaching clarity.

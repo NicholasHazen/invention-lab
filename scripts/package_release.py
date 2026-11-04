@@ -31,6 +31,8 @@ def main() -> None:
         'Extract this entire archive, then open index.html in a browser. Keep the\n'
         'folders together: the figures, worksheets and individual model downloads\n'
         'work offline. The Invention Lab home and release links open the online site.\n\n'
+        'The interactive assembly viewer is in Step 1 and viewer/index.html. Keep its\n'
+        'folder intact; it needs JavaScript and WebGL, and has no online dependencies.\n\n'
         'The archive includes 15 editable Fusion checkpoints, 22 print meshes and\n'
         'one STEP exchange assembly. The numbered ZIP volumes are also included\n'
         'for convenience; their files are already extracted here.\n\n'
@@ -46,7 +48,7 @@ def main() -> None:
     manifest['files'] = {name: {'bytes': len(raw), 'sha256': digest(raw)}
                          for name, raw in sorted(files.items()) if name != 'public-export-manifest.json'}
     files['public-export-manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()
-    destination = OUTPUT / 'triangulated-pivot-v4.2.2.zip'
+    destination = OUTPUT / 'triangulated-pivot-v4.2.3.zip'
     with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for name, raw in files.items():
             archive.writestr(name, raw)

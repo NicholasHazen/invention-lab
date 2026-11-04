@@ -60,6 +60,14 @@ The reference design is **150 mm across opposite flats and 260 mm end to end in 
 
 ![After a 180° turn around the diagonal shaft axis, the moving housing forms a 90° elbow. This is a CAD pose, not a photograph of an assembled print.](images/17-elbow-assembly.png)
 
+### Explore the assembled parts in 3D
+
+[Open the interactive 3D assembly](viewer/index.html)
+
+Drag to rotate your view, scroll or pinch to zoom, and use the part list to hide individual pieces. Start with **Show core** to remove both long housings, then hide A’s front cap or D’s rear cap to inspect the bearing pockets. Select a part in the model or list and use **Isolate** to examine it alone; **Show all** restores the assembly.
+
+This viewer keeps the parts in their assembled positions. It uses a viewing mesh exported from the same V4.1 Fusion checkpoint as the guide. Purchased hardware retains the CAD model’s simplified shapes: bearings are solid-ring envelopes, and screw threads and sockets are omitted. Use the downloadable CAD and print files for modeling and fabrication.
+
 The larger envelope gives the bearing supports and tools room to work. It does not make every dimension larger: the bearing, shaft, collar and hub dimensions come from purchased hardware and stay independent of the housing width.
 
 | Part | Job | What to notice |

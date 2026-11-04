@@ -1,0 +1,610 @@
+{
+  "source": "checkpoints/15-print-edge-refinements.f3d",
+  "sourceSha256": "2a50c9736ffb727e2121a17956cb298e4960ebdb35aa41bc72859cb8d3407964",
+  "units": "mm",
+  "upAxis": "Z",
+  "pose": "straight",
+  "meshToleranceMm": 0.05,
+  "maxNormalDeviationRadians": 0.18,
+  "selectableParts": 53,
+  "nativeBodies": 64,
+  "triangles": 315234,
+  "meshIsForViewingNotPrinting": true,
+  "parts": [
+    {
+      "id": "part-15-01",
+      "name": "A Housing",
+      "group": "Printed parts",
+      "component": "A Housing",
+      "color": "#6596b5",
+      "kind": "housing",
+      "sourceBodies": [
+        "part-15-01"
+      ]
+    },
+    {
+      "id": "part-16-01",
+      "name": "B Moving Body",
+      "group": "Printed parts",
+      "component": "B Moving Body",
+      "color": "#d98c4a",
+      "kind": "housing",
+      "sourceBodies": [
+        "part-16-01"
+      ]
+    },
+    {
+      "id": "part-02-01",
+      "name": "C Front Bearing Cap",
+      "group": "Printed parts",
+      "component": "C Front Bearing Cap",
+      "color": "#93b5ca",
+      "kind": "printed",
+      "sourceBodies": [
+        "part-02-01"
+      ]
+    },
+    {
+      "id": "part-01-01",
+      "name": "D Rear Bearing Holder",
+      "group": "Printed parts",
+      "component": "D Rear Bearing Holder",
+      "color": "#7ca4bb",
+      "kind": "printed",
+      "sourceBodies": [
+        "part-01-01"
+      ]
+    },
+    {
+      "id": "part-03-01",
+      "name": "E Rear Bearing Cap",
+      "group": "Printed parts",
+      "component": "E Rear Bearing Cap",
+      "color": "#a8c2d1",
+      "kind": "printed",
+      "sourceBodies": [
+        "part-03-01"
+      ]
+    },
+    {
+      "id": "part-04-01",
+      "name": "F Metal Hub Adapter",
+      "group": "Printed parts",
+      "component": "F Metal Hub Adapter",
+      "color": "#d9a76d",
+      "kind": "printed",
+      "sourceBodies": [
+        "part-04-01"
+      ]
+    },
+    {
+      "id": "part-05-01",
+      "name": "Front 608 bearing in A",
+      "group": "Bearings and shaft",
+      "component": "REF Two 608 Bearings",
+      "color": "#a4adb7",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-05-01"
+      ]
+    },
+    {
+      "id": "part-05-02",
+      "name": "Rear 608 bearing in D",
+      "group": "Bearings and shaft",
+      "component": "REF Two 608 Bearings",
+      "color": "#a4adb7",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-05-02"
+      ]
+    },
+    {
+      "id": "part-06-01",
+      "name": "Steel shaft \u00b7 8 \u00d7 60 mm",
+      "group": "Bearings and shaft",
+      "component": "REF Steel Shaft 8 x 60",
+      "color": "#748293",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-06-01"
+      ]
+    },
+    {
+      "id": "part-07-01",
+      "name": "4 mm inner-ring spacer \u00b7 hub side",
+      "group": "Bearings and shaft",
+      "component": "REF Inner Ring Spacers",
+      "color": "#c3ae6e",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-07-01"
+      ]
+    },
+    {
+      "id": "part-07-02",
+      "name": "4 mm inner-ring spacer \u00b7 rear side",
+      "group": "Bearings and shaft",
+      "component": "REF Inner Ring Spacers",
+      "color": "#c3ae6e",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-07-02"
+      ]
+    },
+    {
+      "id": "part-08-01",
+      "name": "Shaft collar \u00b7 hub side",
+      "group": "Bearings and shaft",
+      "component": "REF Split Collar Envelopes",
+      "color": "#697c87",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-08-01"
+      ]
+    },
+    {
+      "id": "part-08-02",
+      "name": "Shaft collar \u00b7 rear side",
+      "group": "Bearings and shaft",
+      "component": "REF Split Collar Envelopes",
+      "color": "#697c87",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-08-02"
+      ]
+    },
+    {
+      "id": "part-09-01",
+      "name": "Metal support post 1",
+      "group": "Rear bearing support",
+      "component": "REF Metal Support Spacers",
+      "color": "#b4a685",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-09-01"
+      ]
+    },
+    {
+      "id": "part-09-02",
+      "name": "Metal support post 2",
+      "group": "Rear bearing support",
+      "component": "REF Metal Support Spacers",
+      "color": "#b4a685",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-09-02"
+      ]
+    },
+    {
+      "id": "part-09-03",
+      "name": "Metal support post 3",
+      "group": "Rear bearing support",
+      "component": "REF Metal Support Spacers",
+      "color": "#b4a685",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-09-03"
+      ]
+    },
+    {
+      "id": "part-11-01",
+      "name": "Sonic metal clamping hub",
+      "group": "Hub and compression sleeves",
+      "component": "REF Sonic Hub Envelope",
+      "color": "#7b858f",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-11-01"
+      ]
+    },
+    {
+      "id": "part-10-01",
+      "name": "6 mm compression sleeve 1",
+      "group": "Hub and compression sleeves",
+      "component": "REF Hub Compression Sleeves",
+      "color": "#bcb08b",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-10-01"
+      ]
+    },
+    {
+      "id": "part-10-02",
+      "name": "6 mm compression sleeve 2",
+      "group": "Hub and compression sleeves",
+      "component": "REF Hub Compression Sleeves",
+      "color": "#bcb08b",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-10-02"
+      ]
+    },
+    {
+      "id": "part-10-03",
+      "name": "6 mm compression sleeve 3",
+      "group": "Hub and compression sleeves",
+      "component": "REF Hub Compression Sleeves",
+      "color": "#bcb08b",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-10-03"
+      ]
+    },
+    {
+      "id": "part-10-04",
+      "name": "6 mm compression sleeve 4",
+      "group": "Hub and compression sleeves",
+      "component": "REF Hub Compression Sleeves",
+      "color": "#bcb08b",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-10-04"
+      ]
+    },
+    {
+      "id": "part-12-01",
+      "name": "M4 \u00d7 12 hub screw 1",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-01",
+        "part-12-02"
+      ]
+    },
+    {
+      "id": "part-12-03",
+      "name": "Wide hub washer 1",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-03"
+      ]
+    },
+    {
+      "id": "part-12-04",
+      "name": "M4 \u00d7 12 hub screw 2",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-04",
+        "part-12-05"
+      ]
+    },
+    {
+      "id": "part-12-06",
+      "name": "Wide hub washer 2",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-06"
+      ]
+    },
+    {
+      "id": "part-12-07",
+      "name": "M4 \u00d7 12 hub screw 3",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-07",
+        "part-12-08"
+      ]
+    },
+    {
+      "id": "part-12-09",
+      "name": "Wide hub washer 3",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-09"
+      ]
+    },
+    {
+      "id": "part-12-10",
+      "name": "M4 \u00d7 12 hub screw 4",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-10",
+        "part-12-11"
+      ]
+    },
+    {
+      "id": "part-12-12",
+      "name": "Wide hub washer 4",
+      "group": "Inner hub fasteners",
+      "component": "REF M4 Hub Screws",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-12-12"
+      ]
+    },
+    {
+      "id": "part-13-01",
+      "name": "M4 \u00d7 30 body screw 1",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-01",
+        "part-13-02"
+      ]
+    },
+    {
+      "id": "part-13-03",
+      "name": "Body-screw washer 1",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-03"
+      ]
+    },
+    {
+      "id": "part-13-04",
+      "name": "M4 captive nut 1",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-04"
+      ]
+    },
+    {
+      "id": "part-13-05",
+      "name": "M4 \u00d7 30 body screw 2",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-05",
+        "part-13-06"
+      ]
+    },
+    {
+      "id": "part-13-07",
+      "name": "Body-screw washer 2",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-07"
+      ]
+    },
+    {
+      "id": "part-13-08",
+      "name": "M4 captive nut 2",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-08"
+      ]
+    },
+    {
+      "id": "part-13-09",
+      "name": "M4 \u00d7 30 body screw 3",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-09",
+        "part-13-10"
+      ]
+    },
+    {
+      "id": "part-13-11",
+      "name": "Body-screw washer 3",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-11"
+      ]
+    },
+    {
+      "id": "part-13-12",
+      "name": "M4 captive nut 3",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-12"
+      ]
+    },
+    {
+      "id": "part-13-13",
+      "name": "M4 \u00d7 30 body screw 4",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-13",
+        "part-13-14"
+      ]
+    },
+    {
+      "id": "part-13-15",
+      "name": "Body-screw washer 4",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-15"
+      ]
+    },
+    {
+      "id": "part-13-16",
+      "name": "M4 captive nut 4",
+      "group": "Outer body fasteners",
+      "component": "REF M4 Adapter Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-13-16"
+      ]
+    },
+    {
+      "id": "part-14-01",
+      "name": "M3 \u00d7 45 support screw 1",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-01",
+        "part-14-02"
+      ]
+    },
+    {
+      "id": "part-14-03",
+      "name": "Rear support washer 1",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-03"
+      ]
+    },
+    {
+      "id": "part-14-04",
+      "name": "Front support washer 1",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-04"
+      ]
+    },
+    {
+      "id": "part-14-05",
+      "name": "M3 locknut 1",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-05"
+      ]
+    },
+    {
+      "id": "part-14-06",
+      "name": "M3 \u00d7 45 support screw 2",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-06",
+        "part-14-07"
+      ]
+    },
+    {
+      "id": "part-14-08",
+      "name": "Rear support washer 2",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-08"
+      ]
+    },
+    {
+      "id": "part-14-09",
+      "name": "Front support washer 2",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-09"
+      ]
+    },
+    {
+      "id": "part-14-10",
+      "name": "M3 locknut 2",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-10"
+      ]
+    },
+    {
+      "id": "part-14-11",
+      "name": "M3 \u00d7 45 support screw 3",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#85919c",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-11",
+        "part-14-12"
+      ]
+    },
+    {
+      "id": "part-14-13",
+      "name": "Rear support washer 3",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-13"
+      ]
+    },
+    {
+      "id": "part-14-14",
+      "name": "Front support washer 3",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#b8c0c5",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-14"
+      ]
+    },
+    {
+      "id": "part-14-15",
+      "name": "M3 locknut 3",
+      "group": "Rear support fasteners",
+      "component": "REF M3 Support Fasteners",
+      "color": "#7b8995",
+      "kind": "hardware",
+      "sourceBodies": [
+        "part-14-15"
+      ]
+    }
+  ],
+  "dataSha256": "13242d80747292bae1bd025552527721fd2ae944955e84f339404398fb76071d"
+}

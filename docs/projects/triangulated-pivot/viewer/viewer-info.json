@@ -1,0 +1,20 @@
+{
+  "viewer_version": "1.0",
+  "engine": "Three.js",
+  "engine_version": "0.187.0",
+  "package_integrity": "sha512-Qiu7R+Cmh8CstZsY1uJOSWnVlfo7ZtNLV7mF8Jltk3LB3AtDu9cRZlcnRKkAk8Y4z6KKw35z7Y7Urd7jWY8etA==",
+  "package_source": "https://registry.npmjs.org/three/-/three-0.187.0.tgz",
+  "license": "THREE-LICENSE.txt",
+  "runtime_sha256": "6a7a1bdf4e552c457a53aec3605b2d2a58d08128705fd7a6373a685367dcb58a",
+  "coordinates": "Millimeters in the source assembly; Z is up. Camera presets change only the view.",
+  "offline": "Local classic scripts; no fetch, CDN, analytics, or network requests required.",
+  "capabilities": [
+    "Orbit and zoom",
+    "Mouse or part-list selection",
+    "Individual and group visibility",
+    "Core preset",
+    "Isolate and restore visibility",
+    "Orthographic view presets",
+    "Keyboard camera controls"
+  ]
+}
