@@ -46,7 +46,7 @@ def main() -> None:
     manifest['files'] = {name: {'bytes': len(raw), 'sha256': digest(raw)}
                          for name, raw in sorted(files.items()) if name != 'public-export-manifest.json'}
     files['public-export-manifest.json'] = (json.dumps(manifest, indent=2) + '\n').encode()
-    destination = OUTPUT / 'triangulated-pivot-v4.2.1.zip'
+    destination = OUTPUT / 'triangulated-pivot-v4.2.2.zip'
     with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for name, raw in files.items():
             archive.writestr(name, raw)

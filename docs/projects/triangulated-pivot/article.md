@@ -10,6 +10,8 @@ The project uses **Autodesk Fusion on a Mac**, millimeter units, and a **Bambu L
 
 **About the version labels:** this is the **Rev4.2 teaching guide**. It uses the unchanged **V4.1 CAD and print geometry**, so V4.1 still appears on figures and evidence files. Checkpoint 15 contains the final reference assembly; Step 52 explains the earlier comparison checkpoints.
 
+**Reading the views:** in the web guide, selected steps have named view tabs. Use a face-on orthographic view to compare outlines and hole locations, an angled view to see depth, and a section to see hidden shoulders or contacts. Click any image to enlarge it. Tabs switch views of one step; the instructions remain below them. Printing or reading without JavaScript shows every view. CAD images are digital references, not photographs of tested prints.
+
 Use the work phases below to plan your sessions. A phase may take several sittings, especially when printing and measuring are involved. Save at the end of a session so the next one begins from a known state.
 
 | Work phase | Make or inspect | What you should be able to explain before moving on |
@@ -492,7 +494,7 @@ The pivot needs a reference that survives changes to the housing. We will create
 
 View the **XY plane straight on**, looking along global Z. With Fusion's Y-up orientation this is the ViewCube's **Front** face; with Z-up it is **Top**. Check the colored axes: red +X points right and green +Y points up. The plane's trace must slope from upper left to lower right through the origin. If its slope is opposite, enter `-splitAngle`. Accept it and name it **Joint plane 45 degrees**. Keep `splitAngle` at 45° for this build.
 
-![The 45 degree construction plane crosses the origin. Its trace slopes from upper left to lower right in XY.](images/03-joint-plane.png)
+![Original schematic: the upper view looks along Z at the centered blank, with +X right and +Y up. The diagonal line is the joint plane’s trace; q is perpendicular to it. The enlarged lower detail rotates q horizontally to show how two 0.5 mm retreats make the 1 mm gap.](images/joint-plane-and-gap.png)
 
 A **construction plane** is a reference, not a cut. It can position a sketch or another feature. Its perpendicular direction, called its **normal**, will become the pivot axis.
 
@@ -743,11 +745,7 @@ For the native datum orientations in the table, facets **0°, 45°, 90°, 135°,
 
 **Work through the first A180 vertex:** its global X is **+84.899 mm** and its facet coordinate s is **−27.066 mm**. On this face, local x = −global X and local y = s, so the point belongs **left and below the sketch origin**, at approximately **(−84.899, −27.066) mm**. The horizontal distance expression simplifies to `jointNodeQ*sqrt(2)+bodyWidth/2`; the vertical one simplifies to `nodeHalfWidth`. At the reference size they evaluate to **84.899 mm** and **27.066 mm**. The longer prepared CSV expressions give the same values and preserve the parameter relationships. Place the other two vertices using their own rows; their signs are not all the same.
 
-![The diagonal facet uses the same offset relationship. Its boundary beside the joint slopes across the face, so each side's first node has a different global X coordinate.](images/A-facet-045.png)
-
-![The +Z facet has a shorter alternating chain. The opening count changes with available length, while corner rails and end lands remain continuous.](images/A-facet-090.png)
-
-![Near the short side of the oblique joint, two openings fit between the preserved joint region and the distant end rim.](images/A-facet-135.png)
+![Exact face-normal projections of A’s 0°, 45°, 90° and 135° outer facets, extracted from the native model before the bulkhead. All use the same scale, +X right and +s up. Only the selected surface is shown, so opposite walls cannot obscure the 4, 4, 3 and 2 openings. The sloping joint boundary changes the available length.](images/facet-normal-comparison.png)
 
 The coordinate table is a reproducible dimension list, not a script you must run. Each row identifies a housing, face, triangle and vertex. Use the prepared **horizontal and vertical dimension-expression columns** for entry and the signed local coordinates to check placement. The global and local expression columns explain the coordinate conversion; you do not need to edit those long formulas. Keep the numeric columns as checks rather than rounded replacements for the expressions.
 
@@ -903,7 +901,9 @@ The spokes intentionally extend beyond the outer walls. Trim those overhanging e
 
 **Intersect** retains the volume common to the existing bodies and the extruded octagon. The outer cage is already inside that envelope, while the protruding spoke tips are outside it. Inspect the preview: the cage and carrier should remain, and only the overhanging tips should disappear. Do not use Cut, which would remove the volume you intended to keep. [Extrude operations](https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-REF-EXTRUDE.htm)
 
-![Eight deep spokes connect A's carrier to the housing's corner rails. Their directions follow the stretched octagonal section of the 45 degree joint.](images/08-A-spoked-bulkhead.png)
+![View normal to A’s diagonal joint face, looking from B into A. Eight spokes meet the still-solid carrier; the rear frame is visible through the openings. Compare the angled view to see the spoke depth before cutting the bearing pocket.](images/08-A-spoked-bulkhead.png)
+
+![Angled orthographic view of the same pre-pocket carrier. The ribs extend into A, giving the spokes depth; the bearing hole and support holes have not been cut yet.](images/27b-A-carrier-depth.png)
 
 Expand **A > Bodies**: expect one connected body after all the joins and the trim. Now soften the sharp roots where each spoke enters the carrier.
 
@@ -946,7 +946,9 @@ Add **Chamfer**, **Equal Distance: entryChamfer**, 0.4 mm, to the bearing mouth 
 
 ![A's bearing details include the front pocket, a flat outer-ring shoulder, three support-bolt holes and a larger opening behind the shoulder for the rear support region.](images/20-A-front-spoked-face.png)
 
-![Native close section through the bearing stack. The rear relief clears the space behind A's shoulder; the removable holder, cap and metal spacers locate the second station.](images/21-bearing-stack-closeup.png)
+![Close angled view looking from B into A. Follow the bearing-pocket wall down to the flat annular shoulder, then to the smaller opening behind it. The three small surrounding holes are for the rear-support screws.](images/27-A-bearing-pocket-oblique.png)
+
+![Completed-assembly reference, shown here to explain A’s pocket. The shaft runs horizontally along q; the removable rear holder, cap and metal support spacers will be built in later steps. Native hatch colors distinguish cut bodies and do not use the earlier blue/green motion key.](images/21-bearing-stack-closeup.png)
 
 ## 23 Give the rear collar a straight driver route
 
@@ -1141,6 +1143,10 @@ Finish D with `entryChamfer` at its bearing-pocket mouth, and `bedRelief` at the
 
 ![The separate rear holder has an upward-open bearing pocket, a smaller opening through its shoulder, and three support holes. Its flat lower face gives it a straightforward print orientation.](images/08-rear-bearing-holder.png)
 
+![Angled view into D’s open pocket, from the end that receives cap E. The deeper circular wall locates the bearing; the smaller through-opening leaves a flat shoulder below it.](images/28-rear-holder-depth.png)
+
+![Axial cut through D alone, with q increasing to the right. The 3 mm shoulder is at the left of the 7.2 mm pocket; the pocket opens at the right. During printing the shoulder end is on the bed. Hatching marks cut material.](images/28b-rear-holder-section.png)
+
 D's total height is **10.2 mm**. Its pocket opens away from the front bearing, which lets you insert the rear bearing before fitting its cap. This separate part avoids building a long enclosed bearing tunnel with inaccessible support material.
 
 ## 30 Model the two outer ring caps
@@ -1207,6 +1213,8 @@ The four **hole centers** lie on an imaginary **bolt circle** of diameter `hubHo
 Chamfer the pilot's top outside edge by `entryChamfer` and the flange's back outside edge by `bedRelief`. Keep the large hub mounting face flat.
 
 ![F before its final bed-entry relief has four outer mounting holes and four larger cardinal sleeve holes. Its shallow pilot locates the flange in B without replacing the metal hub or bearings.](images/12-hub-adapter.png)
+
+![Side profile of F before its final entrance reliefs. The 6 mm flange is the broad slab; the shallow pilot projects toward B on the right (+q). The metal hub mounts within the pilot ring on that same side; the mounting-screw heads sit against the back at the left. This edge-on view is for thickness, so use the face view for hole positions.](images/29-adapter-pilot-profile.png)
 
 The sleeves provide a metal compression path for the four hub screws. Their ends must fit the flange thickness correctly: sleeves that stand proud can leave the printed plate loose, while sleeves that are too short let the screw compress plastic before reaching the metal stop. The nominal drawing gives both 6 mm; measure the parts and inspect the assembled faces rather than assuming the nominal values guarantee a flush result. [Compression-limiters and bolted plastic joints](https://www.spirol.com/product/compression-limiters/)
 
@@ -1672,6 +1680,8 @@ During mounting, force should go directly into the ring being fitted. Pressing t
 
 ![Native assembly state before D is fitted. The shaft and inner collar are visible through the frame; set the front-bearing spacer and collar contacts before the rear support narrows access.](images/assembly-02-shaft-retention.png)
 
+![Cutaway of this same assembly stage: q runs left to right. From left along the shaft are collar, thin 4 mm spacer, front bearing, second 4 mm spacer and collar. The small spacers touch the inner ring only. D, E and the rear bearing are not fitted yet; the bearing is a simplified solid-ring envelope. Use the earlier bearing schematic to distinguish its inner and outer rings; native hatch colors identify cut bodies, not fixed versus rotating parts.](images/30-front-shaft-retention-section.png)
+
 ### Fit the rear holder and cap
 
 1. Bring **D** through A's open **+X end**, keeping its bearing axis parallel to q. First move along the body's X direction into the region behind the shaft tip. Then align the bearing with the shaft and move **along −q** into place.
@@ -1736,6 +1746,10 @@ That last route is a design revision. Update the REF sleeve lengths and screw/wa
 Washer thickness is part of this calculation. The dimensions above describe the modeled stack, not every washer sold as “M4.” Measure the purchased washers and compare them with the hardware specification before relying on the nominal engagement or tip clearances. Do not silently substitute a different thickness.
 
 ![Native view of the hub/F subassembly from the back, with its four inner mounting screws and four preloaded outer attachment screws. Their simplified heads and washers show the required space, while the real hub is tightened on the bench.](images/assembly-04-hub-and-preloaded-bolts.png)
+
+![The same hub/F bench assembly with the outer attachment screws hidden. The four inner M4 × 12 screws fasten F to the metal hub through the compression sleeves. Their simplified heads are the four circles nearest the shaft opening.](images/31-inner-hub-screws.png)
+
+![The same camera with the inner hub screws hidden. The four outer M4 × 30 screws attach F to B later; preload these into F now. Their shafts project beyond the flange. B’s captive nuts are not present in this bench state.](images/31b-outer-attachment-screws.png)
 
 ### Load B's nuts and F's outer screws
 
@@ -2042,7 +2056,7 @@ Treat the table as a **comparison inventory**, not an automatic resume sequence.
 For a complete local set, download every volume in each group, extract them into the same folder, and keep that folder beside the standalone HTML guide. Each volume is an ordinary ZIP containing different files; none is a multipart archive that needs a special extractor.
 
 - **Editable native models:** [volume 1](native-CAD-01.zip), [volume 2](native-CAD-02.zip), [volume 3](native-CAD-03.zip).
-- **Print files, images, guide source and records:** [volume 1](print-and-guide-01.zip).
+- **Print files, images, guide source and records:** [volume 1](print-and-guide-01.zip) and [volume 2](print-and-guide-02.zip). Download and extract both into the same folder.
 
 The [complete STEP assembly](checkpoints/integrated-octagonal-pivot.step) exchanges the finished solid geometry. Use the native checkpoints when you want to edit the sketches, expressions and Timeline.
 

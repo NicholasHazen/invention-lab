@@ -1,0 +1,100 @@
+{
+  "galleries": [
+    {
+      "id": "a-carrier",
+      "title": "A\u2019s uncut bearing support",
+      "views": [
+        {
+          "asset": "images/08-A-spoked-bulkhead.png",
+          "label": "Joint face"
+        },
+        {
+          "asset": "images/27b-A-carrier-depth.png",
+          "label": "Spoke depth"
+        }
+      ]
+    },
+    {
+      "id": "a-bearing-pocket",
+      "title": "A\u2019s bearing pocket",
+      "views": [
+        {
+          "asset": "images/20-A-front-spoked-face.png",
+          "label": "Whole joint face"
+        },
+        {
+          "asset": "images/27-A-bearing-pocket-oblique.png",
+          "label": "Pocket close-up"
+        },
+        {
+          "asset": "images/21-bearing-stack-closeup.png",
+          "label": "Assembled section"
+        }
+      ]
+    },
+    {
+      "id": "rear-bearing-holder",
+      "title": "D\u2019s pocket and shoulder",
+      "views": [
+        {
+          "asset": "images/08-rear-bearing-holder.png",
+          "label": "Hole layout"
+        },
+        {
+          "asset": "images/28-rear-holder-depth.png",
+          "label": "Pocket depth"
+        },
+        {
+          "asset": "images/28b-rear-holder-section.png",
+          "label": "Axial section"
+        }
+      ]
+    },
+    {
+      "id": "hub-adapter",
+      "title": "F\u2019s flange and locating pilot",
+      "views": [
+        {
+          "asset": "images/12-hub-adapter.png",
+          "label": "Hole layout"
+        },
+        {
+          "asset": "images/29-adapter-pilot-profile.png",
+          "label": "Pilot profile"
+        }
+      ]
+    },
+    {
+      "id": "front-shaft-retention",
+      "title": "Front bearing and shaft retention",
+      "views": [
+        {
+          "asset": "images/assembly-02-shaft-retention.png",
+          "label": "Assembly context"
+        },
+        {
+          "asset": "images/30-front-shaft-retention-section.png",
+          "label": "Spacer contacts"
+        }
+      ]
+    },
+    {
+      "id": "hub-fastener-groups",
+      "title": "Two screw groups on F",
+      "views": [
+        {
+          "asset": "images/assembly-04-hub-and-preloaded-bolts.png",
+          "label": "Whole subassembly"
+        },
+        {
+          "asset": "images/31-inner-hub-screws.png",
+          "label": "Inner hub screws"
+        },
+        {
+          "asset": "images/31b-outer-attachment-screws.png",
+          "label": "Outer body screws"
+        }
+      ]
+    }
+  ]
+}

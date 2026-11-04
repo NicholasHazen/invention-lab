@@ -6,8 +6,8 @@ Build guides for mechanical prototypes, 3D printing, and experiments.
 
 ## Projects
 
-- **[Triangulated 45° pivot](https://nicholashazen.github.io/invention-lab/projects/triangulated-pivot/)** — learn Fusion, print and assemble an integrated octagonal joint, then measure its behavior. Rev4.2 teaching guide, with V4.1 geometry. Includes 52 steps, 63 figures, 15 Fusion checkpoints, 22 print meshes, and a STEP assembly.
-- **[Complete pivot download](https://github.com/NicholasHazen/invention-lab/releases/tag/triangulated-pivot-v4.2.1)** — versioned offline project bundle, including the clearer bearing cutaway added in patch 4.2.1.
+- **[Triangulated 45° pivot](https://nicholashazen.github.io/invention-lab/projects/triangulated-pivot/)** — learn Fusion, print and assemble an integrated octagonal joint, then measure its behavior. Rev4.2 teaching guide, with V4.1 geometry. Includes 52 steps, 69 figures, 15 Fusion checkpoints, 22 print meshes, and a STEP assembly.
+- **[Complete pivot download](https://github.com/NicholasHazen/invention-lab/releases/tag/triangulated-pivot-v4.2.2)** — versioned offline project bundle, including six alternate-view galleries, orthographic facet comparisons, and clearer bearing cutaways.
 
 The pivot is an experimental design. Its supplied geometry has digital checks; a physical print, assembly, or load-capacity validation has not been established. Follow the guide's fit trials and measurement procedure.
 

@@ -19,18 +19,22 @@
     "review/ready-to-learn/geometry-continuity.json",
     "review/revision-4.2/geometry-continuity.json",
     "index.html",
-    "print-and-guide-01.zip"
+    "print-and-guide-02.zip"
   ],
   "rebuilt_archives": {
-    "print-and-guide-01.zip": [
-      "mesh-validation.json"
+    "print-and-guide-02.zip": [
+      "mesh-validation.json",
+      "review/fdm/figure-sources.json",
+      "review/fdm/release-summary.json",
+      "review/fdm/slice-audit.json",
+      "review/ready-to-learn/geometry-continuity.json"
     ]
   },
   "hash_scope": "All public project files except this manifest itself.",
   "files": {
     "article.md": {
-      "bytes": 272676,
-      "sha256": "af5c5aaf88dd90b5510c8716df350bcec69e9e7c1d0ee76964e28e3a9b439381"
+      "bytes": 275785,
+      "sha256": "9c5e4c4e8c6d615a1b5d544fc1ea8a71444c040706caf7837c99de4b25dc4ba2"
     },
     "brace-trial-log.csv": {
       "bytes": 244,
@@ -108,6 +112,10 @@
       "bytes": 169001,
       "sha256": "bd1dfa0df99bc7b4929c75b5349710bd0ffb327302ac9e4c0b5b14d89d5b2837"
     },
+    "figure-galleries.json": {
+      "bytes": 2440,
+      "sha256": "2ebce8d2fbe781b7273d223deb87ed7a5d29c4afd14e616ea1ecd78cc8cfd4ae"
+    },
     "fit-coupon-validation.json": {
       "bytes": 2271,
       "sha256": "620e8a3c7317b23a50da09796574185394e3875dd781b72805406618594fad8e"
@@ -145,8 +153,8 @@
       "sha256": "94e86903fb9e7049de72d79bb3c406711a25372d29b6869cf8a1c773a538e8ae"
     },
     "images/08-A-spoked-bulkhead.png": {
-      "bytes": 252101,
-      "sha256": "87365860d7c47154a0ace78865d749cdd64a6ea1146ee56d0574a181d8d280c5"
+      "bytes": 178843,
+      "sha256": "300c6dbd70ebf199036e1f7e6415d234989193c2530d7b8706776d0e7a1f8ea0"
     },
     "images/08-B-spoked-bulkhead.png": {
       "bytes": 214924,
@@ -232,6 +240,38 @@
       "bytes": 64860,
       "sha256": "90e57c1f6af34b6af1c00eb5ce70cb6caedc20432792b33d0341ccde6e76dba6"
     },
+    "images/27-A-bearing-pocket-oblique.png": {
+      "bytes": 207780,
+      "sha256": "a121d1ecba9674dfe11d9bc294fa498e9c9aba79183eca84d7eec6d5fa7ad106"
+    },
+    "images/27b-A-carrier-depth.png": {
+      "bytes": 254343,
+      "sha256": "63d87bfed824cfa9d1d9e910a8c5f8978aa23041221e5311f7c7caa1691b6116"
+    },
+    "images/28-rear-holder-depth.png": {
+      "bytes": 118877,
+      "sha256": "e07b0c24f24c903f4a9708cfb8868f965e09e7440b35a65cc0db64e05e5e80e9"
+    },
+    "images/28b-rear-holder-section.png": {
+      "bytes": 27991,
+      "sha256": "c6aa034d6383177668057e2b0bae09924c788334c3b1fc00eb729764b56ac8e2"
+    },
+    "images/29-adapter-pilot-profile.png": {
+      "bytes": 19307,
+      "sha256": "b9b30f5c0ccc0bf5f8896067380641c8a007fd5b5312aaf4ecdb618cb2da77d0"
+    },
+    "images/30-front-shaft-retention-section.png": {
+      "bytes": 97033,
+      "sha256": "0f9454cb3b3063356349ac5af4fba05a6fab52141d1128ef2ff000d8003793ed"
+    },
+    "images/31-inner-hub-screws.png": {
+      "bytes": 176551,
+      "sha256": "a65a733558f8f8e54e5558c355f76f1fc31ff4dec925d556924754c87388c7b0"
+    },
+    "images/31b-outer-attachment-screws.png": {
+      "bytes": 224568,
+      "sha256": "319c8ff13636bbe0e563dbd8fd93e31ea410380273dbba6332d392dc8cc27c26"
+    },
     "images/A-facet-000.png": {
       "bytes": 92879,
       "sha256": "8442d9f81627c634e5445cc3648c0c62d7aa2eb11fc88afd7b8d57d24da26bd9"
@@ -296,6 +336,10 @@
       "bytes": 71883,
       "sha256": "4787cb483f091a18d08d17e45c754d243ff7a1e8eff3012f32ffc9fa66b20cd4"
     },
+    "images/facet-normal-comparison.png": {
+      "bytes": 184373,
+      "sha256": "15d23da739570af727fa9b27db437b3dbc474c6e8ed4ddcf5d79ff9d0fd6786c"
+    },
     "images/fit-coupon-array.png": {
       "bytes": 127519,
       "sha256": "ab5bfb462a202fe18b110e361410f0b7b88ab06b14d4be5ccfbb4c2e65bf883b"
@@ -332,6 +376,10 @@
       "bytes": 92946,
       "sha256": "76ef7cf32df2420dac25014da8f1ed05947e31432f1e3e4a772cd8d8a22f913c"
     },
+    "images/joint-plane-and-gap.png": {
+      "bytes": 127999,
+      "sha256": "f94e812136c0dd0fd8db121bcc577a7f8e485b6ce2de8d2676545875fc250224"
+    },
     "images/joint-stack-diagram.png": {
       "bytes": 192733,
       "sha256": "de54bdbcc8624cd093a5ff725490ce08fb795ce653949ec1a09e186f1c37c6a9"
@@ -361,8 +409,8 @@
       "sha256": "8c7da85819e21e2be995687fd2e08e49c26869f60339d14797b80225b98decb2"
     },
     "index.html": {
-      "bytes": 406620,
-      "sha256": "a3da1e103570f19ab837eed8a4704d9ab14226f88397750eb4e62b02195647cf"
+      "bytes": 421328,
+      "sha256": "b9a453eb510cf3b977b7098944573c4148dbd92d1b08136661f11ef7bb92dc75"
     },
     "load-baseline-log.csv": {
       "bytes": 309,
@@ -386,15 +434,15 @@
     },
     "native-CAD-01.zip": {
       "bytes": 7495733,
-      "sha256": "956f10d0c4d8df6a297ea164dbde781834bd0405b1d4799e24e7ae0cee38dd8f"
+      "sha256": "898e5484b27bd31d9a50c6063bf42c1533f1d38e79b88dda5322497316b0dbb1"
     },
     "native-CAD-02.zip": {
       "bytes": 8957593,
-      "sha256": "c48606411d611051e089770831ce4c48b3ba6dfa6bd51e306ef42736a2787eee"
+      "sha256": "2742b31e60b65ca086a5f00a45f431bb6a857e3d217a4c631124950f7cd40e04"
     },
     "native-CAD-03.zip": {
       "bytes": 8650965,
-      "sha256": "294e9336895ac91e1c2724920515b5e555f5a12fa1b4b830d6c92d637b5b8453"
+      "sha256": "76f1b1a9781e63775ed059e8cb42dec251f9c0a8eb57e5a03202c9963ff22be1"
     },
     "parameter-edit-validation.json": {
       "bytes": 1004,
@@ -405,8 +453,12 @@
       "sha256": "84e22e8221afa7cae879759ebf619e18547e7c4778883b254c4b303f5b002f23"
     },
     "print-and-guide-01.zip": {
-      "bytes": 9651428,
-      "sha256": "992309becaefd675ec42fed9c4c5c49de74e0ed8e3b536806c75c48d82e6a30d"
+      "bytes": 9639180,
+      "sha256": "00e6434b3138015f3e96bb6d8977e121756ff9c433d7065e27d0a932ae2f33e5"
+    },
+    "print-and-guide-02.zip": {
+      "bytes": 1365014,
+      "sha256": "1459b399956d0cb626e44b556a5f099f6a918a69c0e239e4420b6fa62c0b850e"
     },
     "print-files/A-housing-print-orientation.stl": {
       "bytes": 438084,

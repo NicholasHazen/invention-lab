@@ -19,7 +19,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 DESTINATION = ROOT / 'docs/projects/triangulated-pivot'
-RELEASE = 'https://github.com/NicholasHazen/invention-lab/releases/download/triangulated-pivot-v4.2.1/triangulated-pivot-v4.2.1.zip'
+RELEASE = 'https://github.com/NicholasHazen/invention-lab/releases/download/triangulated-pivot-v4.2.2/triangulated-pivot-v4.2.2.zip'
 TEXT_SUFFIXES = {'.json', '.md', '.html', '.csv', '.txt'}
 MODELS = {'.f3d', '.stl', '.step'}
 PROVENANCE = 'Public derivative: local workstation prefixes have been replaced with workspace-relative provenance paths. Historical measurements and geometry are unchanged; original evidence is retained in the authoring workspace.'
