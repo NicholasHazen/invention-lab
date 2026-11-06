@@ -1,1 +1,1 @@
-944827afbeb6d482bc0401799f179ceb462cf09731017a5d50f35a51efe0fc04  robotic-actuators-v1.1.zip
+d023eec62827c2eafeafe98363799f6ee9a9ebb58943020a22914d2e274407b4  robotic-actuators-v1.2.zip

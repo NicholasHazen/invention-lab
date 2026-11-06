@@ -2,6 +2,8 @@
 
 An illustrated design guide for makers learning mechanical robotics, Fusion, and actuator selection. The three shared studies are a belt-driven rotary joint, a horizontal screw stage, and a tendon-driven finger. The source uses the Invention Lab handbook's worked-example and experiment style.
 
+Edition 1.2 expands the type comparisons into servo packages, rotary motors, reducers, linear motion, and specialized actuators. Dedicated servo and strain-wave/cycloidal diagrams connect the choices to their mechanisms, integration work, and printability limits.
+
 ## Rebuild
 
 From the repository root, use Node 20 or newer and Python 3.10 or newer:

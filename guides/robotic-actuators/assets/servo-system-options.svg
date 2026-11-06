@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1080" viewBox="0 0 1240 1080" role="img" aria-labelledby="title desc">
+<title id="title">Servo systems: the same feedback idea, different packages</title>
+<desc id="desc">A position command enters a controller. A separately powered driver energizes a motor, which moves a supported output through an optional transmission. An output-angle sensor returns measured position to the controller. Four package cards compare hobby positional servos, smart bus servos, industrial motor-and-drive systems, and integrated robot joints. The diagram is a functional map, not product wiring; sensor positions and included components vary.</desc>
+<defs>
+<marker id="signal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#805225"/></marker>
+<marker id="power" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3666a2"/></marker>
+<marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#21685d"/></marker>
+</defs>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:30px;font-weight:650}.head{font-size:25px;font-weight:650}.body{font-size:21px}.small{font-size:19px}.label{font-size:20px;font-weight:650}.muted{fill:#52675f}.card{fill:#fffdf7;stroke:#8da49c;stroke-width:2}.sig{fill:none;stroke:#805225;stroke-width:3;stroke-dasharray:7 5;marker-end:url(#signal)}.pow{fill:none;stroke:#3666a2;stroke-width:4;marker-end:url(#power)}.mech{fill:none;stroke:#21685d;stroke-width:5;marker-end:url(#motion)}</style>
+<rect width="1240" height="1080" rx="20" fill="#f5f1e8"/>
+<text x="40" y="52" class="title">A servo closes a loop. The package decides what you integrate.</text>
+<text x="40" y="88" class="body">Trace motion to the output, then follow the measurement back to the controller.</text>
+<rect x="30" y="114" width="1180" height="398" rx="16" class="card"/>
+<text x="54" y="151" class="head">Functional position-servo example</text>
+<text x="54" y="184" class="small muted">Output sensing shown here; motor-side or dual sensing is also possible.</text>
+<rect x="475" y="207" width="155" height="52" rx="8" fill="#e3eaf2" stroke="#3666a2" stroke-width="2"/>
+<text x="552" y="240" text-anchor="middle" class="label">Power supply</text>
+<path d="M552 259V290" class="pow"/>
+<rect x="54" y="292" width="150" height="74" rx="9" fill="#f3e6d1" stroke="#a78960" stroke-width="2"/>
+<rect x="255" y="292" width="170" height="74" rx="9" fill="#f3e6d1" stroke="#a78960" stroke-width="2"/>
+<rect x="475" y="292" width="155" height="74" rx="9" fill="#e3eaf2" stroke="#3666a2" stroke-width="2"/>
+<rect x="680" y="292" width="130" height="74" rx="9" fill="#e0e9e1" stroke="#21685d" stroke-width="2"/>
+<rect x="860" y="292" width="150" height="74" rx="9" fill="#e0e9e1" stroke="#21685d" stroke-width="2"/>
+<rect x="1060" y="292" width="120" height="74" rx="9" fill="#e0e9e1" stroke="#21685d" stroke-width="2"/>
+<text x="129" y="323" text-anchor="middle" class="label">Position</text><text x="129" y="350" text-anchor="middle" class="small">command</text>
+<text x="340" y="323" text-anchor="middle" class="label">Controller</text><text x="340" y="350" text-anchor="middle" class="small">compares angles</text>
+<text x="552" y="323" text-anchor="middle" class="label">Driver</text><text x="552" y="350" text-anchor="middle" class="small">powers motor</text>
+<text x="745" y="336" text-anchor="middle" class="label">Motor</text>
+<text x="935" y="323" text-anchor="middle" class="label">Transmission</text><text x="935" y="350" text-anchor="middle" class="small">if used</text>
+<text x="1120" y="323" text-anchor="middle" class="label">Output</text><text x="1120" y="350" text-anchor="middle" class="small">+ support</text>
+<path d="M204 329H252" class="sig"/><path d="M425 329H472" class="sig"/>
+<path d="M630 329H677" class="pow"/>
+<path d="M810 329H857" class="mech"/><path d="M1010 329H1057" class="mech"/>
+<path d="M1120 366V398" fill="none" stroke="#52675f" stroke-width="2"/>
+<rect x="986" y="400" width="194" height="53" rx="8" fill="#f3e6d1" stroke="#a78960" stroke-width="2"/>
+<text x="1083" y="434" text-anchor="middle" class="label">Angle sensor</text>
+<path d="M986 427H340V369" class="sig"/>
+<rect x="518" y="412" width="260" height="30" fill="#fffdf7"/>
+<text x="648" y="433" text-anchor="middle" class="small">Measured output angle</text>
+<path d="M56 478H98" class="sig"/><text x="111" y="485" class="small">Information</text>
+<path d="M352 478H394" class="pow"/><text x="409" y="485" class="small">Electrical power</text>
+<path d="M714 478H756" class="mech"/><text x="771" y="485" class="small">Mechanical motion / torque</text>
+<text x="40" y="558" class="head">What arrives in the box—and what the host can see</text>
+<rect x="40" y="582" width="565" height="190" rx="14" class="card"/>
+<rect x="635" y="582" width="565" height="190" rx="14" class="card"/>
+<rect x="40" y="794" width="565" height="190" rx="14" class="card"/>
+<rect x="635" y="794" width="565" height="190" rx="14" class="card"/>
+<text x="64" y="621" class="head">Hobby positional servo</text>
+<text x="64" y="658" class="body">Motor, gears, local sensor, and control</text>
+<text x="64" y="690" class="body">Host sends pulses; usually no position readback.</text>
+<text x="64" y="730" class="small muted">Check travel, heating, gear play, and shaft loads.</text>
+<text x="659" y="621" class="head">Smart bus servo</text>
+<text x="659" y="658" class="body">Integrated mechanism and addressed control</text>
+<text x="659" y="690" class="body">Host receives the supported status data.</text>
+<text x="659" y="730" class="small muted">Check modes, bus timing, and sensor location.</text>
+<text x="64" y="833" class="head">Industrial motor + drive</text>
+<text x="64" y="870" class="body">Motor / feedback unit and compatible drive</text>
+<text x="64" y="902" class="body">Host sends motion commands; drive reports status.</text>
+<text x="64" y="942" class="small muted">Integrate cabling, tuning, power, and mechanics.</text>
+<text x="659" y="833" class="head">Integrated robot joint</text>
+<text x="659" y="870" class="body">Integrated drive, motor, and mechanics</text>
+<text x="659" y="902" class="body">Reduction may be low, high, or absent.</text>
+<text x="659" y="942" class="small muted">Check included bearings, sensors, and cooling.</text>
+<text x="40" y="1024" class="small">Functional map, not a wiring schematic. Sensor positions and package contents vary by product.</text>
+<text x="40" y="1054" class="small muted">A continuous-rotation RC unit may lack the angle loop above; inspect its feedback specification.</text>
+</svg>

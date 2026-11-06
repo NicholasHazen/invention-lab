@@ -1,0 +1,240 @@
+[
+  {
+    "id": "reducer-strainwave-packages",
+    "title": "Harmonic Drive gears: mechanism and component packages",
+    "creator": "Harmonic Drive SE",
+    "url": "https://harmonicdrive.de/en/technology/harmonic-drive-gears",
+    "format": "documentation",
+    "topics": [
+      "strain-wave gearing",
+      "component sets",
+      "output bearings"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Separates the three-part reduction mechanism from component sets and units with output bearings.",
+    "first_task": "Find the component-set and output-bearing categories, then list which housing and support work your joint still needs.",
+    "limitations": "Commercial performance statements refer to engineered products, not generic or printed flexsplines.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://harmonicdrive.de/en/technology/harmonic-drive-gears",
+    "evidence_note": "Opened official overview; inspected wave generator, flexspline, circular spline, and the distinct package categories."
+  },
+  {
+    "id": "reducer-strainwave-engineering",
+    "title": "SHF and SHG engineering catalog",
+    "creator": "Harmonic Drive LLC",
+    "url": "https://www.harmonicdrive.net/media/support/catalogs/pdf/shf-shg.pdf",
+    "format": "PDF catalog",
+    "topics": [
+      "strain-wave gearing",
+      "stiffness",
+      "hysteresis",
+      "backdriving",
+      "life"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Shows that low backlash, loaded twist, efficiency, output support, and life are separate specification questions.",
+    "first_task": "Inspect the torque-versus-twist curves and the separate backdriving and output-bearing sections.",
+    "limitations": "A teaching example of catalog structure. Confirm the current catalog and limits for any actual purchased configuration; no part has been selected.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.harmonicdrive.net/media/support/catalogs/pdf/shf-shg.pdf",
+    "evidence_note": "Opened the 59-page official PDF; confirmed separate ratings/life, assembly tolerance, output-bearing, efficiency, backdriving, torsional stiffness, and hysteresis sections."
+  },
+  {
+    "id": "reducer-cycloidal-sumitomo",
+    "title": "Cycloidal gear technology",
+    "creator": "Sumitomo Drive Technologies",
+    "url": "https://emeia.sumitomodrive.com/en-gb/cycloidal-gear-technology",
+    "format": "documentation",
+    "topics": [
+      "cycloidal reducers",
+      "eccentric",
+      "output pins"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Names the eccentric, lobed disc, stationary outer pins, and output pins so the two pin sets are not confused.",
+    "first_task": "Trace which pins stay fixed and which transmit the output, then predict rotation for a one-lobe difference.",
+    "limitations": "One-stage examples require a specified fixed member and lobe difference. Product load and vibration claims do not rate a printed mechanism.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://emeia.sumitomodrive.com/en-gb/cycloidal-gear-technology",
+    "evidence_note": "Opened official mechanism page and checked the input, disc, fixed ring, output extraction, and paired-disc discussion."
+  },
+  {
+    "id": "reducer-cycloidal-geometry",
+    "title": "Cycloidal and strain-wave drives",
+    "creator": "Jönköping University — Applied Mechanics",
+    "url": "https://mechanics.ju.se/MachineElements/cycloidal-strainwave.html",
+    "format": "university lesson",
+    "topics": [
+      "cycloidal reducers",
+      "strain-wave gearing",
+      "kinematics",
+      "output-hole geometry"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Develops the signed ratios and explains why the cycloidal output holes must accommodate eccentricity.",
+    "first_task": "Check the ratio for eleven fixed pins and ten lobes; identify the output-hole enlargement.",
+    "limitations": "Geometry and teaching examples do not provide a physical rating for the guide’s schematics or your print.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://mechanics.ju.se/MachineElements/cycloidal-strainwave.html",
+    "evidence_note": "Opened university chapter and inspected the fixed-ring ratio derivation and output-hole explanation."
+  },
+  {
+    "id": "reducer-helical-thrust",
+    "title": "Herringbone gears",
+    "creator": "Jönköping University — Applied Mechanics",
+    "url": "https://mechanics.ju.se/MachineElements/herringbone-gears.html",
+    "format": "university lesson",
+    "topics": [
+      "helical gears",
+      "herringbone",
+      "axial thrust"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Connects tooth helix angle to axial force and the use of opposite-handed halves.",
+    "first_task": "Sketch the axial force directions for a single helix and then for opposed helices.",
+    "limitations": "Ideal thrust cancellation does not remove the need to assess unequal loading, manufacturing error, and retention. The guide does not adopt a universal printed-gear recommendation.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://mechanics.ju.se/MachineElements/herringbone-gears.html",
+    "evidence_note": "Opened university chapter; inspected the helix-angle force relation and opposite-hand construction."
+  },
+  {
+    "id": "reducer-bevel-support",
+    "title": "Bevel gears",
+    "creator": "Jönköping University — Applied Mechanics",
+    "url": "https://mechanics.ju.se/MachineElements/bevel-gears.html",
+    "format": "university lesson",
+    "topics": [
+      "bevel gears",
+      "shaft angles",
+      "bearing loads"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Explains how intersecting shaft axes and the gear forces constrain the supporting structure.",
+    "first_task": "Locate the pitch-cone intersection and mark axial forces before drawing a housing.",
+    "limitations": "The guide uses only the arrangement and support principles; its pivot is not a designed bevel-gear assembly.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://mechanics.ju.se/MachineElements/bevel-gears.html",
+    "evidence_note": "Opened university chapter; inspected pitch cones, shaft angles, force components, and mounting sections."
+  },
+  {
+    "id": "reducer-sliding-screw-selection",
+    "title": "Why lead screws fit many linear-motion applications",
+    "creator": "Thomson",
+    "url": "https://www.thomsonlinear.com/en/support/20150128-uk",
+    "format": "documentation",
+    "topics": [
+      "lead screws",
+      "ball screws",
+      "friction",
+      "duty",
+      "wear"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Explains how sliding friction, nut materials, duty, and wear enter screw selection.",
+    "first_task": "Compare a short intermittent move with continuous reciprocation at the same force.",
+    "limitations": "Numerical product ranges and historical cost examples are not universal limits. Obtain the chosen screw/nut specifications.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.thomsonlinear.com/en/support/20150128-uk",
+    "evidence_note": "Opened official technical article; inspected friction/efficiency, backdriving, critical speed, duty, backlash, wear, and lubrication."
+  },
+  {
+    "id": "reducer-screw-technologies",
+    "title": "Selecting the optimal screw technology",
+    "creator": "Tolomatic",
+    "url": "https://www.tolomatic.com/info-center/resource-details/acme-ball-roller-screw-selection/",
+    "format": "documentation",
+    "topics": [
+      "lead screws",
+      "ball screws",
+      "roller screws",
+      "linear actuation"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Distinguishes sliding threads, recirculating balls, and threaded rollers, with different cost and integration constraints.",
+    "first_task": "Identify the load-carrying contact in each screw type and the power-off behavior of a vertical axis.",
+    "limitations": "Manufacturer comparisons need application-specific ratings and total package cost; the guide does not transfer a family’s performance claims to arbitrary products.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.tolomatic.com/info-center/resource-details/acme-ball-roller-screw-selection/",
+    "evidence_note": "Opened official article; inspected operating principles and selection tradeoffs for Acme, ball, and planetary roller screws."
+  },
+  {
+    "id": "reducer-chain-dynamics",
+    "title": "The Complete Guide to Chain",
+    "creator": "U.S. Tsubaki / Tsubakimoto Chain Co.",
+    "url": "https://catalog.ustsubaki.com/view/303981549/1/",
+    "format": "manufacturer handbook",
+    "topics": [
+      "chain drive",
+      "sprockets",
+      "chordal action"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Shows why a chain’s discrete pitch produces cyclic speed variation around a sprocket.",
+    "first_task": "Read section 2.2.1 and compare small and large sprocket tooth counts.",
+    "limitations": "The archived textbook explains principles; current drive selection, lubrication, and maintenance limits require the actual chain documentation.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://catalog.ustsubaki.com/view/303981549/1/",
+    "evidence_note": "Opened official hosted book and inspected section 2.2.1, including the maximum/minimum chain-speed explanation."
+  },
+  {
+    "id": "reducer-chain-wear",
+    "title": "Chain wear guide instructions",
+    "creator": "Renold",
+    "url": "https://www.renold.com/media/1269222/Chain-wear-guide-instructions.pdf",
+    "format": "PDF instructions",
+    "topics": [
+      "chain drive",
+      "wear",
+      "maintenance"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Makes wear elongation a measurable maintenance condition rather than an assumed fixed clearance.",
+    "first_task": "Identify what length is being measured and why worn sprockets and chain need joint inspection.",
+    "limitations": "Replacement thresholds are those of the referenced guide, not a universal criterion for every precision robot transmission.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.renold.com/media/1269222/Chain-wear-guide-instructions.pdf",
+    "evidence_note": "Read official indexed PDF text describing elongation assessment and replacement guidance."
+  },
+  {
+    "id": "reducer-capstan-transmissions",
+    "title": "Transmissions and guides",
+    "creator": "MIT Center for Bits and Atoms — Machine Class",
+    "url": "https://fab.cba.mit.edu/classes/865.21/topics/mechanical_design/transmissions/",
+    "format": "university lesson",
+    "topics": [
+      "capstan",
+      "wire rope",
+      "preload",
+      "transmissions"
+    ],
+    "level": "Intermediate",
+    "prerequisites": "Motor versus transmission, reduction ratio, and basic force/torque concepts",
+    "access": "Free public source; linked documents remain on the creator’s site.",
+    "why": "Explains cable wrap, termination, and alignment considerations in a capstan transmission.",
+    "first_task": "Trace how wrap and maintained tension provide traction, then contrast that with a tendon fixed to a spool.",
+    "limitations": "Course design notes are qualitative. Cable material, bend radius, traction, fatigue, stroke, and force capability require a specific design.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://fab.cba.mit.edu/classes/865.21/topics/mechanical_design/transmissions/",
+    "evidence_note": "Opened course page; inspected capstan wrap, helical cable travel, positive preload, termination, and manufacturing comments."
+  }
+]

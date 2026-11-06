@@ -1,0 +1,162 @@
+[
+  {
+    "id": "coverage-packaged-linear",
+    "title": "Linear Actuator Design Overview",
+    "creator": "Thomson",
+    "url": "https://www.thomsonlinear.com/en/training/linear_actuators/design_overview",
+    "format": "documentation",
+    "topics": [
+      "electric linear actuators",
+      "screw drives"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Follow the components inside a packaged rod actuator.",
+    "first_task": "Trace motor, gearing, screw, nut, and extending tube.",
+    "limitations": "Features vary by model; this is not a selected component.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.thomsonlinear.com/en/training/linear_actuators/design_overview",
+    "evidence_note": "Opened official component explanation; motor-to-screw power path is documented."
+  },
+  {
+    "id": "coverage-direct-linear",
+    "title": "How to Select a Direct Drive Linear Actuator",
+    "creator": "Kollmorgen",
+    "url": "https://www.kollmorgen.com/en-us/blogs/how-to-select-direct-drive-linear-actuators",
+    "format": "documentation",
+    "topics": [
+      "linear motors",
+      "direct drive"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Separate a motor kit from a supported stage.",
+    "first_task": "List guidance, feedback, and drive components still required.",
+    "limitations": "Motor construction and selected ratings determine actual behavior.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.kollmorgen.com/sites/default/files/2025-05/DDL-Installation-Manual-EN.pdf",
+    "evidence_note": "Opened official selection guide; checked indexed April 2025 DDL installation manual for iron-core attraction and ironless behavior."
+  },
+  {
+    "id": "coverage-fluid-rotary",
+    "title": "Hydraulic Rotary Actuators: Engineering Guidelines",
+    "creator": "Parker",
+    "url": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/Actuator-Cylinder/Catalog_HY03-1800.pdf",
+    "format": "documentation",
+    "topics": [
+      "fluid power",
+      "rotary actuators"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Recognize limited-angle fluid-actuator constructions.",
+    "first_task": "Compare rack-and-pinion, vane, and helical layouts.",
+    "limitations": "Older reference catalog; verify current product specifications separately.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.parker.com/content/dam/Parker-com/Literature/Literature-Files/pneumatic/Literature/Actuator-Cylinder/Catalog_HY03-1800.pdf",
+    "evidence_note": "Opened official PDF and inspected the introductory engineering guidelines."
+  },
+  {
+    "id": "coverage-hydraulic-motor",
+    "title": "General, Orbital Motors: Technical Information",
+    "creator": "Danfoss",
+    "url": "https://assets.danfoss.com/documents/latest/195953/BC152886483554en-000401.pdf",
+    "format": "documentation",
+    "topics": [
+      "hydraulics",
+      "continuous rotation"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Connect pressure and flow to rotary output.",
+    "first_task": "Find displacement, pressure difference, flow, torque, and speed.",
+    "limitations": "Equations and ratings require their stated fluid and operating conditions.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://assets.danfoss.com/documents/latest/195953/BC152886483554en-000401.pdf",
+    "evidence_note": "Inspected the official PDF’s indexed operating-principle passage. Direct fetch timed out in the research browser."
+  },
+  {
+    "id": "coverage-air-motor",
+    "title": "Air Motors Catalog",
+    "creator": "Atlas Copco",
+    "url": "https://www.atlascopco.com/content/dam/pim/itba/atlas-copco/leaflets/global-leaflets/Catalog-AtlasCopco-Air-motors.pdf",
+    "format": "documentation",
+    "topics": [
+      "pneumatics",
+      "air motors"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Read running performance separately from starting torque.",
+    "first_task": "Find minimum starting torque and the air-consumption reference conditions.",
+    "limitations": "Catalog examples do not select a supply for this guide.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.atlascopco.com/content/dam/pim/itba/atlas-copco/leaflets/global-leaflets/Catalog-AtlasCopco-Air-motors.pdf",
+    "evidence_note": "Inspected the official PDF’s indexed performance-data notes and motor families. Full PDF exceeds the research browser size limit."
+  },
+  {
+    "id": "coverage-pneumatic-muscle",
+    "title": "Fluidic Muscle DMSP",
+    "creator": "Festo",
+    "url": "https://ftp.festo.com/public/pneumatic/SOFTWARE_SERVICE/Documentation/2021/EN/DMSP_EN.PDF",
+    "format": "documentation",
+    "topics": [
+      "pneumatic muscles",
+      "soft actuation"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Relate contraction to available tensile force.",
+    "first_task": "Follow the force-versus-contraction curve.",
+    "limitations": "Archived manufacturer PDF; no pressure-system build procedure is provided here.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://ftp.festo.com/public/pneumatic/SOFTWARE_SERVICE/Documentation/2021/EN/DMSP_EN.PDF",
+    "evidence_note": "Opened official PDF; contraction principle and return-load arrangements are documented."
+  },
+  {
+    "id": "coverage-soft-bending",
+    "title": "PneuNets Bending Actuators: Design",
+    "creator": "Soft Robotics Toolkit",
+    "url": "https://softroboticstoolkit.com/book/pneunets-design",
+    "format": "documentation",
+    "topics": [
+      "soft robotics",
+      "pneumatic bending"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Explain bending from unequal extension.",
+    "first_task": "Identify the expanding chambers and strain-limiting layer.",
+    "limitations": "Documented elastomer construction; it does not rate arbitrary printed pressure parts.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://softroboticstoolkit.com/book/pneunets-design",
+    "evidence_note": "Opened original project design page; chamber geometry, materials, and mold workflow are described."
+  },
+  {
+    "id": "coverage-holding-brake",
+    "title": "Holding Brake",
+    "creator": "Kollmorgen",
+    "url": "https://webhelp.kollmorgen.com/essentials/english/Content/Resources/_MOTORS-Common/EN-English/MOTORS-Standard-Features/MOTORS-Holding-Brake.htm",
+    "format": "documentation",
+    "topics": [
+      "holding brakes",
+      "load restraint"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Force, travel, duty, and feedback basics.",
+    "access": "Free public primary source.",
+    "why": "Distinguish holding from repeated stopping.",
+    "first_task": "Locate the standstill-brake limitation.",
+    "limitations": "Applies to the documented motor range; assess the complete machine separately.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://webhelp.kollmorgen.com/essentials/english/Content/Resources/_MOTORS-Common/EN-English/MOTORS-Standard-Features/MOTORS-Holding-Brake.htm",
+    "evidence_note": "Opened official manual; standstill duty and wear limitations are stated."
+  }
+]

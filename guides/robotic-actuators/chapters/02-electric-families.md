@@ -24,13 +24,55 @@ At zero speed, back EMF disappears. Applying full voltage can therefore draw a l
 
 This family is approachable for a first custom mechanism because motor, driver, encoder, and transmission remain visible design choices. The price of that flexibility is integration work: a two-wire motor does not know its angle. A reversible driver supplies power; a controller and suitable feedback create controlled positioning.
 
-## Hobby and smart servos package the integration
+## Servo systems: compare the package and the feedback
 
-A conventional positional hobby servo usually packages a small motor, reduction gears, an output-position sensor, and control electronics. Your command requests a position within its supported range. A continuous-rotation variant may interpret a similar command as speed or direction instead; the connector alone does not identify the behavior. Read the actual product's operating modes before designing a joint around it.
+“Buy a servo” leaves several choices unresolved. A small RC servo, a networked robot servo, and an industrial motor-and-drive pair can all use feedback, yet they expose very different capabilities to you. Start with the action you need: reach an angle, maintain a speed, or regulate effort. Then ask which parts of that job the purchased package actually performs.
 
-A smart servo adds a communication interface and may expose measured position, current, temperature, faults, and several control modes. For example, the [ROBOTIS XM430 manual](https://emanual.robotis.com/docs/en/dxl/x/xm430-w210/) documents current, velocity, position, and current-based position modes. It also distinguishes momentary stall torque from real operating performance. That makes the manual useful for learning what a complete actuator specification should contain; it is not a selection of that servo for our arm.
+![A functional position-servo loop separates command information, electrical power, mechanical motion, and measured output position. Four package examples compare hobby, smart bus, industrial, and integrated robot-joint servos.](assets/servo-system-options.svg)
 
-An integrated package can accelerate learning about mechanisms because you spend less time assembling a control system. However, inspect its output bearing capacity, mounting pattern, electrical interface, and behavior after communication loss. A servo horn transmits torque; its existence does not establish that the shaft can carry an arbitrarily long cantilever. A current limit can limit motor effort, but friction and gear losses prevent treating it as a perfectly calibrated contact-force limit.
+*Trace the return arrow from the measured angle. The controller can correct an error only if its measurement exposes that error. Then compare the package boundaries below: putting the loop inside a box reduces your integration work, but does not guarantee that the box reports its measurements to your computer.*
+
+| Servo option | Where it helps | Main compromise | Decisive checks |
+| --- | --- | --- | --- |
+| Hobby positional servo | A small joint, pointer, or linkage that needs bounded angle motion | Convenient package; often little telemetry or published continuous-load data | Angle range, sustained holding, supply current, gear play, horn and bearing loads |
+| Continuous-rotation RC servo | Simple wheel or roller drive using an RC-style command | Common versions command direction and speed without measuring output angle | Presence of feedback, speed variation with load, neutral calibration |
+| Smart bus servo | Several robot joints with addressed commands and status reporting | More observability; protocol, modes, and power distribution need setup | Sensor location, supported modes, bus timing, watchdog, temperature limits |
+| Industrial servo motor + drive | Repeated precise motion with documented drive integration | Greater commissioning, cabling, tuning, and mounting work | Matched motor/drive/feedback, continuous torque–speed envelope, inertia, regeneration |
+| Integrated robot joint | Compact rotary joint with motor, reducer, sensing, and drive packaged together | Convenient interfaces constrain ratio, geometry, cooling, and repair | Exactly what is integrated, output-load ratings, usable control modes, peak duration |
+
+These are overlapping product arrangements. A smart servo may contain a brushless motor; an industrial servo may use a harmonic reducer; an integrated robot joint may use a modest-ratio planetary stage. The word **servo** tells us to look for a control loop, not a particular gear or motor shape.
+
+### Hobby positional servos
+
+A conventional positional hobby servo packages a small motor, reduction gears, an output-position sensor, and control electronics. It compares the commanded angle with its local measurement and drives the motor to reduce the difference. That makes it useful for a first linkage: the basic feedback loop arrives assembled. The usual tradeoffs are limited travel, gear clearance, and restricted access to measurements and tuning.
+
+The signal wire carries a **pulse-width command**; the power wires supply the energy that moves the load. This command is different from the high-frequency motor-power PWM used inside a drive. Many RC interfaces use a neutral pulse near 1.5 ms, but allowable widths, update rate, angle range, and direction must come from the actual servo. A three-wire non-isolated interface uses its ground as the signal reference; a separate power supply still needs the documented common reference. This is not a wiring rule for isolated industrial drives or every serial bus. [Pololu explains the power and signal roles](https://www.pololu.com/blog/16/electrical-characteristics-of-servos-and-introduction-to-the-servo-control-interface).
+
+A “digital” hobby servo can still use that same pulse interface: digital describes its internal control implementation, not a promise of serial commands or returned position. Likewise, a controller reporting the pulse it sent is not measuring the servo shaft. Calibration matters because a library's requested “90°” is only as good as its pulse-to-angle mapping. [Pololu's detailed interface discussion](https://www.pololu.com/blog/17/servo-control-interface-in-detail) shows why there is no universal mapping.
+
+A servo horn transmits torque. It does not establish that the output bearing can support a long cantilever. For our pivot, retain the separate bearing-supported shaft and connect the actuator through a torque-transmitting interface. Also separate the short-duration stall number from the sustained horizontal holding requirement; a compact package can overheat while it appears to be doing nothing.
+
+### Continuous-rotation servos
+
+Many continuous-rotation RC servos replace angle positioning with a command for direction and speed. A neutral command asks for a stop; commanding for one second does not establish a repeatable angle because voltage, friction, and load affect travel. This is useful for a wheel, but insufficient by itself for a joint that must return to a specified angle.
+
+The name has exceptions. Some products provide a separate feedback signal, and some smart servos support both multi-turn positioning and velocity modes. Check what is measured and what the host must implement. [Pololu's continuous-rotation comparison](https://www.pololu.com/category/143/continuous-rotation-servos) distinguishes ordinary open-loop versions from feedback-equipped examples. “360°” on a listing is therefore a prompt to read the control description, not proof of arbitrary-angle positioning.
+
+### Smart bus servos
+
+A smart bus servo accepts addressed messages and can return status. That can simplify a robot with several joints: the host can request motion and inspect the measured response. Depending on the model, available data may include position, current, supply voltage, temperature, and faults. The [ROBOTIS XM430 manual](https://emanual.robotis.com/docs/en/dxl/x/xm430-w210/) provides a concrete example with position, velocity, current, and current-based position modes, plus a configurable communication watchdog.
+
+Those features make experiments more informative, but each needs interpretation. Motor current is an effort-related measurement, not a direct measurement of contact force after gears, friction, and linkage geometry. Read whether position is motor-side or output-side, and what happens to multi-turn counts after power loss. Verify the electrical bus variant, adapter, identifiers, and supported update rates; a familiar connector does not establish compatibility. The servo supply must still carry the combined load current of the joints.
+
+For an early actuated pivot, this package is worth investigating when logging position and temperature matters more than minimizing purchase cost. Its continuous load capacity and output support still need to pass the same mechanical checks as any other option.
+
+### Industrial servo motor and drive
+
+Here the “servo motor” is commonly a motor with a feedback device; the compatible servo drive is another component. The drive regulates motor current and can participate in velocity and position loops. A higher-level controller provides motion commands. This arrangement offers flexibility for repeated machine motion, but you must integrate the drive, feedback interface, power, cables, mounting, and tuning. [Kollmorgen's system overview](https://webhelp.kollmorgen.com/s300_S700/EN/overview_servo_drives.htm) shows those separate roles.
+
+Motor-side feedback can confirm motor angle while a transmission twists or takes up clearance. An output encoder measures farther along the mechanism; some drives support both sensors. Adding that measurement changes the control problem, because the flexible transmission remains between motor and load. Rockwell's [motor, auxiliary, and dual-feedback diagrams](https://www.rockwellautomation.com/en-us/docs/studio-5000-logix-designer/37-00/contents-ditamap/instruction-set/axis_servo_drive-diagrams.html) make the different loops explicit.
+
+Choose this arrangement when its flexibility and documented integration are useful enough to justify the setup. Read continuous and peak ratings at the required speed and cooling condition. Check how braking energy is handled, whether a holding brake is supplied, and how the supported axis behaves when the drive is disabled. These are system design questions; a position-control mode alone does not answer them.
 
 ## Stepper: count commands, then check whether motion followed
 
@@ -50,7 +92,15 @@ Permanent-magnet brushless motors move commutation into electronics. Product lan
 
 A sensorless fan controller and a robot-joint drive have different jobs. The joint may need controlled torque at rest, slow reversal, and recovery after an external push. Some sensorless methods need a startup alignment and acceleration sequence; others use specialized low-speed estimation. TI's [sensorless startup documentation](https://software-dl.ti.com/mcu-sdk/esd/AM13E2X-SDK/26_01_00_03/exports/docs/docs/am13e230x/user_guide/chapters/solutions/am13e230x/motor_control/control_start_sequence.html) makes that sequence explicit. Verify the selected controller's zero-speed behavior rather than assuming “FOC” guarantees it.
 
-A direct-drive joint connects the motor to the load without reduction. A quasi-direct-drive joint uses a relatively small reduction with a motor capable of substantial torque. Both can reduce transmission friction and reflected rotor inertia compared with high reduction, but they demand enough motor torque and heat rejection. The [Berkeley Blue research paper](https://arxiv.org/abs/1904.03815) shows this design trade in an actual research robot. Its results belong to that robot; they do not certify a smaller printed version.
+## Integrated robot joints and quasi-direct drive
+
+An integrated robot joint packages some combination of a brushless motor, reduction, encoder, driver, bearings, and sometimes a brake. Integration describes the package; it does not identify the transmission. The [CubeMars AK80-9 example](https://www.cubemars.com/product/ak80-9-v3-0-robotic-actuator.html) combines a brushless motor, planetary reducer, encoder, and drive. Other joint modules use strain-wave or cycloidal reducers. Compare the complete assembly drawing and specification rather than assuming every module includes an output bearing or sensor with the same capabilities.
+
+A **direct-drive** joint connects the motor to the load without reduction. A **quasi-direct-drive (QDD)** joint uses modest reduction and a motor that supplies substantial torque. Lower reduction can improve backdrivability and reduce the motor's reflected inertia for a given rotor, which is attractive when a joint should yield to a push. The cost is that the motor must supply more torque, and sustained holding still produces heat. “QDD” does not guarantee low friction, effortless backdriving, or safe contact. Motor size, cogging, gearing, control, and the complete mechanism determine the behavior. The [Berkeley Blue paper](https://arxiv.org/abs/1904.03815) explores this trade in a research robot; its measured results do not rate our printed pivot.
+
+A **frameless torque motor** is another packaging choice: a rotor and stator supplied for integration into your mechanism. This can create a compact coaxial joint, but transfers bearing support, air-gap alignment, housing, thermal paths, and feedback integration to the designer. [Kollmorgen's frameless explanation](https://www.kollmorgen.com/en-us/products/motors/technologies-explained/what-is-a-frameless-motor) distinguishes the motor kit from a complete housed assembly. A printed housing is a useful geometry experiment; it does not inherit the performance of a thermally conductive, accurately aligned metal installation.
+
+For our first powered pivot, compare two complete candidates: a supported output driven by a positional or smart servo, and a supported output driven through our visible belt study. Keep a compact integrated joint as a third option if packaging becomes decisive. A raw frameless motor is a later integration project unless its extra mechanical and control work is the subject you want to learn.
 
 ## A candidate that passes one check and fails another
 

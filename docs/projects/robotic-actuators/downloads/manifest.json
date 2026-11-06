@@ -1,6 +1,6 @@
 {
   "guide": "Robotic actuators",
-  "version": "1.1",
+  "version": "1.2",
   "generated_on": "2026-11-06",
   "status": "Digital layout studies; no physical actuator validation",
   "files": [
@@ -66,13 +66,23 @@
     },
     {
       "path": "assets/guide.css",
-      "bytes": 16990,
-      "sha256": "9a19a53aaee5a56868346dea65d5c0caf718ca68f4b7de5bc99f820ca02f3e93"
+      "bytes": 18487,
+      "sha256": "27ce8f6ed68d2be53f30c4e3a900e78296e8c2002bebb22645166abd5112fece"
     },
     {
       "path": "assets/guide.js",
       "bytes": 10018,
       "sha256": "cf81811c0af39cbf04975ca047b20dcab24dcb264d0cd2534aef72e1ca42db39"
+    },
+    {
+      "path": "assets/reducer-strain-wave-cycloidal.svg",
+      "bytes": 28717,
+      "sha256": "f3b18e37ba8adb011a61a45fa91884a95a0dd820e1beb1e087cbe5e11445f78b"
+    },
+    {
+      "path": "assets/servo-system-options.svg",
+      "bytes": 6812,
+      "sha256": "1cebe3b8566665988d732dd03422c7ec210eecc51d782203a8248e07a98fc7dd"
     },
     {
       "path": "assets/sizing-compliance.svg",
@@ -261,8 +271,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 225069,
-      "sha256": "268d193dfeb694edb6f05853fa37c23cbeb8518bb5ad98d93e317a16108da0a3"
+      "bytes": 288922,
+      "sha256": "de349bd07649a1c2d8b9f4f61191aa2712c5ff99a4da2887497242bff626916d"
     },
     {
       "path": "media/README.md",

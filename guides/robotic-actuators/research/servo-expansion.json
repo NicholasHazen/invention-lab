@@ -1,0 +1,149 @@
+[
+  {
+    "id": "servo-rc-power-interface",
+    "title": "Electrical characteristics of servos and introduction to the servo control interface",
+    "creator": "Pololu",
+    "url": "https://www.pololu.com/blog/16/electrical-characteristics-of-servos-and-introduction-to-the-servo-control-interface",
+    "format": "documentation",
+    "topics": [
+      "hobby servos",
+      "power",
+      "command interface"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Separates supply energy from the low-power command signal and explains its reference.",
+    "first_task": "Identify power, ground, and signal in a selected servo manual; record the permitted supply and signal levels.",
+    "limitations": "RC examples do not establish wiring requirements for isolated drives or serial-bus products.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.pololu.com/blog/16/electrical-characteristics-of-servos-and-introduction-to-the-servo-control-interface",
+    "evidence_note": "Opened the official article; power leads, pulse command, and ground reference are described."
+  },
+  {
+    "id": "servo-rc-pulse-details",
+    "title": "Servo control interface in detail",
+    "creator": "Pololu",
+    "url": "https://www.pololu.com/blog/17/servo-control-interface-in-detail",
+    "format": "documentation",
+    "topics": [
+      "hobby servos",
+      "pulse width",
+      "calibration"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Explains pulse-width mapping, calibration, and analog-versus-digital internal servo behavior.",
+    "first_task": "Explain why a library command labelled 90 degrees needs a calibrated pulse-to-angle mapping.",
+    "limitations": "Timing examples are illustrative; read the actual servo limits before commanding its endpoints.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.pololu.com/blog/17/servo-control-interface-in-detail",
+    "evidence_note": "Opened official article; inspected pulse width, period, and digital servo discussion."
+  },
+  {
+    "id": "servo-continuous-feedback",
+    "title": "Continuous Rotation Servos",
+    "creator": "Pololu",
+    "url": "https://www.pololu.com/category/143/continuous-rotation-servos",
+    "format": "documentation",
+    "topics": [
+      "continuous rotation",
+      "feedback",
+      "servo selection"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Shows why a continuous-rotation label does not promise angle positioning.",
+    "first_task": "Compare an ordinary continuous-rotation unit with a feedback-equipped example; identify which loop the host must add.",
+    "limitations": "Manufacturer catalog examples; no listed servo has been selected or tested for this guide.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.pololu.com/category/143/continuous-rotation-servos",
+    "evidence_note": "Opened official category explanation and comparison with the feedback column."
+  },
+  {
+    "id": "servo-industrial-system",
+    "title": "Servo System Overview",
+    "creator": "Kollmorgen",
+    "url": "https://webhelp.kollmorgen.com/s300_S700/EN/overview_servo_drives.htm",
+    "format": "documentation",
+    "topics": [
+      "industrial servos",
+      "servo drives",
+      "feedback"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Connects the industrial motor, feedback unit, amplifier, load, and control loops.",
+    "first_task": "Sketch which purchased components are needed in addition to a bare servo motor.",
+    "limitations": "Drive-specific documentation; compatibility and installation requirements must come from the chosen system.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://webhelp.kollmorgen.com/s300_S700/EN/overview_servo_drives.htm",
+    "evidence_note": "Opened official overview; inspected component roles, feedback, and control-loop explanation."
+  },
+  {
+    "id": "servo-motor-load-feedback",
+    "title": "AXIS_SERVO_DRIVE Diagrams",
+    "creator": "Rockwell Automation",
+    "url": "https://www.rockwellautomation.com/en-us/docs/studio-5000-logix-designer/37-00/contents-ditamap/instruction-set/axis_servo_drive-diagrams.html",
+    "format": "documentation",
+    "topics": [
+      "motor encoder",
+      "output encoder",
+      "dual feedback"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Contrasts motor-side, load-side, and dual position feedback configurations.",
+    "first_task": "Locate the sensor used for position in each arrangement and explain what gearbox deformation a motor encoder misses.",
+    "limitations": "Specific control architectures; adding an output sensor still requires a compatible drive and appropriate tuning.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.rockwellautomation.com/en-us/docs/studio-5000-logix-designer/37-00/contents-ditamap/instruction-set/axis_servo_drive-diagrams.html",
+    "evidence_note": "Opened official documentation; inspected Motor Position, Auxiliary Position, and Dual Position descriptions."
+  },
+  {
+    "id": "servo-integrated-joint-example",
+    "title": "AK80-9 V3.0 Robotic Actuator",
+    "creator": "CubeMars",
+    "url": "https://www.cubemars.com/product/ak80-9-v3-0-robotic-actuator.html",
+    "format": "documentation",
+    "topics": [
+      "integrated joints",
+      "planetary reducers",
+      "brushless servos"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Provides a current example of a motor, planetary reducer, encoder, and drive integrated into one joint module.",
+    "first_task": "List what is included, then find the output-load and cooling details that a complete mechanism still needs.",
+    "limitations": "Example package only; product claims and peak ratings do not rate our printed pivot. No purchase recommendation.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.cubemars.com/product/ak80-9-v3-0-robotic-actuator.html",
+    "evidence_note": "Opened official product page; integration, supported control modes, and single-encoder listing are present."
+  },
+  {
+    "id": "servo-frameless-integration",
+    "title": "What is a Frameless Motor?",
+    "creator": "Kollmorgen",
+    "url": "https://www.kollmorgen.com/en-us/products/motors/technologies-explained/what-is-a-frameless-motor",
+    "format": "documentation",
+    "topics": [
+      "frameless motors",
+      "torque motors",
+      "mechanical integration"
+    ],
+    "level": "beginner to intermediate",
+    "prerequisites": "Motor, transmission, and feedback distinctions from Chapter 2.",
+    "access": "Free public manufacturer documentation.",
+    "why": "Distinguishes a rotor/stator motor kit from a housed motor or complete robot joint.",
+    "first_task": "List the bearing, housing, alignment, thermal, and feedback jobs transferred to the mechanism designer.",
+    "limitations": "Manufacturer overview; installation tolerances and thermal ratings need the selected motor documentation.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.kollmorgen.com/en-us/products/motors/technologies-explained/what-is-a-frameless-motor",
+    "evidence_note": "Opened official explanation; inspected kit contents and integration responsibilities."
+  }
+]
