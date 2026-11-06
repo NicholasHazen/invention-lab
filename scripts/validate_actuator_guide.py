@@ -10,15 +10,18 @@ SITE = ROOT / 'docs/projects/robotic-actuators'
 
 class Document(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links=[]; self.ids=set(); self.duplicates=[]; self.images=[]; self.h1=0
+        super().__init__(); self.links=[]; self.ids=set(); self.duplicates=[]; self.images=[]; self.h1=0; self.videos=[]; self.frames=[]; self.tracks=[]
     def handle_starttag(self, tag, attrs):
         a=dict(attrs)
         if 'id' in a:
             if a['id'] in self.ids:self.duplicates.append(a['id'])
             self.ids.add(a['id'])
         if tag=='h1':self.h1+=1
-        if tag=='img':self.images.append(a)
-        for key in ('href','src'):
+        if tag=='img' and a.get('src'):self.images.append(a)
+        if tag=='video':self.videos.append(a)
+        if tag=='iframe':self.frames.append(a)
+        if tag=='track':self.tracks.append(a)
+        for key in ('href','src','poster'):
             if key in a:self.links.append(a[key])
 
 def parse(file):
@@ -46,6 +49,12 @@ def main():
             checks+=1
     doc=documents[SITE/'index.html']
     assert all(f'chapter-{n:02}' in doc.ids for n in range(1,11))
+    assert 'compare-types' in doc.ids and 'motion-library' in doc.ids
+    assert len(doc.videos)==3 and all('controls' in v and 'autoplay' not in v for v in doc.videos)
+    assert len(doc.tracks)==3 and all(t.get('kind')=='captions' for t in doc.tracks)
+    assert not doc.frames, 'Third-party players must be click-to-load'
+    for track in doc.tracks:assert (SITE/track['src']).read_text().startswith('WEBVTT')
+    for video in doc.videos:assert video.get('poster') and video.get('aria-label')
     svgs=list(SITE.rglob('*.svg'))
     for p in svgs:
         e=ET.parse(p).getroot();assert e.attrib.get('viewBox'),p
@@ -58,6 +67,6 @@ def main():
     for p in SITE.rglob('*'):
         if p.is_file() and p.suffix in ('.html','.js','.css','.json','.csv','.py','.md','.svg'):
             assert '/Users/nick/' not in p.read_text(),(p,'Private/nonportable source path')
-    result={'passed':True,'html_pages':len(documents),'local_links_checked':checks,'images':len(doc.images),'svg_diagrams':len(svgs),'manifest_files':len(manifest['files'])}
+    result={'passed':True,'html_pages':len(documents),'local_links_checked':checks,'images':len(doc.images),'local_videos':len(doc.videos),'caption_tracks':len(doc.tracks),'svg_diagrams':len(svgs),'manifest_files':len(manifest['files'])}
     print(json.dumps(result,indent=2))
 if __name__=='__main__':main()

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "motion-belt",
+    "chapter": 5,
+    "title": "Watch a 3:1 belt reduction",
+    "description": "A silent original schematic animation: three turns of a 20-tooth input pulley produce one turn of a 60-tooth output pulley.",
+    "watch_for": "Follow the green rotation marks and the turn counters. Both pulleys turn in the same direction; the larger output completes one turn while the input completes three.",
+    "tradeoff": "A belt lets you move the motor away from the joint. Reduction trades output speed for torque; belt stretch, alignment, and tension add constraints on precision and shaft support.",
+    "limits": "Pitch-circle kinematics only. Tooth marks are illustrative, not pulley profiles. The ideal torque gain excludes losses, and this animation does not simulate belt tension, deflection, bearings, or physical motion.",
+    "src": "media/motion-belt.mp4",
+    "poster": "media/motion-belt-poster.png",
+    "captions": "media/motion-belt.vtt",
+    "transcript": "media/motion-belt-transcript.md",
+    "duration_seconds": 12,
+    "silent": true,
+    "kind": "original schematic animation"
+  },
+  {
+    "id": "motion-screw",
+    "chapter": 6,
+    "title": "Watch rotation become linear travel",
+    "description": "A silent original schematic animation: a rotating screw advances a guided nut and carriage through 50 mm of useful travel.",
+    "watch_for": "The screw rotates without translating. The nut and carriage move together, while the separate guide keeps the carriage on its path. Twenty-five turns at 2 mm lead produce 50 mm of travel.",
+    "tradeoff": "A small lead provides considerable force leverage but requires more motor revolutions for a given travel. Nut friction, backlash, axial support and guide alignment constrain the result.",
+    "limits": "A simplified kinematic side view, with the guide shown below the screw for clarity. The helix is a symbol, not a thread profile. Timing is slowed; the clip does not model acceleration, thrust bearing details, screw buckling, preload, or backdrivability.",
+    "src": "media/motion-screw.mp4",
+    "poster": "media/motion-screw-poster.png",
+    "captions": "media/motion-screw.vtt",
+    "transcript": "media/motion-screw-transcript.md",
+    "duration_seconds": 12,
+    "silent": true,
+    "kind": "original schematic animation"
+  },
+  {
+    "id": "motion-tendon",
+    "chapter": 7,
+    "title": "Watch the tendon wrap and spool together",
+    "description": "A silent original schematic animation: a constant-radius finger sector closes 60° as an 8 mm effective-radius spool takes up 10.47 mm of tendon.",
+    "watch_for": "Follow the tendon from the spool’s lower tangent to the finger sector’s upper tangent, around the wrapped arc, and into the moving anchor. The spool winds 75° clockwise while the finger closes 60° counterclockwise.",
+    "tradeoff": "Remote actuation can reduce moving finger mass. A constant effective radius makes the motion ratio predictable, but cord stretch, routing friction, slack, changing spool layers and return-spring force affect real behavior.",
+    "limits": "Ideal, taut, inextensible tendon with constant 10 mm finger radius and 8 mm spool radius, one layer, and adequate retained wrap. This shows kinematics only; no contact-force, spring, friction, compliance, or support-load simulation is performed.",
+    "src": "media/motion-tendon.mp4",
+    "poster": "media/motion-tendon-poster.png",
+    "captions": "media/motion-tendon.vtt",
+    "transcript": "media/motion-tendon-transcript.md",
+    "duration_seconds": 12,
+    "silent": true,
+    "kind": "original schematic animation"
+  }
+]

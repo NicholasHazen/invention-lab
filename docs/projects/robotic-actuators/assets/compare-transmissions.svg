@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980" role="img" aria-labelledby="title desc"><title id="title">Choose how motion reaches the load</title><desc id="desc">Four original kinematic schematics compare an open timing belt, external spur gears, a fixed-ring planetary stage, and a guided screw stage. Directions, ratios and important constraints are labeled. The drawings omit manufacturable tooth and thread profiles.</desc>
+<rect width="1200" height="980" rx="20" fill="#f5f1e8"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#21685d"/></marker><marker id="rust" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#ad592e"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:28px;font-weight:650}.head{font-size:24px;font-weight:650}.body{font-size:20px}.small{font-size:17px}.tiny{font-size:15px}.strong{font-weight:650}</style>
+<text x="35" y="48" class="title" text-anchor="start">The transmission changes the motion—and the packaging</text>
+<text x="35" y="82" class="body" text-anchor="start">Pitch circles and kinematic symbols only. These are not tooth or thread profiles.</text>
+<rect x="30" y="115" width="550" height="390" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<rect x="620" y="115" width="550" height="390" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<rect x="30" y="530" width="550" height="390" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<rect x="620" y="530" width="550" height="390" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<text x="54" y="153" class="head" text-anchor="start">Open timing belt</text>
+<circle cx="165" cy="300" r="36" fill="#f0d9b7" stroke="#ad592e" stroke-width="3"/>
+<circle cx="400" cy="300" r="108" fill="#dcebed" stroke="#21685d" stroke-width="3"/>
+<path d="M153.97021276595746 265.73130008926876L366.9106382978723 197.19390026780627" stroke="#ad592e" stroke-width="5" fill="none"/>
+<path d="M153.97021276595746 334.26869991073124L366.9106382978723 402.80609973219373" stroke="#ad592e" stroke-width="5" fill="none"/>
+<path d="M145.94744111674234 289.0A22 22 0 0 1 183.02134497435782 287.381318400277" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M332.4500185048138 261.0A78 78 0 0 1 463.89385945454137 255.26103796461837" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="165" y="232" class="small" text-anchor="middle">20T input</text>
+<text x="400" y="178" class="small" text-anchor="middle">60T output</text>
+<text x="54" y="437" class="small" text-anchor="start">Same rotation direction · 3:1 reduction</text>
+<text x="54" y="465" class="small" text-anchor="start">Separate axes; allow belt tension and alignment.</text>
+<text x="644" y="153" class="head" text-anchor="start">External spur gears</text>
+<circle cx="806" cy="292" r="35" fill="#f0d9b7" stroke="#ad592e" stroke-width="3"/>
+<circle cx="946" cy="292" r="105" fill="#dcebed" stroke="#21685d" stroke-width="3"/>
+<circle cx="806" cy="292" r="8" fill="#f5f1e8" stroke="#233c38" stroke-width="3"/>
+<circle cx="946" cy="292" r="8" fill="#f5f1e8" stroke="#233c38" stroke-width="3"/>
+<path d="M786.0814157129579 280.5A23 23 0 0 1 824.8404970186468 278.80774196392593" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1009.0747074102524 247.83461440096943A77 77 0 0 0 879.3160439085982 253.5" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="806" y="231" class="small" text-anchor="middle">20T</text>
+<text x="946" y="167" class="small" text-anchor="middle">60T</text>
+<text x="644" y="417" class="small" text-anchor="start">Opposite directions · 3:1 reduction</text>
+<text x="644" y="445" class="small" text-anchor="start">Compact pair; teeth also push the shafts apart.</text>
+<text x="54" y="568" class="head" text-anchor="start">Planetary: ring fixed</text>
+<circle cx="214" cy="732" r="113" fill="none" stroke="#71897c" stroke-width="10"/>
+<circle cx="214" cy="732" r="102" fill="none" stroke="#71897c" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="214" cy="732" r="34" fill="#f0d9b7" stroke="#ad592e" stroke-width="3"/>
+<path d="M214 732L282.0 732.0" stroke="#91aba0" stroke-width="10" fill="none"/>
+<circle cx="282.0" cy="732.0" r="34" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<circle cx="282.0" cy="732.0" r="5" fill="#f5f1e8" stroke="#233c38" stroke-width="2"/>
+<path d="M214 732L180.0 790.8897274573418" stroke="#91aba0" stroke-width="10" fill="none"/>
+<circle cx="180.0" cy="790.8897274573418" r="34" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<circle cx="180.0" cy="790.8897274573418" r="5" fill="#f5f1e8" stroke="#233c38" stroke-width="2"/>
+<path d="M214 732L179.99999999999997 673.1102725426582" stroke="#91aba0" stroke-width="10" fill="none"/>
+<circle cx="179.99999999999997" cy="673.1102725426582" r="34" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<circle cx="179.99999999999997" cy="673.1102725426582" r="5" fill="#f5f1e8" stroke="#233c38" stroke-width="2"/>
+<circle cx="214" cy="732" r="34" fill="#f0d9b7" stroke="#ad592e" stroke-width="3"/>
+<path d="M214 732L282.0 732.0" stroke="#71897c" stroke-width="6" fill="none"/>
+<path d="M214 732L180.0 790.8897274573418" stroke="#71897c" stroke-width="6" fill="none"/>
+<path d="M214 732L179.99999999999997 673.1102725426582" stroke="#71897c" stroke-width="6" fill="none"/>
+<circle cx="214" cy="732" r="7" fill="#f5f1e8" stroke="#233c38" stroke-width="2"/>
+<path d="M197.91306669450145 718.5014601965827A21 21 0 0 1 231.20219293006883 719.954894836628" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M84.00537660238854 754.9215594520348A132 132 0 0 1 168.85334108101176 607.96057405626" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="55" y="619" class="tiny strong" text-anchor="start">Carrier</text>
+<text x="365" y="660" class="small" text-anchor="start">20T sun in</text>
+<text x="365" y="688" class="small" text-anchor="start">60T ring fixed</text>
+<text x="365" y="716" class="small" text-anchor="start">Carrier out</text>
+<text x="365" y="772" class="body strong" text-anchor="start">N = 1 + 60/20</text>
+<text x="365" y="800" class="body strong" text-anchor="start">= 4:1</text>
+<text x="54" y="875" class="small" text-anchor="start">Carrier turns with the sun, more slowly.</text>
+<text x="54" y="903" class="small" text-anchor="start">Coaxial package; support and load sharing matter.</text>
+<text x="644" y="568" class="head" text-anchor="start">Screw + independent guide</text>
+<path d="M682 720L1120 720" stroke="#788b82" stroke-width="15" fill="none"/>
+<path d="M700 712L712 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M725 712L737 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M750 712L762 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M775 712L787 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M800 712L812 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M825 712L837 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M850 712L862 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M875 712L887 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M900 712L912 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M925 712L937 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M950 712L962 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M975 712L987 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M1000 712L1012 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M1025 712L1037 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M1050 712L1062 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M1075 712L1087 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<path d="M1100 712L1112 728" stroke="#e3e9e2" stroke-width="3" fill="none"/>
+<rect x="859" y="685" width="72" height="70" rx="4" fill="#f0d9b7" stroke="#ad592e" stroke-width="2"/>
+<rect x="840" y="649" width="110" height="29" rx="3" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<path d="M670 630L1130 630" stroke="#788b82" stroke-width="9" fill="none"/>
+<path d="M895 649L895 637" stroke="#21685d" stroke-width="8" fill="none"/>
+<path d="M880 702L910 737" stroke="#ad592e" stroke-width="3" fill="none"/>
+<path d="M997 666L1105 666" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="1052" y="647" class="small" text-anchor="middle">Travel</text>
+<path d="M666.3729196666806 704.7857425773349A36 36 0 0 1 731.6270803333194 704.7857425773349" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="699" y="787" class="small" text-anchor="middle">Rotation</text>
+<text x="860" y="803" class="small strong" text-anchor="start">2 mm lead:</text>
+<text x="860" y="831" class="small strong" text-anchor="start">1 turn → 2 mm</text>
+<text x="644" y="875" class="small" text-anchor="start">Nut held against rotation; thread hand sets direction.</text>
+<text x="644" y="903" class="small" text-anchor="start">Guide carries side loads; screw needs axial support.</text>
+</svg>

@@ -7,7 +7,8 @@ import hashlib, json, re, zipfile, posixpath
 from validate_actuator_guide import Document, ROOT, SITE
 
 BASE='https://nicholashazen.github.io/invention-lab/'
-NAME='robotic-actuators-v1.0'
+VERSION=json.loads((ROOT/'guides/robotic-actuators/guide.json').read_text())['version']
+NAME='robotic-actuators-v'+VERSION
 def sha(raw):return hashlib.sha256(raw).hexdigest()
 def main():
     contents={};rewrites=[]
@@ -26,12 +27,17 @@ def main():
                 if u.fragment:target+='#'+u.fragment
                 rewrites.append({'from':value,'to':target})
                 return f'{attr}={q}{escape(target,quote=True)}{q}'
-            raw=re.sub(r'\b(href|src)=([\"\'])(.*?)\2',replace,raw.decode()).encode()
+            raw=re.sub(r'\b(href|src|poster)=([\"\'])(.*?)\2',replace,raw.decode()).encode()
         contents[rel]=raw
-    contents['READ-ME.txt']=('''Robotic actuators — From load to motion. Edition 1.0.
+    contents['READ-ME.txt']=(f'''Robotic actuators — From load to motion. Edition {VERSION}.
 
 Extract the complete archive. index.html contains all ten chapters.
-The guide, diagrams, CAD files, calculations, and worksheets are included.
+The guide, diagrams, three original silent motion clips, captions, transcripts,
+CAD files, calculations, and worksheets are included. Local clips play with
+native browser controls and are available as MP4 downloads. Third-party
+video lessons require internet access; their direct watch links are retained.
+YouTube players load only when explicitly selected. The figure gallery and
+workbench enhance the page when JavaScript is available.
 External references, the separate handbook and pivot project, and publication
 metadata use online links. JavaScript enhances the sizing workbench; the
 worked default values remain readable without JavaScript. The browser code
@@ -64,7 +70,7 @@ manifest.json records SHA-256 digests of every included file except itself.
             assert target in contents,(name,href,target)
             if u.fragment and target in docs:assert unquote(u.fragment) in docs[target].ids,(name,href)
             checked+=1
-    manifest={'guide':'Robotic actuators','version':'1.0','offline_link_rewrites':rewrites,'files':{name:{'bytes':len(raw),'sha256':sha(raw)} for name,raw in contents.items()}}
+    manifest={'guide':'Robotic actuators','version':VERSION,'offline_link_rewrites':rewrites,'files':{name:{'bytes':len(raw),'sha256':sha(raw)} for name,raw in contents.items()}}
     contents['manifest.json']=(json.dumps(manifest,indent=2)+'\n').encode()
     dest=SITE/'downloads';dest.mkdir(exist_ok=True);archive=dest/(NAME+'.zip')
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:

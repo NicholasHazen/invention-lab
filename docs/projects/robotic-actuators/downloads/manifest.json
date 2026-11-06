@@ -1,9 +1,24 @@
 {
   "guide": "Robotic actuators",
-  "version": "1.0",
+  "version": "1.1",
   "generated_on": "2026-11-06",
   "status": "Digital layout studies; no physical actuator validation",
   "files": [
+    {
+      "path": "assets/compare-motor-physics.svg",
+      "bytes": 10093,
+      "sha256": "350c2f0021c5d1d2e65dab231265b180ce5da33bfba492e88bdc064cc862b09c"
+    },
+    {
+      "path": "assets/compare-operating-constraints.svg",
+      "bytes": 6044,
+      "sha256": "7885d875a1d9795836e83ba7b038239cdfe1817b83d4aa8b54c4bd778dc4f50e"
+    },
+    {
+      "path": "assets/compare-transmissions.svg",
+      "bytes": 9381,
+      "sha256": "1dd121d8b3ca92c862e93c072389d7614a24cf31b9884359c6191e3810484870"
+    },
     {
       "path": "assets/design-belt-layout.svg",
       "bytes": 4779,
@@ -51,13 +66,13 @@
     },
     {
       "path": "assets/guide.css",
-      "bytes": 11434,
-      "sha256": "5a8fb258dc92a6c2e10d042fb432c278107221e07f8a78387498f836ddb3b159"
+      "bytes": 16990,
+      "sha256": "9a19a53aaee5a56868346dea65d5c0caf718ca68f4b7de5bc99f820ca02f3e93"
     },
     {
       "path": "assets/guide.js",
-      "bytes": 6391,
-      "sha256": "76b68cbfa60a1fa85884c5c6e772b24d7f2cd2b958dcc1dbfe4b2d6a7330432d"
+      "bytes": 10018,
+      "sha256": "cf81811c0af39cbf04975ca047b20dcab24dcb264d0cd2534aef72e1ca42db39"
     },
     {
       "path": "assets/sizing-compliance.svg",
@@ -246,8 +261,83 @@
     },
     {
       "path": "index.html",
-      "bytes": 182859,
-      "sha256": "114dc11ed87df5916742d3e00ada15b9b128de1d018236aa505801ea3fa067aa"
+      "bytes": 225069,
+      "sha256": "268d193dfeb694edb6f05853fa37c23cbeb8518bb5ad98d93e317a16108da0a3"
+    },
+    {
+      "path": "media/README.md",
+      "bytes": 2435,
+      "sha256": "5d6b1c36ddecfd5c68b0c6da97b3a3245212567691a1cb9f0ab463b4a4d7e766"
+    },
+    {
+      "path": "media/generate_motion_media.py",
+      "bytes": 22096,
+      "sha256": "0ef3fc4e7bffca14e53ff7aff161be89c7d1fb38bf2dde08f21d58c99dec292c"
+    },
+    {
+      "path": "media/manifest.json",
+      "bytes": 3630,
+      "sha256": "40f2ee22a6c5d8bc0064af0baea09684f96f6c35b620c91ccd162f8080ba2f52"
+    },
+    {
+      "path": "media/motion-belt-poster.png",
+      "bytes": 71157,
+      "sha256": "97c5507abc528ebfbdaf536368c7c3456db699852db183466f7fb43e2d08f1dd"
+    },
+    {
+      "path": "media/motion-belt-transcript.md",
+      "bytes": 1046,
+      "sha256": "00970d56caab3b1852c50bc07187f1e1986a8f1f6cefa20b5f8f991f4159b415"
+    },
+    {
+      "path": "media/motion-belt.mp4",
+      "bytes": 446592,
+      "sha256": "91273e4d65ee100dfd0623a2db0fccd0def76813c07393c83068ea91faabc56b"
+    },
+    {
+      "path": "media/motion-belt.vtt",
+      "bytes": 379,
+      "sha256": "5bcf01d61c85ac746fbba29cb5fe27479e48d10dd5b6acaa44501f20b81ed8aa"
+    },
+    {
+      "path": "media/motion-screw-poster.png",
+      "bytes": 76551,
+      "sha256": "252aff637b350610fddf16eb39f8f4377b57e0b59b1ee5845128ad58e8a313b9"
+    },
+    {
+      "path": "media/motion-screw-transcript.md",
+      "bytes": 1113,
+      "sha256": "f41c6497ffff7fc3eaff59f9b53426332bfdc916b032d1b132dae9757e8cee77"
+    },
+    {
+      "path": "media/motion-screw.mp4",
+      "bytes": 309764,
+      "sha256": "6ba41435bac6191f211f006183545496b4f6cf6d1480ac9ea516e02c880da288"
+    },
+    {
+      "path": "media/motion-screw.vtt",
+      "bytes": 403,
+      "sha256": "097c1d8f53e51b3aeb9dd96503d43902cc4fb47bdf5263972ed747092c41c458"
+    },
+    {
+      "path": "media/motion-tendon-poster.png",
+      "bytes": 81551,
+      "sha256": "8968fd7e8316a07dcbae3c052132af16f7c0ece0aacb9a14dd4c6523d3a7d200"
+    },
+    {
+      "path": "media/motion-tendon-transcript.md",
+      "bytes": 1528,
+      "sha256": "d1fd646aa29acd726ee4d1c6ae62a4a86259c8d405bf56c22ed23cc9717dc4fb"
+    },
+    {
+      "path": "media/motion-tendon.mp4",
+      "bytes": 310113,
+      "sha256": "56da4098180ba51d32dac973677515a592deb7f45c6974b1b66512fdc3d8a524"
+    },
+    {
+      "path": "media/motion-tendon.vtt",
+      "bytes": 442,
+      "sha256": "12ce7f35f35d64a1ba9158fc24f6ff2fc94432c7e38ef0d057a7cf88e6eebcd7"
     },
     {
       "path": "worksheets/bench-record.csv",

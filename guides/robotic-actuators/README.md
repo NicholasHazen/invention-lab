@@ -24,9 +24,12 @@ Open `http://localhost:8000/projects/robotic-actuators/`. The build owns only `d
 - `examples/`: standard-library Python calculation and analysis labs with behavioral tests.
 - `worksheets/`: editable measurement records and explicitly synthetic sample data.
 - `research/`: primary-source resource annotations with access, prerequisites, a first task, limits, and verification date.
-- `web/`: presentation and three interactive teaching models. The source JavaScript is bundled into one local classic script for the portable page.
+- `media/`: three original silent MP4 teaching clips, posters, captions, transcripts, and their portable generator. These are schematic illustrations, not physical footage or CAD simulation.
+- `research/videos.json`: curated official videos with observation prompts and tradeoffs; these stay online. YouTube frames are loaded only on explicit reader action, with direct links always available.
+- `guide.json`: current edition and source-check date. Older published ZIP URLs are retained by the build.
+- `web/`: presentation, figure gallery, click-to-load video controls, and three interactive teaching models. The source JavaScript is bundled into one local classic script for the portable page.
 
-The source has no runtime service or remote JavaScript dependency. Browser testing uses HTTP previews. Offline packaging checks relative links, archive integrity and checksums directly; it does not claim a browser `file:`-URL test.
+The core guide has no runtime service or remote JavaScript dependency. Optional YouTube players load only when the reader selects them; direct watch links remain available. Browser testing uses HTTP previews. Offline packaging checks relative links, archive integrity and checksums directly; it does not claim a browser `file:`-URL test.
 
 ## Evidence boundary
 

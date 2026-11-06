@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+The 20-tooth input turns clockwise and drives a 60-tooth output pulley.
+
+00:00:04.000 --> 00:00:08.000
+Both pulleys turn in the same direction. The larger pulley rotates at one third of the input speed.
+
+00:00:08.000 --> 00:00:12.000
+Three input turns produce one output turn. Ideal torque gain is three; real transmission losses reduce it.

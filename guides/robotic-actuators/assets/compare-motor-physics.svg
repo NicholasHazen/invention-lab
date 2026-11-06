@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc"><title id="title">What changes inside three electric motors</title><desc id="desc">Original functional sketches of a brushed motor, a permanent-magnet stepper principle, and a permanent-magnet brushless motor. The cards distinguish rotating windings, stepped fields, and electronic commutation, with useful advantages and constraints.</desc>
+<rect width="1200" height="940" rx="20" fill="#f5f1e8"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#21685d"/></marker><marker id="rust" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#ad592e"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:28px;font-weight:650}.head{font-size:24px;font-weight:650}.body{font-size:20px}.small{font-size:17px}.tiny{font-size:15px}.strong{font-weight:650}</style>
+<text x="35" y="48" class="title" text-anchor="start">Three ways to keep magnetic torque pointing where you need it</text>
+<text x="35" y="83" class="body" text-anchor="start">Functional sketches only: pole counts, angles, and winding paths are simplified.</text>
+<rect x="30" y="120" width="350" height="745" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<rect x="425" y="120" width="350" height="745" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<rect x="820" y="120" width="350" height="745" rx="10" fill="#fffdf7" stroke="#b0beb3" stroke-width="2"/>
+<text x="52" y="160" class="head" text-anchor="start">Brushed DC</text>
+<text x="52" y="195" class="small" text-anchor="start">Current reaches a rotating</text>
+<text x="52" y="223" class="small" text-anchor="start">winding through brushes.</text>
+<circle cx="205" cy="355" r="108" fill="none" stroke="#b0beb3" stroke-width="2"/>
+<rect x="68" y="301" width="44" height="108" rx="5" fill="#f0d9b7" stroke="#ad592e" stroke-width="2"/>
+<rect x="298" y="301" width="44" height="108" rx="5" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="90" y="362" class="head" text-anchor="middle">N</text>
+<text x="320" y="362" class="head" text-anchor="middle">S</text>
+<g transform="rotate(-22 205 355)"><rect x="161" y="299" width="88" height="112" rx="12" fill="none" stroke="#ad592e" stroke-width="8"/><line x1="205" y1="287" x2="205" y2="423" stroke="#233c38" stroke-width="5"/></g>
+<circle cx="205" cy="355" r="12" fill="#f5f1e8" stroke="#233c38" stroke-width="3"/>
+<path d="M140.0480947161671 317.5A75 75 0 0 1 253.20907072649044 297.54666676607667" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M190 411L190 480" stroke="#ad592e" stroke-width="2" fill="none"/>
+<path d="M220 411L220 480" stroke="#ad592e" stroke-width="2" fill="none"/>
+<path d="M201.0060919136606 522.6505783192808A23 23 0 0 1 201.0060919136606 477.3494216807192" stroke="#ad592e" stroke-width="9" fill="none"/>
+<path d="M208.9939080863394 477.3494216807192A23 23 0 0 1 208.9939080863394 522.6505783192808" stroke="#ad592e" stroke-width="9" fill="none"/>
+<rect x="158" y="493" width="23" height="14" rx="0" fill="#233c38" stroke="#233c38" stroke-width="2"/>
+<rect x="229" y="493" width="23" height="14" rx="0" fill="#233c38" stroke="#233c38" stroke-width="2"/>
+<text x="205" y="548" class="small" text-anchor="middle">Brushes + split commutator</text>
+<text x="52" y="600" class="small" text-anchor="start">Useful: simple reversible drive,</text>
+<text x="52" y="628" class="small" text-anchor="start">many geared packages.</text>
+<text x="52" y="683" class="small" text-anchor="start">Watch: brush wear, stall heat,</text>
+<text x="52" y="711" class="small" text-anchor="start">and missing position feedback</text>
+<text x="52" y="739" class="small" text-anchor="start">in a bare two-wire motor.</text>
+<text x="52" y="817" class="small strong" text-anchor="start">Switching happens mechanically.</text>
+<text x="447" y="160" class="head" text-anchor="start">Stepper</text>
+<text x="447" y="195" class="small" text-anchor="start">The driver advances the field;</text>
+<text x="447" y="223" class="small" text-anchor="start">the rotor follows in increments.</text>
+<circle cx="600" cy="355" r="108" fill="none" stroke="#b0beb3" stroke-width="2"/>
+<rect x="492" y="333" width="44" height="44" rx="5" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="514" y="362" class="body strong" text-anchor="middle">A</text>
+<rect x="664" y="333" width="44" height="44" rx="5" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="686" y="362" class="body strong" text-anchor="middle">A</text>
+<rect x="578" y="247" width="44" height="44" rx="5" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="600" y="276" class="body strong" text-anchor="middle">B</text>
+<rect x="578" y="419" width="44" height="44" rx="5" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="600" y="448" class="body strong" text-anchor="middle">B</text>
+<path d="M652.0 355.0L661.0 355.0" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M636.7695526217004 391.7695526217005L643.1335136523794 398.1335136523794" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M600.0 407.0L600.0 416.0" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M563.2304473782996 391.7695526217005L556.8664863476206 398.1335136523794" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M548.0 355.0L539.0 355.0" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M563.2304473782996 318.2304473782995L556.8664863476206 311.8664863476206" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M600.0 303.0L600.0 294.0" stroke="#81968b" stroke-width="2" fill="none"/>
+<path d="M636.7695526217004 318.2304473782995L643.1335136523794 311.8664863476206" stroke="#81968b" stroke-width="2" fill="none"/>
+<rect x="555" y="339" width="45" height="32" rx="2" fill="#f0d9b7" stroke="#ad592e" stroke-width="2"/>
+<rect x="600" y="339" width="45" height="32" rx="2" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="576" y="362" class="small strong" text-anchor="middle">N</text>
+<text x="624" y="362" class="small strong" text-anchor="middle">S</text>
+<path d="M665.2541606666388 324.57148515466963A72 72 0 0 1 650.9116882454314 405.91168824543144" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="600" y="505" class="small" text-anchor="middle">PM-type principle shown</text>
+<text x="600" y="533" class="tiny" text-anchor="middle">Hybrid steppers also use teeth.</text>
+<text x="447" y="600" class="small" text-anchor="start">Useful: straightforward indexed</text>
+<text x="447" y="628" class="small" text-anchor="start">motion with a suitable driver.</text>
+<text x="447" y="683" class="small" text-anchor="start">Watch: moving torque curve,</text>
+<text x="447" y="711" class="small" text-anchor="start">resonance, heat, and missed</text>
+<text x="447" y="739" class="small" text-anchor="start">motion without feedback.</text>
+<text x="447" y="817" class="small strong" text-anchor="start">Small commands ≠ proven accuracy.</text>
+<text x="842" y="160" class="head" text-anchor="start">PM brushless</text>
+<text x="842" y="195" class="small" text-anchor="start">Stationary phase windings turn</text>
+<text x="842" y="223" class="small" text-anchor="start">the field around a magnet rotor.</text>
+<circle cx="995" cy="355" r="108" fill="none" stroke="#b0beb3" stroke-width="2"/>
+<circle cx="995.0" cy="269.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="995.0" y="276.0" class="small strong" text-anchor="middle">A</text>
+<circle cx="1069.4781847254617" cy="312.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="1069.4781847254617" y="319.0" class="small strong" text-anchor="middle">B</text>
+<circle cx="1069.4781847254617" cy="398.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="1069.4781847254617" y="405.0" class="small strong" text-anchor="middle">C</text>
+<circle cx="995.0" cy="441.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="995.0" y="448.0" class="small strong" text-anchor="middle">A</text>
+<circle cx="920.5218152745383" cy="398.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="920.5218152745383" y="405.0" class="small strong" text-anchor="middle">B</text>
+<circle cx="920.5218152745383" cy="312.0" r="22" fill="#dcebed" stroke="#21685d" stroke-width="2"/>
+<text x="920.5218152745383" y="319.0" class="small strong" text-anchor="middle">C</text>
+<g transform="rotate(-25 995 355)"><rect x="950" y="337" width="45" height="36" fill="#f0d9b7" stroke="#ad592e" stroke-width="2"/><rect x="995" y="337" width="45" height="36" fill="#dcebed" stroke="#21685d" stroke-width="2"/><text x="972" y="362" text-anchor="middle" class="small strong">N</text><text x="1018" y="362" text-anchor="middle" class="small strong">S</text></g>
+<path d="M965.0 406.9615242270663A60 60 0 0 1 940.621532777801 329.642904295558" stroke="#21685d" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="995" y="505" class="small" text-anchor="middle">Drive sequences phases A, B, C</text>
+<text x="995" y="533" class="tiny" text-anchor="middle">Field position must suit rotor position.</text>
+<text x="842" y="600" class="small" text-anchor="start">Useful: no brush contact; flexible</text>
+<text x="842" y="628" class="small" text-anchor="start">velocity / torque servo designs.</text>
+<text x="842" y="683" class="small" text-anchor="start">Watch: rotor sensing/estimation,</text>
+<text x="842" y="711" class="small" text-anchor="start">drive compatibility, tuning,</text>
+<text x="842" y="739" class="small" text-anchor="start">and low-speed behavior.</text>
+<text x="842" y="817" class="small strong" text-anchor="start">Switching happens electronically.</text>
+<text x="35" y="905" class="body" text-anchor="start">A servo is a feedback-controlled system. Any of these motor families can be part of one.</text>
+</svg>

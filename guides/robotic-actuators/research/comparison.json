@@ -1,0 +1,19 @@
+[
+  {
+    "id": "comparison-stepper-principle",
+    "title": "Basics of Stepper Motors",
+    "creator": "Oriental Motor",
+    "url": "https://www.orientalmotor.com/stepper-motors/technology/stepper-motor-basics.html",
+    "format": "documentation",
+    "topics": ["actuators", "stepper motors", "motor principles"],
+    "level": "Beginner",
+    "prerequisites": "Basic current, magnet, and rotation concepts",
+    "access": "Free public manufacturer explanation.",
+    "why": "Connects driver phase sequencing with the rotor and distinguishes permanent-magnet, variable-reluctance, and hybrid stepper construction.",
+    "first_task": "Identify the stationary and rotating parts, then explain what an open-loop step command does not measure when the load prevents motion.",
+    "limitations": "Manufacturer examples and quoted accuracy specifications apply to their stated motors and conditions. They are not universal stepper ratings or a guarantee against missed motion.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.orientalmotor.com/stepper-motors/technology/stepper-motor-basics.html",
+    "evidence_note": "Opened the official page and inspected its system, phase-drive, and motor-construction sections. Used for an original functional schematic; no vendor image copied."
+  }
+]
