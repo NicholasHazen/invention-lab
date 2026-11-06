@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 800" role="img" aria-label="Where does the feedback come from?">
+<rect width="1120" height="800" fill="#f5f3ed"/>
+<style>text{font-family:Arial,sans-serif;fill:#1c3339;font-size:21px}.title{font-size:32px;font-weight:700}.small{font-size:18px}.axis{stroke:#647578;stroke-width:2}.grid{stroke:#d7dedb;stroke-width:1}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#32525a"/></marker></defs>
+<text x="44" y="52" class="title">Where does the feedback come from?</text><text x="44" y="86">Choose the measured object before choosing gains • conceptual signal map, not wiring</text>
+<rect x="60" y="150" width="230" height="80" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="78" y="198.0" class="">Motor + shaft</text>
+<rect x="405" y="150" width="310" height="80" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="423" y="198.0" class="">Belt / gears / coupling</text>
+<rect x="825" y="150" width="230" height="80" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="843" y="198.0" class="">Output + arm</text>
+<line x1="292" y1="190" x2="400" y2="190" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="717" y1="190" x2="819" y2="190" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="425" y="265" class="small">Clearance + compliance</text>
+<line x1="175" y1="232" x2="175" y2="295" stroke="#32525a" stroke-width="2" />
+<line x1="940" y1="232" x2="940" y2="295" stroke="#32525a" stroke-width="2" />
+<rect x="60" y="295" width="300" height="65" rx="12" fill="#e1e8f2" stroke="#728b89"/><text x="78" y="335.5" class="">Motor encoder</text>
+<rect x="755" y="295" width="300" height="65" rx="12" fill="#f3e0d4" stroke="#728b89"/><text x="773" y="335.5" class="">Load encoder</text>
+<text x="62" y="393" class="small">Sees rotor motion</text>
+<text x="757" y="393" class="small">Sees output motion</text>
+<text x="60" y="442" class="">Motor angle ÷ ratio estimates output angle. Transmission errors break that estimate.</text>
+<line x1="44" y1="467" x2="1076" y2="467" stroke="#b9c9c7" stroke-width="1" />
+<text x="60" y="509" class="">A typical cascaded command path</text>
+<rect x="60" y="540" width="255" height="85" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="78" y="590.5" class="">Position loop</text>
+<rect x="425" y="540" width="255" height="85" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="443" y="590.5" class="">Velocity loop</text>
+<rect x="790" y="540" width="265" height="85" rx="12" fill="#e1e9e2" stroke="#728b89"/><text x="808" y="590.5" class="">Current loop</text>
+<line x1="318" y1="582" x2="420" y2="582" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="684" y1="582" x2="785" y2="582" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="329" y="557" class="small">speed</text>
+<text x="695" y="557" class="small">torque</text>
+<text x="75" y="665" class="small">Measured position</text>
+<text x="440" y="665" class="small">Measured velocity</text>
+<text x="805" y="665" class="small">Measured current</text>
+<line x1="185" y1="651" x2="185" y2="630" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="550" y1="651" x2="550" y2="630" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="925" y1="651" x2="925" y2="630" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="60" y="722" class="">Each stage has limits. The actual drive determines sensor assignment and tuning.</text>
+<text x="60" y="760" class="small">Motor current can estimate motor torque; it does not directly measure fingertip force.</text>
+</svg>

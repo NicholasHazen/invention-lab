@@ -1,0 +1,14 @@
+name,unit,value,status
+pitch,mm,2,study input; not manufacturer specification
+motor_teeth,,20,study input; not manufacturer specification
+output_teeth,,60,study input; not manufacturer specification
+belt_pitch_length,mm,200,study input; not manufacturer specification
+center_distance,mm,58.6115306,study input; not manufacturer specification
+shaft_diameter,mm,8,study input; not manufacturer specification
+bearing_od,mm,22,study input; not manufacturer specification
+bearing_width,mm,7,study input; not manufacturer specification
+bearing_spacing,mm,30,study input; not manufacturer specification
+belt_plane,mm,15,study input; not manufacturer specification
+pulley_envelope_width,mm,10,study input; not manufacturer specification
+installation_travel,mm,4,study input; not manufacturer specification
+arm_length,mm,100,study input; not manufacturer specification

@@ -5,7 +5,9 @@
   "description": "Static project guides and the Invention Lab Handbook",
   "scripts": {
     "build:handbook": "node scripts/build_handbook.mjs",
-    "validate:handbook": "python3 scripts/validate_handbook.py"
+    "validate:handbook": "python3 scripts/validate_handbook.py",
+    "build:actuators": "node scripts/build_actuator_guide.mjs && python3 scripts/package_actuator_guide.py",
+    "validate:actuators": "node --test scripts/test_actuator_workbench.mjs && python3 scripts/validate_actuator_guide.py"
   },
   "devDependencies": {
     "marked": "17.0.5"

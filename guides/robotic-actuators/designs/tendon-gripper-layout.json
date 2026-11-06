@@ -1,0 +1,77 @@
+{
+  "title": "One-finger tendon study",
+  "units": "mm",
+  "scope": "Constant-radius sector and spool envelopes, not groove/anchor/spring or fabrication-ready finger geometry.",
+  "parameters": [
+    [
+      "tip_moment_arm",
+      "mm",
+      30
+    ],
+    [
+      "tendon_radius",
+      "mm",
+      10
+    ],
+    [
+      "spool_radius",
+      "mm",
+      8
+    ],
+    [
+      "finger_rotation",
+      "deg",
+      60
+    ],
+    [
+      "tendon_travel",
+      "mm",
+      10.471975511965978
+    ],
+    [
+      "spool_rotation",
+      "deg",
+      75
+    ],
+    [
+      "hinge_diameter",
+      "mm",
+      4
+    ],
+    [
+      "finger_thickness",
+      "mm",
+      8
+    ],
+    [
+      "clevis_gap",
+      "mm",
+      8.6
+    ],
+    [
+      "cheek_thickness",
+      "mm",
+      4
+    ],
+    [
+      "tendon_plane_z",
+      "mm",
+      4
+    ],
+    [
+      "spool_center_x",
+      "mm",
+      -45
+    ],
+    [
+      "spool_center_y",
+      "mm",
+      18
+    ]
+  ],
+  "notes": [
+    "Tip force is perpendicular to the 30 mm arm; other contact directions change the moment.",
+    "Tendon remains tangent to the 10 mm circular sector at y=10; anchored wrap must cover the whole 60 degree excursion.",
+    "Clevis cheeks z=-4.3..-0.3 and 8.3..12.3, finger z=0..8; nominal side clearance 0.3 mm each, calibrated before fabrication."
+  ]
+}

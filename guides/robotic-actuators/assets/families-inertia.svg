@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="680" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+<title id="title">Inertia depends on the shaft from which you view it</title>
+<desc id="desc">For three to one reduction, motor speed is three times output speed. Load inertia seen by the motor is divided by nine; rotor inertia seen at the output is multiplied by nine. The example uses load inertia 0.002767 and illustrative rotor inertia 0.000020 kilogram metres squared.</desc>
+<defs><marker id="left" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#21685d"/></marker><marker id="right" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#a05a31"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:28px;font-weight:650}.head{font-size:23px;font-weight:650}.body{font-size:21px}.small{font-size:18px}.card{fill:#fffdf7;stroke:#73948c;stroke-width:2}.green{fill:#21685d}.orange{fill:#a05a31}</style>
+<rect width="1120" height="680" rx="20" fill="#f5f1e8"/>
+<text x="40" y="50" class="title">One ratio, two views of inertia</text>
+<text x="40" y="82" class="body">N = motor speed / output speed. Here N = 3.</text>
+<rect x="40" y="120" width="295" height="125" rx="14" class="card"/>
+<rect x="412" y="130" width="296" height="105" rx="14" fill="#e0e9e1" stroke="#73948c" stroke-width="2"/>
+<rect x="785" y="120" width="295" height="125" rx="14" class="card"/>
+<path d="M335 183H412M708 183H785" stroke="#586964" stroke-width="8"/>
+<text x="188" y="160" text-anchor="middle" class="head">Motor rotor</text>
+<text x="188" y="196" text-anchor="middle" class="body">90 rpm</text>
+<text x="188" y="225" text-anchor="middle" class="small">Jmotor = 0.000020 kg·m²</text>
+<text x="560" y="170" text-anchor="middle" class="head">3:1 reduction</text>
+<text x="560" y="207" text-anchor="middle" class="small">motor turns 3× as far</text>
+<text x="932" y="160" text-anchor="middle" class="head">Arm + payload</text>
+<text x="932" y="196" text-anchor="middle" class="body">30 rpm</text>
+<text x="932" y="225" text-anchor="middle" class="small">Jload = 0.002767 kg·m²</text>
+<path d="M995 302H125" fill="none" stroke="#21685d" stroke-width="4" marker-end="url(#left)"/>
+<text x="560" y="285" text-anchor="middle" class="head green">Load seen from the motor shaft</text>
+<rect x="105" y="324" width="910" height="72" rx="10" fill="#e0e9e1"/>
+<text x="560" y="354" text-anchor="middle" class="body">Jload / N² = 0.002767 / 9 = 0.0003074 kg·m²</text>
+<text x="560" y="381" text-anchor="middle" class="small">More reduction lowers this contribution to motor-side inertia.</text>
+<path d="M125 457H995" fill="none" stroke="#a05a31" stroke-width="4" marker-end="url(#right)"/>
+<text x="560" y="439" text-anchor="middle" class="head orange">Motor rotor seen from the output shaft</text>
+<rect x="105" y="479" width="910" height="72" rx="10" fill="#f0e3d5"/>
+<text x="560" y="509" text-anchor="middle" class="body">Jmotor × N² = 0.000020 × 9 = 0.000180 kg·m²</text>
+<text x="560" y="536" text-anchor="middle" class="small">More reduction increases this contribution to output-side inertia.</text>
+<text x="40" y="603" class="body">Both follow from equal kinetic energy: ½ Jω².</text>
+<text x="40" y="638" class="small">Ideal rigid ratio; transmission inertia and losses omitted. Motor inertia is an illustrative input.</text>
+</svg>

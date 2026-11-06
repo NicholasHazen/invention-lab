@@ -1,0 +1,11 @@
+{
+  "units": "mm",
+  "belt_center_distance": 58.61153060046303,
+  "belt_pitch_length_reconstructed": 200.0,
+  "belt_axial_gap_each_side": 6.5,
+  "screw_nut_margin_each_end": 5,
+  "screw_block_margin_each_end": 5,
+  "tendon_travel": 10.471975511965978,
+  "tendon_spool_angle_degrees": 75.00000000000001,
+  "limitations": "Numerical consistency only; no load, print, fit, manufacturing or hardware validation."
+}

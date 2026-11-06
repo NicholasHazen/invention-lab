@@ -1,0 +1,93 @@
+{
+  "title": "Horizontal lead-screw stage",
+  "units": "mm",
+  "scope": "Screw, nut, guide and support envelopes; no thread form, bearing selection, fastening or rated speed/load.",
+  "parameters": [
+    [
+      "travel",
+      "mm",
+      50
+    ],
+    [
+      "lead",
+      "mm",
+      2
+    ],
+    [
+      "screw_diameter",
+      "mm",
+      8
+    ],
+    [
+      "screw_overall",
+      "mm",
+      140
+    ],
+    [
+      "nut_length",
+      "mm",
+      20
+    ],
+    [
+      "carriage_length",
+      "mm",
+      30
+    ],
+    [
+      "travel_start_x",
+      "mm",
+      40
+    ],
+    [
+      "travel_end_x",
+      "mm",
+      90
+    ],
+    [
+      "thread_start_x",
+      "mm",
+      25
+    ],
+    [
+      "thread_end_x",
+      "mm",
+      105
+    ],
+    [
+      "guide_offset",
+      "mm",
+      25
+    ],
+    [
+      "guide_start_x",
+      "mm",
+      20
+    ],
+    [
+      "guide_end_x",
+      "mm",
+      110
+    ],
+    [
+      "screw_axis_height",
+      "mm",
+      20
+    ],
+    [
+      "mechanical_stop_low_x",
+      "mm",
+      20
+    ],
+    [
+      "mechanical_stop_high_x",
+      "mm",
+      110
+    ]
+  ],
+  "notes": [
+    "Useful carriage centre x=40..90; guide block extends +/-15; nut extends +/-10.",
+    "Fixed support x=0..15, float support x=115..130. Thread region x=25..105; both nut-end margins 5 mm.",
+    "Screw x=-10..130 includes 10 mm coupling engagement; motor shaft ends x=-11 leaving 1 mm between shaft ends. Coupling bores/engagement require selection.",
+    "Stop contact planes x=20,110 give block-centre stops x=35,95: 5 mm beyond each commanded endpoint. Sensor trigger and stopping margin still require selected hardware."
+  ]
+}

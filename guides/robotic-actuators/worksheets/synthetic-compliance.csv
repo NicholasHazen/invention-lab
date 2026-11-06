@@ -1,0 +1,5 @@
+force_N,tip_deflection_mm,provenance
+0.1,0.6,synthetic teaching data - not a hardware measurement
+0.2,1.0,synthetic teaching data - not a hardware measurement
+-0.1,-0.6,synthetic teaching data - not a hardware measurement
+-0.2,-1.0,synthetic teaching data - not a hardware measurement

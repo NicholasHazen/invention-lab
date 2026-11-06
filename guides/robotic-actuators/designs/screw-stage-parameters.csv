@@ -1,0 +1,17 @@
+name,unit,value,status
+travel,mm,50,study input; not manufacturer specification
+lead,mm,2,study input; not manufacturer specification
+screw_diameter,mm,8,study input; not manufacturer specification
+screw_overall,mm,140,study input; not manufacturer specification
+nut_length,mm,20,study input; not manufacturer specification
+carriage_length,mm,30,study input; not manufacturer specification
+travel_start_x,mm,40,study input; not manufacturer specification
+travel_end_x,mm,90,study input; not manufacturer specification
+thread_start_x,mm,25,study input; not manufacturer specification
+thread_end_x,mm,105,study input; not manufacturer specification
+guide_offset,mm,25,study input; not manufacturer specification
+guide_start_x,mm,20,study input; not manufacturer specification
+guide_end_x,mm,110,study input; not manufacturer specification
+screw_axis_height,mm,20,study input; not manufacturer specification
+mechanical_stop_low_x,mm,20,study input; not manufacturer specification
+mechanical_stop_high_x,mm,110,study input; not manufacturer specification

@@ -1,0 +1,14 @@
+name,unit,value,status
+tip_moment_arm,mm,30,study input; not manufacturer specification
+tendon_radius,mm,10,study input; not manufacturer specification
+spool_radius,mm,8,study input; not manufacturer specification
+finger_rotation,deg,60,study input; not manufacturer specification
+tendon_travel,mm,10.471975512,study input; not manufacturer specification
+spool_rotation,deg,75,study input; not manufacturer specification
+hinge_diameter,mm,4,study input; not manufacturer specification
+finger_thickness,mm,8,study input; not manufacturer specification
+clevis_gap,mm,8.6,study input; not manufacturer specification
+cheek_thickness,mm,4,study input; not manufacturer specification
+tendon_plane_z,mm,4,study input; not manufacturer specification
+spool_center_x,mm,-45,study input; not manufacturer specification
+spool_center_y,mm,18,study input; not manufacturer specification

@@ -16,8 +16,11 @@ Authoring sources live in `handbook/`; `scripts/build_handbook.mjs` generates th
 
 - **[Triangulated 45° pivot](https://nicholashazen.github.io/invention-lab/projects/triangulated-pivot/)** — learn Fusion, print and assemble an integrated octagonal joint, then measure its behavior. Rev4.2 teaching guide, with V4.1 geometry. Includes 52 steps, 69 figures, 15 Fusion checkpoints, 22 print meshes, and a STEP assembly.
 - **[Complete pivot download](https://github.com/NicholasHazen/invention-lab/releases/tag/triangulated-pivot-v4.2.3)** — versioned offline project bundle, including an offline-capable 3D assembly viewer with individual part visibility, six alternate-view galleries, and orthographic comparisons.
+- **[Robotic actuators: From load to motion](https://nicholashazen.github.io/invention-lab/projects/robotic-actuators/)** — ten illustrated chapters covering actuator families, transmissions, sizing, Fusion layouts, feedback, power, and bench measurement. Includes belt, screw, and tendon design studies; native Fusion/STEP/DXF files; Python labs; worksheets; an interactive sizing workbench; and an offline guide. These are educational layouts, with hardware selection and physical validation still required.
 
 The pivot is an experimental design. Its supplied geometry has digital checks; a physical print, assembly, or load-capacity validation has not been established. Follow the guide's fit trials and measurement procedure.
+
+Actuator guide sources live in `guides/robotic-actuators/`. See its [authoring README](guides/robotic-actuators/README.md) for reproduction and validation. The actuator build script owns only its own project directory and leaves the pivot and handbook unchanged.
 
 ## Website layout
 

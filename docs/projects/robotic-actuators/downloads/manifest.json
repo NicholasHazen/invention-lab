@@ -1,0 +1,263 @@
+{
+  "guide": "Robotic actuators",
+  "version": "1.0",
+  "generated_on": "2026-11-06",
+  "status": "Digital layout studies; no physical actuator validation",
+  "files": [
+    {
+      "path": "assets/design-belt-layout.svg",
+      "bytes": 4779,
+      "sha256": "e3d52b9a251522fbb53e7e31f9e6c43649affe83c2a3e541bc603c98c7c08ba8"
+    },
+    {
+      "path": "assets/design-belt-steps.svg",
+      "bytes": 4356,
+      "sha256": "9322bb85d2bb462c0d27c335a82fbe201d44db12252f552f68904944a73aeaff"
+    },
+    {
+      "path": "assets/design-screw-layout.svg",
+      "bytes": 4281,
+      "sha256": "ffb1dea1d34a29cfe7961738bdc4865c7d9a5ff125797035ea8e9e2eda6e8806"
+    },
+    {
+      "path": "assets/design-screw-steps.svg",
+      "bytes": 4578,
+      "sha256": "268d03835d1f73ac5c28b2440dba484576334d17f73d146962132fb98090bee3"
+    },
+    {
+      "path": "assets/design-tendon-layout.svg",
+      "bytes": 4910,
+      "sha256": "3f81a6a21142f973942ae6675bbd300030007c1e95463f7aea1ad546d6245912"
+    },
+    {
+      "path": "assets/design-tendon-steps.svg",
+      "bytes": 4396,
+      "sha256": "fc4cb136797d2c68891a7a5ddc091ea325979aaed7d405e6ed8125c6df3dcab1"
+    },
+    {
+      "path": "assets/families-compliance.svg",
+      "bytes": 3670,
+      "sha256": "56ba6d694d8a2631447fb39a2c0cfb4101c36533f768820db0bb10d72142e71f"
+    },
+    {
+      "path": "assets/families-inertia.svg",
+      "bytes": 3499,
+      "sha256": "06ae346193001b93ce22fd2a0ac1df404e328de67bb1b7426022d1c650870790"
+    },
+    {
+      "path": "assets/families-system.svg",
+      "bytes": 3416,
+      "sha256": "2a44229bef2c850585b70dd1fb0887320288d16ceaf9b9ebfd13006df0da74a4"
+    },
+    {
+      "path": "assets/guide.css",
+      "bytes": 11434,
+      "sha256": "5a8fb258dc92a6c2e10d042fb432c278107221e07f8a78387498f836ddb3b159"
+    },
+    {
+      "path": "assets/guide.js",
+      "bytes": 6391,
+      "sha256": "76b68cbfa60a1fa85884c5c6e772b24d7f2cd2b958dcc1dbfe4b2d6a7330432d"
+    },
+    {
+      "path": "assets/sizing-compliance.svg",
+      "bytes": 3566,
+      "sha256": "924b458fe0226531eddf8aea01f9dd6cee07d861b7e0788f544a5e904abdc68e"
+    },
+    {
+      "path": "assets/sizing-feedback-path.svg",
+      "bytes": 3760,
+      "sha256": "aaca986a3ef05d0b9740da441d3874073466f7c120c83fce804e729528950860"
+    },
+    {
+      "path": "assets/sizing-torque-trace.svg",
+      "bytes": 12133,
+      "sha256": "ce3668e3f5333c0f05ce4f1418e18ed03c91ca7371f70f3be6f5b1e0dc0210f5"
+    },
+    {
+      "path": "assets/system-boundary.svg",
+      "bytes": 4368,
+      "sha256": "9491da9d4bef6b6c40b77d13f47a589b8276492be955bdc8db2229c9b875b638"
+    },
+    {
+      "path": "designs/README.md",
+      "bytes": 5606,
+      "sha256": "4857856bb854a00123ab56ad45827f3508aee9f14eb86180c0ba27e000fe11f7"
+    },
+    {
+      "path": "designs/belt-joint-axial.dxf",
+      "bytes": 1211,
+      "sha256": "24bfcfdf5fb350f0c86b2ed67e11a093ec7c56cd675d379b0588ddad703b56fc"
+    },
+    {
+      "path": "designs/belt-joint-envelopes.f3d",
+      "bytes": 273518,
+      "sha256": "260312a4378ab4859504ebcb6c794300224b7b06a206eaedf2e1f9a64bcc2539"
+    },
+    {
+      "path": "designs/belt-joint-envelopes.step",
+      "bytes": 95155,
+      "sha256": "365b1390329b4e34cb3e5605f5ea6341af96e8fdabc594da20cba75b22198298"
+    },
+    {
+      "path": "designs/belt-joint-front.dxf",
+      "bytes": 969,
+      "sha256": "d9fd3a73f8bd834948b04c3d9300d22e9b5f97bc4ed761b179f1912922299cd5"
+    },
+    {
+      "path": "designs/belt-joint-fusion.png",
+      "bytes": 123767,
+      "sha256": "d29011e74cc5f646e7662f8b30ef96b5180bfee162d417758ee90956642e3b43"
+    },
+    {
+      "path": "designs/belt-joint-layout.json",
+      "bytes": 1340,
+      "sha256": "3665b0d01d7a6cd72b401c5f901e346d8827e845995f1f3bdf06560d9d0adf9c"
+    },
+    {
+      "path": "designs/belt-joint-parameters.csv",
+      "bytes": 874,
+      "sha256": "f52aa728e58a6c40ed11966e93d4267476d20b539e2916d804b4102aeef8f7c0"
+    },
+    {
+      "path": "designs/fusion-export-checks.json",
+      "bytes": 842,
+      "sha256": "71a44d2faf5799976aefa18cb715e0d8f7f335fb4ac9b708f670ad1c8e43b0a1"
+    },
+    {
+      "path": "designs/fusion-reimport-checks.json",
+      "bytes": 837,
+      "sha256": "ba74a0dcf634e9df70bbad8cf40b306c4d87090928f11431027fec1e982bd539"
+    },
+    {
+      "path": "designs/fusion_build_studies.py",
+      "bytes": 9827,
+      "sha256": "bdfa660d52ff85d9226afe1e29480aeb6caaa58df8e1ff3ef4667a0c9245169d"
+    },
+    {
+      "path": "designs/generate_layouts.py",
+      "bytes": 19258,
+      "sha256": "945d8da7994931a0541aa6964c2ee07a8c0d12e6d544d721d408bafb86f22533"
+    },
+    {
+      "path": "designs/layout-checks.json",
+      "bytes": 411,
+      "sha256": "f45de3988c148118dddc75b3a254342712bbe592b894110306f0ede25a6aa518"
+    },
+    {
+      "path": "designs/screw-stage-end.dxf",
+      "bytes": 1107,
+      "sha256": "1833d6fc495934f03e418b1f30eca04c1a60a2306ca4c1b8f439c9a5502db723"
+    },
+    {
+      "path": "designs/screw-stage-envelopes.f3d",
+      "bytes": 391933,
+      "sha256": "b250ab10abd55eca7468d932e2dff33b4386939f8be3d064dda88a9c3e5e3208"
+    },
+    {
+      "path": "designs/screw-stage-envelopes.step",
+      "bytes": 156832,
+      "sha256": "145ee5cdeb7bd00689c888cbe22820410b1a66ea3cc78949f2d73c122630fdb6"
+    },
+    {
+      "path": "designs/screw-stage-fusion.png",
+      "bytes": 256165,
+      "sha256": "b2c69b94ec4f601db18ca360a99366a3481374af14abce0c9b6c964fb9698f2c"
+    },
+    {
+      "path": "designs/screw-stage-layout.json",
+      "bytes": 1667,
+      "sha256": "ee5fb9f76408ce5af9c15be43632c89d43ad755ca40fa11e9d02a84a8c6806e7"
+    },
+    {
+      "path": "designs/screw-stage-parameters.csv",
+      "bytes": 1068,
+      "sha256": "47a1015f71ba92a3bf5621a4c74ffeea4bd88899df0f52c84f1454d20803827c"
+    },
+    {
+      "path": "designs/screw-stage-plan.dxf",
+      "bytes": 1924,
+      "sha256": "96ac077d9593966d67f6348a95acaa8c6d6c969fd8abc89d86f838e4b6afb365"
+    },
+    {
+      "path": "designs/tendon-gripper-axial.dxf",
+      "bytes": 1024,
+      "sha256": "6602469a2cc24f7c4235a60c5e822d065eb1deea02980e2b10e504bd211b71a6"
+    },
+    {
+      "path": "designs/tendon-gripper-envelopes.f3d",
+      "bytes": 314598,
+      "sha256": "b1dea773535328a1aa721f3ffd4c4c9d8b2baa22382ed504110bcaec4d033894"
+    },
+    {
+      "path": "designs/tendon-gripper-envelopes.step",
+      "bytes": 119204,
+      "sha256": "8938858398b12ba5f58fc715c4cb36ecc832ec94d2dfd3ce665a8157934157bb"
+    },
+    {
+      "path": "designs/tendon-gripper-front.dxf",
+      "bytes": 952,
+      "sha256": "445289148e75fc8859ded3cd73e4d4af607937f88d56383ab700a0b11d624f44"
+    },
+    {
+      "path": "designs/tendon-gripper-fusion.png",
+      "bytes": 157208,
+      "sha256": "6f67599e0ee927b5317e83c361a64d263e072d9542603a0330f6c29c89ece4d1"
+    },
+    {
+      "path": "designs/tendon-gripper-layout.json",
+      "bytes": 1334,
+      "sha256": "8d38f09594d4cf4cafdddc7d2c5609a54241bcbc3822e8ced87f5d062e893249"
+    },
+    {
+      "path": "designs/tendon-gripper-parameters.csv",
+      "bytes": 887,
+      "sha256": "b8cbb52f7515ed00a50cf26f0918f6241410fb8354ea6276c8b00d5365425a01"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 2111,
+      "sha256": "c3c04d7a76946df58faf3d323d3c6f539f3d49f3da4322e740fba4ba698c92a2"
+    },
+    {
+      "path": "examples/actuator_sizing.py",
+      "bytes": 8049,
+      "sha256": "807ce44e8ece1911b9d106cee7c5f927d87355341a8761215808f58d65eb35f3"
+    },
+    {
+      "path": "examples/bench_analysis.py",
+      "bytes": 2589,
+      "sha256": "5e60be01bc6cc5bfb8fd5b828a2b14f3bb871107f3b8704008c0da152090d43f"
+    },
+    {
+      "path": "examples/render_sizing_diagrams.py",
+      "bytes": 6782,
+      "sha256": "bfb34e0b23dfc21edfe5c8e039a537c3fc7d697f452b5e0a0e2e0127752c3abb"
+    },
+    {
+      "path": "examples/test_actuator_sizing.py",
+      "bytes": 5052,
+      "sha256": "b7f8cb07442025d0c72119217c3f47f97b55f3a557d555862e04a68dde6e5a32"
+    },
+    {
+      "path": "examples/test_bench_analysis.py",
+      "bytes": 1696,
+      "sha256": "1c9299acb95bb5d1d19a3e4cd156b2ee916633f108876c07ecd65695456f30cc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 182859,
+      "sha256": "114dc11ed87df5916742d3e00ada15b9b128de1d018236aa505801ea3fa067aa"
+    },
+    {
+      "path": "worksheets/bench-record.csv",
+      "bytes": 518,
+      "sha256": "61e783ff8c2a1c6fbb8ec2ce1a9b345d2a94dd5d61c6eb4352ca58b58ba8c9b3"
+    },
+    {
+      "path": "worksheets/synthetic-compliance.csv",
+      "bytes": 285,
+      "sha256": "ca699c3c45cec158142f987838841652bc99c76696b823046bfed50cff177ceb"
+    }
+  ]
+}

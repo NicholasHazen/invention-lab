@@ -1,0 +1,77 @@
+{
+  "title": "Belt-driven rotary joint",
+  "units": "mm",
+  "scope": "Concept component envelopes and pitch geometry; no tooth profiles, selected motor, fasteners, fits, or fabrication release.",
+  "parameters": [
+    [
+      "pitch",
+      "mm",
+      2
+    ],
+    [
+      "motor_teeth",
+      "",
+      20
+    ],
+    [
+      "output_teeth",
+      "",
+      60
+    ],
+    [
+      "belt_pitch_length",
+      "mm",
+      200
+    ],
+    [
+      "center_distance",
+      "mm",
+      58.61153060046303
+    ],
+    [
+      "shaft_diameter",
+      "mm",
+      8
+    ],
+    [
+      "bearing_od",
+      "mm",
+      22
+    ],
+    [
+      "bearing_width",
+      "mm",
+      7
+    ],
+    [
+      "bearing_spacing",
+      "mm",
+      30
+    ],
+    [
+      "belt_plane",
+      "mm",
+      15
+    ],
+    [
+      "pulley_envelope_width",
+      "mm",
+      10
+    ],
+    [
+      "installation_travel",
+      "mm",
+      4
+    ],
+    [
+      "arm_length",
+      "mm",
+      100
+    ]
+  ],
+  "notes": [
+    "200 mm belt is a candidate pitch length, not a selected SKU. Installation travel must be checked against selected manufacturer guidance.",
+    "Bearing centres z=0,30; output pulley z=10..20; 6.5 mm space per side before hub/retainer allowances.",
+    "Motor envelope 42 x 42 x 40; its mounting pattern, shaft and pulley hub remain unresolved."
+  ]
+}

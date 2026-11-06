@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="690" viewBox="0 0 1120 690" role="img" aria-labelledby="title desc">
+<title id="title">Three choices make an electric actuator</title>
+<desc id="desc">Motor technology, transmission, and control are independent choices. Examples combine a brushed motor, gears and position feedback; a brushless motor, direct drive and torque feedback; and a stepper, screw and open-loop commands.</desc>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:28px;font-weight:650}.head{font-size:23px;font-weight:650}.body{font-size:21px}.small{font-size:18px}.card{fill:#fffdf7;stroke:#73948c;stroke-width:2}.muted{fill:#4e625c}.accent{fill:#21685d;font-weight:650}</style>
+<rect width="1120" height="690" rx="20" fill="#f5f1e8"/>
+<text x="40" y="50" class="title">“Servo” does not identify the motor inside</text>
+<text x="40" y="82" class="body">Specify the energy converter, the mechanical arrangement, and the control.</text>
+<rect x="40" y="116" width="320" height="210" rx="14" class="card"/>
+<rect x="400" y="116" width="320" height="210" rx="14" class="card"/>
+<rect x="760" y="116" width="320" height="210" rx="14" class="card"/>
+<text x="64" y="155" class="head">1 · Motor technology</text>
+<text x="64" y="192" class="small muted">How electrical energy makes force</text>
+<text x="64" y="232" class="body">Brushed DC</text>
+<text x="64" y="266" class="body">Stepper</text>
+<text x="64" y="300" class="body">Permanent-magnet brushless</text>
+<text x="424" y="155" class="head">2 · Transmission</text>
+<text x="424" y="192" class="small muted">How motion reaches the load</text>
+<text x="424" y="232" class="body">Gears or belt</text>
+<text x="424" y="266" class="body">Screw or tendon</text>
+<text x="424" y="300" class="body">None: direct drive</text>
+<text x="784" y="155" class="head">3 · Control</text>
+<text x="784" y="192" class="small muted">What is commanded and observed</text>
+<text x="784" y="232" class="body">Open-loop commands</text>
+<text x="784" y="266" class="body">Position or velocity feedback</text>
+<text x="784" y="300" class="body">Torque / force feedback</text>
+<text x="40" y="373" class="head">Three possible combinations</text>
+<rect x="40" y="395" width="1040" height="54" rx="8" fill="#e0e9e1"/>
+<rect x="40" y="459" width="1040" height="54" rx="8" fill="#e0e9e1"/>
+<rect x="40" y="523" width="1040" height="54" rx="8" fill="#ebe3d5"/>
+<text x="64" y="429" class="body">Brushed DC</text><text x="320" y="429" class="body">+ gears</text><text x="565" y="429" class="body">+ position feedback</text><text x="1015" y="429" text-anchor="end" class="body accent">servo</text>
+<text x="64" y="493" class="body">Brushless</text><text x="320" y="493" class="body">+ direct drive</text><text x="565" y="493" class="body">+ torque feedback</text><text x="1015" y="493" text-anchor="end" class="body accent">servo</text>
+<text x="64" y="557" class="body">Stepper</text><text x="320" y="557" class="body">+ screw</text><text x="565" y="557" class="body">+ counted step commands</text><text x="1015" y="557" text-anchor="end" class="body">open loop</text>
+<text x="40" y="621" class="body">Changing one column does not automatically change the others.</text>
+<text x="40" y="653" class="small muted">These are architecture examples. Drivers, sensors, supports, limits, and ratings still need selection.</text>
+</svg>

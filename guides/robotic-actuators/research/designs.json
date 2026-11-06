@@ -1,0 +1,128 @@
+[
+  {
+    "id": "autodesk-parameters",
+    "title": "Parameters in Fusion",
+    "creator": "Autodesk",
+    "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-MODIFY-PARAMETERS.htm",
+    "format": "documentation",
+    "topics": [
+      "Fusion",
+      "parametric modeling"
+    ],
+    "level": "beginner",
+    "prerequisites": "Basic sketches",
+    "access": "Free web documentation",
+    "why": "Explains named values and dependent expressions used in all three studies.",
+    "first_task": "Create a named travel parameter and reference it in two sketches.",
+    "limitations": "Tool arrangement can vary by Fusion version; CSV files need the documented import schema.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-MODIFY-PARAMETERS.htm",
+    "evidence_note": "Page opened; user/model parameters and import/export sections inspected."
+  },
+  {
+    "id": "autodesk-insert",
+    "title": "Insert tools in Fusion",
+    "creator": "Autodesk",
+    "url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-INSERT-TOOLS.htm",
+    "format": "documentation",
+    "topics": [
+      "Fusion",
+      "DXF",
+      "supplier CAD"
+    ],
+    "level": "beginner",
+    "prerequisites": "Basic Fusion navigation",
+    "access": "Free web documentation",
+    "why": "Distinguishes fixed imported geometry from a native constrained skeleton.",
+    "first_task": "Import a study DXF and inspect its geometry and scale.",
+    "limitations": "Importing a drawing does not create the design intent or feature dependencies.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://help.autodesk.com/cloudhelp/ENU/Fusion-Model/files/SLD-INSERT-TOOLS.htm",
+    "evidence_note": "Page opened; DXF, canvas and component insertion documentation inspected."
+  },
+  {
+    "id": "gates-drive-design",
+    "title": "Light Power and Precision Drive Design Manual",
+    "creator": "Gates",
+    "url": "https://www.gates.com/content/dam/documents-library/catalogs/light-power-and-precision-manual.pdf",
+    "format": "documentation",
+    "topics": [
+      "timing belts",
+      "transmissions",
+      "bearing loads"
+    ],
+    "level": "intermediate",
+    "prerequisites": "Torque, speed and geometry",
+    "access": "Free manufacturer PDF",
+    "why": "Connects belt/pulley selection with installation and tensioning requirements.",
+    "first_task": "Find the selection procedure, then list inputs still missing from the 20T:60T study.",
+    "limitations": "Manufacturer families and ratings apply to their specified products; a matching nominal pitch is insufficient.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.gates.com/content/dam/documents-library/catalogs/light-power-and-precision-manual.pdf",
+    "evidence_note": "PDF opened; selection procedure, centre-distance and fixed-centre cautions inspected."
+  },
+  {
+    "id": "thomson-lead-screw",
+    "title": "Why Lead Screws Are the Best Fit for Many Linear Motion Applications\u2014and How to Rightly Apply Them",
+    "creator": "Robert Lipsett / Thomson",
+    "url": "https://www.thomsonlinear.com/en/support/20150128-uk",
+    "format": "documentation",
+    "topics": [
+      "lead screws",
+      "efficiency",
+      "selection"
+    ],
+    "level": "intermediate",
+    "prerequisites": "Force, power and rotary-linear conversion",
+    "access": "Free manufacturer article",
+    "why": "Explains why screw efficiency is an input that must come from selected hardware.",
+    "first_task": "Identify which friction and geometry choices the 35% study assumption leaves unresolved.",
+    "limitations": "General manufacturer guidance does not rate the guide\u2019s screw, nut, support or duty.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.thomsonlinear.com/en/support/20150128-uk",
+    "evidence_note": "Article opened; helix angle, friction and efficiency sections inspected."
+  },
+  {
+    "id": "prusa-print-modeling",
+    "title": "Modeling with 3D Printing in Mind",
+    "creator": "Prusa Research",
+    "url": "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+    "format": "documentation",
+    "topics": [
+      "FDM",
+      "chamfers",
+      "orientation",
+      "tolerances"
+    ],
+    "level": "beginner",
+    "prerequisites": "Basic CAD and slicer operation",
+    "access": "Free manufacturer tutorial",
+    "why": "Relates geometry and edge treatment to print orientation and support.",
+    "first_task": "Compare a bottom fillet and a 45-degree chamfer in the slicer.",
+    "limitations": "Examples are not universal tolerances or a strength rating for the X1 Carbon studies.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+    "evidence_note": "Article opened; printing-oriented modeling and fillet/chamfer guidance inspected."
+  },
+  {
+    "id": "yale-openhand",
+    "title": "Yale OpenHand Project",
+    "creator": "Yale GRAB Lab",
+    "url": "https://www.eng.yale.edu/grablab/openhand/",
+    "format": "project",
+    "topics": [
+      "tendons",
+      "grippers",
+      "underactuation"
+    ],
+    "level": "intermediate",
+    "prerequisites": "Moments, kinematics and CAD",
+    "access": "Free project documentation and source designs; linked license applies",
+    "why": "Offers real open hand designs to study after the single-finger force/travel exercise.",
+    "first_task": "Compare one published tendon routing with this guide\u2019s constant-radius sector.",
+    "limitations": "Published project results concern those designs, not this new study; hardware/license/version details must be checked for reuse.",
+    "verified_on": "2026-11-06",
+    "evidence_url": "https://www.eng.yale.edu/grablab/openhand/",
+    "evidence_note": "Project page opened; design/fabrication, source CAD and hand-family sections inspected."
+  }
+]

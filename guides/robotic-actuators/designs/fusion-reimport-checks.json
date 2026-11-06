@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "file": "belt-joint-envelopes.f3d",
+      "imported_bodies": 14,
+      "import_success": true
+    },
+    {
+      "file": "belt-joint-envelopes.step",
+      "imported_bodies": 14,
+      "import_success": true
+    },
+    {
+      "file": "screw-stage-envelopes.f3d",
+      "imported_bodies": 22,
+      "import_success": true
+    },
+    {
+      "file": "screw-stage-envelopes.step",
+      "imported_bodies": 22,
+      "import_success": true
+    },
+    {
+      "file": "tendon-gripper-envelopes.f3d",
+      "imported_bodies": 17,
+      "import_success": true
+    },
+    {
+      "file": "tendon-gripper-envelopes.step",
+      "imported_bodies": 17,
+      "import_success": true
+    }
+  ],
+  "active_document_restored": true,
+  "limits": "Reopening validates exchange integrity only, not mechanical suitability."
+}

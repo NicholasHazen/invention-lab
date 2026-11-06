@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="690" viewBox="0 0 1120 690" role="img" aria-labelledby="title desc">
+<title id="title">A series spring and a return spring have different jobs</title>
+<desc id="desc">In the series arrangement, force passes from actuator through a measured spring to the tendon and finger. In the return arrangement, a separate spring connects finger to frame, opposing the tendon. The illustrated series spring stretches ten millimetres under fifteen newtons at a stiffness of one point five newtons per millimetre.</desc>
+<style>text{font-family:system-ui,sans-serif;fill:#233c38}.title{font-size:28px;font-weight:650}.head{font-size:23px;font-weight:650}.body{font-size:21px}.small{font-size:18px}.card{fill:#fffdf7;stroke:#73948c;stroke-width:2}.link{stroke:#21685d;stroke-width:5;fill:none}.spring{stroke:#a05a31;stroke-width:4;fill:none}</style>
+<rect width="1120" height="690" rx="20" fill="#f5f1e8"/>
+<text x="40" y="50" class="title">Draw what each spring connects</text>
+<text x="40" y="82" class="body">Force-path schematics · positions are conceptual, not assembly dimensions.</text>
+<rect x="40" y="112" width="500" height="356" rx="14" class="card"/>
+<rect x="580" y="112" width="500" height="356" rx="14" class="card"/>
+<text x="64" y="152" class="head">Series spring: measure force</text>
+<rect x="64" y="205" width="110" height="72" rx="8" fill="#e0e9e1"/>
+<rect x="404" y="205" width="110" height="72" rx="8" fill="#e0e9e1"/>
+<text x="119" y="248" text-anchor="middle" class="body">Actuator</text><text x="459" y="248" text-anchor="middle" class="body">Finger</text>
+<path d="M174 241H211M356 241H404" class="link"/>
+<path d="M211 241H224L234 220L254 262L274 220L294 262L314 220L334 262L344 241H356" class="spring"/>
+<text x="284" y="193" text-anchor="middle" class="small">spring in tendon</text>
+<path d="M211 285V316H356V285" stroke="#586964" stroke-width="2" fill="none"/>
+<text x="284" y="344" text-anchor="middle" class="small">measure change in spring length</text>
+<text x="64" y="392" class="body">Force passes through the spring.</text>
+<text x="64" y="426" class="small">Calibrate deformation → force: F = kx.</text>
+<text x="604" y="152" class="head">Return spring: open the finger</text>
+<rect x="604" y="205" width="110" height="72" rx="8" fill="#e0e9e1"/>
+<rect x="944" y="205" width="110" height="72" rx="8" fill="#e0e9e1"/>
+<text x="659" y="248" text-anchor="middle" class="body">Actuator</text><text x="999" y="248" text-anchor="middle" class="body">Finger</text>
+<path d="M714 241H944" class="link"/>
+<text x="829" y="221" text-anchor="middle" class="small">tendon pulls closed</text>
+<path d="M999 277V329H936M779 329H725" stroke="#586964" stroke-width="3" fill="none"/>
+<path d="M936 329H923L913 308L893 350L873 308L853 350L833 308L813 350L803 329H779" class="spring"/>
+<path d="M725 305V353M725 305l-12 12M725 321l-12 12M725 337l-12 12" stroke="#586964" stroke-width="3"/>
+<text x="650" y="335" text-anchor="middle" class="small">frame</text>
+<text x="604" y="392" class="body">Spring opposes the closing motion.</text>
+<text x="604" y="426" class="small">Add its force to the actuator requirement.</text>
+<rect x="40" y="494" width="1040" height="148" rx="14" fill="#e0e9e1"/>
+<text x="64" y="532" class="head">Series-spring example</text>
+<text x="64" y="568" class="body">15 N ÷ 1.5 N/mm = 10 mm spring stretch</text>
+<text x="64" y="605" class="body">10.47 mm finger travel + 10 mm spring stretch = 20.47 mm actuator take-up</text>
+<text x="40" y="672" class="small">Ideal constant moment arms; initially unstrained spring; no return-spring or friction allowance.</text>
+</svg>

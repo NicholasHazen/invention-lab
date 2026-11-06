@@ -1,0 +1,31 @@
+{
+  "studies": [
+    {
+      "study": "belt-joint",
+      "components": 14,
+      "bodies": 14,
+      "timeline_features": 43,
+      "timeline_healthy": true,
+      "is_fabrication_ready": false
+    },
+    {
+      "study": "screw-stage",
+      "components": 22,
+      "bodies": 22,
+      "timeline_features": 66,
+      "timeline_healthy": true,
+      "is_fabrication_ready": false
+    },
+    {
+      "study": "tendon-gripper",
+      "components": 17,
+      "bodies": 17,
+      "timeline_features": 53,
+      "timeline_healthy": true,
+      "is_fabrication_ready": false
+    }
+  ],
+  "existing_documents_preserved": true,
+  "active_document_restored": "V4.1 Integrated Octagonal Truss Pivot",
+  "limits": "Healthy solid envelope components only; no mechanical qualification, associative assembly, tooth/thread geometry or print validation."
+}

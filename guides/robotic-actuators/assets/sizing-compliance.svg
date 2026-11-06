@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 780" role="img" aria-label="A loose gap and a flexible structure differ">
+<rect width="1120" height="780" fill="#f5f3ed"/>
+<style>text{font-family:Arial,sans-serif;fill:#1c3339;font-size:21px}.title{font-size:32px;font-weight:700}.small{font-size:18px}.axis{stroke:#647578;stroke-width:2}.grid{stroke:#d7dedb;stroke-width:1}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#32525a"/></marker></defs>
+<text x="44" y="52" class="title">A loose gap and a flexible structure differ</text><text x="44" y="86">Synthetic data only • input fixed • tangential force and tip deflection at 100 mm radius</text>
+<line x1="170" y1="500" x2="900" y2="500" stroke="#d7dedb" stroke-width="1" />
+<text x="112" y="507" class="">-1</text>
+<line x1="170" y1="434.0" x2="900" y2="434.0" stroke="#d7dedb" stroke-width="1" />
+<text x="112" y="441.0" class="">-0.5</text>
+<line x1="170" y1="368" x2="900" y2="368" stroke="#d7dedb" stroke-width="1" />
+<text x="112" y="375" class="">0</text>
+<line x1="170" y1="302.0" x2="900" y2="302.0" stroke="#d7dedb" stroke-width="1" />
+<text x="112" y="309.0" class="">0.5</text>
+<line x1="170" y1="236" x2="900" y2="236" stroke="#d7dedb" stroke-width="1" />
+<text x="112" y="243" class="">1</text>
+<line x1="243.0" y1="180" x2="243.0" y2="550" stroke="#d7dedb" stroke-width="1" />
+<text x="223.0" y="580" class="">-0.2</text>
+<line x1="389.0" y1="180" x2="389.0" y2="550" stroke="#d7dedb" stroke-width="1" />
+<text x="369.0" y="580" class="">-0.1</text>
+<line x1="535" y1="180" x2="535" y2="550" stroke="#d7dedb" stroke-width="1" />
+<text x="515" y="580" class="">0</text>
+<line x1="681.0" y1="180" x2="681.0" y2="550" stroke="#d7dedb" stroke-width="1" />
+<text x="661.0" y="580" class="">0.1</text>
+<line x1="827.0" y1="180" x2="827.0" y2="550" stroke="#d7dedb" stroke-width="1" />
+<text x="807.0" y="580" class="">0.2</text>
+<line x1="170" y1="368" x2="920" y2="368" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="535" y1="550" x2="535" y2="170" stroke="#32525a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="54" y="144" class="">Tip deflection (mm)</text>
+<text x="750" y="614" class="">Applied force (N)</text>
+<polyline fill="none" stroke="#b95631" stroke-width="4" points="681.00,288.80 827.00,236.00" />
+<polyline fill="none" stroke="#b95631" stroke-width="3" points="535.00,341.60 681.00,288.80" stroke-dasharray="6 5"/>
+<circle cx="681.0" cy="288.8" r="7" fill="#b95631"/>
+<circle cx="827.0" cy="236" r="7" fill="#b95631"/>
+<polyline fill="none" stroke="#258071" stroke-width="4" points="389.00,447.20 243.00,500.00" />
+<polyline fill="none" stroke="#258071" stroke-width="3" points="535.00,394.40 389.00,447.20" stroke-dasharray="6 5"/>
+<circle cx="389.0" cy="447.2" r="7" fill="#258071"/>
+<circle cx="243.0" cy="500" r="7" fill="#258071"/>
+<line x1="565" y1="341.6" x2="565" y2="394.4" stroke="#32525a" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="590" y="347" class="small">0.40 mm gap</text>
+<text x="685" y="198" class="small">Slope = 4 mm/N</text>
+<text x="60" y="660" class="">Branch slopes → elastic stiffness: 2.5 N·m/rad.</text>
+<text x="60" y="700" class="">Zero-force intercept separation → apparent lost motion: 0.229°.</text>
+<text x="60" y="744" class="small">Extrapolation also includes friction / hysteresis / fixture error; it is not pure backlash proof.</text>
+</svg>
